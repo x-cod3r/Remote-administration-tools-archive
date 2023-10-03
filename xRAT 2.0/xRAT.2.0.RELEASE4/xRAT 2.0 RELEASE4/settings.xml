@@ -1,0 +1,16 @@
+<settings>
+  <ListenPort>4782</ListenPort>
+  <AutoListen>False</AutoListen>
+  <ShowPopup>False</ShowPopup>
+  <Password>1234</Password>
+  <ShowToU>False</ShowToU>
+  <UseUPnP>False</UseUPnP>
+  <ShowToolTip>False</ShowToolTip>
+  <EnableNoIPUpdater>False</EnableNoIPUpdater>
+  <NoIPHost>
+  </NoIPHost>
+  <NoIPUsername>
+  </NoIPUsername>
+  <NoIPPassword>
+  </NoIPPassword>
+</settings>

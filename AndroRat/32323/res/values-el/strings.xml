@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="donations__button_close">Κλείσιμο</string>
+    <string name="donations__flattr">Flattr</string>
+    <string name="donations__description">"Βρίσκετε την εφαρμογή χρήσιμη;
+Υποστηρίξτε την ανάπτυξή της μέσω Flattr ή κάνοντας κάποια δωρεά στον προγραμματιστή!"</string>
+    <string name="donations__flattr_description">Το Flattr παίρνει 10 % σαν μηνιαίο τέλος!</string>
+    <string name="donations__google_android_market">Google Play Store</string>
+    <string name="donations__google_android_market_not_supported_title">Δεν υποστηρίζονται In-App δωρεές</string>
+    <string name="donations__google_android_market_not_supported">Δεν υποστηρίζονται In-App δωρεές. Έχει εγκατασταθεί σωστά το Google Play Store;</string>
+    <string name="donations__google_android_market_description">Το Google παίρνει το 30 % κάθε δωρεάς!</string>
+    <string name="donations__google_android_market_donate_button">Δωρίστε!</string>
+    <string name="donations__google_android_market_text">Πόσο;</string>
+    <string name="donations__paypal">PayPal</string>
+    <string name="donations__paypal_description">Μπορείς να επιλέξεις πόσα θέλεις να δωρίσεις αφού πατήσεις το κουμπί!</string>
+    <string name="donations__thanks_dialog_title">Ευχαριστώ!</string>
+    <string name="donations__thanks_dialog">"Ευχαριστώ για την δωρεά!
+
+Πραγματικά το εκτιμώ!"</string>
+    <string name="button_exit">Έξοδος</string>
+    <string name="button_apply">Κατέβασμα αρχείων και εφαρμογή διακοπής διαφημίσεων</string>
+    <string name="button_close">Κλείσιμο</string>
+    <string name="button_yes">Ναι</string>
+    <string name="button_no">Όχι</string>
+    <string name="button_add">Προσθήκη</string>
+    <string name="button_cancel">Άκυρο</string>
+    <string name="button_save">Αποθήκευση</string>
+    <string name="checkbox_list_add_dialog_title">Προσθήκη</string>
+    <string name="checkbox_list_empty">Άδεια λίστα</string>
+    <string name="checkbox_list_context_delete">Διαγραφή</string>
+    <string name="checkbox_list_edit_dialog_title">Επεξεργασία</string>
+    <string name="checkbox_list_context_edit">Επεξεργασία</string>
+    <string name="lists_tab_whitelist">Λευκή λίστα</string>
+    <string name="lists_tab_blacklist">Μαύρη λίστα</string>
+    <string name="no_connection_title">Καμία σύνδεση</string>
+    <string name="download_dialog">Κατεβάζει...</string>
+    <string name="apply_dialog">Εφαρμογή...</string>
+    <string name="apply_fail_title">Εφαρμογή απέτυχε</string>
+    <string name="no_root_description">"Είτε το εκτελέσιμο su δε βρέθηκε ή δεν επιτράπηκε πρόσβαση root για το AdAway.
+
+Αυτό συμβαίνει όταν η συσκευή δεν έχει γίνει root.
+
+Πληροφορίες για το πως μπορεί να γίνει root μια συσκευή υπάρχουν στο www.cyanogenmod.com ή σε άλλες ιστοσελίδες Android."</string>
+    <string name="no_root_title">Χρειάζεται rooted Android</string>
+    <string name="menu_add">Προσθήκη</string>
+    <string name="menu_preferences">Ρυθμίσεις</string>
+</resources>

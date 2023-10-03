@@ -1,0 +1,4 @@
+The drives tab will present a list of all the different 
+drives (whether they be SSDs, HDDs or Virtual) and will 
+give present you with the amount of free space in each drive, 
+as well as the usable space.

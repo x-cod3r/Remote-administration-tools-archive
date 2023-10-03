@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "D-RAT", "D-RAT\D-RAT.vbproj", "{CF707D66-1211-43B5-9B63-DEE272DA071F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "D-STUB", "D-STUB\D-STUB.vbproj", "{0A364557-81E3-42AE-A390-05FB4FE6D2F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF707D66-1211-43B5-9B63-DEE272DA071F}.Debug|x86.ActiveCfg = Debug|x86
+		{CF707D66-1211-43B5-9B63-DEE272DA071F}.Debug|x86.Build.0 = Debug|x86
+		{CF707D66-1211-43B5-9B63-DEE272DA071F}.Release|x86.ActiveCfg = Release|x86
+		{CF707D66-1211-43B5-9B63-DEE272DA071F}.Release|x86.Build.0 = Release|x86
+		{0A364557-81E3-42AE-A390-05FB4FE6D2F8}.Debug|x86.ActiveCfg = Debug|x86
+		{0A364557-81E3-42AE-A390-05FB4FE6D2F8}.Debug|x86.Build.0 = Debug|x86
+		{0A364557-81E3-42AE-A390-05FB4FE6D2F8}.Release|x86.ActiveCfg = Release|x86
+		{0A364557-81E3-42AE-A390-05FB4FE6D2F8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

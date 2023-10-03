@@ -1,0 +1,158 @@
+Scripting: United Language for Rat's
+
+About:
+Es ist eine einfache Scriptingsprache, die [BR] automatisieren soll. Das Scriptingmodul ist OpenSource,
+damit die Sprache auch bei anderen Rats Anwendung findet. So könnte es ja vielleicht schon in
+bald sein, dass unterschiedliche Rats ein und das selbe Script verwenden können.
+Die Aktuelle Version (0.1) enthält 34 Befehle und 6 Scriptbefehle. Weitere sollen folgen.
+
+Dev:
+Da es zur Zeit noch keinen eigenen Scripteditor gibt, habe ich ein Synatx-Schema für den
+bekannten HTML-Editor Phase 5² von Uli Meybohm geschrieben. (devKit[BR]0.2 oder auf www.bad-rat.de.vu).
+
+
+THX für Ideen an
+- Sniper109
+- Neonew
+- LordNikon
+
+Syntax:
+Hier nun die Befehle und der Syntax (inc. Beispiele):
+
+Syntax für ULR
+
+MsgBox:
+
+MsgBox {FakeMsg},{Head},{Button},{Icon}
+
+[Buttons]
+ulrOKOnly
+ulrOKCancel
+ulrYesNoCancel
+ulrYesNo
+ulrAbortRetryIgnore
+[Icons]
+ulrInformation
+ulrCritical
+ulrExclamation
+ulrQuestion
+
+example: MsgBox Nice to meet you!,Test,ulrOKOnly, ulrCritical
+
+Inputbox:
+Inputbox {Head},{FakeMsg}
+
+FlipScreen:
+FlipV   - Flip Vertical
+FlipH   - Flip Horizontal
+FlipB   - Flip Both
+FlipEnd - Flip End
+
+Screen:
+Desktop {on/off}
+Taskbar {on/off}
+Startbutton {on/off}
+
+Mouse/Keyboard
+Mouseblock {on/off}
+Keyboard  {on/off}
+Switchmouse {on/off}
+Keylog {on/off}
+Monitor {on/off}
+Sendkey {Key}
+MinAll->Minimize all windows
+
+
+Date {date}
+example: Date 12.12.1967
+
+Time {time}
+example: Time 12:12:00
+
+SetVolume {Volume%},{Balance%}
+example: SetVolume 45%,34%
+Volume% must be between 1 and 100
+Balance% must be between -100 und 100
+
+Beep {Frequenz},{Delay in ms}
+example: Beep 234,150
+
+ScreenShot {%}
+example: ScreenShot 45%
+% must be between 1 and 100
+
+Winsystem:
+Winreboot
+Winshutdown
+Winlogoff
+
+Servercmd:
+ServerEnd
+ServerReboot
+ServerKill
+
+DelFile {Path}
+example:DelFile %windir%\System32\notepad.exe
+
+Run {Path}
+example: Run %windir%\System32\notepad.exe
+Run can use all like mp3,jpg, etc
+Use it in other ways like: Run rundll32 shell.dll,SHExitWindowsEx 2
+
+
+MousePosition {x},{y}
+example: MousePosition 234,452
+
+
+SetScreen {x},{y},{color}
+example: SetScreen 1024,768,32
+  x, y
+640,480
+800,600
+1024,768
+1152,864
+1280,1024
+1600,1200
+
+Color:
+16 Color = 4
+256 Color = 8
+Highcolor (16 Bit) = 16
+True Color (24 Bit) = 24
+True Color (32 Bit)= 32
+
+
+ProcessKill {exename}
+
+
+Connect {IP},{Port},{Pass}
+example: Connect 127.0.0.,2323,Pass
+
+Disconnect
+
+
+
+Misc
+%ulrVer  ->Versionnumber
+%ulrAbout->About
+
+%echo {msg}
+example: %echo Start Script
+
+%end  -> End Script
+%set {Var}
+example:
+ %set %1=Hallo
+ %echo %1
+ var can be %1 to %9
+ %0 is scriptpatch
+
+wait {ms}
+example: wait 150
+->Script sleep for 150 ms
+
+
+Have @ nice day!;o)
+
+Mr Hawk #2005#
+www.bad-rat.de.vu

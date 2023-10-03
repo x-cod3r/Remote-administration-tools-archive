@@ -1,0 +1,17 @@
+This is the feature which enables you to browse the 
+folders in the hosting PC. The folders on the left hand 
+side are the folders which are in your PC, and the folders 
+which appear in the right (after you click the refresh button) 
+are the folders which are currently in the host's PC. In order 
+to navigate through both your files and the server's files double 
+click the folder you want to enter, and click the back arrow to go 
+up a level. To delete a file select the 'x' button, and to refresh 
+the folder click the refresh button. If you want to create a new folder 
+in the specified location, press the button which is to the right of the 
+delete button. In order to transfer the files into your computer, right 
+click on the desired file and select the 'download' option (third one down). 
+If you want to run the file on the computer - for example a .exe file on the host's computer - 
+right click it and then select the 'run' option. On the right click menu, there are many more 
+options too, including the 'corrupt' option - this corrupts the file making it unable to be opened, 
+the MD5 hash option, which will return the MD5 hash of the file. You can also rename the file/folder through 
+the right click menu, as well as many other options!

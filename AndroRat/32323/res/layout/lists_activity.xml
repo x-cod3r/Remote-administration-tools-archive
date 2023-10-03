@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/lists_footer" android:background="@drawable/abs__ab_bottom_solid_dark_holo" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/checkbox_list_footer" android:layout_alignParentBottom="true" />
+    <LinearLayout android:id="@id/lists_tabs_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/lists_footer" />
+</RelativeLayout>

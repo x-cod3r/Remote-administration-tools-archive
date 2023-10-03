@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="donations__google_android_market_promt_array">
+        <item>1 Euro</item>
+        <item>2 Euro</item>
+        <item>3 Euro</item>
+        <item>5 Euro</item>
+        <item>8 Euro</item>
+        <item>13 Euro</item>
+    </string-array>
+</resources>

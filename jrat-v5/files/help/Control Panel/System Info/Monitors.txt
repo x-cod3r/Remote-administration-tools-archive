@@ -1,0 +1,4 @@
+The monitors tab displays the number of  
+monitors which the host has attatched to 
+their PC at the time of reading, 
+as well as the resolution of the monitor.

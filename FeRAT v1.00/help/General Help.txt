@@ -1,0 +1,16 @@
+General Help
+------------
+
+Server Builder
+==============
+The builder will read from a template server file (Server.fer) when run. Put your server name in the textbox, default 'YourServer.exe' - this will be the output file. If the 'auto compress' option is enabled, then your server will be packed with UPX after the settings are saved, enabling a smaller server size. If the server icon/size does not appear to have changed, just click F5(refresh)...
+
+
+Plugins
+=======
+All of the plugin files in the /plugins directory are already compressed with UPX, so if you want to use a different compressor unpack them with UPX. Remember to keep the plugins in their directory with their respective names.
+
+
+Server
+======
+I suggest using UPX to compress your server as it gives the best ratio and is quick and easy to do. If you want to bind the server to another file then I recommend using YAB (Yet Another Binder) written by Faceless Wonder. This can be downloaded from the Fearless Homepage (http://areyoufearless.com). Please do not remove the upx.exe from the root folder as it will not compress your server. Also do not remove the addressbook.ini file.

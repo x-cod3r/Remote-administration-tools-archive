@@ -1,0 +1,1985 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FluentCommandLineParser</name>
+    </assembly>
+    <members>
+        <member name="T:Fclp.CommandLineParserErrorFormatter">
+            <summary>
+            A simple parser error formatter designed to create error descriptions suitable for the console.
+            </summary>
+        </member>
+        <member name="T:Fclp.ICommandLineParserErrorFormatter">
+            <summary>
+            Represents a formatter used to format parser errors for display to the end user.
+            </summary>
+        </member>
+        <member name="M:Fclp.ICommandLineParserErrorFormatter.Format(Fclp.ICommandLineParserError)">
+            <summary>
+            Formats the specified <see cref="T:Fclp.ICommandLineParserError"/> to a <see cref="T:System.String"/> suitable for the end user.
+            </summary>
+            <param name="parserError">The error to format. This must not be null.</param>
+            <returns>A <see cref="T:System.String"/> describing the specified error.</returns>
+        </member>
+        <member name="M:Fclp.ICommandLineParserErrorFormatter.Format(System.Collections.Generic.IEnumerable{Fclp.ICommandLineParserError})">
+            <summary>
+            Formats the specified list of <see cref="T:Fclp.ICommandLineParserError"/> to a <see cref="T:System.String"/> suitable for the end user.
+            </summary>
+            <param name="parserErrors">The errors to format.</param>
+            <returns>A <see cref="T:System.String"/> describing the specified errors.</returns>
+        </member>
+        <member name="M:Fclp.CommandLineParserErrorFormatter.Format(System.Collections.Generic.IEnumerable{Fclp.ICommandLineParserError})">
+            <summary>
+            Formats the specified list of <see cref="T:Fclp.ICommandLineParserError"/> to a <see cref="T:System.String"/> suitable for the end user.
+            </summary>
+            <param name="parserErrors">The errors to format.</param>
+            <returns>A <see cref="T:System.String"/> describing the specified errors.</returns>
+        </member>
+        <member name="M:Fclp.CommandLineParserErrorFormatter.Format(Fclp.ICommandLineParserError)">
+            <summary>
+            Formats the specified <see cref="T:Fclp.ICommandLineParserError"/> to a <see cref="T:System.String"/> suitable for the end user.
+            </summary>
+            <param name="parserError">The error to format. This must not be null.</param>
+            <returns>A <see cref="T:System.String"/> describing the specified error.</returns>
+        </member>
+        <member name="T:Fclp.FluentCommandLineParser`1">
+            <summary>
+            A command line parser which provides methods and properties 
+            to easily and fluently parse command line arguments into
+            a predefined arguments object.
+            </summary>
+            <typeparam name="TBuildType">The object type containing the argument properties to populate from parsed command line arguments.</typeparam>
+        </member>
+        <member name="T:Fclp.IFluentCommandLineParser`1">
+            <summary>
+            A command line parser which provides methods and properties 
+            to easily and fluently parse command line arguments into
+            a predefined arguments object.
+            </summary>
+        </member>
+        <member name="M:Fclp.IFluentCommandLineParser`1.Setup``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+            <summary>
+            Sets up an Option for a write-able property on the type being built.
+            </summary>
+        </member>
+        <member name="M:Fclp.IFluentCommandLineParser`1.Parse(System.String[])">
+            <summary>
+            Parses the specified <see><cref>T:System.String[]</cref></see> using the setup Options.
+            </summary>
+            <param name="args">The <see><cref>T:System.String[]</cref></see> to parse.</param>
+            <returns>An <see cref="T:Fclp.ICommandLineParserResult"/> representing the results of the parse operation.</returns>
+        </member>
+        <member name="M:Fclp.IFluentCommandLineParser`1.SetupHelp(System.String[])">
+            <summary>
+            Setup the help args.
+            </summary>
+            <param name="helpArgs">The help arguments to register.</param>
+        </member>
+        <member name="P:Fclp.IFluentCommandLineParser`1.Object">
+            <summary>
+            Gets the constructed object.
+            </summary>
+        </member>
+        <member name="P:Fclp.IFluentCommandLineParser`1.IsCaseSensitive">
+            <summary>
+            Gets or sets whether values that differ by case are considered different. 
+            </summary>
+        </member>
+        <member name="P:Fclp.IFluentCommandLineParser`1.Options">
+            <summary>
+            Returns the Options that have been setup for this parser.
+            </summary>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser`1.#ctor">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.FluentCommandLineParser`1"/> class.
+            </summary>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser`1.Setup``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+            <summary>
+            Sets up an Option for a write-able property on the type being built.
+            </summary>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser`1.Parse(System.String[])">
+            <summary>
+            Parses the specified <see><cref>T:System.String[]</cref></see> using the setup Options.
+            </summary>
+            <param name="args">The <see><cref>T:System.String[]</cref></see> to parse.</param>
+            <returns>An <see cref="T:Fclp.ICommandLineParserResult"/> representing the results of the parse operation.</returns>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser`1.SetupHelp(System.String[])">
+            <summary>
+            Setup the help args.
+            </summary>
+            <param name="helpArgs">The help arguments to register.</param>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser`1.Parser">
+            <summary>
+            Gets the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser`1.Object">
+            <summary>
+            Gets the constructed object.
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser`1.IsCaseSensitive">
+            <summary>
+            Gets or sets whether values that differ by case are considered different. 
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser`1.HelpOption">
+            <summary>
+            Gets or sets the option used for when help is detected in the command line args.
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser`1.Options">
+            <summary>
+            Returns the Options that have been setup for this parser.
+            </summary>
+        </member>
+        <member name="T:Fclp.FluentCommandLineBuilder`1">
+            <summary>
+            Parser that constructs and populates the specified type of object from command line arguments.
+            </summary>
+            <typeparam name="TBuildType">The object type containing the argument properties to populate from parsed command line arguments.</typeparam>
+        </member>
+        <member name="T:Fclp.IFluentCommandLineBuilder`1">
+            <summary>
+            Parser that constructs and populates the specified type of object from command line arguments.
+            </summary>
+        </member>
+        <member name="T:Fclp.ICommandLineOptionBuilderFluent`1">
+            <summary>
+            Defines the fluent interface for setting up a <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.
+            </summary>
+        </member>
+        <member name="M:Fclp.ICommandLineOptionBuilderFluent`1.As(System.Char,System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short and long Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>whitespace</c> or a control character.</param>
+            <param name="longOption">The long name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name or <paramref name="longOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+            <exception cref="T:Fclp.InvalidOptionNameException">
+            Either <paramref name="shortOption"/> or <paramref name="longOption"/> are not valid. <paramref name="shortOption"/> must not be <c>whitespace</c>
+            or a control character. <paramref name="longOption"/> must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.
+            </exception>
+        </member>
+        <member name="M:Fclp.ICommandLineOptionBuilderFluent`1.As(System.Char)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>whitespace</c> or a control character.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.InvalidOptionNameException">if <paramref name="shortOption"/> is invalid for a short option.</exception>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name 
+            already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+        </member>
+        <member name="M:Fclp.ICommandLineOptionBuilderFluent`1.As(System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified long Option name.
+            </summary>
+            <param name="longOption">The long name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <exception cref="T:Fclp.InvalidOptionNameException">if <paramref name="longOption"/> is invalid for a long option.</exception>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="longOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+        </member>
+        <member name="T:Fclp.IHelpCommandLineOptionFluent">
+            <summary>
+            Provides the fluent interface for setting up the help arguments.
+            </summary>
+        </member>
+        <member name="M:Fclp.IHelpCommandLineOptionFluent.Callback(System.Action{System.String})">
+            <summary>
+            Specifies the method to invoke with the formatted command line options when any of the setup 
+            help arguments are found. If a callback is not required either do not call it, or specify <c>null</c>.
+            </summary>
+            <param name="callback">
+            The callback to execute with the formatted command line options. 
+            </param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+            <remarks>
+            An example use of this would be to write the provided <see cref="T:System.String"/> containing the formatted
+            options directly to the console. If you would like to use a custom formatter you can do so by providing
+            one using the <see cref="M:Fclp.IHelpCommandLineOptionFluent.WithCustomFormatter(Fclp.ICommandLineOptionFormatter)"/> method.
+            </remarks>
+        </member>
+        <member name="M:Fclp.IHelpCommandLineOptionFluent.Callback(System.Action)">
+            <summary>
+            Specified the method to invoke when any of the setup help arguments are found. If a callback is not required
+            either do not call it, or specified <c>null</c>.
+            </summary>
+            <param name="callback">
+            The callback to execute. If you have also setup the other help callback this will be called last.
+            </param>
+            <returns>A <see cref="T:Fclp.IHelpCommandLineOptionFluent"/>.</returns>
+        </member>
+        <member name="M:Fclp.IHelpCommandLineOptionFluent.WithCustomFormatter(Fclp.ICommandLineOptionFormatter)">
+            <summary>
+            Registers a custom <see cref="T:Fclp.ICommandLineOptionFormatter"/> to use to generate the help text.
+            </summary>
+            <param name="formatter">The custom formatter to use. This must not be <c>null</c>.</param>
+            <returns>A <see cref="T:Fclp.IHelpCommandLineOptionFluent"/>.</returns>
+        </member>
+        <member name="M:Fclp.IHelpCommandLineOptionFluent.WithHeader(System.String)">
+            <summary>
+            Provides a custom header to be printed before the registered options.
+            </summary>
+            <param name="header">The header to use.</param>
+            <returns>A <see cref="T:Fclp.IHelpCommandLineOptionFluent"/>.</returns>
+        </member>
+        <member name="M:Fclp.IHelpCommandLineOptionFluent.UseForEmptyArgs">
+            <summary>
+            Specifies that if empty arguments are found then the behaviour should be the same as when any help arguments
+            are found.
+            </summary>
+            <returns>A <see cref="T:Fclp.IHelpCommandLineOptionFluent"/>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.CommandLineOptionBuilderFluent`2">
+            <summary>
+            Wraps the Setup call of the fluent command line parser and defines the callback to setup the property parsed value.
+            </summary>
+            <typeparam name="TBuildType">The type of object being populated.</typeparam>
+            <typeparam name="TProperty">The type of the property the value will be assigned too.</typeparam>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOptionBuilderFluent`2.#ctor(Fclp.IFluentCommandLineParser,`0,System.Linq.Expressions.Expression{System.Func{`0,`1}})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Fclp.Internals.CommandLineOptionBuilderFluent`2"/> class.
+            </summary>
+            <param name="parser">The parser.</param>
+            <param name="buildObject">The build object.</param>
+            <param name="propertyPicker">The property picker.</param>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOptionBuilderFluent`2.As(System.Char,System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short and long Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>whitespace</c> or a control character.</param>
+            <param name="longOption">The long name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name or <paramref name="longOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+            <exception cref="T:Fclp.InvalidOptionNameException">
+            Either <paramref name="shortOption"/> or <paramref name="longOption"/> are not valid. <paramref name="shortOption"/> must not be <c>whitespace</c>
+            or a control character. <paramref name="longOption"/> must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.
+            </exception>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOptionBuilderFluent`2.As(System.Char)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>whitespace</c> or a control character.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.InvalidOptionNameException">if <paramref name="shortOption"/> is invalid for a short option.</exception>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name 
+            already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOptionBuilderFluent`2.As(System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified long Option name.
+            </summary>
+            <param name="longOption">The long name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <exception cref="T:Fclp.InvalidOptionNameException">if <paramref name="longOption"/> is invalid for a long option.</exception>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="longOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+        </member>
+        <member name="T:Fclp.Internals.EmptyHelpCommandLineOption">
+            <summary>
+            Help command line options used when there have been non setup.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.IHelpCommandLineOption">
+            <summary>
+            Represents a command line option that determines whether to show the help text.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.IHelpCommandLineOption.ShouldShowHelp(System.Collections.Generic.IEnumerable{Fclp.Internals.Parsing.ParsedOption},System.StringComparison)">
+            <summary>
+            Determines whether the help text should be shown.
+            </summary>
+            <param name="parsedOptions">The parsed command line arguments</param>
+            <param name="comparisonType">The type of comparison to use when comparing Option names.</param>
+            <returns>true if the parser operation should cease and <see cref="M:Fclp.Internals.IHelpCommandLineOption.ShowHelp(System.Collections.Generic.IEnumerable{Fclp.Internals.ICommandLineOption})"/> should be called; otherwise false if the parse operation to continue.</returns>
+        </member>
+        <member name="M:Fclp.Internals.IHelpCommandLineOption.ShowHelp(System.Collections.Generic.IEnumerable{Fclp.Internals.ICommandLineOption})">
+            <summary>
+            Shows the help text for the specified registered options.
+            </summary>
+            <param name="options">The options to generate the help text for.</param>
+        </member>
+        <member name="M:Fclp.Internals.EmptyHelpCommandLineOption.ShouldShowHelp(System.Collections.Generic.IEnumerable{Fclp.Internals.Parsing.ParsedOption},System.StringComparison)">
+            <summary>
+            Always returns false.
+            </summary>
+            <param name="commandLineArgs">The command line args.</param>
+            <param name="comparisonType">Type of the comparison.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Fclp.Internals.EmptyHelpCommandLineOption.ShowHelp(System.Collections.Generic.IEnumerable{Fclp.Internals.ICommandLineOption})">
+            <summary>
+            Not supported.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Errors.OptionSyntaxParseError">
+            <summary>
+            Represents a parse error that has occurred because the syntax was in an unexpected format.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Errors.CommandLineParserErrorBase">
+            <summary>
+            Contains error information regarding a failed parsing of a Option.
+            </summary>
+        </member>
+        <member name="T:Fclp.ICommandLineParserError">
+            <summary>
+            Represents an error that has occurred whilst parsing a Option.
+            </summary>
+        </member>
+        <member name="P:Fclp.ICommandLineParserError.Option">
+            <summary>
+            Gets the <see cref="T:Fclp.Internals.ICommandLineOption"/> this error belongs too.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Errors.CommandLineParserErrorBase.#ctor(Fclp.Internals.ICommandLineOption)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Errors.CommandLineParserErrorBase"/> class.
+            </summary>
+            <param name="cmdOption">The <see cref="T:Fclp.Internals.ICommandLineOption"/> this error relates too. This must not be <c>null</c>.</param>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="cmdOption"/> is <c>null</c>.</exception>
+        </member>
+        <member name="P:Fclp.Internals.Errors.CommandLineParserErrorBase.Option">
+            <summary>
+            Gets the <see cref="T:Fclp.Internals.ICommandLineOption"/> this error belongs too.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Errors.OptionSyntaxParseError.#ctor(Fclp.Internals.ICommandLineOption,Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Errors.CommandLineParserErrorBase"/> class.
+            </summary>
+            <param name="cmdOption">The <see cref="T:Fclp.Internals.ICommandLineOption"/> this error relates too. This must not be <c>null</c>.</param>
+            <param name="parsedOption">The parsed option that caused the error.</param>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="cmdOption"/> is <c>null</c>.</exception>
+        </member>
+        <member name="P:Fclp.Internals.Errors.OptionSyntaxParseError.ParsedOption">
+            <summary>
+            Gets the parsed option that caused the error.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Errors.UnexpectedValueParseError">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Errors.UnexpectedValueParseError.#ctor(Fclp.Internals.ICommandLineOption)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Errors.CommandLineParserErrorBase"/> class.
+            </summary>
+            <param name="cmdOption">The <see cref="T:Fclp.Internals.ICommandLineOption"/> this error relates too. This must not be <c>null</c>.</param>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="cmdOption"/> is <c>null</c>.</exception>
+        </member>
+        <member name="T:Fclp.Internals.HelpCommandLineOption">
+            <summary>
+            Represents a command line option that determines whether to show the help text.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.IHelpCommandLineOptionResult">
+            <summary>
+            Used to encapsulate both help command option interfaces which are returned from the factory.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.HelpCommandLineOption.#ctor(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Initialises a new instance of <see cref="T:Fclp.Internals.HelpCommandLineOption"/> class.
+            </summary>
+            <param name="helpArgs">The registered help arguments.</param>
+        </member>
+        <member name="M:Fclp.Internals.HelpCommandLineOption.Callback(System.Action{System.String})">
+            <summary>
+            Specifies the method to invoke with the formatted command line options when any of the setup 
+            help arguments are found. If a callback is not required either do not call it, or specify <c>null</c>.
+            </summary>
+            <param name="callback">
+            The callback to execute with the formatted command line options. 
+            </param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.HelpCommandLineOption.Callback(System.Action)">
+            <summary>
+            Specified the method to invoke when any of the setup help arguments are found. If a callback is not required
+            either do not call it, or specified <c>null</c>.
+            </summary>
+            <param name="callback">
+            The callback to execute. If you have also setup the other help callback this will be called last.
+            </param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.HelpCommandLineOption.WithCustomFormatter(Fclp.ICommandLineOptionFormatter)">
+            <summary>
+            Registers a custom <see cref="T:Fclp.ICommandLineOptionFormatter"/> to use to generate the help text.
+            </summary>
+            <param name="formatter">The custom formatter to use. This must not be <c>null</c>.</param>
+        </member>
+        <member name="M:Fclp.Internals.HelpCommandLineOption.WithHeader(System.String)">
+            <summary>
+            Provides a custom header to be printed before the registered options.
+            </summary>
+            <param name="header">The header to use.</param>
+        </member>
+        <member name="M:Fclp.Internals.HelpCommandLineOption.UseForEmptyArgs">
+            <summary>
+            Specifies that if empty arguments are found then the behaviour should be the same as when any help arguments
+            are found.
+            </summary>
+            <returns>A <see cref="T:Fclp.IHelpCommandLineOptionFluent"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.HelpCommandLineOption.ShouldShowHelp(System.Collections.Generic.IEnumerable{Fclp.Internals.Parsing.ParsedOption},System.StringComparison)">
+            <summary>
+            Determines whether the help text should be shown.
+            </summary>
+            <param name="parsedOptions">The parsed command line arguments</param>
+            <param name="comparisonType">The type of comparison to use when comparing Option names.</param>
+            <returns>
+            true if the parser operation should cease and <see cref="M:Fclp.Internals.HelpCommandLineOption.ShowHelp(System.Collections.Generic.IEnumerable{Fclp.Internals.ICommandLineOption})"/> should be called; otherwise false if the parse operation to continue.
+            </returns>
+        </member>
+        <member name="M:Fclp.Internals.HelpCommandLineOption.ShowHelp(System.Collections.Generic.IEnumerable{Fclp.Internals.ICommandLineOption})">
+            <summary>
+            Shows the help text for the specified registered options.
+            </summary>
+            <param name="options">The options to generate the help text for.</param>
+        </member>
+        <member name="P:Fclp.Internals.HelpCommandLineOption.HelpArgs">
+            <summary>
+            Gets the registered help arguments.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.HelpCommandLineOption.ReturnCallback">
+            <summary>
+            Gets or sets the callback method.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.HelpCommandLineOption.Header">
+            <summary>
+            Gets or sets any header to display at the top of the printed options.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.HelpCommandLineOption.OptionFormatter">
+            <summary>
+            Gets or sets the <see cref="T:Fclp.ICommandLineOptionFormatter"/> to use to format the options.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.CommandLineOptionFormatter">
+            <summary>
+            Simple default formatter used to display command line options to the user.
+            </summary>
+        </member>
+        <member name="T:Fclp.ICommandLineOptionFormatter">
+            <summary>
+            Represents a formatter used to display command line options to the user.
+            </summary>
+        </member>
+        <member name="M:Fclp.ICommandLineOptionFormatter.Format(System.Collections.Generic.IEnumerable{Fclp.Internals.ICommandLineOption})">
+            <summary>
+            Formats the list of <see cref="T:Fclp.Internals.ICommandLineOption"/> to be displayed to the user.
+            </summary>
+            <param name="options">The list of <see cref="T:Fclp.Internals.ICommandLineOption"/> to format.</param>
+            <returns>A <see cref="T:System.String"/> representing the format</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="options"/> is <c>null</c>.</exception>
+        </member>
+        <member name="F:Fclp.Internals.CommandLineOptionFormatter.TextFormat">
+            <summary>
+            The text format used in this formatter.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOptionFormatter.#ctor">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.CommandLineOptionFormatter"/> class.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOptionFormatter.Format(System.Collections.Generic.IEnumerable{Fclp.Internals.ICommandLineOption})">
+            <summary>
+            Formats the list of <see cref="T:Fclp.Internals.ICommandLineOption"/> to be displayed to the user.
+            </summary>
+            <param name="options">The list of <see cref="T:Fclp.Internals.ICommandLineOption"/> to format.</param>
+            <returns>A <see cref="T:System.String"/> representing the format</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="options"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOptionFormatter.FormatValue(Fclp.Internals.ICommandLineOption)">
+            <summary>
+            Formats the short and long names into one <see cref="T:System.String"/>.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOptionFormatter.ShowHeader">
+            <summary>
+            If true, outputs a header line above the option list. If false, the header is omitted. Default is true.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOptionFormatter.Header">
+            <summary>
+            Gets or sets the header to display before the printed options.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOptionFormatter.ValueText">
+            <summary>
+            Gets or sets the text to use as <c>Value</c> header. This should be localised for the end user.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOptionFormatter.DescriptionText">
+            <summary>
+            Gets or sets the text to use as the <c>Description</c> header. This should be localised for the end user.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOptionFormatter.NoOptionsText">
+            <summary>
+            Gets or sets the text to use when there are no options. This should be localised for the end user.
+            </summary>
+        </member>
+        <member name="T:Fclp.ICommandLineParserResult">
+            <summary>
+            Represents all the information gained from the result of a parse operation.
+            </summary>
+        </member>
+        <member name="P:Fclp.ICommandLineParserResult.HasErrors">
+            <summary>
+            Gets whether the parse operation encountered any errors.
+            </summary>
+        </member>
+        <member name="P:Fclp.ICommandLineParserResult.HelpCalled">
+            <summary>
+            Gets whether the help text was called.
+            </summary>
+        </member>
+        <member name="P:Fclp.ICommandLineParserResult.EmptyArgs">
+            <summary>
+            Gets whether the parser was called with empty arguments.
+            </summary>
+        </member>
+        <member name="P:Fclp.ICommandLineParserResult.ErrorText">
+            <summary>
+            Gets any formatted error for this result.
+            </summary>
+        </member>
+        <member name="P:Fclp.ICommandLineParserResult.Errors">
+            <summary>
+            Gets the errors which occurred during the parse operation.
+            </summary>
+        </member>
+        <member name="P:Fclp.ICommandLineParserResult.AdditionalOptionsFound">
+            <summary>
+            Contains a list of options that were specified in the args but not setup and therefore were not expected.
+            </summary>
+        </member>
+        <member name="P:Fclp.ICommandLineParserResult.UnMatchedOptions">
+            <summary>
+            Contains all the setup options that were not matched during the parse operation.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Errors.ExpectedOptionNotFoundParseError">
+            <summary>
+            Represents a parse error that has occurred because an expected Option was not found.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Errors.ExpectedOptionNotFoundParseError.#ctor(Fclp.Internals.ICommandLineOption)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Errors.CommandLineParserErrorBase"/> class.
+            </summary>
+            <param name="cmdOption">The <see cref="T:Fclp.Internals.ICommandLineOption"/> this error relates too. This must not be <c>null</c>.</param>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="cmdOption"/> is <c>null</c>.</exception>
+        </member>
+        <member name="T:Fclp.Internals.CommandLineOption`1">
+            <summary>
+            A command line Option
+            </summary>
+            <typeparam name="T">The type of value this Option requires.</typeparam>
+        </member>
+        <member name="T:Fclp.Internals.ICommandLineOptionResult`1">
+            <summary>
+            Used to encapsulate both command Option interfaces which are returned from the factory.
+            </summary>
+            <typeparam name="T">The type of Option.</typeparam>
+        </member>
+        <member name="T:Fclp.Internals.ICommandLineOption">
+            <summary>
+            Represents a setup command line Option
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.ICommandLineOption.Bind(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Binds the specified <see cref="T:System.String"/> to this <see cref="T:Fclp.Internals.ICommandLineOption"/>.
+            </summary>
+            <param name="value">The <see cref="T:System.String"/> to bind.</param>
+        </member>
+        <member name="M:Fclp.Internals.ICommandLineOption.BindDefault">
+            <summary>
+            Binds the default value for this <see cref="T:Fclp.Internals.ICommandLineOption"/> if available.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.IsRequired">
+            <summary>
+            Gets whether this <see cref="T:Fclp.Internals.ICommandLineOption"/> is required.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.Description">
+            <summary>
+            Gets the description set for this <see cref="T:Fclp.Internals.ICommandLineOption"/>.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.ShortName">
+            <summary>
+            Gets the short name of this <see cref="T:Fclp.Internals.ICommandLineOption"/>.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.LongName">
+            <summary>
+            Gets the long name of this <see cref="T:Fclp.Internals.ICommandLineOption"/>.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.HasLongName">
+            <summary>
+            Gets whether this <see cref="T:Fclp.Internals.ICommandLineOption"/> has a long name.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.HasShortName">
+            <summary>
+            Gets whether this <see cref="T:Fclp.Internals.ICommandLineOption"/> has a short name.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.HasCallback">
+            <summary>
+            Gets whether this <see cred="ICommandLineOption"/> has a callback setup.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.HasAdditionalArgumentsCallback">
+            <summary>
+            Gets whether this <see cref="T:Fclp.Internals.ICommandLineOption"/> has an additional arguments callback setup.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.HasDefault">
+            <summary>
+            Gets whether this <see cref="T:Fclp.Internals.ICommandLineOption"/> has a default value setup.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.ICommandLineOption.SetupType">
+            <summary>
+            Gets the setup <see cref="T:System.Type"/> for this option.
+            </summary>
+        </member>
+        <member name="T:Fclp.ICommandLineOptionFluent`1">
+            <summary>
+            Provides the fluent interface for a <see cref="T:Fclp.ICommandLineOptionFluent`1"/> object.
+            </summary>
+        </member>
+        <member name="M:Fclp.ICommandLineOptionFluent`1.WithDescription(System.String)">
+            <summary>
+            Adds the specified description to the <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.
+            </summary>
+            <param name="description">The <see cref="T:System.String"/> representing the description to use. This should be localised text.</param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.ICommandLineOptionFluent`1.Required">
+            <summary>
+            Declares that this <see cref="T:Fclp.ICommandLineOptionFluent`1"/> is required.
+            </summary>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.ICommandLineOptionFluent`1.Callback(System.Action{`0})">
+            <summary>
+            Specifies the method to invoke when the <see cref="T:Fclp.ICommandLineOptionFluent`1"/>. 
+            is parsed. If a callback is not required either do not call it, or specify <c>null</c>.
+            Do no use this if you are using the Fluent Command Line Builder.
+            </summary>
+            <param name="callback">The return callback to execute with the parsed value of the Option.</param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.ICommandLineOptionFluent`1.SetDefault(`0)">
+            <summary>
+            Specifies the default value to use if no value is found whilst parsing this <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.
+            </summary>
+            <param name="value">The value to use.</param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.ICommandLineOptionFluent`1.CaptureAdditionalArguments(System.Action{System.Collections.Generic.IEnumerable{System.String}})">
+            <summary>
+            Specified the method to invoke with any addition arguments parsed with the Option.
+            If additional arguments are not required either do not call it, or specify <c>null</c>.
+            </summary>
+            <param name="callback">The return callback to execute with the parsed addition arguments found for this Option.</param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOption`1.#ctor(System.String,System.String,Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser{`0})">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.CommandLineOption`1"/> class.
+            </summary>
+            <param name="shortName">The short name for this Option or <c>null</c> if not required. Either <paramref name="shortName"/> or <paramref name="longName"/> must not be <c>null</c>, <c>empty</c> or contain only <c>whitespace</c>.</param>
+            <param name="longName">The long name for this Option or <c>null</c> if not required. Either <paramref name="shortName"/> or <paramref name="longName"/> must not be <c>null</c>, <c>empty</c> or contain only <c>whitespace</c>.</param>
+            <param name="parser">The parser to use for this Option.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">Thrown if both <paramref name="shortName"/> and <paramref name="longName"/> are <c>null</c>, <c>empty</c> or contain only <c>whitespace</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="parser"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOption`1.Bind(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Binds the specified <see cref="T:System.String"/> to the Option.
+            </summary>
+            <param name="value">The <see cref="T:System.String"/> to bind.</param>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOption`1.BindDefault">
+            <summary>
+            Binds the default value for this <see cref="T:Fclp.Internals.ICommandLineOption"/> if available.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOption`1.WithDescription(System.String)">
+            <summary>
+            Adds the specified description to the <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.
+            </summary>
+            <param name="description">The <see cref="T:System.String"/> representing the description to use. This should be localised text.</param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOption`1.Required">
+            <summary>
+            Declares that this <see cref="T:Fclp.ICommandLineOptionFluent`1"/> is required and a value must be specified to fulfil it.
+            </summary>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOption`1.Callback(System.Action{`0})">
+            <summary>
+            Specifies the method to invoke when the <see cref="T:Fclp.ICommandLineOptionFluent`1"/>. 
+            is parsed. If a callback is not required either do not call it, or specify <c>null</c>.
+            </summary>
+            <param name="callback">The return callback to execute with the parsed value of the Option.</param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOption`1.SetDefault(`0)">
+            <summary>
+            Specifies the default value to use if no value is found whilst parsing this <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.
+            </summary>
+            <param name="value">The value to use.</param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOption`1.CaptureAdditionalArguments(System.Action{System.Collections.Generic.IEnumerable{System.String}})">
+            <summary>
+            Specified the method to invoke with any addition arguments parsed with the Option.
+            If additional arguments are not required either do not call it, or specify <c>null</c>.
+            </summary>
+            <param name="callback">The return callback to execute with the parsed addition arguments found for this Option.</param>
+            <returns>A <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.</returns>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.Parser">
+            <inheritdoc/>
+            <summary>
+            Gets or sets the parser to use for this <see cref="T:Fclp.Internals.CommandLineOption`1"/>.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.Description">
+            <summary>
+            Gets the description set for this <see cref="T:Fclp.Internals.CommandLineOption`1"/>.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.IsRequired">
+            <summary>
+            Gets whether this <see cref="T:Fclp.Internals.ICommandLineOption"/> is required.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.ShortName">
+            <summary>
+            Gets the short name of this <see cref="T:Fclp.Internals.ICommandLineOption"/>.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.LongName">
+            <summary>
+            Gets the long name of this <see cref="T:Fclp.Internals.ICommandLineOption"/>.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.HasDefault">
+            <summary>
+            Gets whether this <see cref="T:Fclp.Internals.ICommandLineOption"/> has a default value setup.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.SetupType">
+            <summary>
+            Gets the setup <see cref="T:System.Type"/> for this option.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.HasLongName">
+            <summary>
+            Gets whether this <see cref="T:Fclp.ICommandLineOptionFluent`1"/> has a long name.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.HasShortName">
+            <summary>
+            Gets whether this <see cref="T:Fclp.ICommandLineOptionFluent`1"/> has a short name.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.HasCallback">
+            <summary>
+            Gets whether this <see cref="T:Fclp.Internals.ICommandLineOption"/> has a callback setup.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOption`1.HasAdditionalArgumentsCallback">
+            <summary>
+            Gets whether this <see cref="T:Fclp.Internals.ICommandLineOption"/> has an additional arguments callback setup.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.CommandLineOptionFactory">
+            <summary>
+            Factory used to create command line Options
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.ICommandLineOptionFactory">
+            <summary>
+            Represents a factory capable of creating command line Options.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.ICommandLineOptionFactory.CreateOption``1(System.String,System.String)">
+            <summary>
+            Creates a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.
+            </summary>
+            <typeparam name="T">The type of <see cref="T:Fclp.Internals.ICommandLineOptionResult`1"/> to create.</typeparam>
+            <param name="shortName">The short name for this Option. This must not be <c>null</c>, <c>empty</c> or contain only <c>whitespace</c>.</param>
+            <param name="longName">The long name for this Option or <c>null</c> if not required.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="shortName"/> is <c>null</c>, <c>empty</c> or contains only <c>whitespace</c>.</exception>
+            <returns>A <see cref="T:Fclp.Internals.ICommandLineOptionResult`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.ICommandLineOptionFactory.CreateHelpOption(System.String[])">
+            <summary>
+            Create a new <see cref="T:Fclp.Internals.IHelpCommandLineOptionResult"/> using the specified args.
+            </summary>
+            <param name="helpArgs">The args used to display the help option.</param>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOptionFactory.CreateOption``1(System.String,System.String)">
+            <summary>
+            Creates a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.
+            </summary>
+            <typeparam name="T">The type of <see cref="T:Fclp.Internals.ICommandLineOptionResult`1"/> to create.</typeparam>
+            <param name="shortName">The short name for this Option. This must not be <c>null</c>, <c>empty</c> or contain only <c>whitespace</c>.</param>
+            <param name="longName">The long name for this Option or <c>null</c> if not required.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">Thrown if <paramref name="shortName"/> is <c>null</c>, <c>empty</c> or contains only <c>whitespace</c>.</exception>
+            <returns>A <see cref="T:Fclp.Internals.ICommandLineOptionResult`1"/>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.CommandLineOptionFactory.CreateHelpOption(System.String[])">
+            <summary>
+            Create a new <see cref="T:Fclp.Internals.IHelpCommandLineOptionResult"/> using the specified args.
+            </summary>
+            <param name="helpArgs">The args used to display the help option.</param>
+        </member>
+        <member name="P:Fclp.Internals.CommandLineOptionFactory.ParserFactory">
+            <summary>
+            Gets or sets the <see cref="T:Fclp.Internals.Parsing.ICommandLineOptionParserFactory"/> to use.
+            </summary>
+            <remarks>If <c>null</c> a new instance of the <see cref="P:Fclp.Internals.CommandLineOptionFactory.ParserFactory"/> will be returned.</remarks>
+        </member>
+        <member name="T:Fclp.FluentCommandLineParser">
+            <summary>
+            A command line parser which provides methods and properties 
+            to easily and fluently parse command line arguments. 
+            </summary>
+        </member>
+        <member name="T:Fclp.IFluentCommandLineParser">
+            <summary>
+            Represents a command line parser which provides methods and properties 
+            to easily and fluently parse command line arguments. 
+            </summary>
+        </member>
+        <member name="M:Fclp.IFluentCommandLineParser.Setup``1(System.Char,System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short and long Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>whitespace</c> or a control character.</param>
+            <param name="longOption">The long name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name or <paramref name="longOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+            <exception cref="T:Fclp.InvalidOptionNameException">
+            Either <paramref name="shortOption"/> or <paramref name="longOption"/> are not valid. <paramref name="shortOption"/> must not be <c>whitespace</c>
+            or a control character. <paramref name="longOption"/> must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.
+            </exception>
+        </member>
+        <member name="M:Fclp.IFluentCommandLineParser.Setup``1(System.String,System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short and long Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>whitespace</c> or a control character.</param>
+            <param name="longOption">The long name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name or <paramref name="longOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+            <exception cref="T:Fclp.InvalidOptionNameException">
+            Either <paramref name="shortOption"/> or <paramref name="longOption"/> are not valid. <paramref name="shortOption"/> must not be <c>whitespace</c>
+            or a control character. <paramref name="longOption"/> must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.
+            </exception>
+        </member>
+        <member name="M:Fclp.IFluentCommandLineParser.Setup``1(System.Char)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>whitespace</c> or a control character.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.InvalidOptionNameException">if <paramref name="shortOption"/> is invalid for a short option.</exception>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name 
+            already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+        </member>
+        <member name="M:Fclp.IFluentCommandLineParser.Setup``1(System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified long Option name.
+            </summary>
+            <param name="longOption">The long name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <exception cref="T:Fclp.InvalidOptionNameException">if <paramref name="longOption"/> is invalid for a long option.</exception>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="longOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+        </member>
+        <member name="M:Fclp.IFluentCommandLineParser.SetupHelp(System.String[])">
+            <summary>
+            Setup the help args.
+            </summary>
+            <param name="helpArgs">The help arguments to register.</param>
+        </member>
+        <member name="M:Fclp.IFluentCommandLineParser.Parse(System.String[])">
+            <summary>
+            Parses the specified <see><cref>T:System.String[]</cref></see> using the setup Options.
+            </summary>
+            <param name="args">The <see><cref>T:System.String[]</cref></see> to parse.</param>
+            <returns>An <see cref="T:Fclp.ICommandLineParserResult"/> representing the results of the parse operation.</returns>
+        </member>
+        <member name="P:Fclp.IFluentCommandLineParser.Options">
+            <summary>
+            Returns the Options that have been setup for this parser.
+            </summary>
+        </member>
+        <member name="P:Fclp.IFluentCommandLineParser.HelpOption">
+            <summary>
+            Gets or sets the help option for this parser.
+            </summary>
+        </member>
+        <member name="P:Fclp.IFluentCommandLineParser.IsCaseSensitive">
+            <summary>
+            Gets or sets whether values that differ by case are considered different. 
+            </summary>
+        </member>
+        <member name="F:Fclp.FluentCommandLineParser.CaseSensitiveComparison">
+            <summary>
+            The <see cref="P:Fclp.FluentCommandLineParser.StringComparison"/> type used for case sensitive comparisons.
+            </summary>
+        </member>
+        <member name="F:Fclp.FluentCommandLineParser.IgnoreCaseComparison">
+            <summary>
+            The <see cref="P:Fclp.FluentCommandLineParser.StringComparison"/> type used for case in-sensitive comparisons.
+            </summary>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser.#ctor">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.FluentCommandLineParser"/> class.
+            </summary>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser.Setup``1(System.Char,System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short and long Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <param name="longOption">The long name for the Option or <c>null</c> if not required.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name or <paramref name="longOption"/> name
+            already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser.Setup``1(System.String,System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short and long Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>whitespace</c> or a control character.</param>
+            <param name="longOption">The long name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name or <paramref name="longOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+            <exception cref="T:Fclp.InvalidOptionNameException">
+            Either <paramref name="shortOption"/> or <paramref name="longOption"/> are not valid. <paramref name="shortOption"/> must not be <c>whitespace</c>
+            or a control character. <paramref name="longOption"/> must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.
+            </exception>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser.Setup``1(System.Char)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified short Option name.
+            </summary>
+            <param name="shortOption">The short name for the Option. This must not be <c>whitespace</c> or a control character.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="shortOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser.Setup``1(System.String)">
+            <summary>
+            Setup a new <see cref="T:Fclp.ICommandLineOptionFluent`1"/> using the specified long Option name.
+            </summary>
+            <param name="longOption">The long name for the Option. This must not be <c>null</c>, <c>empty</c> or only <c>whitespace</c>.</param>
+            <returns></returns>
+            <exception cref="T:Fclp.OptionAlreadyExistsException">
+            A Option with the same <paramref name="longOption"/> name already exists in the <see cref="T:Fclp.IFluentCommandLineParser"/>.
+            </exception>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser.Parse(System.String[])">
+            <summary>
+            Parses the specified <see><cref>T:System.String[]</cref></see> using the setup Options.
+            </summary>
+            <param name="args">The <see><cref>T:System.String[]</cref></see> to parse.</param>
+            <returns>An <see cref="T:Fclp.ICommandLineParserResult"/> representing the results of the parse operation.</returns>
+        </member>
+        <member name="M:Fclp.FluentCommandLineParser.SetupHelp(System.String[])">
+            <summary>
+            Setup the help args.
+            </summary>
+            <param name="helpArgs">The help arguments to register.</param>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.IsCaseSensitive">
+            <summary>
+            Gets or sets whether values that differ by case are considered different. 
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.StringComparison">
+            <summary>
+            Gets the <see cref="P:Fclp.FluentCommandLineParser.StringComparison"/> to use when matching values.
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.Options">
+            <summary>
+            Gets the list of Options
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.OptionFormatter">
+            <summary>
+            Gets or sets the default option formatter.
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.ErrorFormatter">
+            <summary>
+            Gets or sets the default option formatter.
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.OptionFactory">
+            <summary>
+            Gets or sets the <see cref="T:Fclp.Internals.ICommandLineOptionFactory"/> to use for creating <see cref="T:Fclp.ICommandLineOptionFluent`1"/>.
+            </summary>
+            <remarks>If this property is set to <c>null</c> then the default <see cref="P:Fclp.FluentCommandLineParser.OptionFactory"/> is returned.</remarks>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.OptionValidator">
+            <summary>
+            Gets or sets the <see cref="T:Fclp.Internals.Validators.ICommandLineOptionValidator"/> used to validate each setup Option.
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.ParserEngine">
+            <summary>
+            Gets or sets the <see cref="T:Fclp.Internals.Parsing.ICommandLineParserEngine"/> to use for parsing the command line args.
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.HelpOption">
+            <summary>
+            Gets or sets the option used for when help is detected in the command line args.
+            </summary>
+        </member>
+        <member name="P:Fclp.FluentCommandLineParser.Fclp#IFluentCommandLineParser#Options">
+            <summary>
+            Returns the Options that have been setup for this parser.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.CommandLineParserEngineMark2">
+            <summary>
+            More advanced parser for transforming command line arguments into appropriate <see cref="T:Fclp.Internals.Parsing.ParsedOption"/>.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.ICommandLineParserEngine">
+            <summary>
+            Responsible for parsing command line arguments into simple key and value pairs.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ICommandLineParserEngine.Parse(System.String[])">
+            <summary>
+            Parses the specified <see><cref>T:System.String[]</cref></see> into key value pairs.
+            </summary>
+            <param name="args">The <see><cref>T:System.String[]</cref></see> to parse.</param>
+            <returns>An <see cref="T:Fclp.ICommandLineParserResult"/> representing the results of the parse operation.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.CommandLineParserEngineMark2.Parse(System.String[])">
+            <summary>
+            Parses the specified <see><cref>T:System.String[]</cref></see> into appropriate <see cref="T:Fclp.Internals.Parsing.ParsedOption"/> objects..
+            </summary>
+            <param name="args">The <see><cref>T:System.String[]</cref></see> to parse.</param>
+            <returns>An <see cref="T:Fclp.Internals.Parsing.ParserEngineResult"/> representing the results of the parse operation.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.CommandLineParserEngineMark2.IsAKey(System.String)">
+            <summary>
+            Gets whether the specified <see cref="T:System.String"/> is a Option key.
+            </summary>
+            <param name="arg">The <see cref="T:System.String"/> to examine.</param>
+            <returns><c>true</c> if <paramref name="arg"/> is a Option key; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.CommandLineParserEngineMark2.IsEndOfOptionsKey(System.String)">
+            <summary>
+            Determines whether the specified string indicates the end of parsed options.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.CommandLineParserResult">
+            <summary>
+            Contains all information about the result of a parse operation.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.CommandLineParserResult.#ctor">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.CommandLineParserResult"/> class.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.HasErrors">
+            <summary>
+            Gets whether the parse operation encountered any errors or the help text was shown.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.Errors">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.Fclp#ICommandLineParserResult#Errors">
+            <summary>
+            Gets the errors which occurred during the parse operation.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.Fclp#ICommandLineParserResult#AdditionalOptionsFound">
+            <summary>
+            Contains a list of options that were specified in the args but not setup and therefore were not expected.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.AdditionalOptionsFound">
+            <summary>
+            Contains a list of options that were specified in the args but not setup and therefore were not expected.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.Fclp#ICommandLineParserResult#UnMatchedOptions">
+            <summary>
+            Contains all the setup options that were not matched during the parse operation.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.UnMatchedOptions">
+            <summary>
+            Contains all the setup options that were not matched during the parse operation.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.HelpCalled">
+            <summary>
+            Gets whether the help text was called.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.EmptyArgs">
+            <summary>
+            Gets whether the parser was called with empty arguments.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.CommandLineParserResult.ErrorText">
+            <summary>
+            Gets or sets the formatted error for this result.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.ICommandLineOptionParserFactory">
+            <summary>
+            Represents a factory capable of creating <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ICommandLineOptionParserFactory.CreateParser``1">
+            <summary>
+            Creates a <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/> to handle the specified type.
+            </summary>
+            <typeparam name="T">The type of parser to create.</typeparam>
+            <returns>A <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/> suitable for the specified type.</returns>
+            <exception cref="T:Fclp.UnsupportedTypeException">If the specified type is not supported by this factory.</exception>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionArgumentParser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionArgumentParser.ParseArguments(System.Collections.Generic.IEnumerable{System.String},Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the values.
+            </summary>
+            <param name="args">The args.</param>
+            <param name="option">The option.</param>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionArgumentParser.IsEndOfOptionsKey(System.String)">
+            <summary>
+            Determines whether the specified string indicates the end of parsed options.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.CommandLineOptionGrouper">
+            <summary>
+            Organises arguments into group defined by their associated Option.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.CommandLineOptionGrouper.GroupArgumentsByOption(System.String[])">
+            <summary>
+            Groups the specified arguments by the associated Option.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.CommandLineOptionGrouper.IsAKey(System.String)">
+            <summary>
+            Gets whether the specified <see cref="T:System.String"/> is a Option key.
+            </summary>
+            <param name="arg">The <see cref="T:System.String"/> to examine.</param>
+            <returns><c>true</c> if <paramref name="arg"/> is a Option key; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.CommandLineOptionGrouper.IsEndOfOptionsKey(System.String)">
+            <summary>
+            Determines whether the specified string indicates the end of parsed options.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.Int64CommandLineOptionParser">
+            <summary>
+            Parser used to convert to <see cref="T:System.Int64"/>.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1">
+            <summary>
+            Represents a parser for a Option that can convert a value into the required type.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into the return type.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns>The parsed value.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.Int64CommandLineOptionParser.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Converts the string representation of a number in a specified culture-specific format to its 64-bit signed integer equivalent.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.Int64CommandLineOptionParser.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.NullableCommandLineOptionParser`1">
+            <summary>
+            Parser used to convert to nullable types
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.NullableCommandLineOptionParser`1.#ctor(Fclp.Internals.Parsing.ICommandLineOptionParserFactory)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.OptionParsers.NullableCommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parserFactory"></param>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.NullableCommandLineOptionParser`1.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:Fclp.Internals.Parsing.ParsedOption"/> into a nullable type.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.NullableCommandLineOptionParser`1.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:Fclp.Internals.Parsing.ParsedOption"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.NullableEnumCommandLineOptionParser`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TEnum"></typeparam>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.NullableEnumCommandLineOptionParser`1.#ctor(Fclp.Internals.Parsing.ICommandLineOptionParserFactory)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.OptionParsers.ListCommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parserFactory"></param>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.NullableEnumCommandLineOptionParser`1.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into the return type.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns>The parsed value.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.NullableEnumCommandLineOptionParser`1.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.UriCommandLineOptionParser">
+            <summary>
+            Parser used to convert to <see cref="T:System.Boolean"/>.
+            </summary>
+            <remarks>For <see cref="T:System.Boolean"/> types the value is optional. If no value is provided for the Option then <c>true</c> is returned.</remarks>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.UriCommandLineOptionParser.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into a <see cref="T:System.Uri"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns>
+            A <see cref="T:System.Uri"/> representing the parsed value.
+            The value is optional. If no value is provided then <c>true</c> is returned.
+            </returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.UriCommandLineOptionParser.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.BoolCommandLineOptionParser">
+            <summary>
+            Parser used to convert to <see cref="T:System.Boolean"/>.
+            </summary>
+            <remarks>For <see cref="T:System.Boolean"/> types the value is optional. If no value is provided for the Option then <c>true</c> is returned.</remarks>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.BoolCommandLineOptionParser.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into a <see cref="T:System.Boolean"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns>
+            A <see cref="T:System.Boolean"/> representing the parsed value.
+            The value is optional. If no value is provided then <c>true</c> is returned.
+            </returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.BoolCommandLineOptionParser.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.CommandLineOptionParserFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.CommandLineOptionParserFactory.#ctor">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.OptionParsers.CommandLineOptionParserFactory"/> class.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.CommandLineOptionParserFactory.AddOrReplace``1(Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser{``0})">
+            <summary>
+            Adds the specified <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/> to this factories list of supported parsers.
+            If an existing parser has already been registered for the type then it will be replaced.
+            </summary>
+            <typeparam name="T">The type which the <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/> will be returned for.</typeparam>
+            <param name="parser">The parser to return for the specified type.</param>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="parser"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.CommandLineOptionParserFactory.CreateParser``1">
+            <summary>
+            Creates a <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/> to handle the specified type.
+            </summary>
+            <typeparam name="T">The type of parser to create.</typeparam>
+            <returns>A <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/> suitable for the specified type.</returns>
+            <exception cref="T:Fclp.UnsupportedTypeException">If the specified type is not supported by this factory.</exception>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.CommandLineOptionParserFactory.TryAddAsSpecialParser``1(System.Type)">
+            <summary>
+            Attempts to add a special case parser, such as Enum or List{TEnum} parser.
+            </summary>
+            <returns>True if a special parser was added for the type; otherwise false.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.CommandLineOptionParserFactory.TryGetListGenericType(System.Type)">
+            <summary>
+            Attemps to get the type of generic from a generic list.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.DateTimeCommandLineOptionParser">
+            <summary>
+            Parser used to convert to <see cref="T:System.DateTime"/>.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.DateTimeCommandLineOptionParser.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into a <see cref="T:System.DateTime"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.DateTimeCommandLineOptionParser.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.DoubleCommandLineOptionParser">
+            <summary>
+            Parser used to convert to <see cref="T:System.Double"/>.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.DoubleCommandLineOptionParser.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into a <see cref="T:System.Double"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.DoubleCommandLineOptionParser.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.EnumFlagCommandLineOptionParser`1">
+            <summary>
+            Parser used to convert to <see cref="T:System.Enum"/>.
+            </summary>
+            <remarks>For <see cref="T:System.Boolean"/> types the value is optional. If no value is provided for the Option then <c>true</c> is returned.</remarks>
+            /// <typeparam name="TEnum">The <see cref="T:System.Enum"/> that will be parsed by this parser.</typeparam>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumFlagCommandLineOptionParser`1.#ctor">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.OptionParsers.EnumCommandLineOptionParser`1"/> class.
+            </summary>
+            <exception cref="T:System.ArgumentException">If {TEnum} is not a <see cref="T:System.Enum"/>.</exception>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumFlagCommandLineOptionParser`1.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into a <see cref="T:System.Boolean"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns>
+            A <see cref="T:System.Boolean"/> representing the parsed value.
+            The value is optional. If no value is provided then <c>true</c> is returned.
+            </returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumFlagCommandLineOptionParser`1.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumFlagCommandLineOptionParser`1.IsDefined(System.String)">
+            <summary>
+            Determines whether the specified <paramref name="value"/> can be parsed into {TEnum}.
+            </summary>
+            <param name="value">The value to be parsed</param>
+            <returns>true if <paramref name="value"/> can be parsed; otherwise false.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumFlagCommandLineOptionParser`1.IsDefined(System.Int32)">
+            <summary>
+            Determines whether the specified <paramref name="value"/> represents a {TEnum} value.
+            </summary>
+            <param name="value">The <see cref="T:System.Int32"/> that represents a {TEnum} value.</param>
+            <returns>true if <paramref name="value"/> represents a {TEnum} value; otherwise false.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.EnumCommandLineOptionParser`1">
+            <summary>
+            Parser used to convert to <see cref="T:System.Enum"/>.
+            </summary>
+            <remarks>For <see cref="T:System.Boolean"/> types the value is optional. If no value is provided for the Option then <c>true</c> is returned.</remarks>
+            /// <typeparam name="TEnum">The <see cref="T:System.Enum"/> that will be parsed by this parser.</typeparam>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumCommandLineOptionParser`1.#ctor">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.OptionParsers.EnumCommandLineOptionParser`1"/> class.
+            </summary>
+            <exception cref="T:System.ArgumentException">If {TEnum} is not a <see cref="T:System.Enum"/>.</exception>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumCommandLineOptionParser`1.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into a <see cref="T:System.Boolean"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns>
+            A <see cref="T:System.Boolean"/> representing the parsed value.
+            The value is optional. If no value is provided then <c>true</c> is returned.
+            </returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumCommandLineOptionParser`1.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumCommandLineOptionParser`1.IsDefined(System.String)">
+            <summary>
+            Determines whether the specified <paramref name="value"/> can be parsed into {TEnum}.
+            </summary>
+            <param name="value">The value to be parsed</param>
+            <returns>true if <paramref name="value"/> can be parsed; otherwise false.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.EnumCommandLineOptionParser`1.IsDefined(System.Int32)">
+            <summary>
+            Determines whether the specified <paramref name="value"/> represents a {TEnum} value.
+            </summary>
+            <param name="value">The <see cref="T:System.Int32"/> that represents a {TEnum} value.</param>
+            <returns>true if <paramref name="value"/> represents a {TEnum} value; otherwise false.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.Int32CommandLineOptionParser">
+            <summary>
+            Parser used to convert to <see cref="T:System.Int32"/>.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.Int32CommandLineOptionParser.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Converts the string representation of a number in a specified culture-specific format to its 32-bit signed integer equivalent.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.Int32CommandLineOptionParser.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.ListCommandLineOptionParser`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.ListCommandLineOptionParser`1.#ctor(Fclp.Internals.Parsing.ICommandLineOptionParserFactory)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.OptionParsers.ListCommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parserFactory"></param>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.ListCommandLineOptionParser`1.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into the return type.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns>The parsed value.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.ListCommandLineOptionParser`1.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.OptionParsers.StringCommandLineOptionParser">
+            <summary>
+            Parser used to convert to <see cref="T:System.String"/>.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.StringCommandLineOptionParser.Parse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Parses the specified <see cref="T:System.String"/> into a <see cref="T:System.String"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.OptionParsers.StringCommandLineOptionParser.CanParse(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>.
+            </summary>
+            <param name="parsedOption"></param>
+            <returns><c>true</c> if the specified <see cref="T:System.String"/> can be parsed by this <see cref="T:Fclp.Internals.Parsing.OptionParsers.ICommandLineOptionParser`1"/>; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.ParsedOption">
+            <summary>
+            Contains information about a single parsed option and any value.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParsedOption.#ctor(System.String,System.String)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.ParsedOption"/> class.
+            </summary>
+            <param name="key">The command line option key.</param>
+            <param name="value">The value matched with the key.</param>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParsedOption.#ctor">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.ParsedOption"/> class.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParsedOption.Equals(Fclp.Internals.Parsing.ParsedOption)">
+            <summary>
+            Determines whether two specified <see cref="T:Fclp.Internals.Parsing.ParsedOption"/> objects have the same values.
+            </summary>
+            <param name="other">The other <see cref="T:Fclp.Internals.Parsing.ParsedOption"/> to compare.</param>
+            <returns>true if they are equal; otherwise false.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParsedOption.Equals(System.Object)">
+            <summary>
+            Determines whether this <see cref="T:Fclp.Internals.Parsing.ParsedOption"/> is equal to the specified <see cref="T:System.Object"/>.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare.</param>
+            <returns>true if they are equal; otherwise false.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParsedOption.GetHashCode">
+            <summary>
+            Returns the hashcode for this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParsedOption.Clone">
+            <summary>
+            Creates a clone of this option.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParsedOption.RawKey">
+            <summary>
+            Gets the raw key representing this option.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParsedOption.Key">
+            <summary>
+            Gets or sets the command line option key.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParsedOption.Value">
+            <summary>
+            Gets or sets the first value matched with the key.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParsedOption.Values">
+            <summary>
+            Gets or sets all the values matched with this key.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParsedOption.AdditionalValues">
+            <summary>
+            Gets or sets the additional values matched with this key.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParsedOption.Prefix">
+            <summary>
+            Gets or sets the prefix for the key e.g. -, / or --.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParsedOption.Suffix">
+            <summary>
+            Gets or sets any suffix for the key e.g. boolean arguments with +, -.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParsedOption.HasValue">
+            <summary>
+            Gets whether this parsed option has a value set.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParsedOption.HasSuffix">
+            <summary>
+            Gets whether this parsed options has a suffix.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.ParsedOptionFactory">
+            <summary>
+            Factory used to created parsed option meta data.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParsedOptionFactory.Create(System.String)">
+            <summary>
+            Creates parsed option meta data for the specified raw key.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParsedOptionFactory.ExtractPrefix(System.String)">
+            <summary>
+            Extracts the key identifier from the specified <see cref="T:System.String"/>.
+            </summary>
+            <param name="arg">The <see cref="T:System.String"/> to extract the key identifier from.</param>
+            <returns>A <see cref="T:System.String"/> representing the key identifier if found; otherwise <c>null</c>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParsedOptionFactory.ExtractSuffix(System.String)">
+            <summary>
+            Extracts the key identifier from the specified <see cref="T:System.String"/>.
+            </summary>
+            <param name="arg">The <see cref="T:System.String"/> to extract the key identifier from.</param>
+            <returns>A <see cref="T:System.String"/> representing the key identifier if found; otherwise <c>null</c>.</returns>
+        </member>
+        <member name="T:Fclp.Internals.Parsing.ParserEngineResult">
+            <summary>
+            Contains the results of the parse operation
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Parsing.ParserEngineResult.#ctor(System.Collections.Generic.IEnumerable{Fclp.Internals.Parsing.ParsedOption},System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Parsing.ParserEngineResult"/> class;
+            </summary>
+            <param name="parsedOptions">The parsed options.</param>
+            <param name="additionalValues">Any additional values that could not be translated into options.</param>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParserEngineResult.ParsedOptions">
+            <summary>
+            Gets the parsed options.
+            </summary>
+        </member>
+        <member name="P:Fclp.Internals.Parsing.ParserEngineResult.AdditionalValues">
+            <summary>
+            Gets any additional values that could not be translated into options.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.SpecialCharacters">
+            <summary>
+            Contains special characters used throughout the parser.
+            </summary>
+        </member>
+        <member name="F:Fclp.Internals.SpecialCharacters.Whitespace">
+            <summary>
+            Assign a name to the whitespace character.
+            </summary>
+        </member>
+        <member name="F:Fclp.Internals.SpecialCharacters.ValueAssignments">
+            <summary>
+            Characters used for value assignment.
+            </summary>
+        </member>
+        <member name="F:Fclp.Internals.SpecialCharacters.OptionPrefix">
+            <summary>
+            Characters that define the start of an option.
+            </summary>
+        </member>
+        <member name="F:Fclp.Internals.SpecialCharacters.OptionSuffix">
+            <summary>
+            Characters that have special meaning at the end of an option key.
+            </summary>
+        </member>
+        <member name="F:Fclp.Internals.SpecialCharacters.ShortOptionPrefix">
+            <summary>
+            Characters that define an explicit short option.
+            </summary>
+        </member>
+        <member name="F:Fclp.Internals.SpecialCharacters.EndOfOptionsKey">
+            <summary>
+            The key that indicates the end of any options.
+            Any following arguments should be treated as operands, even if they begin with the '-' character.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Validators.CommandLineOptionValidator">
+            <summary>
+            Wrapping validator that executes all the individual validation rules.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Validators.ICommandLineOptionValidator">
+            <summary>
+            Represents a validator used to verify new setup command line options.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Validators.ICommandLineOptionValidator.Validate(Fclp.Internals.ICommandLineOption)">
+            <summary>
+            Verifies that the proposed new <see cref="T:Fclp.Internals.ICommandLineOption"/> is a valid new Option.
+            </summary>
+            <param name="commandLineOption">The <see cref="T:Fclp.Internals.ICommandLineOption"/> to validate. This must not be null.</param>
+        </member>
+        <member name="M:Fclp.Internals.Validators.CommandLineOptionValidator.#ctor(Fclp.IFluentCommandLineParser)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Validators.CommandLineOptionValidator"/> class.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Validators.CommandLineOptionValidator.Validate(Fclp.Internals.ICommandLineOption)">
+            <summary>
+            Validates the specified <see cref="T:Fclp.Internals.ICommandLineOption"/> against all the registered rules.
+            </summary>
+            <param name="commandLineOption">The <see cref="T:Fclp.Internals.ICommandLineOption"/> to validate.</param>
+        </member>
+        <member name="T:Fclp.Internals.Validators.NoDuplicateOptionValidator">
+            <summary>
+            Validator used to ensure no there are duplicate Options setup.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Validators.NoDuplicateOptionValidator.#ctor(Fclp.IFluentCommandLineParser)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.Internals.Validators.NoDuplicateOptionValidator"/> class.
+            </summary>
+            <param name="parser">The <see cref="T:Fclp.IFluentCommandLineParser"/> containing the setup options. This must not be null.</param>
+        </member>
+        <member name="M:Fclp.Internals.Validators.NoDuplicateOptionValidator.Validate(Fclp.Internals.ICommandLineOption)">
+            <summary>
+            Verifies that the specified <see cref="T:Fclp.Internals.ICommandLineOption"/> will not cause any duplication.
+            </summary>
+            <param name="commandLineOption">The <see cref="T:Fclp.Internals.ICommandLineOption"/> to validate.</param>
+        </member>
+        <member name="P:Fclp.Internals.Validators.NoDuplicateOptionValidator.ComparisonType">
+            <summary>
+            Gets the <see cref="T:System.StringComparison"/> type used for duplicates.
+            </summary>
+        </member>
+        <member name="T:Fclp.Internals.Validators.OptionNameValidator">
+            <summary>
+            Validator to ensure a new Option has a valid long name.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Validators.OptionNameValidator.Validate(Fclp.Internals.ICommandLineOption)">
+            <summary>
+            Verifies that the specified <see cref="T:Fclp.Internals.ICommandLineOption"/> has a valid short/long name combination.
+            </summary>
+            <param name="commandLineOption">The <see cref="T:Fclp.Internals.ICommandLineOption"/> to validate. This must not be null.</param>
+            <exception cref="T:System.ArgumentNullException">if <paramref name="commandLineOption"/> is null.</exception>
+        </member>
+        <member name="T:Fclp.InvalidOptionNameException">
+            <summary>
+            Represents an error that has occurred because a specified Option name is invalid.
+            </summary>
+        </member>
+        <member name="M:Fclp.InvalidOptionNameException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Fclp.InvalidOptionNameException"/> class.
+            </summary>
+        </member>
+        <member name="M:Fclp.InvalidOptionNameException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Fclp.InvalidOptionNameException"/> class.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="M:Fclp.InvalidOptionNameException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Fclp.InvalidOptionNameException"/> class.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="M:Fclp.InvalidOptionNameException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Fclp.InvalidOptionNameException"/> class.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo"/> that holds the serialized object data about the exception being thrown.</param>
+            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext"/> that contains contextual information about the source or destination.</param>
+        </member>
+        <member name="T:Fclp.Internals.Extensions.UsefulExtension">
+            <summary>
+            Contains some simple extension methods that are useful throughout the library.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.IsNullOrWhiteSpace(System.String)">
+            <summary>
+            Indicates whether the specified <see cref="T:System.String"/> is <c>null</c>, <c>empty</c> or contains only <c>whitespace</c>.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+            <remarks>This method mimics the String.IsNullOrWhiteSpace method available in .Net 4 framework.</remarks>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Indicates whether the specified <see cref="T:System.Collections.Generic.IEnumerable`1"/> is <c>null</c> or contains no elements.
+            </summary>
+            <param name="enumerable">A <see cref="T:System.Collections.Generic.IEnumerable`1"/> to check.</param>
+            <returns><c>true</c> if <paramref name="enumerable"/> is <c>null</c> or contains no elements; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">
+            <summary>
+            Performs the specified action on each element of the <see cref="T:System.Collections.Generic.IEnumerable`1"/>.
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <param name="enumerable">A <see cref="T:System.Collections.Generic.IEnumerable`1"/> to iterate through all the available elements.</param>
+            <param name="action">The delegate to execute with on each element of the specified <see cref="T:System.Collections.Generic.IEnumerable`1"/>.</param>
+            <exception cref="T:System.ArgumentNullException">if <paramref name="enumerable"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.ContainsWhitespace(System.String)">
+            <summary>
+            Indicates whether the specified <see cref="T:System.String"/> contains <c>whitespace</c>.
+            </summary>
+            <param name="value">The <see cref="T:System.String"/> to examine.</param>
+            <returns><c>true</c> if <paramref name="value"/> contains at least one whitespace char; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.WrapInDoubleQuotes(System.String)">
+            <summary>
+            Wraps the specified <see cref="T:System.String"/> in double quotes.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.RemoveAnyWrappingDoubleQuotes(System.String)">
+            <summary>
+            Removes and double quotes wrapping the specified <see cref="T:System.String"/>.
+            </summary>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.WrapInDoubleQuotesIfContainsWhitespace(System.String)">
+            <summary>
+            Wraps the specified <see cref="T:System.String"/> in double quotes if it contains at least one whitespace character.
+            </summary>
+            <param name="str">The <see cref="T:System.String"/> to examine and wrap.</param>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.IsWrappedInDoubleQuotes(System.String)">
+            <summary>
+            Determines whether the specified <see cref="T:System.String"/> starts and ends with a double quote.
+            </summary>
+            <param name="str">The <see cref="T:System.String"/> to examine.</param>
+            <returns><c>true</c> if <paramref name="str"/> is wrapped in double quotes; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.SplitOnWhitespace(System.String)">
+            <summary>
+            Splits the specified <see cref="T:System.String"/> when each whitespace char is encountered into a collection of substrings.
+            </summary>
+            <param name="value">The <see cref="T:System.String"/> to split.</param>
+            <returns>A collection of substrings taken from <paramref name="value"/>.</returns>
+            <remarks>If the whitespace is wrapped in double quotes then it is ignored.</remarks>
+        </member>
+        <member name="M:Fclp.Internals.Extensions.UsefulExtension.ElementAtOrDefault``1(``0[],System.Int32,``0)">
+            <summary>
+            Elements at or default.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="items">The items.</param>
+            <param name="index">The index.</param>
+            <param name="defaultToUse">The default to use.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Fclp.OptionAlreadyExistsException">
+            <summary>
+            Represents an error that has occurred because a matching Option already exists in the parser.
+            </summary>
+        </member>
+        <member name="M:Fclp.OptionAlreadyExistsException.#ctor">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.OptionAlreadyExistsException"/> class.
+            </summary>
+        </member>
+        <member name="M:Fclp.OptionAlreadyExistsException.#ctor(System.String)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.OptionAlreadyExistsException"/> class.
+            </summary>
+            <param name="optionName"></param>
+        </member>
+        <member name="M:Fclp.OptionAlreadyExistsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.OptionAlreadyExistsException"/> class.
+            </summary>
+            <param name="info"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:Fclp.OptionAlreadyExistsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initialises a new instance of the <see cref="T:Fclp.OptionAlreadyExistsException"/> class.
+            </summary>
+            <param name="optionName"></param>
+            <param name="innerException"></param>
+        </member>
+        <member name="T:Fclp.OptionSyntaxException">
+            <summary>
+            Represents an error that has occurred because a Option syntax was in an unexpected format.
+            </summary>
+        </member>
+        <member name="T:Fclp.UnsupportedTypeException">
+            <summary>
+            Represents an error that has occurred because a specified type is unsupported.
+            </summary>
+        </member>
+    </members>
+</doc>

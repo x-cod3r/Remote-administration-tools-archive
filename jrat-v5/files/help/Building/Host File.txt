@@ -1,0 +1,9 @@
+Host File:
+
+Enable: Check this box if you wish to write or edit the victims host file. 
+
+Select Get Local Host File if you wish to load the host file from the machine you are currently using. The host file will load in the window below and you can edit it accordingly. 
+
+You would use this if you wanted to block the victim from going to certain websites, or redirect them from one site to another.
+
+*Please note that some Antivirus programs monitor and will detect unauthorized editing of the hosts file. If you do not wish to enable this option but would like to edit the hosts file at a later time, you can do this through the file manager once you have established connection with the victim. 

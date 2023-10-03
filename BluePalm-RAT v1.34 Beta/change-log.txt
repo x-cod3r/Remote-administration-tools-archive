@@ -1,0 +1,26 @@
+
+*************************************************
+* 	    BluePalm-RAT v1.34 Beta		*
+*	       coded by eXensoft		*
+*						*
+*	      www.BluePalmRAT.tk		*
+*************************************************
+*		   ChangeLog			*
+*************************************************
+
+
+Improved/Extended:
++ Process-Manager: Kill Process & Delete File added
++ Process-Manager: own Server-Process is colored (red)
++ Application-Manager: Version-Info added
+
+New Function:
++ Dropbox-Spreading
++ Service-Manager
++ Bug-Report
++ VBScripting (with code-debugging!)
+
+Fixed Bugs:
++ small GUI changes
++ small bug in passsword-recovers fixed
++ Remote Mouse-Control disabled (temporarily, until function is recoded)

@@ -1,0 +1,14 @@
+When you are adding a socket, also
+known as a port to listen on, you go to
+the sockets tab, which is on the main frame,
+and press add socket.
+
+Then, name the socket something if you want to,
+the default name is "Socket" and some random numbers right to that.
+You select what port to listen on, and the socket timeout,
+which is default 15. <font color="#ff0000">Dont go under 5 seconds</font>
+
+You select what pass and encryption key to use, then press listen and it should start
+listen on that port.
+
+Make sure you add the same values for port , pass and encryption key as you used to create your server . Otherwise your jRat server will not be able to connect to the client .

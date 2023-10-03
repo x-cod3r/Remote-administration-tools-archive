@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/donations__flattr" />
+    <TextView android:textAppearance="@*android:style/TextAppearance.Small" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/donations__flattr_description" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:layout_gravity="center" android:id="@id/donations__flattr_webview" android:visibility="gone" android:scrollbars="none" android:layout_width="65.0dip" android:layout_height="70.0dip" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/donations__loading_frame" android:layout_width="65.0dip" android:layout_height="70.0dip">
+            <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ProgressBar android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <TextView android:textAppearance="@*android:style/TextAppearance.Small" android:autoLink="web" android:layout_gravity="center_vertical" android:id="@id/donations__flattr_url" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

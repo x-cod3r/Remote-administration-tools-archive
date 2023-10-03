@@ -1,0 +1,4 @@
+Upon selecting the computer info tab, 
+a table filled with key data regarding the server's host's PC. 
+The Server ID, RAM, LAN IP and much more will be displayed. 
+From the tab, you have the option to save the data in a file for future reference if needed.

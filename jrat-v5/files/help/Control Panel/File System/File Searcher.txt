@@ -1,0 +1,11 @@
+File Searcher:
+This feature is similar to the file manager option - it 
+allows you to browse the files in the hosting PC. However, 
+using this feature you can search for a specific file or location. 
+When searching, you can either choose the 'clear' option, the 'path contains' 
+option or the 'name contains' option. Path contains will search for a file which 
+is inside a file with the searched phrase - for example searching for 'Orange' and 
+finding the file 'Apple' - which is located in a folder called 'Orange juice'. 
+The name contains will find a file which has the search term inside it, so searching for 
+'Call of Duty' and finding a file called 'Call of Duty Modern Warfare 3'. 
+The clear option will simply clear the desired folder.

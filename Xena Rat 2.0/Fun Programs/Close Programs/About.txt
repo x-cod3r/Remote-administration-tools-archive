@@ -1,0 +1,3 @@
+What it does
+
+Closes open programs every 2 seconds :)

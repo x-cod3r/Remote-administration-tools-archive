@@ -1,0 +1,17 @@
+[Builder]
+IP=127.0.0.1****
+Port=2500
+Password=password
+Filename=orionserver.exe
+Startupname=Server
+Mutex=OrionRATHH?
+ID=Orion RAT User
+Install=0
+Keylogger=0
+Startup=0
+ActiveX=0
+HKCU=0
+Unhook=0
+HideFile=0
+Melt=0
+Persistance=0

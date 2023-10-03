@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="button6">false</item>
+    <item type="id" name="surface_camera">false</item>
+    <item type="id" name="blankImage">false</item>
+</resources>

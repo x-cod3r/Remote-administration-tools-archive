@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0A581F1-D9BE-42EB-B262-E6A7CC839D2B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MLManagementServer</RootNamespace>
+    <AssemblyName>MLManagementServer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SharedCode\Network\NetworkHeaders.cs">
+      <Link>Network\NetworkHeaders.cs</Link>
+    </Compile>
+    <Compile Include="CustomObjects\DownloadingFileInfo.cs" />
+    <Compile Include="CustomObjects\FileBucketInfo.cs" />
+    <Compile Include="CustomObjects\RegistryNodeData.cs" />
+    <Compile Include="Forms\addRegistryKeyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\addRegistryKeyForm.Designer.cs">
+      <DependentUpon>addRegistryKeyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\editRegistryKeyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\editRegistryKeyForm.Designer.cs">
+      <DependentUpon>editRegistryKeyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FileExplorerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FileExplorerForm.Designer.cs">
+      <DependentUpon>FileExplorerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\formClipboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\formClipboard.Designer.cs">
+      <DependentUpon>formClipboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\formConnections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\formConnections.Designer.cs">
+      <DependentUpon>formConnections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\formConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\formConsole.Designer.cs">
+      <DependentUpon>formConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\formDownloadFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\formDownloadFile.Designer.cs">
+      <DependentUpon>formDownloadFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\formFileProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\formFileProperties.Designer.cs">
+      <DependentUpon>formFileProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\formInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\formInput.Designer.cs">
+      <DependentUpon>formInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\formMemoryEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\formMemoryEdit.Designer.cs">
+      <DependentUpon>formMemoryEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\formStartupManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\formStartupManager.Designer.cs">
+      <DependentUpon>formStartupManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RegistryEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RegistryEditorForm.Designer.cs">
+      <DependentUpon>RegistryEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TaskManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TaskManagerForm.Designer.cs">
+      <DependentUpon>TaskManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\ClipboardHandler.cs" />
+    <Compile Include="Handlers\ConnectionsHandler.cs" />
+    <Compile Include="Handlers\ConsoleHandler.cs" />
+    <Compile Include="Handlers\FileExplorerHandler.cs" />
+    <Compile Include="Handlers\MiscHandler.cs" />
+    <Compile Include="Handlers\PingHandler.cs" />
+    <Compile Include="Handlers\RegistryEditorHandler.cs" />
+    <Compile Include="Handlers\StartupManagerhandler.cs" />
+    <Compile Include="Handlers\TaskManagerHandler.cs" />
+    <Compile Include="ServerPlugin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ServerPlugin\ServerPlugin.csproj">
+      <Project>{a663d4c5-bc01-42a6-9c65-52f0524b4ab7}</Project>
+      <Name>ServerPlugin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\addRegistryKeyForm.resx">
+      <DependentUpon>addRegistryKeyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\editRegistryKeyForm.resx">
+      <DependentUpon>editRegistryKeyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FileExplorerForm.resx">
+      <DependentUpon>FileExplorerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\formClipboard.resx">
+      <DependentUpon>formClipboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\formConnections.resx">
+      <DependentUpon>formConnections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\formConsole.resx">
+      <DependentUpon>formConsole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\formDownloadFile.resx">
+      <DependentUpon>formDownloadFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\formFileProperties.resx">
+      <DependentUpon>formFileProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\formInput.resx">
+      <DependentUpon>formInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\formMemoryEdit.resx">
+      <DependentUpon>formMemoryEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\formStartupManager.resx">
+      <DependentUpon>formStartupManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RegistryEditorForm.resx">
+      <DependentUpon>RegistryEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TaskManagerForm.resx">
+      <DependentUpon>TaskManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

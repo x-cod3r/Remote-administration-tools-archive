@@ -1,0 +1,15 @@
+[10:55:42 - 2018/3/28]
+servernicknamed127.0.0.1/127.0.0.1 [ip address] user is online.
+
+[12:02:47 - 2018/3/29]
+usernicknamed127.0.0.1/127.0.0.1 [ip address] user is online.
+
+[12:03:48 - 2018/3/29]
+usernicknamed127.0.0.1/127.0.0.1 [ip address] user is offline.
+
+[12:13:20 - 2018/7/22]
+123nicknamed127.0.0.1/127.0.0.1 [ip address] user is online.
+
+[12:18:52 - 2018/7/22]
+123nicknamed127.0.0.1/127.0.0.1 [ip address] user is offline.
+

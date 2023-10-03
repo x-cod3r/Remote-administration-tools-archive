@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MainSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AutoListen>false</AutoListen>
+  <Notification>true</Notification>
+  <SoundOnConnection>false</SoundOnConnection>
+  <TOS>true</TOS>
+  <UseServerID>true</UseServerID>
+  <UseCountry>false</UseCountry>
+  <UseAnti>false</UseAnti>
+  <Port1>9003</Port1>
+  <Port2>0</Port2>
+  <Port3>0</Port3>
+  <Port4>0</Port4>
+  <Port5>0</Port5>
+</MainSettings>

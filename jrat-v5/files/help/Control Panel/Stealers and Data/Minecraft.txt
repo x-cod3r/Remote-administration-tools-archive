@@ -1,0 +1,2 @@
+Will display the saved minecraft password
+on the server computer

@@ -1,0 +1,26 @@
+The remote screen feature allows 
+you to view the host's screen as if it 
+were your own. You can move around their 
+mouse from your own screen by having the 'Mouse' 
+button clicked - this is located towards the top of the window. 
+If you want to have the ability to use your keyboard on the server - 
+for example modifying what they could be typing into the URL bar at any given time - 
+press the keyboard button. This is placed next to the mouse button on the top panel 
+of the screen. Next to the mouse button, you will notice a drop down box called 'Delay'. 
+This drop down box allows you to set the time between each time that the screen refreshes 
+itself. Next to this there is a drop down box labelled 'Quality'. This is fairly self 
+explanatory, it will allow you to adjust the quality at which the host's screen will be 
+displayed on the window. A lower quality is recommended for 
+slower/limited internet connections. As you continue to move to the right 
+along the top panel, there will be a checkbox labelled 'Progress'. Clicking this will allow you to see how 
+much the host's screen has rendered for you at any given point. On the far left, there are 4 icons, and a save button. 
+The save button will take a snapshot of what is currently 
+being displayed inside of the Window, and will keep 
+it for instant access when needed in a folder of your choice. 
+The play button will begin rendering the host's screen, and the pause button will temporarily stop rendering 
+the screen and will freeze on whatever has been loaded at that point. The red circle - or record button - will allow you to record the 
+host's screen for any amount of time; the footage recorded can then be viewed whenever needed. If you right click the server on the RAT's 
+homescreen, and navigate to quick open, then remote screen, another window will open on top of the standard Remote Screen window. 
+This allows you, if the server is running on a computer with multiple monitors, to select any of the screens rather than just the monitor 
+labelled as 1 by Windows. This Window will also allow you to change the quality of the render, and the interval between loading times like 
+on the main Remote Screen window, too.

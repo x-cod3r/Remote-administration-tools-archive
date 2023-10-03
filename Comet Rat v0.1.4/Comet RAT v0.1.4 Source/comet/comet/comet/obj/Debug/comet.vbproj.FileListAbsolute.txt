@@ -1,0 +1,290 @@
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\comet.exe.config
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\comet.exe
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\comet.pdb
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\comet.xml
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.backconnection.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Cap.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Chatt.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.closeprocess.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form1.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form10.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form11.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form12.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form13.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form14.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form2.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form3.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form4.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form5.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form6.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form7.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form8.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form9.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.fun.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Information.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Install.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.keylogger.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Resources.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Password.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.processmanage.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Reg.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.RemoteShell.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Rgv.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Text_Editor.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.vbproj.GenerateResource.Cache
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.exe
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.xml
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.pdb
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form15.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form16.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form17.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form18.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form19.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form20.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\bin\Debug\comet.exe.config
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.exe
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.xml
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.pdb
+C:\Users\hackeng\Desktop\comet\comet\comet\bin\Debug\comet.exe
+C:\Users\hackeng\Desktop\comet\comet\comet\bin\Debug\comet.pdb
+C:\Users\hackeng\Desktop\comet\comet\comet\bin\Debug\comet.xml
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form1.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form10.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form11.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form12.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form13.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form14.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form15.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form16.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form17.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form18.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form19.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form2.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form20.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form3.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form4.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form5.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form6.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form7.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form8.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form9.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Resources.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.vbproj.GenerateResource.Cache
+C:\Users\hackeng\Desktop\comet\comet\comet\bin\Debug\Interop.SystemMonitor.dll
+C:\Users\hackeng\Desktop\comet\comet\comet\bin\Debug\AxInterop.SystemMonitor.dll
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\Interop.SystemMonitor.dll
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\AxInterop.SystemMonitor.dll
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.vbproj.ResolveComReference.cache
+C:\Users\hackeng\Desktop\comet\comet\comet\bin\Debug\Interop.WMPLib.dll
+C:\Users\hackeng\Desktop\comet\comet\comet\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\Interop.WMPLib.dll
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form21.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form22.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form23.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form24.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form26.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form27.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form28.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form29.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form25.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form38.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form30.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.UDX.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form31.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form34.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form35.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form32.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form36.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form37.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form39.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form33.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\bin\Debug\comet.exe.config
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\Interop.SystemMonitor.dll
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\Interop.WMPLib.dll
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\AxInterop.SystemMonitor.dll
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.vbproj.ResolveComReference.cache
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.exe
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.xml
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.pdb
+C:\Users\Tee Plow\Desktop\comet\comet\comet\bin\Debug\comet.exe
+C:\Users\Tee Plow\Desktop\comet\comet\comet\bin\Debug\comet.pdb
+C:\Users\Tee Plow\Desktop\comet\comet\comet\bin\Debug\comet.xml
+C:\Users\Tee Plow\Desktop\comet\comet\comet\bin\Debug\Interop.SystemMonitor.dll
+C:\Users\Tee Plow\Desktop\comet\comet\comet\bin\Debug\Interop.WMPLib.dll
+C:\Users\Tee Plow\Desktop\comet\comet\comet\bin\Debug\AxInterop.SystemMonitor.dll
+C:\Users\Tee Plow\Desktop\comet\comet\comet\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form27.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form28.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form29.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form25.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form1.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form10.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form11.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form12.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form13.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form14.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form15.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form16.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form17.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form18.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form19.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form2.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form20.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form21.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form22.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form23.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form24.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form26.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form3.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form33.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form4.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form5.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form6.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form7.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form8.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form9.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form38.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form30.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.UDX.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form31.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Resources.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form34.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form35.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form32.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form36.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form37.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.Form39.resources
+C:\Users\Tee Plow\Desktop\comet\comet\comet\obj\Debug\comet.vbproj.GenerateResource.Cache
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.vbprojResolveAssemblyReference.cache
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form40.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form41.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form42.resources
+C:\Users\hackeng\Desktop\comet\comet\comet\obj\Debug\comet.Form43.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\bin\Debug\comet.exe.config
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\Interop.SystemMonitor.dll
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\Interop.WMPLib.dll
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\AxInterop.SystemMonitor.dll
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.vbproj.ResolveComReference.cache
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.exe
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.xml
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.pdb
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\bin\Debug\comet.exe
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\bin\Debug\comet.pdb
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\bin\Debug\comet.xml
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\bin\Debug\Interop.SystemMonitor.dll
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\bin\Debug\Interop.WMPLib.dll
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\bin\Debug\AxInterop.SystemMonitor.dll
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.vbprojResolveAssemblyReference.cache
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form27.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form28.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form29.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form25.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form1.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form10.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form11.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form12.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form13.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form14.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form15.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form16.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form17.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form18.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form19.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form2.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form20.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form21.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form22.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form23.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form24.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form26.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form3.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form33.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form4.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form40.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form41.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form42.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form43.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form5.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form6.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form7.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form8.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form9.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form38.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form30.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.UDX.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form31.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Resources.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form34.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form35.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form32.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form36.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form37.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.Form39.resources
+C:\Users\Tee Plow\Downloads\Compressed\EmptyProject\comet\comet\comet\obj\Debug\comet.vbproj.GenerateResource.Cache
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\bin\Debug\comet.exe.config
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\Interop.SystemMonitor.dll
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\Interop.WMPLib.dll
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\AxInterop.SystemMonitor.dll
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.vbproj.ResolveComReference.cache
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.exe
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.xml
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.pdb
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\bin\Debug\comet.exe
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\bin\Debug\comet.pdb
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\bin\Debug\comet.xml
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\bin\Debug\Interop.SystemMonitor.dll
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\bin\Debug\Interop.WMPLib.dll
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\bin\Debug\AxInterop.SystemMonitor.dll
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.vbprojResolveAssemblyReference.cache
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form27.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form28.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form29.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form25.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form1.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form10.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form11.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form12.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form13.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form14.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form15.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form16.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form17.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form18.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form19.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form2.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form20.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form21.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form22.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form23.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form24.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form26.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form3.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form33.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form4.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form40.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form41.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form42.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form43.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form5.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form6.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form7.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form8.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form9.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form38.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form30.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.UDX.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form31.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Resources.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form34.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form35.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form32.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form36.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form37.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.Form39.resources
+C:\Users\I\Desktop\VB-RAT 2\Comet Rat v0.1.4\comet\comet\comet\obj\Debug\comet.vbproj.GenerateResource.Cache

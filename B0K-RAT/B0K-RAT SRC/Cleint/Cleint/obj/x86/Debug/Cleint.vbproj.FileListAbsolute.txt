@@ -1,0 +1,49 @@
+C:\Users\Alaa\Desktop\Cleint\Cleint\bin\Debug\Cleint.exe
+C:\Users\Alaa\Desktop\Cleint\Cleint\bin\Debug\Cleint.pdb
+C:\Users\Alaa\Desktop\Cleint\Cleint\bin\Debug\Cleint.xml
+C:\Users\Alaa\Desktop\Cleint\Cleint\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alaa\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.Form1.resources
+C:\Users\Alaa\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.Resources.resources
+C:\Users\Alaa\Desktop\Cleint\Cleint\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Alaa\Desktop\Cleint\Cleint\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Alaa\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.exe
+C:\Users\Alaa\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.xml
+C:\Users\Alaa\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.pdb
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\obj\x86\Debug\Cleint.exe
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\obj\x86\Debug\Cleint.xml
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\obj\x86\Debug\Cleint.pdb
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\bin\Debug\Cleint.exe
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\bin\Debug\Cleint.pdb
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\bin\Debug\Cleint.xml
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\obj\x86\Debug\Cleint.Form1.resources
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\obj\x86\Debug\Cleint.Resources.resources
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\obj\x86\Debug\Cleint.vbproj.GenerateResource.Cache
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Cleint\Cleint\obj\x86\Debug\Cleint.Form2.resources
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.exe
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.xml
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.pdb
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.Form1.resources
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.Resources.resources
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.vbproj.GenerateResource.Cache
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\bin\Debug\Cleint.exe
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\bin\Debug\Cleint.pdb
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\bin\Debug\Cleint.xml
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.Report.resources
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.Form2.resources
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.cap.resources
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.Fm.resources
+C:\Users\XaY_Tn\Desktop\Dev-Point\Cleint\Cleint\obj\x86\Debug\Cleint.Form3.resources
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.exe
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.xml
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.pdb
+C:\Users\H\Desktop\Cleint\Cleint\bin\Debug\Cleint.exe
+C:\Users\H\Desktop\Cleint\Cleint\bin\Debug\Cleint.pdb
+C:\Users\H\Desktop\Cleint\Cleint\bin\Debug\Cleint.xml
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.cap.resources
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.Fm.resources
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.Form1.resources
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.Form2.resources
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.Process.resources
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.Report.resources
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.Resources.resources
+C:\Users\H\Desktop\Cleint\Cleint\obj\x86\Debug\Cleint.vbproj.GenerateResource.Cache

@@ -1,0 +1,28 @@
+<html>
+<head></head>
+<body>
+<h2>Thiết bị HTC</h2>
+<p>AdAway không làm việc khi bạn sử dụng thiết bị có tính năng S-ON. Tính năng này có ở trên rất nhiều máy HTC và ngăn cản AdAway ghi dữ liệu vào tệp host.</p>
+
+<h2>S-ON/S-OFF?</h2>
+<p>S-OFF có nghĩa là phần NAND của thiết bị đã mở khoá và có thể ghi đè. Thiết lập mặc định cho các thiết bị HTC là S-ON khiến cho bạn không thể truy xuất khu vực hệ thống và cũng không thể root vĩnh viễn. Hơn nữa, cờ S-ON cũng tham gia vào quá trình kiểm tra chữ ký ảnh firmware.  </p>
+
+<h2>Máy của tôi S-ON hay S-OFF?</h2>
+<p>Boot into the Boot Menu on your device by holding down <i>volume down</i> button while pressing power and the text on top will show the flag status as either S-OFF or S-ON. A full root generally means S-OFF.
+<br/><br/>More information can be found on <a href="http://www.addictivetips.com/mobile/what-is-s-off-how-to-gain-it-on-htc-android-phones-with-unrevoked-forever/">www.addictivetips.com</a>.</p>
+
+<h2>Khắc phục tạm</h2>
+<p>Prerequisite: You have to install a working Android SDK with ADB shell on your PC.
+</p>
+<ol>
+<li>Boot into the Boot Menu on your device by holding down <i>volume down</i> button while pressing power.</li>
+<li>Use <i>volume down</i> to select recovery.</li>
+<li>In clockwork recovery volume down to "partitions menu" and hit the track pad to select</li>
+<li>Select <i>mount /system</i>, <i>mount /sdcard</i> and <i>mount /data</i>.</li>
+<li>Plug in your usb cord and open a command line on your pc.</li>
+<li>Enter adb shell and type<br/><tt>ln -s /data/data/hosts /system/etc/hosts</tt><br/> (This creates a symbolic link, which allows AdAway to edit the hosts file stored in <tt>/data</tt> while allowing the OS to use the file as if it were stored in <tt>/system</tt>.)</li>
+<li>Reboot your device and set <i>Target hosts file</i> to <i>/data/data/hosts</i> in AdAway's preferences.</li>
+<li>AdAway should work now.</li>
+</ol>
+</body>
+</html>

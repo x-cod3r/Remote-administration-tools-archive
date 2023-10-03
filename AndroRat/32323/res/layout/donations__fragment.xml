@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="15.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:isScrollContainer="true">
+        <TextView android:textAppearance="@*android:style/TextAppearance.Small" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/donations__description" />
+        <ViewStub android:id="@id/donations__flattr_stub" android:layout="@layout/donations__fragment_flattr" android:inflatedId="@id/donations__flattr" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/donations__google_stub" android:layout="@layout/donations__fragment_google" android:inflatedId="@id/donations__google" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/donations__paypal_stub" android:layout="@layout/donations__fragment_paypal" android:inflatedId="@id/donations__paypal" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

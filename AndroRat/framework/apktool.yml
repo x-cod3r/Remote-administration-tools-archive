@@ -1,0 +1,12 @@
+version: 1.5.2
+apkFileName: framework.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '8'
+packageInfo:
+  cur_package: my.app.client
+  orig_package: my.app.client
+compressionType: false

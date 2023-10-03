@@ -1,0 +1,8 @@
+<settings>
+  <ListenPort>81</ListenPort>
+  <AutoListen>False</AutoListen>
+  <ShowPopup>False</ShowPopup>
+  <Password>1234</Password>
+  <ShowToU>True</ShowToU>
+  <UseUPnP>False</UseUPnP>
+</settings>

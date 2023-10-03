@@ -1,0 +1,15 @@
+Output:
+
+Here you have the option to select the file type for your jRat server. The following file types are available:
+
+.Jar (Java Archive) 
+.exe (.Net executable)
+Shell Code
+
+.Jar is, as stated above, a Java Archive. The victims computer will have Java installed on their machine in order for this file to run. Most computers do have this, but you occassionally may run into one that does not.
+
+.exe is, an .Net executable. Most users are familiar with this file type. 
+
+Shellcode, is code used as the payload to exploit software vulnerabilities. Commonly used in drive by download attacks. 
+
+You will notice there is a Assembly Info button located next to the .exe option. Click this button to input title, description and other information for the exectuable. 

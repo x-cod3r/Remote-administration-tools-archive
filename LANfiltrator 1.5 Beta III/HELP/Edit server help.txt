@@ -1,0 +1,83 @@
+LANfiltrator Server Builder.
+===============================================================
+How to make a server.
+The 1st thing you need to do is configure the server the way you want, for example port notifications.
+Once you have configured all your settings, you can just build your server by clicking the (build server) button.
+You will see a process window showing the progress of the build.
+
+About the settings
+
+===============================================================
+GENERAL
+===============================================================
+IP/DNS
+This is used for the sin notification. To know more about DNS and what it is used for pleas read the (DNS Redirection.txt) this file should be in the same directory as this file.
+If you would like to know more about the SIN side of things please read the (How The SIN Client works.txt) this file will be in the same dir as well.
+
+Ports
+This is used for configuring your ports. There are 3 ports to configure-- this is only if you want to stray from using the default ports.
+1.	Connection port (This port is used by the client to connect to). Default (999).
+2.	Transfer port (This port is used by the client to Download and upload files from the remote server). Default (888).
+3.	SIN port (This is used by the SIN client (Built in to LANfiltrator client) This will not connect to an IP. Instead it will open a port on your computer and allow the server to connect to you (To know more read the sin client help file)). Default (64241).
+
+Now this is very important to understand. Do not make the Connection port and the Upload and download port the same. 
+If you do this will cause the server to crash and make it useless and a waste.
+
+Password
+This will password protect the server.
+Just a small reminder, the password you enter is case sensitive. 
+So if you password it “CoOl” and you enter “Cool” it will not work. 
+The password needs to be the same as you entered in the Server Builder.
+
+Key Logger
+If you check this box it will just start logging all key strokes made by the servers’ user so when you connect you can just download and view all the logged keys.
+
+===============================================================
+INSTALLATION
+===============================================================
+Names settings.
+This part of the editor will allow you to put your own server name in and the registry key name as well. so the server will install with the application name you selected and will be added in to the registry with the registry key name you put in as well.
+
+Install dir.
+You can select which directory you want the server to install in. Windows or the system directory.
+
+Stealth settings.
+You have the ability to keep the server fully visible on the servers computer or your own, if you would like to test and get familiar with the client settings and surroundings of the Client Application all together.(This will not install the server or add any registry entries).
+The melt option will delete the original file that you sent them. 
+Once run, the original file will be deleted, but not until it has installed itself in to the windows or the system directory, depending on what you selected.
+
+Firewall killer.
+Don’t let the name fool you, it will not kill the firewall, it will just disable it temporarily until the server is shut down remotely or locally.
+It will kill the firewall task so it will not monitor anymore, and leave the server to listen with out conflict. (Not fool proof).
+===============================================================
+NOTIFICATION
+===============================================================
+ICQ
+This notification method will send you a pager to your ICQ client whether it is ICQ itself or a clone like Trillion.
+The server computer doesn’t need to have ICQ installed to send the pager.
+
+CGI
+This is a good alternative to the ICQ pager, sometimes you may have problems with logging in or something like that.
+What you do is basically upload the CGI logging script to a web site; make shoer the web site supports CGI scripting. Then you put the address in the edit box named CGI address.
+Say it’s a netfirms web site then it would look like this.
+http://user.netfirms.com/cgi-bin/RAlog.cgi 
+this supports the black-fire script that can be found at http://www.black-fire.net 
+
+SMS
+Well this uses your ICQ login to send a SMS to your Cell phone.
+How to use.
+Basically just put a UIN number and password in to the selected poxes.
+If your country is not in the list then its possible that you can not get a notification.
+But if you are familiar with this option in the ICQ client then you should already know the limits and boundaries.
+I recommend you sign up for a new account or use a spear UIN.
+You can only send about 40 SMS to your cell phone with one number per day.
+
+===============================================================
+OTHER
+===============================================================
+Icon
+You can change the icon of the server with this option. 
+This is still a bit buggy, so pleas bear with me until I can get all the bugs out of it.
+===============================================================
+
+Now after telling you all this I have put small hints in the Server Builder in the “?” buttons next to the section you are about to edit.

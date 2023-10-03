@@ -1,0 +1,11 @@
+Visibility
+
+Use Tray Icon:  Enable this option only if you wish the server to be visible in the taskbar and system tray. You can set your own icon by clicking the folder button to the right of the Icon field.
+
+If you wish to restore to the default icon, press the Default button. 
+
+Messages:
+
+Here you can customize the connect, disconnect, and title messages for the jRat server. These will be displayed as you connect and disconnect from the jRat server. 
+
+This option comes in handy when installing or testing on your own machine.

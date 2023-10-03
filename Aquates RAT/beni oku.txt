@@ -1,0 +1,6 @@
+OCX hatasý alanlar aquates dll register programýndan
+ocxleri register etmeyi unutmayýn!
+Sorun devam ediyorsa ocxleri system32ye atýp dll registeri birdaha çalýþtýrýn.
+
+
+FUD luðu için jotti, viruscan gibi sitelerde taratmayýn...

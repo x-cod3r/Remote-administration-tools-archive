@@ -1,0 +1,29 @@
+
+ [ LaLa-Rat 1.3 version 1.3]
+
+Remote main function is as follows: 
+
+connecting reverse
+
+
+1, file operations: View remote host disks, folders and files, add / delete folders, delete / operation documents, upload / download files 
+
+2, CMD order: various command line mode of operation 
+
+3, the process of operation: Show host and termination of long-distance running processes 
+
+4, Service Management: View remote host system, start / stop service or drive, the installation / delete services or drive 
+
+5, remote screen: Show Host Remote Desktop 
+
+6, system options: user management system, disconnect / unloading Beikongduan, renewed on / off console, cancellation current users of the system, download documents Operation 
+
+7, Video Show: [version 1.3] in the video control terminal equipment under the premise of Show remote host video screen, they can adjust color video picture quality and resolution 
+
+8, broadcasting function: [version 1.3] Batch download operation, CMD order volume, volume settings and system settings Beikongduan order 
+
+9 keylogging: [version 1.3] can record keyboard records online or offline recording of the write to a file downloading 
+
+10. Voice: [version 1.3], or the two sides of one-way voice conversation eavesdropping 
+
+11. Infection function: [version 1.3] choose to infection mobile disk website network

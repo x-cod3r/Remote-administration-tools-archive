@@ -1,0 +1,9 @@
+Plugins
+-------
+
+This file contains some info about the plugins.
+
+* Once you have uploaded or deleted a plugin click on the 'Check Plugin' to refresh its     status if it has not changed.
+
+* If you find that the plugins are detected too easily simply unpack them with UPX and use a   different compressor.
+

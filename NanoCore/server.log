@@ -1,0 +1,350 @@
+
+Tuesday, 30 June 2015
+
+13:13: Running NanoCore version 1.2.2.0
+13:13: Reading server settings from 'settings.bin'..
+13:13: 
+13:13: Server Exception (LoadSettings):
+13:13: No se pudo encontrar el archivo 'K:\Computer\En\Nanocore\Nanocore 1.2.2.0_Release_NoNetSeal\NanoCore 1.2.2.0_NoNetSeal\NanoCore 1.2.2.0_NoNetSeal\settings.bin'.    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.ReadAllBytes(String path)
+   at EfjrVeSuRKWLdvmMaZ.WUWrHiOerRvYqTGdsj.hCwcM9ghVJXeYqf16RL(Object )
+   at EfjrVeSuRKWLdvmMaZ.WUWrHiOerRvYqTGdsj.ksc0EKXrRx(Object  )
+13:13: 
+13:13: Reading server settings from 'settings.bak'..
+13:13: 
+13:13: Server Exception (LoadSettings):
+13:13: No se pudo encontrar el archivo 'K:\Computer\En\Nanocore\Nanocore 1.2.2.0_Release_NoNetSeal\NanoCore 1.2.2.0_NoNetSeal\NanoCore 1.2.2.0_NoNetSeal\settings.bak'.    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.ReadAllBytes(String path)
+   at EfjrVeSuRKWLdvmMaZ.WUWrHiOerRvYqTGdsj.hCwcM9ghVJXeYqf16RL(Object )
+   at EfjrVeSuRKWLdvmMaZ.WUWrHiOerRvYqTGdsj.ksc0EKXrRx(Object  )
+13:13: 
+13:13: Loading plugin catalog..
+13:13: Failed to open plugin at 'Plugins\AIO.ncp'.
+13:13: Plugin format is obsolete and could not be loaded.    en spvxnb9zhFIg7I4Wp0D.mnXqtm9uPXAlSmHWuox.p4mMPD7k8N(String  )
+13:13: Found plugin 'Core Plugin' v1.0.0.10 at 'Plugins\CorePlugin.ncp'..
+13:13: Found plugin 'Dynamic Update Client' v2.5.0.0 at 'Plugins\DucPlugin.ncp'..
+13:13: Found plugin 'Management Plugin' v1.0.3.1 at 'Plugins\ManagementPlugin.ncp'..
+13:13: Found plugin 'Misc Tools' v1.0.0.0 at 'Plugins\MiscTools.ncp'..
+13:13: Found plugin 'MultiCore' v1.0.0.0 at 'Plugins\MultiCore.ncp'..
+13:13: Failed to open plugin at 'Plugins\NanoBlack.ncp'.
+13:13: Plugin format is obsolete and could not be loaded.    en spvxnb9zhFIg7I4Wp0D.mnXqtm9uPXAlSmHWuox.p4mMPD7k8N(String  )
+13:13: Found plugin 'NanoBrowser' v1.3.0.0 at 'Plugins\NanoBrowser.ncp'..
+13:13: Found plugin 'NanoCoreSwiss' v1.0.0.0 at 'Plugins\NanoCoreSwiss.ncp'..
+13:13: Found plugin 'NanoNana' v1.0.0.0 at 'Plugins\NanoNana.ncp'..
+13:13: Found plugin 'NanoProtect (Leumonic's Mod)' v2.0.0.0 at 'Plugins\NanoProtectPlugin.ncp'..
+13:13: Found plugin 'NanoStress' v1.0.0.0 at 'Plugins\NanoStress.ncp'..
+13:13: Found plugin 'Network Plugin' v1.0.2.0 at 'Plugins\NetworkPlugin.ncp'..
+13:13: Found plugin 'Security Plugin' v1.0.0.0 at 'Plugins\SecurityPlugin.ncp'..
+13:13: Found plugin 'SurveillanceEx Plugin' v1.0.1.7 at 'Plugins\SurveillanceExPlugin.ncp'..
+13:13: Found plugin 'Surveillance Plugin' v1.0.3.0 at 'Plugins\SurveillancePlugin.ncp'..
+13:13: Found plugin 'Tools Plugin' v1.0.0.5 at 'Plugins\ToolsPlugin.ncp'..
+13:13: Failed to open plugin at 'Plugins\VisibleMode1.1.ncp'.
+13:13: Plugin format is obsolete and could not be loaded.    en spvxnb9zhFIg7I4Wp0D.mnXqtm9uPXAlSmHWuox.p4mMPD7k8N(String  )
+13:13: Establishing connection to exchange server..
+13:13: Connected to exchange server.
+13:13: Loading plugin 'Core Plugin' (d4466edc-d84f-f2d0-8dce-eb4345fd8569)..
+13:13: Loading plugin 'Dynamic Update Client' (f90ca46e-2b44-0e3f-d59d-0e71a0ff94a4)..
+13:13: [Dynamic Update Client]: Downloading plugin essentials..
+13:13: [Dynamic Update Client]: Essentials downloaded.
+13:13: [Dynamic Update Client]: Loading client files..
+13:13: [Dynamic Update Client]: Client files loaded successfully!
+13:13: Loading plugin 'Management Plugin' (8e554d9c-a2bd-1b48-e703-c5704de5a7d8)..
+13:13: Loading plugin 'Misc Tools' (d0aba983-d188-e5d9-03fa-ea3df4ea994d)..
+13:13: Loading plugin 'MultiCore' (e3b59f0e-5da9-5656-50ca-3a9c01162011)..
+13:13: Loading plugin 'NanoBrowser' (94caa1be-766d-6a44-a7be-3d14688fc136)..
+13:13: Loading plugin 'NanoCoreSwiss' (46dba22e-b7d5-7204-7d2c-b8de9e767095)..
+13:13: Loading plugin 'NanoNana' (bb1cf52d-d82c-72d9-c259-5c1cb3155589)..
+13:13: Loading plugin 'NanoStress' (a42871f1-7588-a24a-6543-93866f7d582d)..
+13:13: Loading plugin 'Network Plugin' (00592cb9-e09a-3d31-3c36-119998044e3d)..
+13:13: Starting NAT device discovery..
+13:13: Loading plugin 'Security Plugin' (5ff5348d-4be5-ff14-57a4-ee5f523ee6b3)..
+13:13: Loading plugin 'SurveillanceEx Plugin' (2441ccc7-e521-6225-4a86-bbbd0ea9b98f)..
+13:13: Loading plugin 'Surveillance Plugin' (c0ef879c-365c-dde4-7b37-20a8972cbbfb)..
+13:13: Loading plugin 'Tools Plugin' (83d05a36-970f-6690-ed4b-27b89b03c077)..
+13:13: Writing server settings..
+13:13: WindowState = Normal
+13:13: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+
+Tuesday, 30 June 2015
+
+13:14: Running NanoCore version 1.2.2.0
+13:14: Reading server settings from 'settings.bin'..
+13:14: WindowState = 0
+13:14: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+13:14: Loading plugin catalog..
+13:14: Failed to open plugin at 'Plugins\AIO.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en spvxnb9zhFIg7I4Wp0D.mnXqtm9uPXAlSmHWuox.p4mMPD7k8N(String  )
+13:14: Found plugin 'Core Plugin' v1.0.0.10 at 'Plugins\CorePlugin.ncp'..
+13:14: Found plugin 'Dynamic Update Client' v2.5.0.0 at 'Plugins\DucPlugin.ncp'..
+13:14: Found plugin 'Management Plugin' v1.0.3.1 at 'Plugins\ManagementPlugin.ncp'..
+13:14: Found plugin 'Misc Tools' v1.0.0.0 at 'Plugins\MiscTools.ncp'..
+13:14: Found plugin 'MultiCore' v1.0.0.0 at 'Plugins\MultiCore.ncp'..
+13:14: Failed to open plugin at 'Plugins\NanoBlack.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en spvxnb9zhFIg7I4Wp0D.mnXqtm9uPXAlSmHWuox.p4mMPD7k8N(String  )
+13:14: Found plugin 'NanoBrowser' v1.3.0.0 at 'Plugins\NanoBrowser.ncp'..
+13:14: Found plugin 'NanoCoreSwiss' v1.0.0.0 at 'Plugins\NanoCoreSwiss.ncp'..
+13:14: Found plugin 'NanoNana' v1.0.0.0 at 'Plugins\NanoNana.ncp'..
+13:14: Found plugin 'NanoProtect (Leumonic's Mod)' v2.0.0.0 at 'Plugins\NanoProtectPlugin.ncp'..
+13:14: Found plugin 'NanoStress' v1.0.0.0 at 'Plugins\NanoStress.ncp'..
+13:14: Found plugin 'Network Plugin' v1.0.2.0 at 'Plugins\NetworkPlugin.ncp'..
+13:14: Found plugin 'Security Plugin' v1.0.0.0 at 'Plugins\SecurityPlugin.ncp'..
+13:14: Found plugin 'SurveillanceEx Plugin' v1.0.1.7 at 'Plugins\SurveillanceExPlugin.ncp'..
+13:14: Found plugin 'Surveillance Plugin' v1.0.3.0 at 'Plugins\SurveillancePlugin.ncp'..
+13:14: Found plugin 'Tools Plugin' v1.0.0.5 at 'Plugins\ToolsPlugin.ncp'..
+13:14: Failed to open plugin at 'Plugins\VisibleMode1.1.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en spvxnb9zhFIg7I4Wp0D.mnXqtm9uPXAlSmHWuox.p4mMPD7k8N(String  )
+13:14: Establishing connection to exchange server..
+13:14: Connected to exchange server.
+13:14: Loading plugin 'Core Plugin' (d4466edc-d84f-f2d0-8dce-eb4345fd8569)..
+13:14: Loading plugin 'Dynamic Update Client' (f90ca46e-2b44-0e3f-d59d-0e71a0ff94a4)..
+13:14: [Dynamic Update Client]: Loading client files..
+13:14: [Dynamic Update Client]: Client files loaded successfully!
+13:14: Loading plugin 'Management Plugin' (8e554d9c-a2bd-1b48-e703-c5704de5a7d8)..
+13:14: Loading plugin 'Misc Tools' (d0aba983-d188-e5d9-03fa-ea3df4ea994d)..
+13:14: Loading plugin 'MultiCore' (e3b59f0e-5da9-5656-50ca-3a9c01162011)..
+13:14: Loading plugin 'NanoBrowser' (94caa1be-766d-6a44-a7be-3d14688fc136)..
+13:14: Loading plugin 'NanoCoreSwiss' (46dba22e-b7d5-7204-7d2c-b8de9e767095)..
+13:14: Loading plugin 'NanoNana' (bb1cf52d-d82c-72d9-c259-5c1cb3155589)..
+13:14: Loading plugin 'NanoStress' (a42871f1-7588-a24a-6543-93866f7d582d)..
+13:14: Loading plugin 'Network Plugin' (00592cb9-e09a-3d31-3c36-119998044e3d)..
+13:14: Starting NAT device discovery..
+13:14: Loading plugin 'Security Plugin' (5ff5348d-4be5-ff14-57a4-ee5f523ee6b3)..
+13:14: Loading plugin 'SurveillanceEx Plugin' (2441ccc7-e521-6225-4a86-bbbd0ea9b98f)..
+13:14: Loading plugin 'Surveillance Plugin' (c0ef879c-365c-dde4-7b37-20a8972cbbfb)..
+13:14: Loading plugin 'Tools Plugin' (83d05a36-970f-6690-ed4b-27b89b03c077)..
+13:14: Writing server settings..
+13:14: WindowState = Normal
+13:14: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+
+Tuesday, 30 June 2015
+
+13:14: Running NanoCore version 1.2.2.0
+13:14: Reading server settings from 'settings.bin'..
+13:14: WindowState = 0
+13:14: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+13:14: Loading plugin catalog..
+13:14: Failed to open plugin at 'Plugins\AIO.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en C7VrwNPzmQV2JZ16VaZ.w0FfSJPlep6hqEpFdr5.axhMjRecAU(String  )
+13:14: Found plugin 'Core Plugin' v1.0.0.10 at 'Plugins\CorePlugin.ncp'..
+13:14: Found plugin 'Dynamic Update Client' v2.5.0.0 at 'Plugins\DucPlugin.ncp'..
+13:14: Found plugin 'Management Plugin' v1.0.3.1 at 'Plugins\ManagementPlugin.ncp'..
+13:14: Found plugin 'Misc Tools' v1.0.0.0 at 'Plugins\MiscTools.ncp'..
+13:14: Found plugin 'MultiCore' v1.0.0.0 at 'Plugins\MultiCore.ncp'..
+13:14: Failed to open plugin at 'Plugins\NanoBlack.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en C7VrwNPzmQV2JZ16VaZ.w0FfSJPlep6hqEpFdr5.axhMjRecAU(String  )
+13:14: Found plugin 'NanoBrowser' v1.3.0.0 at 'Plugins\NanoBrowser.ncp'..
+13:14: Found plugin 'NanoCoreSwiss' v1.0.0.0 at 'Plugins\NanoCoreSwiss.ncp'..
+13:14: Found plugin 'NanoNana' v1.0.0.0 at 'Plugins\NanoNana.ncp'..
+13:14: Found plugin 'NanoProtect (Leumonic's Mod)' v2.0.0.0 at 'Plugins\NanoProtectPlugin.ncp'..
+13:14: Found plugin 'NanoStress' v1.0.0.0 at 'Plugins\NanoStress.ncp'..
+13:14: Found plugin 'Network Plugin' v1.0.2.0 at 'Plugins\NetworkPlugin.ncp'..
+13:14: Found plugin 'Security Plugin' v1.0.0.0 at 'Plugins\SecurityPlugin.ncp'..
+13:14: Found plugin 'SurveillanceEx Plugin' v1.0.1.7 at 'Plugins\SurveillanceExPlugin.ncp'..
+13:14: Found plugin 'Surveillance Plugin' v1.0.3.0 at 'Plugins\SurveillancePlugin.ncp'..
+13:14: Found plugin 'Tools Plugin' v1.0.0.5 at 'Plugins\ToolsPlugin.ncp'..
+13:14: Failed to open plugin at 'Plugins\VisibleMode1.1.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en C7VrwNPzmQV2JZ16VaZ.w0FfSJPlep6hqEpFdr5.axhMjRecAU(String  )
+13:14: Establishing connection to exchange server..
+13:14: Connected to exchange server.
+13:14: Loading plugin 'Core Plugin' (d4466edc-d84f-f2d0-8dce-eb4345fd8569)..
+13:14: Loading plugin 'Dynamic Update Client' (f90ca46e-2b44-0e3f-d59d-0e71a0ff94a4)..
+13:14: [Dynamic Update Client]: Loading client files..
+13:14: [Dynamic Update Client]: Client files loaded successfully!
+13:14: Loading plugin 'Management Plugin' (8e554d9c-a2bd-1b48-e703-c5704de5a7d8)..
+13:14: Loading plugin 'Misc Tools' (d0aba983-d188-e5d9-03fa-ea3df4ea994d)..
+13:14: Loading plugin 'MultiCore' (e3b59f0e-5da9-5656-50ca-3a9c01162011)..
+13:14: Loading plugin 'NanoBrowser' (94caa1be-766d-6a44-a7be-3d14688fc136)..
+13:14: Loading plugin 'NanoCoreSwiss' (46dba22e-b7d5-7204-7d2c-b8de9e767095)..
+13:14: Loading plugin 'NanoNana' (bb1cf52d-d82c-72d9-c259-5c1cb3155589)..
+13:14: Loading plugin 'NanoStress' (a42871f1-7588-a24a-6543-93866f7d582d)..
+13:14: Loading plugin 'Network Plugin' (00592cb9-e09a-3d31-3c36-119998044e3d)..
+13:14: Starting NAT device discovery..
+13:14: Loading plugin 'Security Plugin' (5ff5348d-4be5-ff14-57a4-ee5f523ee6b3)..
+13:14: Loading plugin 'SurveillanceEx Plugin' (2441ccc7-e521-6225-4a86-bbbd0ea9b98f)..
+13:14: Loading plugin 'Surveillance Plugin' (c0ef879c-365c-dde4-7b37-20a8972cbbfb)..
+13:14: Loading plugin 'Tools Plugin' (83d05a36-970f-6690-ed4b-27b89b03c077)..
+13:14: Writing server settings..
+13:14: WindowState = Normal
+13:14: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+
+Tuesday, 30 June 2015
+
+13:14: Running NanoCore version 1.2.2.0
+13:14: Reading server settings from 'settings.bin'..
+13:14: WindowState = 0
+13:14: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+13:14: Loading plugin catalog..
+13:14: Failed to open plugin at 'Plugins\AIO.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en C7VrwNPzmQV2JZ16VaZ.w0FfSJPlep6hqEpFdr5.axhMjRecAU(String  )
+13:14: Found plugin 'Core Plugin' v1.0.0.10 at 'Plugins\CorePlugin.ncp'..
+13:14: Found plugin 'Dynamic Update Client' v2.5.0.0 at 'Plugins\DucPlugin.ncp'..
+13:14: Found plugin 'Management Plugin' v1.0.3.1 at 'Plugins\ManagementPlugin.ncp'..
+13:14: Found plugin 'Misc Tools' v1.0.0.0 at 'Plugins\MiscTools.ncp'..
+13:14: Found plugin 'MultiCore' v1.0.0.0 at 'Plugins\MultiCore.ncp'..
+13:14: Failed to open plugin at 'Plugins\NanoBlack.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en C7VrwNPzmQV2JZ16VaZ.w0FfSJPlep6hqEpFdr5.axhMjRecAU(String  )
+13:14: Found plugin 'NanoBrowser' v1.3.0.0 at 'Plugins\NanoBrowser.ncp'..
+13:14: Found plugin 'NanoCoreSwiss' v1.0.0.0 at 'Plugins\NanoCoreSwiss.ncp'..
+13:14: Found plugin 'NanoNana' v1.0.0.0 at 'Plugins\NanoNana.ncp'..
+13:14: Found plugin 'NanoProtect (Leumonic's Mod)' v2.0.0.0 at 'Plugins\NanoProtectPlugin.ncp'..
+13:14: Found plugin 'NanoStress' v1.0.0.0 at 'Plugins\NanoStress.ncp'..
+13:14: Found plugin 'Network Plugin' v1.0.2.0 at 'Plugins\NetworkPlugin.ncp'..
+13:14: Found plugin 'Security Plugin' v1.0.0.0 at 'Plugins\SecurityPlugin.ncp'..
+13:14: Found plugin 'SurveillanceEx Plugin' v1.0.1.7 at 'Plugins\SurveillanceExPlugin.ncp'..
+13:14: Found plugin 'Surveillance Plugin' v1.0.3.0 at 'Plugins\SurveillancePlugin.ncp'..
+13:14: Found plugin 'Tools Plugin' v1.0.0.5 at 'Plugins\ToolsPlugin.ncp'..
+13:14: Failed to open plugin at 'Plugins\VisibleMode1.1.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en C7VrwNPzmQV2JZ16VaZ.w0FfSJPlep6hqEpFdr5.axhMjRecAU(String  )
+13:14: Establishing connection to exchange server..
+13:14: Connected to exchange server.
+13:14: Loading plugin 'Core Plugin' (d4466edc-d84f-f2d0-8dce-eb4345fd8569)..
+13:14: Loading plugin 'Dynamic Update Client' (f90ca46e-2b44-0e3f-d59d-0e71a0ff94a4)..
+13:14: [Dynamic Update Client]: Loading client files..
+13:14: [Dynamic Update Client]: Client files loaded successfully!
+13:14: Loading plugin 'Management Plugin' (8e554d9c-a2bd-1b48-e703-c5704de5a7d8)..
+13:14: Loading plugin 'Misc Tools' (d0aba983-d188-e5d9-03fa-ea3df4ea994d)..
+13:14: Loading plugin 'MultiCore' (e3b59f0e-5da9-5656-50ca-3a9c01162011)..
+13:14: Loading plugin 'NanoBrowser' (94caa1be-766d-6a44-a7be-3d14688fc136)..
+13:14: Loading plugin 'NanoCoreSwiss' (46dba22e-b7d5-7204-7d2c-b8de9e767095)..
+13:14: Loading plugin 'NanoNana' (bb1cf52d-d82c-72d9-c259-5c1cb3155589)..
+13:14: Loading plugin 'NanoStress' (a42871f1-7588-a24a-6543-93866f7d582d)..
+13:14: Loading plugin 'Network Plugin' (00592cb9-e09a-3d31-3c36-119998044e3d)..
+13:14: Starting NAT device discovery..
+13:14: Loading plugin 'Security Plugin' (5ff5348d-4be5-ff14-57a4-ee5f523ee6b3)..
+13:14: Loading plugin 'SurveillanceEx Plugin' (2441ccc7-e521-6225-4a86-bbbd0ea9b98f)..
+13:14: Loading plugin 'Surveillance Plugin' (c0ef879c-365c-dde4-7b37-20a8972cbbfb)..
+13:14: Loading plugin 'Tools Plugin' (83d05a36-970f-6690-ed4b-27b89b03c077)..
+13:14: Writing server settings..
+13:14: WindowState = Normal
+13:14: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+
+Tuesday, 30 June 2015
+
+13:14: Running NanoCore version 1.2.2.0
+13:14: Reading server settings from 'settings.bin'..
+13:14: WindowState = 0
+13:14: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+13:14: Loading plugin catalog..
+13:14: Failed to open plugin at 'Plugins\AIO.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en C7VrwNPzmQV2JZ16VaZ.w0FfSJPlep6hqEpFdr5.axhMjRecAU(String  )
+13:14: Found plugin 'Core Plugin' v1.0.0.10 at 'Plugins\CorePlugin.ncp'..
+13:14: Found plugin 'Dynamic Update Client' v2.5.0.0 at 'Plugins\DucPlugin.ncp'..
+13:14: Found plugin 'Management Plugin' v1.0.3.1 at 'Plugins\ManagementPlugin.ncp'..
+13:14: Found plugin 'Misc Tools' v1.0.0.0 at 'Plugins\MiscTools.ncp'..
+13:14: Found plugin 'MultiCore' v1.0.0.0 at 'Plugins\MultiCore.ncp'..
+13:14: Failed to open plugin at 'Plugins\NanoBlack.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en C7VrwNPzmQV2JZ16VaZ.w0FfSJPlep6hqEpFdr5.axhMjRecAU(String  )
+13:14: Found plugin 'NanoBrowser' v1.3.0.0 at 'Plugins\NanoBrowser.ncp'..
+13:14: Found plugin 'NanoCoreSwiss' v1.0.0.0 at 'Plugins\NanoCoreSwiss.ncp'..
+13:14: Found plugin 'NanoNana' v1.0.0.0 at 'Plugins\NanoNana.ncp'..
+13:14: Found plugin 'NanoProtect (Leumonic's Mod)' v2.0.0.0 at 'Plugins\NanoProtectPlugin.ncp'..
+13:14: Found plugin 'NanoStress' v1.0.0.0 at 'Plugins\NanoStress.ncp'..
+13:14: Found plugin 'Network Plugin' v1.0.2.0 at 'Plugins\NetworkPlugin.ncp'..
+13:14: Found plugin 'Security Plugin' v1.0.0.0 at 'Plugins\SecurityPlugin.ncp'..
+13:14: Found plugin 'SurveillanceEx Plugin' v1.0.1.7 at 'Plugins\SurveillanceExPlugin.ncp'..
+13:14: Found plugin 'Surveillance Plugin' v1.0.3.0 at 'Plugins\SurveillancePlugin.ncp'..
+13:14: Found plugin 'Tools Plugin' v1.0.0.5 at 'Plugins\ToolsPlugin.ncp'..
+13:14: Failed to open plugin at 'Plugins\VisibleMode1.1.ncp'.
+13:14: Plugin format is obsolete and could not be loaded.    en C7VrwNPzmQV2JZ16VaZ.w0FfSJPlep6hqEpFdr5.axhMjRecAU(String  )
+13:14: Establishing connection to exchange server..
+13:14: Connected to exchange server.
+13:14: Loading plugin 'Core Plugin' (d4466edc-d84f-f2d0-8dce-eb4345fd8569)..
+13:14: Loading plugin 'Dynamic Update Client' (f90ca46e-2b44-0e3f-d59d-0e71a0ff94a4)..
+13:14: [Dynamic Update Client]: Loading client files..
+13:14: [Dynamic Update Client]: Client files loaded successfully!
+13:14: Loading plugin 'Management Plugin' (8e554d9c-a2bd-1b48-e703-c5704de5a7d8)..
+13:14: Loading plugin 'Misc Tools' (d0aba983-d188-e5d9-03fa-ea3df4ea994d)..
+13:14: Loading plugin 'MultiCore' (e3b59f0e-5da9-5656-50ca-3a9c01162011)..
+13:14: Loading plugin 'NanoBrowser' (94caa1be-766d-6a44-a7be-3d14688fc136)..
+13:14: Loading plugin 'NanoCoreSwiss' (46dba22e-b7d5-7204-7d2c-b8de9e767095)..
+13:14: Loading plugin 'NanoNana' (bb1cf52d-d82c-72d9-c259-5c1cb3155589)..
+13:14: Loading plugin 'NanoStress' (a42871f1-7588-a24a-6543-93866f7d582d)..
+13:14: Loading plugin 'Network Plugin' (00592cb9-e09a-3d31-3c36-119998044e3d)..
+13:14: Starting NAT device discovery..
+13:14: Loading plugin 'Security Plugin' (5ff5348d-4be5-ff14-57a4-ee5f523ee6b3)..
+13:14: Loading plugin 'SurveillanceEx Plugin' (2441ccc7-e521-6225-4a86-bbbd0ea9b98f)..
+13:14: Loading plugin 'Surveillance Plugin' (c0ef879c-365c-dde4-7b37-20a8972cbbfb)..
+13:14: Loading plugin 'Tools Plugin' (83d05a36-970f-6690-ed4b-27b89b03c077)..
+13:14: Writing server settings..
+13:14: WindowState = Normal
+13:14: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+
+Monday, 12 June 2017
+
+02:00: Running NanoCore version 1.2.2.0
+02:00: Reading server settings from 'settings.bin'..
+02:00: WindowState = 0
+02:00: WindowBounds = {X=75,Y=75,Width=703,Height=525}
+02:00: Loading plugin catalog..
+02:00: Failed to open plugin at 'Plugins\AIO.ncp'.
+02:00: Plugin format is obsolete and could not be loaded.    в OQrDxjGzYbFBIZhYELW.aNjtR5GvoQ3vJyyAfSm.YnB1mf9UNc(String  )
+02:00: Found plugin 'Core Plugin' v1.0.0.10 at 'Plugins\CorePlugin.ncp'..
+02:00: Found plugin 'Dynamic Update Client' v2.5.0.0 at 'Plugins\DucPlugin.ncp'..
+02:00: Found plugin 'Management Plugin' v1.0.3.1 at 'Plugins\ManagementPlugin.ncp'..
+02:00: Found plugin 'Misc Tools' v1.0.0.0 at 'Plugins\MiscTools.ncp'..
+02:00: Found plugin 'MultiCore' v1.0.0.0 at 'Plugins\MultiCore.ncp'..
+02:00: Failed to open plugin at 'Plugins\NanoBlack.ncp'.
+02:00: Plugin format is obsolete and could not be loaded.    в OQrDxjGzYbFBIZhYELW.aNjtR5GvoQ3vJyyAfSm.YnB1mf9UNc(String  )
+02:00: Found plugin 'NanoBrowser' v1.3.0.0 at 'Plugins\NanoBrowser.ncp'..
+02:00: Found plugin 'NanoCoreSwiss' v1.0.0.0 at 'Plugins\NanoCoreSwiss.ncp'..
+02:00: Found plugin 'NanoNana' v1.0.0.0 at 'Plugins\NanoNana.ncp'..
+02:00: Found plugin 'NanoProtect (Leumonic's Mod)' v2.0.0.0 at 'Plugins\NanoProtectPlugin.ncp'..
+02:00: Found plugin 'NanoStress' v1.0.0.0 at 'Plugins\NanoStress.ncp'..
+02:00: Found plugin 'Network Plugin' v1.0.2.0 at 'Plugins\NetworkPlugin.ncp'..
+02:00: Found plugin 'Security Plugin' v1.0.0.0 at 'Plugins\SecurityPlugin.ncp'..
+02:00: Found plugin 'SurveillanceEx Plugin' v1.0.1.7 at 'Plugins\SurveillanceExPlugin.ncp'..
+02:00: Found plugin 'Surveillance Plugin' v1.0.3.0 at 'Plugins\SurveillancePlugin.ncp'..
+02:00: Found plugin 'Tools Plugin' v1.0.0.5 at 'Plugins\ToolsPlugin.ncp'..
+02:00: Failed to open plugin at 'Plugins\VisibleMode1.1.ncp'.
+02:00: Plugin format is obsolete and could not be loaded.    в OQrDxjGzYbFBIZhYELW.aNjtR5GvoQ3vJyyAfSm.YnB1mf9UNc(String  )
+02:00: Establishing connection to exchange server..
+02:00: Connected to exchange server.
+02:00: Loading plugin 'Core Plugin' (d4466edc-d84f-f2d0-8dce-eb4345fd8569)..
+02:00: Loading plugin 'Dynamic Update Client' (f90ca46e-2b44-0e3f-d59d-0e71a0ff94a4)..
+02:00: [Dynamic Update Client]: Loading client files..
+02:00: [Dynamic Update Client]: Client files loaded successfully!
+02:00: Loading plugin 'Management Plugin' (8e554d9c-a2bd-1b48-e703-c5704de5a7d8)..
+02:00: Loading plugin 'Misc Tools' (d0aba983-d188-e5d9-03fa-ea3df4ea994d)..
+02:00: Loading plugin 'MultiCore' (e3b59f0e-5da9-5656-50ca-3a9c01162011)..
+02:00: Loading plugin 'NanoBrowser' (94caa1be-766d-6a44-a7be-3d14688fc136)..
+02:00: Loading plugin 'NanoCoreSwiss' (46dba22e-b7d5-7204-7d2c-b8de9e767095)..
+02:00: Loading plugin 'NanoNana' (bb1cf52d-d82c-72d9-c259-5c1cb3155589)..
+02:00: Loading plugin 'NanoStress' (a42871f1-7588-a24a-6543-93866f7d582d)..
+02:00: Loading plugin 'Network Plugin' (00592cb9-e09a-3d31-3c36-119998044e3d)..
+02:00: Starting NAT device discovery..
+02:00: Loading plugin 'Security Plugin' (5ff5348d-4be5-ff14-57a4-ee5f523ee6b3)..
+02:00: Loading plugin 'SurveillanceEx Plugin' (2441ccc7-e521-6225-4a86-bbbd0ea9b98f)..
+02:00: Loading plugin 'Surveillance Plugin' (c0ef879c-365c-dde4-7b37-20a8972cbbfb)..
+02:00: Loading plugin 'Tools Plugin' (83d05a36-970f-6690-ed4b-27b89b03c077)..
+02:00: NAT device discovery completed.
+02:07: Server has begun binding to port 54984
+02:07: Server has begun listening on port 54984
+02:08: 
+02:08: Server Exception (LoadThemeSettings):
+02:08: Access to the path 'C:\Users\MASTER\Desktop\NanoCore 1.2.2.0_Fixed_Cracked By Alcatraz3222\Resources\Themes' is denied.    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrlDelegate(Object xmlResolver)
+   at System.Threading.CompressedStack.runTryCode(Object userData)
+   at System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(TryCode code, CleanupCode backoutCode, Object userData)
+   at System.Threading.CompressedStack.Run(CompressedStack compressedStack, ContextCallback callback, Object state)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at amN3fWBy5qlkueYZcu.Uq7378U2mjTNN2NrmB.Q334P2Ei32Cy3kOvnkQ(Object , Object )
+   at amN3fWBy5qlkueYZcu.Uq7378U2mjTNN2NrmB.txA65mB1kt()
+02:08: 
+02:09: Writing server settings..
+02:09: WindowState = Normal
+02:09: WindowBounds = {X=1008,Y=14,Width=665,Height=928}
+02:09: LastSelectedTab = Community Poll
+02:09: NavigationOrientation = Vertical
+02:09: Theme = Venom

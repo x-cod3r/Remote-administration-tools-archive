@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="donations__google_android_market_promt_array">
+        <item>1 euro</item>
+        <item>2 euroa</item>
+        <item>3 euroa</item>
+        <item>5 euroa</item>
+        <item>8 euroa</item>
+        <item>13 euroa</item>
+    </string-array>
+    <string-array name="pref_apply_method_entries">
+        <item>/system/etc/hosts</item>
+        <item>/data/data/hosts</item>
+        <item>Custom target</item>
+    </string-array>
+</resources>

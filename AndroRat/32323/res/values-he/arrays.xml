@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="donations__google_android_market_promt_array">
+        <item>יורו 1</item>
+        <item>2 יורו</item>
+        <item>3 יורו</item>
+        <item>5 יורו</item>
+        <item>8 יורו</item>
+        <item>13 יורו</item>
+    </string-array>
+    <string-array name="pref_apply_method_entries">
+        <item>/system/etc/hosts</item>
+        <item>/data/data/hosts</item>
+        <item>יעד מותאם אישית</item>
+    </string-array>
+</resources>

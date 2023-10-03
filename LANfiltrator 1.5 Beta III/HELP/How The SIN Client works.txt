@@ -1,0 +1,18 @@
+How SIN Client works.
+
+Well once you send the server to a remote computer that is on a LAN you will need to open and start the SIN client, it’s basically your ordinary SIN notification Client were all the servers will connect and you get the relative information to connect to the remote computer.
+
+Now to start the client you just need to click the Button named (Start Client).
+Once that is finished just sit back and wait for your servers to connect to the client, you should receive there IP, connection type, windows version, and the time they connected.
+Now remember if you have a server that is on a LAN or Router you will need this as one of the notification methods. 
+The client will auto detect wither the server is on a LAN, Router, Proxy or Dialup, so all you have to do is double click and the client will do the rest for you.
+
+Remember you need to put you IP or a DNS address in the IP section of the edit server so the SIN Notification will work.
+
+Ok once you see the remote computer the you wont to connect to then just double click on them to connect, there is a small delay but that is just to make shore that the server you won’t to connect to is the right one, there maybe a case were you may have maybe 5 or 6 servers connected to the quarantine.
+
+If you connected the memo should clear and a message should appear.
+
+You can keep the SIN client open so if you see a more important computer come on line then you can disconnect and connect to them. 
+By default the information you need to connect to the server is auto put in to the necessary places when you double click to connect to the remote computer. 
+Don’t worry if you forget to disconnect from you current computer because it will automatically disconnect for you before reconnecting to the new remote computer.

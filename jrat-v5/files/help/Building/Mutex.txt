@@ -1,0 +1,6 @@
+Mutex (Only allow one instance)
+
+Enable Mutex: Select this option to ensure that only one instance of the server is allowed to connect. This will create a socket at the selected port and occupy it thus preventing dual connections.
+
+Mutex Port: Default is 1334. Select the port you wish to use, it is a good idea to use a port that is rarely used. To randomly select a port, select the arrows button to the right of this field to generate a random port number. 
+

@@ -1,0 +1,7 @@
+BUG
+
+Exception EOleSyssError in module XtremeRAT.exe at .......
+
+Solution:
+
+Install flas player whit Internet Explorer.

@@ -1,0 +1,12 @@
+Copy to USB:
+
+Copy to USB drives: Select this option if you wish the server to copy itself to USB drives on the remote machine. This can be useful for spreading the server to other machines.
+
+Exclude drives: Select drives to be excluded. Usually C:\ & D:\ As these drive letters are often assigned to hard disk drives and CD/DVD drives. 
+
+Will copy itself to all drives on the computer
+
+Name in drive: Select what you wish the jRat server to name itself on the drives.
+
+*Note: Make sure you have write permission on the usb drives prior to using this option.
+

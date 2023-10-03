@@ -1,0 +1,26 @@
+PEST V4 Remote Administration Tool
+
+Version v4.0 notes:
+
+Windows XP Compatibility -
+The client works perfectly on Windows XP, but
+there are still issues on systems running the server under windows XP. 
+The older XP servers seem only to work under 'laboratory' (ie. Test) 
+conditions. The server is unresponsive when people come to use it.
+Most systems report a error with enumerating passwords cache, and 
+mpr.dll error. I am working on this, and ill post updates on the site
+to keep you up to date with the XP server development.
+
+Windows 2000/ME Compatibility -
+The server works fine on 2000 and ME until the server user attempts to 
+shutdown the system. The system usually haults at this point.
+To allow the machine to shutdown correctly, you will need to remove
+the server from the machine (refer to server removal in the help file).
+
+Keylogger updates:
+The keylogger should now be case sensitive. The changes where 
+completly server-side, so the clients keylogger functions actually 
+remain intact (for backward compatibility).
+
+Thanks for using PEST!
+http://www.pesty.cjb.net

@@ -1,0 +1,36 @@
+<settings>
+  <Hostname>127.0.0.1</Hostname>
+  <ListenPort>81</ListenPort>
+  <Password>1234</Password>
+  <Delay>5000</Delay>
+  <Mutex>ZAs0BvYQ4La2FZCyZ8NIFw0Q23T4vkEi</Mutex>
+  <InstallClient>False</InstallClient>
+  <InstallName>
+  </InstallName>
+  <InstallPath>1</InstallPath>
+  <InstallSub>
+  </InstallSub>
+  <HideFile>False</HideFile>
+  <AddStartup>False</AddStartup>
+  <RegistryName>
+  </RegistryName>
+  <AdminElevation>False</AdminElevation>
+  <ChangeIcon>False</ChangeIcon>
+  <ChangeAsmInfo>False</ChangeAsmInfo>
+  <ProductName>
+  </ProductName>
+  <Description>
+  </Description>
+  <CompanyName>
+  </CompanyName>
+  <Copyright>
+  </Copyright>
+  <Trademarks>
+  </Trademarks>
+  <OriginalFilename>
+  </OriginalFilename>
+  <ProductVersion>
+  </ProductVersion>
+  <FileVersion>
+  </FileVersion>
+</settings>

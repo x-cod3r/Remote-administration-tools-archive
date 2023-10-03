@@ -1,0 +1,63 @@
+Author: Intervention
+
+---------------------------------
+----Dns Redirection Explained----
+---------------------------------
+
+Ok, lets take a look at what dns redirection is, and why anyone would use it.
+First of all, whenever you connect to the internet, you're assigned an
+ip address by your isp, USSUALLY you get a diffrent one everytime, this
+system is called Dynamic IP allocation.
+So summarized, everytime you connect to the internet, you get a diffrent
+ip address.
+
+SOME people are lucky enough to be assigned the same IP address everytime.
+This system is called Static IP allocation, lots of cable and adsl providers let you have a dynamic IP.
+Summarized: You always have the same IP address. (and you dont need to read on)
+
+Most trojans work on a very simple concept:
+You, the client, connect to a server/trojan, the victim.
+
+Lanfiltrator works in a diffrent way, (explained in another text file included in the help folder).
+The server connects to the client.
+
+Now, for the server to connect to you, it needs to know your ip address, and since you have a
+dynamic ip address, it constantly changes and this is going to be a problem.
+
+This is where DNS redirection comes in.
+
+It allows you to bind your IP address, whether it changes or not, to a never-changing
+hostname, like inter.mine.nu
+These hostnames are offered free of charge by companies like
+
+http://www.mine.nu/
+http://www.no-ip.com/
+
+So that anyone connecting to this hostname will be redirected to your real ip address.
+
+Now you may ask, How does no-ip.com know what my real IP address is, and redirect to it?
+Well, for no-ip to know your ip address you have to run its client software.
+The client software 'pings' the no-ip database every 10 minutes with your real ip address.
+So that whenever someone connects to your domain, dns2go will ask its database for you ip address.
+
+
+-----------------------------------
+----How to use DNS redirection?----
+-----------------------------------
+
+Well, firstly, you'll need to download the client software from one of the aforementioned
+companies, I prefer http://www.no-ip.com/.
+
+After you've downloaded and installed the client, you'll need to sign up for a free account.
+Once you've done that you just fill in that domain name, eg: inter.no-ip.com
+whenever LanFiltrator asks for your IP address :)
+
+Keep in mind that you have to run the client whenever you want to activate the DNS redirection, 
+cause the client will update your IP address on the dns2go database.
+
+I hope this little help file has enlightened you ;)
+If not, you can contact me with ICQ on 135551432 or linc@gmx.net.
+
+Ciao,
+Intervention
+

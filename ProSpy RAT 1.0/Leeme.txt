@@ -1,0 +1,6 @@
+Los puertos que usa son 5001 y 8080
+
+Usa el server_builder para crear servidores con tu no-ip/IP
+
+
+...:::Upload By KzHacker:::...

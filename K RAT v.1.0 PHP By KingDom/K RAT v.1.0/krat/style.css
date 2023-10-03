@@ -1,0 +1,316 @@
+body {
+    background: url("image/background.jpg") no-repeat center top #252525;
+    margin: 0; padding: 0;
+}
+.main{
+	width : 500px;
+	margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255,255,255,0.5);
+    position: relative;
+    top: 50px;
+    height: 230px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+    text-align: center;
+}
+.text input {
+    padding: 8;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 3px 0px 0px rgba(104,33,122,0.2);
+    width: 400px;
+}
+.btn a:hover {
+    color: rgba(255,255,255,0.5);
+    text-shadow: 1px 1px 0px #373737;
+}
+.btn a {
+    text-decoration: none;
+    color: #373737;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+    transition: 2s all;
+}
+.btn input {
+    border-style: none;
+    padding: 7;
+    width: 140px;
+}
+.fr {
+    background: rgba(0,0,0,1);
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    padding: 4 0;
+    width: 100%;
+    height: 18px;
+    left: 0;
+}
+.fr .inside {
+    width: 99%;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: 6px;
+}
+.fr .inside a:hover {
+    color: rgba(255,255,255,0.5);
+    text-shadow: 1px 1px 0px #373737;
+}
+.fr .inside a {
+    text-decoration: none;
+    color: #373737;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+    transition: 2s all;
+}
+.fr .inside hr {
+    background: rgba(255,255,255,0.2);
+    height: 1px;
+    border-style: none;
+}
+.suc {
+    padding: 10;
+    background-color: rgba(193,222,121,1);
+    position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+}
+.err {
+    text-align: center;
+    padding: 10;
+    background-color: rgba(255,115,121,1);
+    position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    border-radius: 8px;
+    width: 50%;
+}
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+}
+.menu {
+    text-align: center;
+    padding: 10;
+    background-color: rgba(157,157,157,1);
+    border-radius: 5px;
+    position: relative;
+    margin-left: auto; margin-right: auto;
+    top: 20px;
+    width: 60%;
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.5);
+    z-index: 2;
+}
+.menu a {
+    text-decoration: none;
+    padding: 5px 25px;
+    color: white;
+    background-color: rgba(80,80,80,1);
+    border-radius: 5px;
+    transition: 1s all;
+}
+.menu a:hover {
+    background-color: rgba(40,40,40,1);
+    color: rgba(157,157,157,1);
+}
+.Users {
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+    position: relative;
+    top: 40px;
+}
+table {
+    border-style: none;
+    border: 1px solid black;
+    border-spacing: 2px;
+}
+table td {
+    color: white;
+    border-radius: 5px;
+}
+table td:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+table td , th {
+    text-align: center;
+    border: 1px solid black;
+}
+.Page {
+    background-color: rgba(0,0,0,0.2);
+    display: table;
+    padding: 5 30;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(255,255,255,0.2);
+    margin-left: auto; margin-right: auto;
+}
+.Page h {
+    color: white;
+}
+.Page a {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    background-color: rgba(80,80,80,0.4);
+    border-radius: 2px;
+    transition: 1s all;
+}
+.Page a:hover {
+    background-color: rgba(40,40,40,1);
+    color: rgba(157,157,157,1);
+}
+td a {
+    text-decoration: underline;
+    padding: 2px 5px;
+    color: white;
+    background-color: rgba(80,80,80,0.4);
+    border-radius: 2px;
+    transition: 1s all;
+}
+td a:hover {
+    background-color: rgba(40,40,40,1);
+    color: rgba(157,157,157,1);
+}
+.command {
+    background: rgba(255,255,255,0.5);
+    margin-left: auto; margin-right: auto;
+    padding: 5;
+    text-align: center;
+    border-radius: 5px;
+}
+.command .line {
+    position: relative;
+    top: 10px;
+    margin-bottom: auto; margin-left: auto; margin-right: auto; margin-top: auto;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    text-align: left;
+    background-color: rgba(80,80,80,0.4);
+    border-radius: 2px;
+    transition: 1s all;
+}
+.command .line:hover {
+    background-color: rgba(40,40,40,1);
+    color: rgba(157,157,157,1);
+}
+.command .line a {
+    text-decoration: none;
+    color: white;
+    transition: 1s all;
+}
+.command .line input[type="text"] {
+    border-style: none;
+    width: 80%;
+    padding: 5;
+    border-radius: 5px;
+}
+.command .line input[type="submit"] {
+    border-style: none;
+    width: 9%;
+    padding: 4;
+    border-radius: 5px;
+}
+.sended {
+    background-color: rgba(157,157,157,1);
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255,255,255,0.2);
+}
+.sended input[type="text"] {
+    padding: 5px;
+    border-style: none;
+    border-radius: 4px;
+    width: 70%;
+}
+.sended input[type="submit"] {
+    padding: 5px;
+    border-style: none;
+    border-radius: 4px;
+    width: 15%;
+    cursor: pointer;
+    transition: 1s all;
+}
+.sended input[type="submit"]:hover {
+    opacity: 0.5;
+}
+.cMain {
+    padding: 20;
+    background-color: rgba(157,157,157,1);
+    position: relative;
+    top: 50px;
+    width: 60%;
+    margin-left: auto; margin-right: auto;
+    border-radius: 5px 10px 5px 10px;
+}
+.cMain .cle {
+    background-color: white;
+    font-family: Tahoma;
+    font-size: 14px;
+    border-radius: 10px 5px 10px 5px;
+    border: 1px solid black;
+}
+.cMain .Cle .title {
+    border-bottom: 1px solid black;
+    border-radius: 10px 5px 0px 0px;
+    color: black;
+    background-color: rgba(157,157,157,0.4);
+    padding: 5px;
+}
+.cMain .Cle .title h {
+    color: #577ec5;
+}
+.cMain .Cle .body h {
+    color: #b6cef9;
+    text-shadow: 1px 1px 0px rgba(255,255,255,0.2);
+}
+.cMain .Cle .body {
+    border-radius: 0px 0px 10px 5px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 5px;
+}
+.about {
+    padding: 20;
+    background-color: rgba(157,157,157,1);
+    position: relative;
+    top: 50px;
+    width: 60%;
+    margin-left: auto; margin-right: auto;
+    border-radius: 5px 10px 5px 10px;
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+.about h {
+    color: #7798d5;
+    text-shadow: 1px 1px 3px rgba(50,50,50,1);
+}
+.about .m {
+    padding: 15px;
+    background-color: rgba(0,0,0,0.3);
+    border-left: 2px solid #b6cef9;
+    border-radius: 10px 5px 10px 5px;
+}
+.about .ico {
+    position: absolute;
+    display: table;
+    left: 94%;
+    font-size: 50px;
+    bottom: 20px;
+    color: rgba(255,255,255,0.5);
+}

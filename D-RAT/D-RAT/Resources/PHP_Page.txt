@@ -1,0 +1,13 @@
+<?php
+$con=mysqli_connect("|H|","|U|","|P|","|DB|");
+// Check connection
+if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+$result = mysqli_query($con,"SELECT * FROM IP_updater");
+while($row = mysqli_fetch_array($result)) {
+  echo $row['New_IP'];
+  header("Location: http://" . $row['New_IP']);
+}
+mysqli_close($con);
+?>

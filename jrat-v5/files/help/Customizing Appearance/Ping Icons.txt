@@ -1,0 +1,7 @@
+You can customize the ping icons that will be shown
+
+By default, you can choose between circles, and normal icons.
+These can be changed by replacing the file range ping0.png to ping5.png
+in the Client.jar archive when it is not running, in the 
+/com/redpois0n/icons folder.
+and replacing it with the files to your liking.

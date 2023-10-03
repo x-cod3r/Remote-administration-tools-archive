@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+D-RAT
+</name>
+</assembly>
+<members>
+<member name="P:D_RAT.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:D_RAT.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:D_RAT.My.Resources.Resources.DB">
+	<summary>
+  Looks up a localized string similar to -- phpMyAdmin SQL Dump
+-- version 4.1.6
+-- http://www.phpmyadmin.net
+--
+-- Client :  127.0.0.1
+-- Généré le :  Mer 16 Juillet 2014 à 20:18
+-- Version du serveur :  5.6.16
+-- Version de PHP :  5.5.9
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Base de do [rest of string was truncated]";.
+</summary>
+</member><member name="P:D_RAT.My.Resources.Resources.PHP_Page">
+	<summary>
+  Looks up a localized string similar to &lt;?php
+$con=mysqli_connect("|H|","|U|","|P|","|DB|");
+// Check connection
+if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+$result = mysqli_query($con,"SELECT * FROM IP_updater");
+while($row = mysqli_fetch_array($result)) {
+  echo $row['New_IP'];
+  header("Location: http://" . $row['New_IP']);
+}
+mysqli_close($con);
+?&gt;.
+</summary>
+</member><member name="T:D_RAT.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

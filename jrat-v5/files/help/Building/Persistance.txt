@@ -1,0 +1,5 @@
+Registry Persistance:
+
+Enable Startup Persistance: Check this option if you wish the server to verify the registry start up is still entered. You can set it to do this periodically by entering the amount of seconds in the Checking Interval field.
+
+Checking interval: Set the amount of seconds you wish the server to check registry for it's startup. 

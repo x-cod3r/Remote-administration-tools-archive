@@ -1,0 +1,14 @@
+General:
+
+This is your starting point when building your jRat Server. 
+
+Security Password: Input the desired password for your server. Keep this password as you may need it in the future.
+
+Encryption Key: Input the desired Encryption Key. This can be anything you would like but must be 24 Characters in length. As with the security password be sure to to keep this incase you must reconfigure your client. Press the ! button for more information. You can generate a random encryption key by clicking the arrows button below this field.
+
+Show Password: This button will show the password you have entered in the Security Password Field. Use this button to verify you have entered the desired password. 
+
+Server ID: Input the desired Server ID. This will be the name displayed under Server ID in the jRat Client. 
+
+Please Note: You will need to enter the exact same Security Password and Ecryption key in the listen settings in the jRat Client. 
+

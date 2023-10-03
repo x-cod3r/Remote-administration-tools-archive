@@ -1,0 +1,14 @@
+0.2
+	-Functionality Updates
+	-Among code writes, added auto-update feature for dropper to download most recent Splinter implant version and reach out to connect to Controller using -i
+	
+0.1
+	-Functionality Updates
+	-Added update subroutines for Splinter - RAT
+	-Added update subroutines for Aardvark
+	-Work still in progress
+
+0.0
+	-Initial BETA creation
+	-Base download and launch created for Splinter RAT GUI instance only
+	-More development to come...

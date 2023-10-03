@@ -1,0 +1,36 @@
+How to Use LANfiltrator on some one that is on a LAN, WAN, Proxy, or Router.
+
+Ok 1st what does LAN & WAN mean.
+
+LAN
+A local area network (LAN) is a group of computers and associated devices that share a common communications line and typically share the resources of a single processor or server within a small geographic area (for example, within an office building). Usually, the server has applications and data storage that are shared in common by multiple computer users. A local area network may serve as few as two or three users (for example, in a home network) or many as thousands of users
+
+WAN
+A wide area network (WAN) is a geographically dispersed telecommunications network. The term distinguishes a broader telecommunication structure from a local area network (). A wide area network may be privately owned or rented, but the term usually connotes the inclusion of public (shared user) networks. An intermediate form of network in terms of geography is a metropolitan area network (MAN).
+
+Proxy
+
+In an enterprise that uses the Internet, a proxy server is a server that acts as an intermediary between a workstation user and the Internet so that the enterprise can ensure security, administrative control, and caching service. A proxy server is associated with or part of a gateway server that separates the enterprise network from the outside network and a firewall server that protects the enterprise network from outside intrusion.
+
+Router.
+
+On the Internet, a router is a device or, in some cases, software in a computer, that determines the next network point to which a packet should be forwarded toward its destination. The router is connected to at least two networks and decides which way to send each information packet based on its current understanding of the state of the networks it is connected to. A router is located at any gateway (where one network meets another), including each Internet point-of-presence. A router is often included as part of a network switch.
+A router may create or maintain a table of the available routes and their conditions and use this information along with distance and cost algorithms to determine the best route for a given packet. Typically, a packet may travel through a number of network points with routers before arriving at its destination. Routing is a function associated with the Network layer (layer 3) in the standard model of network programming, the Open Systems Interconnection (OSI) model. A layer-3 switch is a switch that can perform routing functions.
+
+If you would like to know more about these things go to www.whatis.com.
+
+Ok, now you know all that crap, this is how you connect to a computer that is behind a router, proxy, or LAN.
+
+The most important thing you need to have is SIN notification enabled in the server, and an IP or a DNS address in the edit box  of the server builder (Must be a valid IP or DNS to work).
+The server will resolve the DNS address to an IP for the SIN notification.
+The SIN socket in the server will connect to that IP. If you have a dynamic IP then please read the (DNS Redirection.txt) in the help folder, this will help you to understand how to combat the dynamic IP problem that most dialups have.
+
+Once you have the sin notification all set up and working, then all you need to do is double click on the Remote server you want to connect to in the SIN client List, and the client will do the rest for you.
+
+(A small hint if you don’t know anything about SIN notification and how it works.)
+In the IP/DNS section put the IP “127.0.0.1” with out the “” of course.
+127.0.0.1 Is a loop back IP which is for your computer. Once you have that put in and the server built then run the server- visible if you like- and open the sin client and wait until you see something pop up in the list. It takes about 10 to 15 seconds to start working on installation including a visible one.
+Keep doing this until you have it down pat and are confident enough to start using it as your standard notification.
+
+If you are on a LAN or WAN then you can not use this method of notification unless you are going to use it in the LAN or WAN you are connected to.
+You need to be directly connected to the net to receive the notification.

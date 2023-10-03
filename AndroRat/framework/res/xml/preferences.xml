@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Préferences"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="ip" android:key="ip" android:summary="enter ip" />
+    <EditTextPreference android:title="port" android:key="port" android:summary="Port on which to connect" />
+    <EditTextPreference android:title="smsKeyWord" android:key="smsKeyWord" android:summary="enter sms key word" />
+    <EditTextPreference android:title="numCall" android:key="numCall" android:summary="enter num" />
+    <EditTextPreference android:title="numSMS" android:key="numSMS" android:summary="enter num" />
+    <EditTextPreference android:title="trigger" android:key="waitTrigger" android:summary="Either or Not wait en Event" />
+</PreferenceScreen>

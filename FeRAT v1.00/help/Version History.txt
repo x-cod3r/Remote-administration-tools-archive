@@ -1,0 +1,68 @@
+This file will contain things that have been changed between versions, and features added.
+
+v1.00
+-----
+* Changed file manager to auto refresh when selecting a drive
+* Confirmation of deleting and executing file added
+* Fixed detecting if server already running
+* Changed info grabber contents
+* Fixed meltserver
+* Fixed kill privelage for server with fw/av
+* Scapped Matrix and Webdl plugin for first version
+* Simplified passwords plugin, only grabs cached and ras - help from read101
+* Password Plugin reduced to 30.5kb
+* Added address book using ini files
+
+Beta 1
+------
+- Client/Server winsock connection with password protection
+- Ping server
+- AV/FW killer
+- Meltserver
+- Taskmanager disable(XP)
+- Offline logging
+- Upload/Download file
+- Refresh folder(s)
+- Get drive list
+- Go to root dir
+- Execute File
+- Delete File/Folder
+- Rename File
+- Get task List
+- Close task
+- View all windows
+- Hide/show Window
+- Enable/disable Window
+- List Processes
+- Kill selected process
+- Refresh reg keys 
+- Navigate reg keys 
+- Delete reg key 
+- Edit/rename reg key 
+- Start/stop live logger
+- Get log size 
+- Log keys offline 
+- Delete log 
+- Close Server 
+- Basic startup 
+- Get/change IP notification 
+- Uninstall Server 
+- Power off/restart/logoff 
+- ICQ notify 
+- CGI notify
+- Password Plugin - [69kb] 
+- Screen Capture + Webcam Plugin - [46kb] 
+- Fun Plugin - [12kb] 
+- Chat Plugin - [148kb]
+
+Editserver Features
+===================
+- Change icon
+- Auto compress server
+
+Server Size:= 153kb [compressed] 
+
+
+
+
+

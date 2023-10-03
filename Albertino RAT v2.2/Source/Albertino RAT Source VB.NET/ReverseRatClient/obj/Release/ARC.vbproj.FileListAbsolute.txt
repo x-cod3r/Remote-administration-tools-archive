@@ -1,0 +1,11 @@
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\bin\Release\ARC.exe
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\bin\Release\ARC.pdb
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Release\About.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Release\Frm.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Release\imagepreview.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Release\INFO.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Release\Resources.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Release\ARC.vbproj.GenerateResource.Cache
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Release\ARC.exe
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Release\ARC.pdb

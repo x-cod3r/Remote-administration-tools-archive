@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Theme>
+  <Color name="BackColor">#181818</Color>
+  <Color name="AccentColor">gold</Color>
+  <Color name="OverlayColor">8,8,8</Color>
+  
+  <Color name="Widget.Text.Color">90,90,90</Color>
+  <Color name="Widget.AccentText.Color">135,135,135</Color>
+
+  <Color name="Navigator.Item.Color">#303030</Color>
+  <Color name="Navigator.Item.HoverColor">#3B6981</Color>
+  <Color name="Navigator.Item.SelectedColor">#2F5366</Color>
+  <Color name="Navigator.Text.Color">255,255,255</Color>
+  <Color name="Navigator.Text.HoverColor">255,255,255</Color>
+  <Color name="Navigator.Text.SelectedColor">255,255,255</Color>
+  <Color name="Navigator.Arrow.Color">#474747</Color>
+  <Color name="Navigator.Arrow.HoverColor">#5292B2</Color>
+  <Color name="Navigator.Arrow.SelectedColor">#467D99</Color>
+  <Color name="Navigator.Separator.Color">#181818</Color>
+  <Color name="Navigator.DropDown.Item.Color">#303030</Color>
+  <Color name="Navigator.DropDown.Item.HoverColor">#595959</Color>
+  <Color name="Navigator.DropDown.Text.Color">255,255,255</Color>
+  <Color name="Navigator.DropDown.BorderColor">#181818</Color>
+  
+  <Color name="Paginator.Tab.Color">#303030</Color>
+  <Color name="Paginator.Tab.SelectedColor">#595959</Color>
+</Theme>

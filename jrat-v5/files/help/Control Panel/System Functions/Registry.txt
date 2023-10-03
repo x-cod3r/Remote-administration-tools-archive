@@ -1,0 +1,8 @@
+On clicking the 'Registry' option on the jRAT control panel, 
+a window labelled 'Registry' will appear. This window grants 
+you access to the host's registry.
+
+You can edit, write, delete, and run custom reg queries on
+the server as if you were using regedit directly.
+
+Windows only.

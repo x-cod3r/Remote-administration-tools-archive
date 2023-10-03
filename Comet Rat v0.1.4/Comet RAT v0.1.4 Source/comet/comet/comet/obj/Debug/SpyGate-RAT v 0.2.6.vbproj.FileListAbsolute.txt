@@ -1,0 +1,239 @@
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.exe
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.pdb
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.xml
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form1.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Resources.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbproj.GenerateResource.Cache
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.exe
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.xml
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.pdb
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form2.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form3.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form5.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.backconnection.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Cap.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Chatt.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.closeprocess.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form7.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.fun.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Information.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Install.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.keylogger.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Password.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.processmanage.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Reg.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.RemoteShell.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Rgv.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Text_Editor.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.backconnection.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Cap.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Chatt.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.closeprocess.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form1.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form2.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form3.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form5.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form7.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.fun.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Information.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Install.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.keylogger.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Resources.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Password.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.processmanage.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Reg.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.RemoteShell.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Rgv.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Text_Editor.resources
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbproj.GenerateResource.Cache
+C:\Users\Umbrella\Desktop\SpyGate-RAT v 0.2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form4.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.backconnection.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Cap.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Chatt.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.closeprocess.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form1.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form2.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form3.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form4.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form5.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form7.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.fun.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Information.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Install.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.keylogger.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Resources.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Password.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.processmanage.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Reg.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.RemoteShell.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Rgv.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Text_Editor.resources
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbproj.GenerateResource.Cache
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Umbrella\Desktop\vb\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.backconnection.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Cap.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Chatt.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.closeprocess.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form1.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form2.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form3.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form4.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form5.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form7.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.fun.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Information.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Install.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.keylogger.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Resources.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Password.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.processmanage.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Reg.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.RemoteShell.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Rgv.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Text_Editor.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbproj.GenerateResource.Cache
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.backconnection.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Cap.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Chatt.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.closeprocess.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form1.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form2.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form3.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form4.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form5.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form7.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.fun.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Information.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Install.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.keylogger.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Resources.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Password.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.processmanage.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Reg.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.RemoteShell.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Rgv.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Text_Editor.resources
+C:\Users\Umbrella\Desktop\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbproj.GenerateResource.Cache
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbprojResolveAssemblyReference.cache
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.backconnection.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Cap.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Chatt.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.closeprocess.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form1.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form2.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form3.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form4.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form5.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form7.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.fun.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Information.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Install.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.keylogger.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Resources.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Password.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.processmanage.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Reg.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.RemoteShell.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Rgv.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Text_Editor.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbproj.GenerateResource.Cache
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form6.resources
+C:\Users\Mj\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form8.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.exe
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.pdb
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\SpyGate-RAT v 0.2.6.xml
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbprojResolveAssemblyReference.cache
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.backconnection.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Cap.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Chatt.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.closeprocess.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form1.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form2.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form3.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form4.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form5.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form6.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form7.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form8.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Form9.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.fun.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Information.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Install.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.keylogger.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Resources.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Password.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.processmanage.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Reg.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.RemoteShell.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Rgv.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate_RAT_v_0._2._6.Text_Editor.resources
+C:\Users\vb.Net\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbproj.GenerateResource.Cache
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\SpyGate-RAT v 0.2.6.vbproj.GenerateResource.Cache
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\comet.exe.config
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.backconnection.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Cap.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Chatt.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.closeprocess.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form1.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form10.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form11.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form12.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form13.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form14.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form2.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form3.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form4.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form5.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form6.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form7.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form8.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Form9.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.fun.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Information.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Install.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.keylogger.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Resources.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Password.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.processmanage.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Reg.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.RemoteShell.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Rgv.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.Text_Editor.resources
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\comet.exe
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\comet.pdb
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\bin\Debug\comet.xml
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.exe
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.xml
+C:\Users\hackeng\Desktop\SpyGateRAT\SpyGateRAT v 2.6\SpyGate-RAT v 0.2.6\obj\Debug\comet.pdb

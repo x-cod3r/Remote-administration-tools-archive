@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: UCzYT6RE8m1+z99KNVBkhnl38jY=
+
+Name: AndroidManifest.xml
+SHA1-Digest: AZH4uLKGMyP4W0mlhZ5rXwFumgc=
+
+Name: res/layout/cameraview.xml
+SHA1-Digest: cb6uSRoYEUD5avfq9Pz9C3TPv4w=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: RQ09RDJf3yWYEKYOavo2ED4Yaz0=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: 5eBof6qGsTMM5CLz2rR0SLVHtm4=
+
+Name: resources.arsc
+SHA1-Digest: 1SXsu8G0+lpjvTwUkCcHsEc5p4I=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: I3MP0NXnINH3Gb4a/IxI+nMF2mw=
+
+Name: classes.dex
+SHA1-Digest: tNymxyRXnsFWJ7Yh8PwcgEKvLFs=
+
+Name: res/layout/videoview.xml
+SHA1-Digest: usHqZR8TxGRW5vwYlX6IV3ovU4Y=
+

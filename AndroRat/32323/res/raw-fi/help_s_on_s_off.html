@@ -1,0 +1,29 @@
+<html>
+<head></head>
+<body>
+<h2>HTC-laitteet</h2>
+<p>AdAway ei toimi, kun käytät niin sanottua S-ON-laitetta. tämä 'ominaisuus' on monissa HTC-laitteissa ja estää AdAwayn kirjoittamasta hosts-tiedoston.</p>
+
+<h2>S-ON/S-OFF?</h2>
+<p>S-OFF tarkoittaa, että laitteen NAND-osa is lukittu ja voidaan kirjoittaa. HTC-laitteissa oletuksena on S-ON, mikä tarkoittaa, että myöskään sinä et voi käyttää tiettyjä järjestelmän alueita, eikä ole myöskään mahdollista varmistaa pysyvää pääkäyttäjäoikeuksia. Tämän lisäksi S-ON:lla allekirjoituksen tarkistaminen laiteohjelmiston otoksista on myös varmistettu.</p>
+
+<h2>Onko minulla S-ON tai S-OFF?</h2>
+<p>Käynnistä laitteesi käynnistysvalikkoon painamalla <i>äänenvoimakkuuden pienennys</i> - ja virtapainiketta painettuna. Ylhäällä pitäisi näkyä onko laite  S-OFF tai S-ON. S-OFF tarkoittaa, että on täydet pääkäyttäjäoikeudet. <br/><br/>Lisätietoa löytyy sivustolta &lt;ahref="http://www.addictivetips.com/mobile/what-is-s-off-how-to-gain-it-on-htc-android-phones-with-unrevoked-forever/"&gt;www.addictivetips.com</a>.</p>
+
+<h2>Kiertotapa</h2>
+<p>Edellytys: Tietokoneellassi täytyy olla asennettuna toimiva Android SDK ADB-lisäosalla.</p>
+<ol>
+<li>Käynnistä laitteesi käynnistysvalikkoon painamalla <i>äänenvoimakkuuden pienennys</i> - ja virtapainiketta painettuna.
+</li>
+<li>Käytä <i>Äänenvoimakkuus alas</i> -nappia valitaksesi palautuksen.</li>
+<li>Clockworkissa valitse "partitions menu"
+</li>
+<li>Valitse <i>mount /system</i>, <i>mount /sdcard</i> ja <i>mount /data</i></li>
+<li>Kytke usb-johto ja avaa komentorivi tietokoneeltasi.</li>
+<li>Syötä adb shell ja kirjoita <br/><tt>ln -s /data/data/hosts /system/etc/hosts</tt><br/> (Tämä luo symbolisen linkin, jonka avulla AdAway muokkaa hosts-tiedostoa, joka on tallennettu <tt>/data</tt> sijaintiin samalla sallien käyttöjärjestelmän käyttää tiedostoa kuin se olisi tallennettu <tt>/system</tt> sijaintiin.)</li>
+<li>Käynnistä laite uudelleen ja valitse <i>Hosts-tiedoston kohde</i> -asetuksista <i>/data/data/hosts</i>.
+</li>
+<li>AdAway:n pitäisi toimia nyt.</li>
+</ol>
+</body>
+</html>

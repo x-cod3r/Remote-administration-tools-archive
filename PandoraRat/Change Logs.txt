@@ -1,0 +1,33 @@
+Change & Fix Log - 2.2 Beta
+
+ + New persistence method
+ + Botnet TCP flood module
+ + Connection Group List (Create + View)
+ 
+ - UAC Bypass (to cause poor performance. Adding to next versions is better.)
+ - Protect Process (to be repaired)
+ 
+ 
+ & File Manager "Preview file" module fixed. 
+ & Process module list bug fixed.
+ & Active Connection request bug fixed.
+ & Connection timeout bug fixed.
+ & Webcam freezing error fixed.
+ & Keylogger stream error fixed.
+ & Network Shares duplicate list bug fixed.
+ & Chat system lost message bug fixed.
+ & System Privilege duplicate list bug fixed.
+ & Startup manager duplicate list bug fixed.
+ & Script editor module updated and bug fixed.
+ & Lan computer list crash bug fixed.
+ & Remote Printer method is better now.
+ & Plug-in upload problem fixed.
+ & Socks5 module updated.
+ & Builder options compress module updated and fixed.
+ 
+      PANDORA RAT RELEASE 2.2 [BETA] CLIENT 
+	  
+	           UGLY AKA QURKAN...
+ 
+ 
+

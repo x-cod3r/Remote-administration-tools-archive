@@ -1,0 +1,1 @@
+Will show all of the operating systems environment variables.

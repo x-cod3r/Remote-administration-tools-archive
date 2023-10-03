@@ -1,0 +1,10 @@
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\bin\Release\system64.exe
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\bin\Release\system64.pdb
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\bin\Release\system64.xml
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\obj\Release\MainFrm.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\obj\Release\Resources.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\obj\Release\sys.vbproj.GenerateResource.Cache
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\obj\Release\system64.exe
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\obj\Release\system64.xml
+C:\Users\Mirko\Desktop\Albertino RAT\ARC\obj\Release\system64.pdb

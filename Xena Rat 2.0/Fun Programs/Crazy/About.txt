@@ -1,0 +1,3 @@
+What it does
+
+Flashes all over the screen then stops and starts again

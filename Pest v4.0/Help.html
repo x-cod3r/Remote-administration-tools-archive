@@ -1,0 +1,540 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<HTML>
+<!-- Creation date: 7/29/2002 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>PEST V4.0 HELP FILE</title>
+<STYLE type="text/css"><!--
+A:link{text-decoration:none}
+A:visited{text-decoration:none}
+A:active{text-decoration:none}
+A:hover{color:green:text-decoration:underline}
+--></STYLE>
+
+</head>
+<body bgcolor="#000000"  background="movie1.gif" text="#00FF00" link="#FF0000" vlink="#FF0000" alink="#FF0000">
+
+<table width="100%" bordercolor="black" border="1">
+<tr valign="top">
+<td width="7%">
+<font size="5"><center></font>
+<td><B><a href="http://www.pesty.cjb.net">www.PESTy.cjb.net</a><center><font size=8>PEST HELP AND FAQ</B></center></font></td></tr>
+<tr valign="top">
+<td width="7%">
+<a href="?#About" onmouseover="window.status='About';return true;" onmouseout="window.status='PEST';return true;" title="About">About</a><br>
+<hr color=blue>
+<a href="?#GettingStarted" onmouseover="window.status='Getting Started';return true;" onmouseout="window.status='PEST';return true;" title="Getting Started">Getting Started</a><br>
+<hr color=blue>
+<a href="?#getIP" onmouseover="window.status='Getting an IP address';return true;" onmouseout="window.status='PEST';return true;" title="Getting an IP address">Getting an IP address</a><br>
+<hr color=blue>
+<a href="?#batch" onmouseover="window.status='The PEST Batch Editor';return true;" onmouseout="window.status='PEST';return true;" title="How to use the Batch Editor">Using the Batch Editor</a><br>
+<hr color=blue>
+<a href="?#aboutserver" onmouseover="window.status='About The Server';return true;" onmouseout="window.status='PEST';return true;" title="About The Server">About The Server</a><br>
+<hr color=blue>
+<a href="?#functions" onmouseover="window.status='Functions';return true;" onmouseout="window.status='PEST';return true;" title="Functions">Functions</a><br>
+<hr color=blue>
+<a href="?#msnpass" onmouseover="window.status='msn pass';return true;" onmouseout="window.status='PEST';return true;" title="msnpass">The MSN password stealer</a><br>
+<hr color=blue>
+<a href="?#testonpc" onmouseover="window.status='Test it on your PC.';return true;" onmouseout="window.status='PEST';return true;" title="Test it on your PC">Test It</a><br>
+<hr color=blue>
+<a href="?#faqs" onmouseover="window.status='Faqs';return true;" onmouseout="window.status='PEST';return true;" title="Faq's">Faq's</a><br>
+<hr color=blue>
+<a href="?#commun" onmouseover="window.status='Faqs';return true;" onmouseout="window.status='PEST';return true;" title="commun">The PEST community and rules</a><br>
+<hr color=blue>
+</td>
+<td width="50%">
+<center><font size="5">PEST V4.0 Remote Administration Tool for Win9x and XP (The servers are not 2000 compatible!)<br>Help File by
+<b>Glenn &quot;Genoshin-GX&quot; Chiu&nbsp;</b></font></center><br>
+<a name="About"><center><font size="4"><hr color=blue>About</center></font><br>
+PEST v4.0 is a remote client & server. It connects to a computer over a TCP/IP network (ie the Internet). To connect, the target computer must be running the server part of the PEST program. The server runs when windows starts up and is undetected by (most) virus scanners. PEST is one of the best Server & Client programs. Once you have connected with PEST, you have access to the remote computers hard disc, and a whole range of other options. You have full control over the victims PC! You can control the mouse, you can control nearly all aspects of the Windows O/S. You can open/close CD-ROM, you can get their saved passwords, you can get their computer info, you can change windows colors, you can send a messagebox, you can chat with your victim, you have full control over shutdown, you can even view the remote screen, and you can do much much much more!&nbsp;
+<br>
+(This is not the what the program was built for (i.e. hacking) but it is fun and
+you should only do it when the other user agrees that you can connect to their PC -
+Genoshin-GX)</a><p>
+</a>
+<A name="GettingStarted"><center><font size="4"><hr color=blue>Getting Started</font></center><br>
+Before you begin to use PEST, you must understand that the software is
+beta-class, and as such is provided as-is and is not supported. The PEST team
+cannot take any responsibility for any damages to software, hardware or persons
+through use of this software. Use at your own risk!<br>
+<br>
+First off, locate the file that you downloaded from </a> <a href="http://www.pesty.cjb.net" target="_blank">www.pesty.cjb.net</a> or any other site. Now extract the files using <a href="http://www.winzip.com">Winzip</a> or another compressed archieve extractor, if you haven't done so yet. Then open the folder that you extracted the files to. Now look at all the files and you should have these files:<br>
+<ul type="circle">
+<li>PEST v4.exe</li>
+<li>Server.exe</li>
+<li>Windows XP server.exe</li>
+<li>EdtSrv.exe</li>
+<li>Portscan.exe</li>
+<li>Help.html</li>
+</ul>
+If you do not have any of the above files, you can download the full zipped version from the official site at <a href="http://www.pesty.cjb.net">www.pesty.cjb.net</a><br>
+Once you are sure you have all of the above files, you need to go over all the files and check what they do.<br>
+<ul type="circle">
+<li>Edtsrv-This edits the server that your going to infect the victim with.</li>
+<li>Portscan-Is a port scanner.</li>
+<li>Server-This is what receives commands from the client and you infect your victim with it.</li>
+<li>Help-This is the help file.</li>
+<li>Legal-This is the legal information file.</li>
+<li>update notes-This is the misc notes file.</li>
+</ul>
+Now that you know what every file does, open Edtsrv.exe. Now, goto open and browse to the server.exe and select it. Now click on Read server settings. Then you can modify the servers settings:<br>
+<ul type="circle">
+	<li>Enable ICQ Notify</li>
+	<li>UIN</li>
+	<li>Server Port</li>
+	<li>Server Filename</li>
+	<li>RegistryKeyname</li>
+	<li>Upload/Download Port</li>
+	<li>Install Directory</li>
+</ul>
+This is what each option does:<br>
+<ul type="circle">
+	<li>Enable ICQ Notify-Pages you the victims IP via ICQ everytime the victim comes online.</li>
+	<li>UIN-This is your ICQ number (required if Enable ICQ Notify is enabled)</li>
+	<li>Server Port-This is the main port that the server is on. Example: 11831 (Required to connect)</li>
+	<li>Server Filename-The name of the server after its installed on the victims computer, don't make it easy to guess its a Trojan like: Trojan.exe lol use something like mshtml.exe ;-)</li>
+	<li>Registry Keyname-This is the name of the key in the registry from where the server starts with windows.</li>
+	<li>Upload/Download Port-This is the port so you can view,delete,upload,download files on the victims computer. Example: 29559 </li>
+	<li>Install Directory-This is the place where the server is installed after it is opened. System directory is: C:\WINDOWS\SYSTEM\ Windows directory is: C:\WINDOWS\ This is not really important.
+</ul>
+Now Fill Out The Server Settings After Your Done Click On Save new settings. Now you need a victim to infect. This is the hard and yet fun part.
+<br><br>
+<b>Using MSN messenger to get a victim:</b><br>
+MSN messenger is one of the best ways of infecting a victim. You just need to find someone on your
+contact list, and use 'send file or photo' to send them the 'server.exe' file. Don't forget:<br>
+<b>You can rename the server file to anything you like, as long as the filename ends .exe (e.g. call it mypic.exe)</b>
+<br>Unless you choose ICQ notify in the server settings, you will need to get the victims IP address. This is usually the tricky part. <br>
+Take a look at <a href="#getIP">Getting an IP address - by MonkeyCircus</a> for information on how to get their IP.
+
+<br><br>
+<b>Using a chat room:</b><br>
+There are many strategys for infecting people in chat rooms. By far the best is to pretend to be a girl (unless you are a girl) 
+and trick the victim into accepting the file, telling them that it is a picture of you. Pretending your a girl might sound gay, but it nearly always works.
+The basic trick is to ask people in the chat room to cyber with you on MSN messenger or AOL messenger etc. And then send them the file over that program.
+Refer to 'Using MSN messenger to get a victim' for more information.<br><br>
+
+Once they hve recieved and run the file (The file must be run!) then you can connect. Find the file PEST v4.exe and run it. This will open up the client on your cmoputer. When the client is open, select the text box at the top left, where it says 'IP:' and type in the victims IP address. 
+You may also change the ports if you did not use 11831 and 29559. Now, click the connect button (below the IP text box). When the status bar at the very bottom of pest says 'Connected' then you have complete control over the remote computer.<p><br>
+
+<center><font size="4">hope this was helpfull to you.</font></center><p>
+<A name="getIP"><hr color=blue><b><font size="4">How to get an IP address - by MonkeyCircus</font>&nbsp;</b><br>
+<br>
+There are many ways of getting an IP address. I will explain here a few ways to get an IP from your victim.<br><br>
+<b>Method 1.) Netstat - Old reliables.<br>
+</b><br>
+Netstat is by far the most reliable way of getting an IP address. Heres how to use it:<br>
+In windows, goto start>programs>MS-DOS prompt. You will see a black DOS box appear. You should see something similar to this: C:\WINDOWS\ and a blinking cursor. When your connected to the internet, type in:<br>
+netstat -n<br>
+and press enter. If it works, you will see a list of all the IP's your currently connected/connecting to (if you get a response: bad command or file call, then you cant use this method of getting IPs, skip this method and have a look at some others). 
+Now, if your using a instant messaging service to send the victim the server (e.g. MSN messenger or yahoo! messenger etc.), you can use netstat to find out their IP. WHILE the server is sending to the victim, goto dos and type:<br>
+netstat -n<br>
+The list of IP's will appear. The victims IP is one of the addresses under the foreign coloum. REMEMBER: YOU MUST DO THIS WHILE THE FILE IS STILL SENDING! Now, how can you tell which is your victims? The simple and obviouse way is to wait until they have the file and then go through each IP in pest until you get a connection. An advanced user wont need to do this. Advanced users can easily spot the address, becuase of either the connection status, the prefix of the address or the port that the address is on. You dont need to confuse yourself with that though.<br>
+IMPORTANT NETSTAT NOTE: When you copy down the IP address from netstat, DONT COPY the colon and any numbers after the colon. The colon and numbers after it represent a port. For example: if netstat says 125.63.624.747:6891 then the IP address is 125.63.624.747<br><br>
+<b>Method 2.) The easy way - "the picture doesn't work' method ;-)<br>
+</b><br>
+This method is not very reliable, but is by far the simplest way. If you have told your victim that the server is a picture (hehe), then you can use this method. 
+Basically, when the victim runs the server, it will appear to them that nothing has happened. 
+So, they will probably say something to you like: 'It doesnt work'. WHen they say this, say: 'oh, i know whats wrong, it does this on my computer sometimes. Goto start>run and type in winipcfg and click ok. Then tell me the number next to where it says IP address and I will fix it for you.'
+If they fall for that, then they should tell you their IP. HA! (In XP use: Go to
+start -&gt; Programs -&gt; dosprompt (where paint is) then type IPconfig -
+Genoshin-GX)<br><br>
+<b>Method 3.) ICQ and UIN<br>
+</b><br>
+If you have ICQ, you can edit the PEST server (as explained earlier in this help file) so that when they connect to the internet, the server pages you their IP address. This is an easy method and is already explained earlier in this help file, so thats all i need to say.<br><br>
+<b>Method 4.) IRC scripts<br>
+</b><br>
+The best way of getting an IP is from IRC. Just type /Whois NICKNAMEHERE and the IRC server will tell you their IP or host name.
+Usually like this: NICKNAME@223-532-646-243.aol.ipt.com <br>
+If there is no visible IP address, open a DOS box (like in netstat) and type<br> <b>PING thestuffafterthe@here</b> <br>and it will reveal the correct IP.
+
+<center><A name="batch"><hr color=blue><b><font size="4">Using the Batch Editor - by MonkeyCircus</font>&nbsp;</b><br>
+<br>
+</a></center>
+<b>What is the Batch Editor?</b>
+<br>The batch editor is a tool which allows you to write a mini-program and execute it immediatly on the remote computer.<br><br>
+<b>What is a Batch File?</b><br>
+A Batch File is a file which contains a list of DOS commands. 
+When you run the file, Windows will open a DOS prompt and execute the list of commands automatically. 
+The file uses basic dos commands, some examples of DOS commands are given in the example code in the PEST v4 client.
+<br><br>
+<b>Why is this usefull?</b><br>
+This is usefull becuase it will allow you to run several commands very, very quickly. It also allows you to create your own addon functions for PEST.<br>
+<br><br>
+The batch editor has thousands of possible uses, use your imagination. 
+<br><br>
+<b>Example code</b><br>
+There is an example in the PEST v4 client, but here is another quick program sample. This one backs up the directory 'pesttest' and then deletes the original.<br><br>
+@ECHO OFF<br>
+ECHO Now backing up c:\pesttest to c:\pesttestbk<br>
+Copy c:\pesttest\ c:\pesttestbk\<br>
+ECHO Back up complete, now deleting original directory<br>
+Del c:\pesttest\<br>
+ECHO Task completed,<br>
+PAUSE<br>
+
+<br><font size="4"><font size=3><hr color=blue>
+<a name="aboutserver"><center><font size="5"><b>About The Server</b></font></center><br>
+</a></font></font>
+<a name="aboutserver">
+First we will start with </a> <a href="?#server1info">Server #1</a><br>
+Then we will goto <a href="?#serverXPinfo">Windows XP server</a><br>
+
+<p>
+<A name="server1info"><center><b>Server #1</b></center><br>
+This is the windows 9x compatible server. How the server works: When the server file is executed, it copys its self into the installation directory and adds a start-up key to the registry. Then, it opens the specified port and listens for instructions. When you connect with the client, and choose a function, the client sends a simple text message to the server. When the server recieves this message, it reacts accordingly. 
+<br>
+In simpler terms, this is what happens:
+<br>Server recieves text message
+<br>Server compares the message to its list of possible messages it can recieve
+<br>The server finds a match, and executes the function. Something like this:
+<br><br>
+If recievedmessage = 'opencd' then
+/Code to open CD here/<br><br>
+That is all that the server does. It does nothing else (besides a few other start-up installation functions). Some functions also require the server to send information back to the client, but that is more complex.<br><br>
+<p></a><a name="serverXPinfo"><center><b>Windows XP Server</b></center><br>
+Windows XP is a very annoying product. It has many compatibility issues with the 9x build of PEST. If you want to use PEST with XP, the only viable option is to use PEST Professional, which can be downloaded in the remote administration tools section of the PEST site at <a href="http://www.pesty.cjb.net">www.pesty.cjb.net</a><font size="4"><font size=3><p>
+</a>
+<a name="functions"><center><font size="5"><hr color=blue><b>Functions</b></font>
+</a></font></font><b></b>
+<a name="functions"><b></b><font size="5"><b>&nbsp;</b><br>
+</font><font size=4>This is a discription of each function included in PEST
+v4.0.<font size="5"><br>
+</font>
+</center><p align="left">
+<b><u>Server Options</u></b><br>
+</font>This contains some options to remove/restart the server on the remote
+computer.<br>
+<b>Close Server</b> - Shutdown the server (note that it will still load up with
+windows next time the computer is booted)<br>
+<b>Restart Server</b> - This closes the server, and then re-installs it. <b>Remove
+Server</b> - This completly removes the server from the remote computer
+perminantly.<font size=4><br>
+<br>
+<b><u>Boot Manager</u></b><br>
+</font>This contains some options to shutdown/restart the remote computer.<br>
+<b>Shutdown Windows</b> - Shutsdown the remote computer<br>
+<b>Log off Windows</b> - Logs the current windows user out of windows<br>
+<b>Reboot System</b> - Reboots the computer<br>
+<b>Force Windows Shutdown</b> - Forces windows to exit NOTE: may result in any
+open programs loosing unsaved data.<br>
+<b>Lock up Windows</b> - Disables all running windows operations by killing
+important running tasks of the system.<font size=4><br>
+<br>
+<b><u>Remote Information</u></b><br>
+</font>This reports information from the remote computer.<br>
+<b>Retrieve Information</b> - Retrieves all information from remote system<br>
+<b>Windows Folder</b> - Where windows is installed on the hard disc<br>
+<b>System Folder</b> - The /System folder in the windows folder<br>
+<b>Temporary Folder</b> - The folder where temporary files are stored<br>
+<b>Windows Version</b> - The version of Windows currently on the system<br>
+<b>Windows Product Key</b> - The validation key for installation of Windows<br>
+<b>Time in Windows (mins) </b>- Number of miniutes the system has been running
+for<br>
+<b>Computer Name</b> - Current name of the computer<br>
+<b>Windows user Name </b>- Name of the current Windows user that is logged in<br>
+<b>CPU Name </b>- Name of the make/model of Central Proccessing Unit currently
+installed in the system<br>
+<b>Windows Language</b> - The language that windows is currently using<br>
+<b>Web Browser</b> - The defualy web browser installed on the system<br>
+<b>IE Home Page</b> - The Internet Explorer home page<br>
+<b>Screen Resolution</b> - The current dimensions of the interface<br>
+<b>Numlock state</b> - Current state of the NumLock key (on/off)<br>
+<b>CapsLock state</b> - Current state of the CapsLock key (on/off)<br>
+<b>Scrolllock state </b>- Current state of the ScrollLock key (on/off)<br>
+<b>Sound Available</b> - Is there a sound card installed in the system (yes/no)<br>
+<b>Defualt Printer</b> - Name of the defualt printer installed in the system<br>
+<b>Current Remote Time </b>- Current date/time on remote computer<br>
+<b>DirectX Vesion</b> - Current version of DirectX installed<br>
+<b>Workgroup Name </b>- Name of current LAN workgroup the computer belongs to<br>
+<b>Free HDD space</b> - Current amount of space free on the computers hard discs<br>
+<b>Local Host </b>- The local network servers computer name<br>
+<b>Clients Connected</b> - The number of PEST clients connected to the PEST
+server<br>
+<b>Clear</b> - clears the information from the PEST client<br>
+<b>Save as...</b> - Saves the informaion into a text file<font size=4><br>
+<br>
+<b><u>Misc. Controls</u></b><br>
+</font>A collecion of standard windows controls<br>
+<b>DeskTop (Show/Hide)</b> - Shows/Hides all desktop icons<br>
+<b>Start Button (Show/Hide)</b> - Shows/Hides the Windows start button<br>
+<b>TaskBar (Show/Hide)</b> - Shows/Hides the taskbar<br>
+<b>Task Icons (Show/Hide)</b> - Shows/Hides the taskbar icons<br>
+<b>Task Clock (Show/Hide)</b> - Shows/Hides the clock on the taskbar<br>
+<b>Task Rebar (Show/Hide)</b> - Shows/Hides the task rebar<br>
+<b>CD-ROM (Open/Close)</b> - Opens/Closes the CD-ROM tray<br>
+<b>CTRL + ALT + DEL (On/Off)</b> - Enables/Disables CTRL+ALT+DEL key combo<br>
+<b>ScrollLock (On/Off)</b> - Turns the scrolllock function on and off<br>
+<b>CapsLock (On/Off)</b> - Turns the capslock function on and off<br>
+<b>NumLock (On/Off)</b> - Turns the Numlock function on and off<br>
+<b>Monitor (On/Off)</b> - Turns the monitor on and off<font size=4><br>
+<br>
+<br>
+<b><u>More Misc. Controls</u></b><br>
+</font>Some more standard Windows controls<br>
+<b>Execute screensaver</b> - Runs the current Windows screensaver<br>
+<b>Open Start Menu </b>- Opens the start menu<br>
+<b>Remove Desktop Wallpaper </b>- Removes the wallpaper from the desktop<br>
+<b>Minimize all Windows </b>- Minimizes all the windows on the desktop<br>
+<b>Disable Screensaver </b>- Disables the current Windows screensaver<br>
+<b>Disable Keyboard </b>- Disables the keyboard (cannot be enabled without
+system reboot)<br>
+<b>Set IE Home Page </b>- Sets the Internet Explorer home page to the text in
+the text field<br>
+<b>Open Web Browser </b>- Opens the defualt web browser at the page set in the
+text field<br>
+<b>New Computer Name </b>- Sets the computers name to the text in the text field
+- Requires reboot to take effect<font size=4><br>
+<br>
+<b><u>Remote Clipboard Manger</u></b><br>
+</font>Some functions which control the remote copy and paste clipboard<br>
+<b>Read Clipboard Text </b>- Reads any text currently on the copy/paste
+clipboard<br>
+<b>Set Clipboard Text </b>- Sets the clipboard text to the text in the large
+text field<br>
+<b>Empty Clipboard </b>- Clears the contents of the remote clipboard<br>
+<b>Lock/Unlock Clipboard </b>- Disables and Enables the remote computers copy
+and paste clipboard<font size=4><br>
+<br>
+<b><u>Remote Data/Time</u></b><br>
+</font>Various date and time related functions<br>
+<b>Set </b>- Sets the remote time to the text/combo box values<br>
+<b>Read current time and date </b>- Reads the remote computers time and date<font size=4><br>
+<br>
+<b><u>Remote Mouse Manager</u></b><br>
+</font>Various Mouse related functions<br>
+<b>Reverse Buttons </b>- Reverses the left and right click functions of the
+remote computers mouse<br>
+<b>Restore Buttons </b>- Restores the normal left and right click functions<br>
+<b>Enable Crazy Mouse </b>- The mouse pointer goes crazy<br>
+<b>Disable Crazy Mouse </b>- The mose pointer stops going crazy<br>
+<b>Lock Mouse </b>- Locks the mouse pointer<br>
+<b>Unlock Mouse </b>- Unloacks the mouse pointer<br>
+<b>Move Mouse (start/Stop)</b> - The remote computers mouse pointer mimics the
+movement of your mouse pointer<br>
+<b>Double Click Speed (read/Set)</b> - Read/Set the remote mouse double click
+speed<font size=4><br>
+<br>
+<b><u>System Message Manager</u></b><br>
+</font>This allows you to display system message dialogs on the remote computer.<br>
+<b>Message Icon </b>- The image displayed on the message dialog<br>
+<b>Available Buttons </b>- The buttons that the user can click on the message
+dialog<br>
+<b>Message Title </b>- The text that appears in the dialog title bar<br>
+<b>Message Text </b>- The main text of the message<br>
+<b>Test Message </b>- Text the message on your computer<br>
+<b>Send Message </b>- Send message to remote computer. When a button is presses,
+the result will be reported in the PEST client satus bar.<font size=4><br>
+<br>
+<b><u>Remote Windows Manager</u></b><br>
+<br>
+</font>Allows you to control the remote computers task list<br>
+<b>Show all Apps. </b>- Shows all the tasks running, not just active windows.<br>
+<b>Refresh </b>- Refreshs the list of applications<br>
+<b>Close </b>- Close the selected window.<br>
+<b>Disable X </b>- Disables the X button of the selected window.<br>
+<b>Disable </b>- Disables the selected window.<br>
+<b>Enable </b>- Enables the selected window.<br>
+<b>Hide </b>- Hides the selected window from the user<br>
+<b>Show </b>- Shows the selected window.<br>
+<b>Focus </b>- Brings the selected window to the top of the desktop.<br>
+<b>Maximize </b>- Makes the window fit the screen dimensions.<br>
+<b>Minimize </b>- Minimizes the window to the taskbar.<br>
+<b>Change Window Title </b>- Changes the title of the application to the text in
+the text field.<font size=4><br>
+<br>
+<b><u>Remote File Manager</u></b></font><b><br>
+<br>
+Go </b>- Goes to the drive that you give.<br>
+<b>Root</b> - Goes To C:\.<br>
+<b>Get Drives</b> - Get all the drives that the victim has on their pc.<br>
+<b>Show Path</b> - Showes the full path (not just the name).<br>
+<b>Run</b> - Runs the selected file on the victims computer.<br>
+<b>Delete </b>- Deletes the selected file on the victims computer.<br>
+<b>Delete *. *</b> - Deletes all files in the current directory<br>
+<b>Get size</b> - Gets the selected file size.<br>
+<b>Set Wallpaper</b> - Sets the the wallpaper to the selected image.<br>
+<b>Play WAV</b> - Plays the selected WAV file.<br>
+<b>Create Dir</b> - Creates a new directory.<br>
+<b>Download</b> - Downloads the selected file to your harddrive.<br>
+<b>Upload</b> - Uploads a file from your PC to the victims pc.<font size=4><br>
+<br>
+<b><u>Chat to Remote User</u></b><br>
+<br>
+</font><b>Open Chat With Victim </b>- Opens a chat window and you and the victim
+can talk.</a><b><br>
+<font size=4><br>
+Remote Keylogger<br>
+<br>
+</font>Auto Scroll - </b>Scrolls the text down when a new text line is displayed.<b><br>
+Enable - </b>Enables Keylogger (tracks the keys pressed by the victim).<b><br>
+Disable - </b>Disable Keylogger.<b><br>
+Clear - </b>Clears the text you have gotten so far.<b><br>
+Save As... - </b>Saves the text to a file.<b><br>
+<font size=4><br>
+<b><u>Remote Printer Manager</b></u><br>
+</font><br>
+Bold - </b>Prints the text<b> bold.<br>
+Italic - </b>Prints the text <i>italic</i>.<b><br>
+Underline - </b>Prints the text <u>underlined</u>.<b><br>
+Strike - </b>Prints the text <s>striked out</s>.<b><br>
+Font Size - </b>Prints the font size as big as you put.<b><br>
+Print Text - </b>Prints the text you just made on the victims printer.<font size=4><b><br>
+<br>
+</b></font><font size="4"><b><u>Get Remote Passwords</b></u></font><b><br>
+<br>
+Get RAS pwds</b> - Get stored passwords on the victims computer (stored
+passwords)<br>
+<b>Get cache pwds</b> - Get saved passwords on the victims computer (passwords
+currently in the system cache).<br>
+<b>Clear</b> - Clears the text that is displayed.<br>
+Save As...- Saves the text to a file.
+<p align="left"><font size="4"><b><u>Remote Windows Colors</b></u></font><b><br>
+<br>
+Menu Colors</b> - Changes the start menu, and other menus color to what is
+selected.<br>
+<b>3D Face Color</b> - Changes the taskbar, buttons color to what is selected.<br>
+<b>Window Colo</b>r - Changes the window background color to what is selected.<br>
+<b>Desktop Background</b> - Changes the desktop background to color to what is
+selected (Victims wallpaper needs to be &quot;none&quot; or else the desktop
+background color will not work).
+<p align="left"><font size="4"><U><b>Print In Remote Screen</U></b></font><b><br>
+<br>
+Center Of Screen</b> - Places the text that you create in the center of the
+screen.<br>
+<b>Custom</b> - Places the text that you create in the X &amp; Y that you define.<br>
+<b>Back Color </b>- Changes the text background color to the color selected.<br>
+<b>Font Color</b> - Changes the text color to the color selected.<br>
+<b>Font Size </b>- Changes the font size to the selected size.<br>
+<b>Print Text</b> - Prints the made text onto the screen.<br>
+<b>Clear</b> - Clears the textbox value.
+<p align="left"><font size="4"><b><U>Remote RAS Manager</U></b></font><b><br>
+<br>
+Refresh</b> - Refreshes the list of RAS.<br>
+<b>Rename</b> - Renames the selected RAS.<br>
+<b>Delete</b> - Deletes the selected RAS.<br>
+<b>Show &quot;Edit&quot; Dialog</b> - View the Internet setup dialog.<br>
+<b>Hang Up Connection </b>- Disconnect the Internet Connection.<br>
+<b>Show 'New Connection' Dialog</b> - Shows the make a new connection screen (this
+screen is where you make a new I.E. connection).
+<p align="left"><font size="4"><b><U>Remote ScreenCapture</b></U></font><b><br>
+<br>
+Connecting</b> -The pest server is split into two parts, so if one part of the
+server is shut down, you still have partial-control (some technical stuff). The
+screencapture server is seperate from the other functions, so, you have to
+connect again. The IP address is the same for this connection (of course :-))
+All you need to do is type in the IP address of the victim and click connect. <b>ScreenCapture
+Basics</b> - The purpose of screencapture is to allow you to view the victims
+desktop, as they can see it on there monitor. This is one of my favorite parts
+of PEST. When you connect to the screencapture server, the screen refreshes
+automatically. You will now see a screenshot of the victims desktop. Hehe!<br>
+<b>Refreshing the screen </b>- To update the image, click the button with the
+circular arrows on. This will start a new screenshot download, and within a few
+seconds, you should see the screen update. Sometimes, the screen becomes
+scrambled (the reason for this is highly technical, to do with the way it
+updates the image). To fix this, either reconnect to the screencapture server,
+or press the button with the down arrow on (to do a complete refresh).<br>
+<b>Streaming Images</b> - This will automatically update the image every few
+seconds. You can choose the number of seconds between each refresh in the box
+below. NOTE: setting the seconds too low will cause the screen to scramble as
+explained above.<br>
+<b>Disconnect</b> - This disconnects you from the screencapture server, clicking again prompts you to reconnect.<br>
+<b>Save screenshot</b> - Click this button to save the screenshot to your hard
+disc! So you can remember the time you hacked your friend ;-)<br>
+<b>Image Options </b>-This allows you to choose the format of the image, from
+the following selections:<br>
+greyscale (4-bit)<br>
+greyscale (8-bit)<br>
+color (4-bit)<br>
+color (24-bit)<br>
+Greyscale (4-bit) is by far the fastest option, but has no color. Color (24-bit)
+is true color, but is much slower.
+<p align="left"><font size="4"><b><U>Find Remote Files</b></U></font><b><br>
+<br>
+Look For</b> - Supply what you want to try to find on the victims pc.<br>
+<b>Look In Folders</b> - This is not required but it narrows your search down.
+Supply a folder to look in.<br>
+<b>Search In Subdirectory's</b> - Search in sub-directorys of the choosen search
+folder.<br>
+<b>Find!</b> - This starts the search and tries to find the file you suppled.<br>
+<b>Download Selected!</b> - Download a file you found on the victims harddrive
+to your computer.<br>
+<b>Clear </b>- Clears the search results.
+<p align="left"><font size="4"><b><U>Remote CPU Manager</b></U></font><b><br>
+<br>
+Clear CMOS</b> - You know when you turn on the computer, you see all that white
+writing saying detecting IDE etc. Well that is all controled by a program stored
+on the motherboard called CMOS. CMOS is the computers BIOS (Basic Input Output
+System). Without CMOS, the computer will do nothing at all when you turn it on,
+and reairing the 'damage' is expensive. Clear CMOS will delete the CMOS program
+from the motherboard. ONLY USE THIS OPTION IF YOU KNOW WHAT YOUR DOING.<br>
+<b>Enable CPU Beep</b> - This makes the victims computer beep like holding down
+Ctrl-Alt-Del But it last forever!<br>
+<b>Disable CPU Beep</b> - Disables the beep.<b><br>
+<font size=4><br>
+<U>Matrix Emulator</U></b><br><br></font>
+Mimics the scene in the file 'The Matrix' where the computer talks to neo in green writing. You can choose to allow the user to talk back. In windows 9x the black screen that appears is un-closeable and cannot be escaped.<p>
+<font size=4><br><b>
+<U>Remote MSN manager</U></b><br><br></font>
+This allows you to partially control the remote users MSN messenger program. You can choose to sign the user out (so when they sign back in, you can read their password on the keylogger) as well as change their status.<br>
+There is also a online/Offline flooder. This is a very simple tool that can be used to annoy the victims MSN contact list. When this is enabled, their status changes from online to offline and back again very quickly, causing a multi-popup box effect on all of their contacts computers. This will make them very unpopular ;-)<p>
+<br>
+<font size=4><br>
+<a name="testonpc"><font size=4><b><hr color=blue>Test It On Your PC</b> <br><br></font>
+You can run the server on your own computer. The server is not lethal in anyway. You can then connect to yourself with the client using the address 127.0.0.1<br>
+<b>You do NOT have to be online to test the server on yourself!</b><br>
+This is for people worried about other people connecting to the system. Once you have finished testing, just goto server options in the pest client and click remove server, then, when prompted, click OK. Then the server is completly removed.
+<br>
+<font size=4></a>
+<a name="faqs"><center><font size="5"><hr color=blue></font>
+</a></font>
+<a name="faqs"><b>Faq's</center>
+Q. Does PEST's server screw your machine up?</b><br>
+A. No, all the server does is receives commands from PEST.<br><br>
+<b>
+Q. When I am using screencapture, the screencapture goes all scrambled and weird, whats wrong?</b><br>
+A. This is becuase the screencapture client is updating the image serveral times at once. Heres how to fix the problem: press the button with the down arrow once and wait a few seconds, if this doesnt fix it, press the red-cross button to disconnect, and then reconnect to the screencapture server. Everything should now be fine :-)<br><br>
+<b>
+Q. When using the server on Win2000, my computer crashes when I try to shutdown, why?</b><br>
+A. MonkeyCircus is working on this problem. As noted at the top of this FAQ, the servers are only Win9x and XP compatible.<br><br>
+<b>
+Q. Can you connect to a server offline?</b><br>
+A. No, there will be no connection to the server.<br><br>
+<b>
+Q. I infected my self how do i delete the server?</b><br>
+A. Quite simple just log onto your IP or 127.0.0.1 as an IP and connect to your self. Then go under server and click remove server. When a messagebox comes up say yes. Now your not infected any more :-).<br><br>
+<b>
+Q. What dose IP stand for?</b><br>
+A. Internet Protocol Address. This is a 32bit number <br><br>
+<b>
+Q. Are the PEST servers backward compatible?</b><br>
+A. Yes. You can connect to a PEST v1 or v2 server with PEST v4.0. To get access to the new functions, however, you will need to update the server with the new v4.0 version.</a>
+<p><b>Q.Is this Remote Administration Tool Program free?</b>
+<a name="faqs"><br>
+Basically yes, but if you have anything to donate you can contact us anytime to
+support us to build more tools/programs.<br><br>
+<b>
+Q. How can I contact MonkeyCircus?</b><br>
+A. You can email MonkeyCircus at </a> <a href="mailto:monkey@monkeycircus.cjb.net">monkey@monkeycircus.cjb.net</a><font size=4><br><br>
+<a name="commun"><center><br><b></p>
+<font size=5><hr color=blue></font>The PEST community and rules</b><br>
+You can take part in forums discussions about PEST on the pest website at </a> <a href="http://www.pesty.cjb.net" target="_blank">www.pesty.cjb.net</a>.
+<br><br><b>The PEST IRC chat room</b><br>The PEST chat room is on the webstite at the above address. If you have mIRC you can access it on
+irc.mircx.com #PESTy.cjb.net<br>
+<br><b>RULES OF THE PEST COMMUNITY</b><br>
+1.) Spamming will get you a perminant ban.<br>
+2.) Impersonating PEST staff will also result in perminant ban.<br>
+3.) If we find that the chat room is constantly abused by visitors, it will be shutdown.<br>
+4.) DOS attacks or any other attempt to hack or crack the PEST website or IRC chat facility will result im much more than a ban ;-)<br>
+<font size=4><font size=5>
+<hr color=blue><center><br></font></font><b>CREDITS</b><br>
+<b>PEST v4.0 design, coding:</b><br>
+MonkeyCircus - Im usually around on the IRC chat room and Forums, or you can email me at
+<a href="mailto:monkey@monkeycircus.cjb.net"> monkey@monkeycircus.cjb.net</a><br>
+If I catch anybody impersonating me or any other staff member, you better go where I cant find you ;-)<br><br>
+<b>PEST testing:</b><br>
+Rabid Tangerine - Im usually around on the forums and IRC chat room<br>Genoshin-GX
+- Me too, hehe<br>
+<br>
+MonkeyCircus can build LAN/WAN networking software to requirements, if you are interested in free
+networking software, e-mail MonkeyCircus at <a href="mailto:monkey@monkeycircus.cjb.net">monkey@monkeycircus.cjb.net</a><br>
+<br>Thank You And I Hope This Made Your Life Easier With PEST!

@@ -1,0 +1,195 @@
+ACDSystems PicAView,HKEY_LOCAL_MACHINE,SOFTWARE\ACD Systems\PicaView,LicenseNumber
+Act of War,HKEY_CURRENT_USER,Software\Eugen Systems\ActOfWar,RegNumber
+Adobe Photoshop 7,HKEY_LOCAL_MACHINE,SOFTWARE\Adobe\Photoshop\7.0\Registration,SERIAL
+Advanced PDF Password Recovery,HKEY_LOCAL_MACHINE,SOFTWARE\Elcom\Advanced PDF Password Recovery\Registration,Code
+Advanced PDF Password Recovery Pro,HKEY_LOCAL_MACHINE,SOFTWARE\Elcom\Advanced PDF Password Recovery Pro\Registration,Code
+Advanced ZIP Password Recovery,HKEY_LOCAL_MACHINE,SOFTWARE\Elcom\Advanced ZIP Password Recovery\Registration,Code
+Anno 1701,HKEY_LOCAL_MACHINE,Software\Sunflowers\Anno 1701,SerialNo
+Ashamopp WinOptimizer Platinum,HKEY_LOCAL_MACHINE,Software\ashampoo\Ashampoo WinOptimizer Platinum 3,Key
+AV Voice Changer,HKEY_LOCAL_MACHINE,SOFTWARE\Avnex\AV Voice Changer Software\Vcs 4.0 DIAMOND,
+@stake LC5,HKEY_CURRENT_USER,Software\@stake\LC5\Registration,Unlock Code
+Battlefield 1942,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Battlefield 1942\ergc,
+Battlefield 1942 Secret Weapons Of WWII,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Battlefield 1942 Secret Weapons of WWII\ergc,
+Battlefield 1942 The Road To Rome,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Battlefield 1942 The Road to Rome\ergc,
+Battlefield 2,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Games\Battlefield 2\ergc,
+Battlefield 2142,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA GAMES\Battlefield 2142\ergc,
+Battlefield Vietnam,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Battlefield Vietnam\ergc,
+Black and White,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Black and White\ergc,
+Black and White 2,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Black and White 2\ergc,
+Boulder Dash Rocks,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\Boulder Dash Rocks\ergc,
+Burnout Paradise,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\Burnout Paradise\ergc,
+Call of Duty,HKEY_LOCAL_MACHINE,Software\Activision\Call of Duty,codkey
+Call of Duty 2,HKEY_LOCAL_MACHINE,Software\Activision\Call of Duty 2,codkey
+Call of Duty 4,HKEY_LOCAL_MACHINE,Software\Activision\Call of Duty 4,codkey
+Camtasia Studio 4(Name),HKEY_LOCAL_MACHINE,SOFTWARE\TechSmith\Camtasia Studio\4.0,RegisteredTo
+Camtasia Studio 4(Key),HKEY_LOCAL_MACHINE,SOFTWARE\TechSmith\Camtasia Studio\4.0,RegistrationKey
+Chrome,HKEY_LOCAL_MACHINE,Software\Techland\Chrome,SerialNumber
+Codec Tweak Tool,HKEY_LOCAL_MACHINE,Software\Codec Tweak Tool,serial
+Command and Conquer Generals,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Generals\ergc,
+Command and Conquer Generals: Zero Hour,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Command and Conquer Generals Zero Hour\ergc,
+Command and Conquer Red Alert 2,HKEY_LOCAL_MACHINE,Software\Westwood\Red Alert 2,Serial
+Command and Conquer Red Alert,HKEY_LOCAL_MACHINE,Software\Westwood\Red Alert,Serial
+Command and Conquer Tiberian Sun,HKEY_LOCAL_MACHINE,Software\Westwood\Tiberian Sun,Serial
+Command and Conquer 3,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Command and Conquer 3\ergc,
+Command and Conquer 3,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Electronic Arts\Command and Conquer 3\ergc,
+Company of Heroes,HKEY_LOCAL_MACHINE,SOFTWARE\THQ\Company of Heroes,CoHProductKey
+Company of Heroes: Opposing Fronts,HKEY_LOCAL_MACHINE,SOFTWARE\THQ\Company of Heroes,CoHOFProductKey
+Counter-Strike,HKEY_CURRENT_USER,Software\Valve\Counter-Strike\Settings,Key
+Crysis,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Electronic Arts\Crysis\ergc,
+Cyberlink PowerDVD,HKEY_LOCAL_MACHINE,SOFTWARE\Cyberlink\PowerDVD,CDKey
+Cyberlink PowerBar,HKEY_LOCAL_MACHINE,SOFTWARE\Cyberlink\PowerBar,CDKey
+Cyberlink PowerProducer 3.0,HKEY_LOCAL_MACHINE,SOFTWARE\CyberLink\PowerProducer\3.0\UserReg,SR_No
+Day of Defeat,HKEY_CURRENT_USER,Software\Valve\Day of Defeat\Settings,Key
+Der Herr der Ringe: Die Schlacht um Mittelerde II,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\Electronic Arts\The Battle for Middle-earth II\ergc,
+Die Sims 2,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2\ergc,
+Die Sims 2 Wilde Campus-Jahre,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2 University\ergc,
+Die Sims 2 Nightlife,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2 Nightlife\ergc,
+Die Sims 2 Open for Business,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2 Open For Business\ergc,
+Die Sims 2 Haustiere,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2 Pets\ergc,
+Die Sims 2 Vier Jahreszeiten,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2 Seasons\ergc,
+Die Sims 2 Glamour-Accessoires,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2 Glamour Life Stuff\ergc,
+Die Sims 2 Party-Accessoires,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2 Celebration Stuff\ergc,
+Die Sims 2 H&M Fashion-Accessoires,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2 H M Fashion Stuff\ergc,
+Die Sims 2,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Sims 2 Family Fun Stuff\ergc,
+DvD Audio Extractor(Serial),HKEY_LOCAL_MACHINE,Software\DVD Audio Extractor\Settings,Reg Number
+DvD Audio Extractor(Name),HKEY_LOCAL_MACHINE,Software\DVD Audio Extractor\Settings,Reg Name
+Empire Earth 2,HKEY_LOCAL_MACHINE,Software\Sierra\Empire Earth II,CDKey
+F.E.A.R,HKEY_CURRENT_USER,Software\Sierra\CDKey,fear
+F-Secure BackWeb,HKEY_LOCAL_MACHINE,Software\F-Secure\BackWeb\iLauncher,UID
+FarCry,HKEY_LOCAL_MACHINE,SOFTWARE\CRYTEK\FARCRY\UBI.COM,CDKey
+FarCry 2,HKEY_LOCAL_MACHINE,SOFTWARE\CRYTEK\FARCRY2\UBI.COM,CDKey
+FIFA 2002,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\FIFA 2002\ergc,
+FIFA 2003,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\FIFA 2003\ergc,
+FIFA 2004,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\FIFA 2004\ergc,
+FIFA 2005,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Sports\FIFA 2005\ergc
+FIFA 2007,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Sports\FIFA 07\ergc,
+FIFA 08,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\Electronic Arts\FIFA 08\ergc,
+Freedom Force,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Distribution\Freedom Force\ergc,
+Frontlines: Fuel of War Beta,HKEY_LOCAL_MACHINE,Software\THQ\Frontlines: Fuel of War Beta,ProductKey
+Frontlines: Fuel of War,HKEY_LOCAL_MACHINE,Software\THQ\Frontlines: Fuel of War,ProductKey
+Get Right,HKEY_LOCAL_MACHINE,SOFTWARE\Headlight\GetRight,GRcode
+Global Operations,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Global Operations\ergc,
+Gunman Chronicles,HKEY_CURRENT_USER,Software\Valve\Gunman\Settings,
+Half-Life,HKEY_CURRENT_USER,Software\Valve\Half-Life\Settings,Key
+Hellgate: London,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\Hellgate: London\ergc,
+Hidden and Dangerous 2,HKEY_LOCAL_MACHINE,Software\Illusion Softworks\Hidden & Dangerous 2,key
+IGI2: Covert Strike,HKEY_LOCAL_MACHINE,Software\IGI 2 Retail\CDKey,CDkey
+InCD Serial,HKEY_LOCAL_MACHINE,SOFTWARE\Ahead\InCD,License
+InCD Username,HKEY_LOCAL_MACHINE,SOFTWARE\Ahead\InCD,UserName
+Industry Giant 2,HKEY_CURRENT_USER,Software\JoWooD\InstalledGames\IG2,prvkey
+iPod Converter (Serial),HKEY_LOCAL_MACHINE,Software\AVConverter\iPod Converter,Registration Code
+iPod Converter (Name),HKEY_LOCAL_MACHINE,Software\AVConverter\iPod Converter,User Name
+James Bond 007 Nightfire,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\James Bond 007 Nightfire\ergc,
+Legends of Might and Magic,HKEY_CURRENT_USER,Software\3d0\Status Legends of Might and Magic,CustomerNumber
+Macromedia Flash 7,HKEY_LOCAL_MACHINE,SOFTWARE\Macromedia\Flash\7\Registration,Serial Number
+Macromedia Fireworks 7,HKEY_LOCAL_MACHINE,SOFTWARE\Macromedia\Fireworks\7\Registration,Serial Number
+Macromedia Dreamweaver 7,HKEY_LOCAL_MACHINE,SOFTWARE\Macromedia\Dreamweaver\7\Registration,Serial Number
+Madden NFL 07,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\Madden NFL 07\ergc,
+Matrix Screensaver,HKEY_CURRENT_USER,Software\JSG\Matrix Saver V2,Registration
+Medal of Honor: Airborne,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\Medal of Honor Airborne,Product GUID
+Medal of Honor: Allied Assault,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Medal of Honor Allied Assault\ergc,
+Medal of Honor: Allied Assault: Breakthrough,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Medal of Honor Allied Assault Breakthrough\ergc,
+Medal of Honor: Allied Assault: Spearhead,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Medal of Honor Allied Assault Spearhead\ergc,
+Medal of Honor: Heroes 2,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\Medal of Honor: Heroes 2\ergc,
+mIRC (Name),HKEY_CURRENT_USER,Software\mIRC\UserName,
+mIRC (Serial),HKEY_CURRENT_USER,Software\mIRC\License,
+Nascar Racing 2002,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\Nascar Racing 2002\ergc,
+Nascar Racing 2003,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\Nascar Racing 2003\ergc,
+NHL 2002,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\NHL 2002\ergc,
+NBA 2003,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\NBA LIVE 2003\ergc,
+NBA 2004,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\NBA LIVE 2004\ergc,
+NBA 2007,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Sports\NBA LIVE 07\ergc,
+NBA Live 08,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\NBA Live 08\ergc,
+Need for Speed Carbon,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\Electronic Arts\Need for Speed Carbon\ergc,
+Need For Speed Hot Pursuit 2,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Need For Speed Hot Pursuit 2\ergc,
+Need For Speed Most Wanted,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Need for Speed Most Wanted\ergc,
+Need For Speed ProStreet,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\Electronic Arts\Need for Speed ProStreet\ergc,
+Need For Speed Underground,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Need For Speed Underground\ergc,
+Need for Speed Underground 2,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\Need for Speed Underground 2\ergc,
+Nero Burning Rom 6,HKEY_LOCAL_MACHINE,SOFTWARE\Ahead\Nero - Burning Rom\Info,Serial6
+Nero 7,HKEY_LOCAL_MACHINE,Software\Nero\Installation\Families\Nero 7\Info,Serial7_1191197813
+Nero 8,HKEY_LOCAL_MACHINE,SOFTWARE\Nero\Installation\Families\Nero 8\Info,Serial8_1194709660
+NHL 2002,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\NHL 2002\ergc,
+NHL 2003,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\NHL 2003\ergc,
+NHL 2004,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Sports\NHL 2004\ergc,
+NHL 2005,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Sports\NHL 2005\ergc,
+NOX,HKEY_LOCAL_MACHINE,Software\Westwood\Nox,Serial
+Numega SmartCheck,HKEY_LOCAL_MACHINE,SOFTWARE\NuMega\SmartCheck,Serial
+Online TVPlayer (Name),HKEY_LOCAL_MACHINE,Software\OnlineTVPlayer\RegInfo,name
+Online TVPlayer (Serial),HKEY_LOCAL_MACHINE,Software\OnlineTVPlayer\RegInfo,serial
+O&O Defrag 8.0 (Username),HKEY_LOCAL_MACHINE,SOFTWARE\O&O\O&O Defrag\8.0\Pro\licenses,User
+O&O Defrag 8.0 (Company),HKEY_LOCAL_MACHINE,SOFTWARE\O&O\O&O Defrag\8.0\Pro\licenses,Company
+O&O Defrag 8.0 (Serial),HKEY_LOCAL_MACHINE,SOFTWARE\O&O\O&O Defrag\8.0\Pro\licenses,SerialNo
+Partition Magic 8.0,HKEY_LOCAL_MACHINE,SOFTWARE\PowerQuest\PartitionMagic\8.0\UserInfo,SerialNumber
+Passware Encryption Analyzer (License),HKEY_CURRENT_USER,Software\Passware\Encryption Analyzer\1\Registration,License
+Passware Encryption Analyzer (Name),HKEY_CURRENT_USER,Software\Passware\Encryption Analyzer\1\Registration,Name
+Passware Encryption Analyzer (Serial),HKEY_CURRENT_USER,Software\Passware\Encryption Analyzer\1\Registration,Serial
+Passware Windows Key (License),HKEY_CURRENT_USER,Software\Passware\Windows Key\7\Registration,License
+Passware Windows Key (Name),HKEY_CURRENT_USER,Software\Passware\Windows Key\7\Registration,Name
+Passware Windows Key (Serial),HKEY_CURRENT_USER,Software\Passware\Windows Key\7\Registration,Serial
+PowerDvD,HKEY_LOCAL_MACHINE,Software\CyberLink\PowerDVD,UI_RMK
+PowerStrip,HKEY_LOCAL_MACHINE,Software\EnTech\PowerStrip,Key
+Pro Evolution Soccer 2008,HKEY_LOCAL_MACHINE,Software\KONAMI\PES2008,code
+Rainbow Six III RavenShield,HKEY_LOCAL_MACHINE,Software\Red Storm Entertainment\RAVENSHIELD,CDKey
+Shogun Total War Warlord Edition,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA GAMES\Shogun Total War - Warlord Edition\ergc,
+Sid Meier's Pirates!,HKEY_LOCAL_MACHINE,SOFTWARE\Atari\Sid Meier's Pirates!,CDKey
+Silent Hunter III,HKEY_CURRENT_USER,Software\Ubisoft\SILENT HUNTER III\Keys,DiscKey_SH3
+Sim City 4 Deluxe,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\ Sim City 4 Deluxe\ergc,
+Sim City 4,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\ Sim City 4\ergc,
+Sniffer Pro 4.5,HKEY_LOCAL_MACHINE,SOFTWARE\Network Associates, Inc.\Sniffer Pro\4.5\USER,SerialNumber
+Soldiers Of Anarchy,HKEY_CURRENT_USER,Software\Silver Style Entertainment\Soldiers Of Anarchy\Settings
+Stalker - Shadow of Chernobyl,HKEY_LOCAL_MACHINE,SOFTWARE\GSC Game World\STALKER-SHOC,InstallCDKEY
+Star Wars Battlefront II (v1.0),HKEY_LOCAL_MACHINE,SOFTWARE\LucasArts\Star Wars Battlefront II\1.0,CD Key
+Star Wars Battlefront II (v1.1),HKEY_LOCAL_MACHINE,SOFTWARE\LucasArts\Star Wars Battlefront II\1.1,CD Key
+Steam Install Path,HKEY_LOCAL_MACHINE,Software\Valve\Steam,InstallPath
+Steganos Internet Anonym VPN,HKEY_LOCAL_MACHINE,Software\Steganos\SIAVPN,ClientID
+Splinter Cell Pandora Tomorrow,HKEY_LOCAL_MACHINE,Software\Ubisoft\Splinter Cell Pandora Tomorrow,CDKey
+Surpreme Commander,HKEY_LOCAL_MACHINE,SOFTWARE\THQ\Gas Powered Games\Supreme Commander,KEY
+S.W.A.T 2,HKEY_CURRENT_USER,Software\Sierra\CDKey,swat2
+S.W.A.T 3,HKEY_CURRENT_USER,Software\Sierra\CDKey,swat3
+S.W.A.T 4,HKEY_CURRENT_USER,Software\Sierra\CDKey,swat4
+TechSmith SnagIt (Serial),HKEY_LOCAL_MACHINE,Software\TechSmith\SnagIt\8,RegistrationKey
+TechSmith SnagIt (Name),HKEY_LOCAL_MACHINE,Software\TechSmith\SnagIt\8,RegisteredTo
+Texas Calculatem 4 (Owner),HKEY_LOCAL_MACHINE,SOFTWARE\TexasCalc\License,Owner Name
+Texas Calculatem 4 (Serial),HKEY_LOCAL_MACHINE,SOFTWARE\TexasCalc\License,Registration Key
+The Battle for Middle-earth,HKEY_LOCAL_MACHINE,Software\Electronic Arts\EA Games\The Battle for Middle-earth\ergc,
+The Gladiators,HKEY_CURRENT_USER,Software\Eugen Systems\The Gladiators
+The Orange Box,HKEY_LOCAL_MACHINE,SOFTWARE\Electronic Arts\EA Games\The Orange Box\ergc,
+The Sims Deluxe,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\The Sims Deluxe\ergc,
+The Sims Hot Date,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\The Sims Hot Date\ergc,
+The Sims House Party,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\The Sims House Party\ergc,
+The Sims Livin' Large,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\The Sims Livin' Large\ergc,
+The Sims Superstar,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\The Sims Superstar\ergc,
+The Sims Unleashed,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\The Sims Unleashed\ergc,
+The Sims Vacation,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\The Sims Vacation\ergc,
+The Sims,HKEY_LOCAL_MACHINE,Software\Electronic Arts\Maxis\The Sims\ergc,
+Timeshift,HKEY_CURRENT_USER,Software\Sierra\CDKey,Timeshift
+TMPGEnc DVD Author,HKEY_LOCAL_MACHINE,SOFTWARE\Pegasys Inc.\TMPGEnc DVD Author\1.0,RegistrationCode
+TMPGEnc Plus 2.5,HKEY_CURRENT_USER,Software\Pegasys Inc.\TMPGEnc Plus\2.5,SerialID
+Trackmania United,HKEY_LOCAL_MACHINE,SOFTWARE\Nadeo\TmUnited\Keys\License0,key
+TuneUp 2007 (Name),HKEY_LOCAL_MACHINE,SOFTWARE\TuneUp\Utilities\6.0,UserName
+TuneUp 2007 (Key),HKEY_LOCAL_MACHINE,SOFTWARE\TuneUp\Utilities\6.0,RegCode
+TuneUp 2007 (Company),HKEY_LOCAL_MACHINE,SOFTWARE\TuneUp\Utilities\6.0,Company
+TuneUp 2008 (Name),HKEY_LOCAL_MACHINE,SOFTWARE\TuneUp\Utilities\7.0,UserName
+TuneUp 2008 (Key),HKEY_LOCAL_MACHINE,SOFTWARE\TuneUp\Utilities\7.0,RegCode
+TuneUp 2008 (Company),HKEY_LOCAL_MACHINE,SOFTWARE\TuneUp\Utilities\7.0,Company
+Ulead Burn.Now,HKEY_LOCAL_MACHINE,Software\Ulead Systems\Ulead Brun.Now\1.5\Installer,Serial Number
+Ulead DVD Power Tools 2,HKEY_LOCAL_MACHINE,SOFTWARE\Ulead Systems\Ulead DVD PowerTools\2.0\installer,Serial Number
+Unreal Tournament 2003,HKEY_LOCAL_MACHINE,Software\Unreal Technology\Installed Apps\UT2003,CDKey
+Unreal Tournament 2004,HKEY_LOCAL_MACHINE,Software\Unreal Technology\Installed Apps\UT2004,CDKey
+VSO ConvertXtoDVD,HKEY_LOCAL_MACHINE,SOFTWARE\VSO\ConvertXtoDVD,LicenseKey
+Visual CertExam Suite (ActCode),HKEY_CURRENT_USER,Software\Visual CertExam Suite,ActCode
+Visual CertExam Suite (RegCode),HKEY_CURRENT_USER,Software\Visual CertExam Suite,RegCode
+Visual CertExam Suite (Serial),HKEY_CURRENT_USER,Software\Visual CertExam Suite,Serial
+VMWare,HKEY_LOCAL_MACHINE,SOFTWARE\VMware, Inc.\VMware Workstation,ProductCode
+VMWare Workstation 5.0,HKEY_LOCAL_MACHINE,SOFTWARE\VMware, Inc.\VMware Workstation\License.ws.5.0,Serial
+Winamp (Username),HKEY_LOCAL_MACHINE,SOFTWARE\Nullsoft\Winamp,regname
+Winamp (Serial),HKEY_LOCAL_MACHINE,SOFTWARE\Nullsoft\Winamp,regkey
+WinISO (Username),HKEY_LOCAL_MACHINE,SOFTWARE\WinISO,UserName
+WinISO (Serial),HKEY_LOCAL_MACHINE,SOFTWARE\WinISO,Registration
+Windows Product Key,HKEY_LOCAL_MACHINE,SOFTWARE\Microsoft\Windows NT\CurrentVersion,ProductID
+World of Warcraft Installiert!,HKEY_LOCAL_MACHINE,Software\Blizzard Entertainment\World of Warcraft,InstallPath
+Zanzarah,HKEY_CURRENT_USER,Software\Funatics\Zanzarah,SerialNumber
+ZoneAlarm(Serial),HKEY_LOCAL_MACHINE,Software\Zone Labs\ZoneAlarm\Registration,SerialNum
+ZoneAlarm(Name),HKEY_LOCAL_MACHINE,Software\Zone Labs\ZoneAlarm\Registration,RegisteredOwner
+ZoneAlarm(Firma),HKEY_LOCAL_MACHINE,Software\Zone Labs\ZoneAlarm\Registration,RegisteredOrganization

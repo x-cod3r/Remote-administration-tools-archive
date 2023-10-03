@@ -1,0 +1,14 @@
+Binder:
+
+Bind file to be ran on execution (along with dropper):  Check this option if you wish to bind (join) the jRat server to another executable file. This would allow the jRat server to be ran, as well as the program binded to it. For example: You could send the victim a simple game, once they ran the game it would install the server and bring the game up at the same time. This would make it look like you sent them a legit file.  
+
+Path: Select the folder button to the right of this field and select the file you wish to bind to the server.
+
+Name: Specify the name you wish use for the joined file. 
+
+Drop path: Select where you would like the bind to be dropped.
+
+*Note: Selected file will not be encrypted!
+
+
+

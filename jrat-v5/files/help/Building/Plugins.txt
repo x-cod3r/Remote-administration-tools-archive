@@ -1,0 +1,3 @@
+Plugins:
+
+Here you would add or remove plugins for your jRat server. Please see the website for available plugins.

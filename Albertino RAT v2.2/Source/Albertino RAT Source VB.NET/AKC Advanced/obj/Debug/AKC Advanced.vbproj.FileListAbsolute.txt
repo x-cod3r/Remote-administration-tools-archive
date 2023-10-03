@@ -1,0 +1,10 @@
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\bin\Debug\winupdate.exe
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\bin\Debug\winupdate.pdb
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\bin\Debug\winupdate.xml
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\obj\Debug\winupdate.resources
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\obj\Debug\Resources.resources
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\obj\Debug\AKC Advanced.vbproj.GenerateResource.Cache
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\obj\Debug\winupdate.exe
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\obj\Debug\winupdate.xml
+C:\Users\Mirko\Desktop\Albertino RAT\AKC Advanced\obj\Debug\winupdate.pdb

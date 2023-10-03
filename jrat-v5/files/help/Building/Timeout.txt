@@ -1,0 +1,10 @@
+Socket Timeout:
+
+Enable Timeout: Select this if you wish to have the server time out at a certain ammount of time.
+
+Default is 15 Seconds and is Recommended.
+
+Seconds: Select the amount of seconds desired or press the arrow button beside this field to randomly generate an amount.
+
+*The Socket timeout will be displayed in the jRat client, under the Sockets tab.
+

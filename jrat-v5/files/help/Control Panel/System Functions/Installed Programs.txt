@@ -1,0 +1,7 @@
+This merely gives you a list of 
+all the user's programs into one window. 
+You can refresh the list, in the case of the host 
+installing something new, or you can clear the programs 
+currently in the list. If the programs are not showing up correctly, 
+make sure you have the correct 
+destination selected (the dropdown list next to the 'clear' button).

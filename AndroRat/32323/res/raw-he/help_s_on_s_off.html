@@ -1,0 +1,27 @@
+<html>
+<head></head>
+<body>
+<h2>מכשירי HTC</h2>
+<p>AdAway לא עובד טוב עם המכשיר שלך בגלל משהו שנקרא S-ON / S-OFF זה משהו שנמצא בהרבה מכשירים של HTC ה S-ON מונע מAdAway לרשום קובץ HOST ובגלל זה יכול להיות ש AdAway לא יעבוד טוב על מכשירך / לא יעבוד בכלל</p>
+
+<h2>S-ON/S-OFF?</h2>
+<p>AdAway לא עובד טוב עם המכשיר שלך בגלל משהו שנקרא S-ON / S-OFF זה משהו שנמצא בהרבה מכשירים של HTC ה S-ON מונע מAdAway לרשום קובץ HOST ובגלל זה יכול להיות ש AdAway לא יעבוד טוב על מכשירך / לא יעבוד בכלל</p>
+
+<h2>יש לך תכונת S-ON או S-OFF?</h2>
+<p>היכנס לבוט בעזרת לחיצה על ווליום למעלה + ווליום למטה + כפתור הכיבוי הדלקה ואז תראה S-OFF / S-ON 
+עוד מידע אפשר למצוא פה: <a href="http://www.addictivetips.com/mobile/what-is-s-off-how-to-gain-it-on-htc-android-phones-with-unrevoked-forever/">www.addictivetips.com</a>.</p>
+
+<h2>לעקיפת הבעיה</h2>
+<p>אתה צריך להתקין קודם Android SDK עם ADB במחשב שלך</p>
+<ol>
+<li>הכנס לתפריט הבוט על ידי לחיצה על כפתורי הווליום למעלה + למטה ולחץ באותו הזמן על כפתור הכיבוי וההדלקה</li>
+<li>השתמש בחצי הווליום למעלה  למטה על מנת לנווט בריקבורי</li>
+<li>בריקבורי השתמש בכפתור הווליום למעלה ולחץ על partitions menu ולחץ על track בשביל לבחור</li>
+<li>בחר <i>mount /system</i>, <i>mount /sdcard</i> ו <i>mount /data</i></li>
+<li>חבר את המכשיר למחשב עם usb ופתח את הפקודות במחשב</li>
+<li>היכנס ל ADB Shell ורשום שם: <br/><tt>ln -s /data/data/hosts /system/etc/hosts</tt><br/> </li>
+<li>הפעל מחשב את המכשיר והגדר <i>Target hosts file</i> to <i>/data/data/hosts</i></li>
+<li>AdAway  אמור לעבוד עכשיו</li>
+</ol>
+</body>
+</html>

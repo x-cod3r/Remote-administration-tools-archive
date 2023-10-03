@@ -1,0 +1,7 @@
+Finalize and Build Server:
+
+Output: Specify where you would like the jRat server to be saved. Click the folder icon to the right of this field and select the desired location and name for your server.
+
+Expected Size: Select the arrows button to determine the expected file size for your server.
+
+Once you have selected the Output for your server and verified the size, click the Build button at the bottom right. Once the build is finished you will be notified with a build summary. Congratulations! You have successfully set up your jRat Server. Your server will be located in the output location specified.

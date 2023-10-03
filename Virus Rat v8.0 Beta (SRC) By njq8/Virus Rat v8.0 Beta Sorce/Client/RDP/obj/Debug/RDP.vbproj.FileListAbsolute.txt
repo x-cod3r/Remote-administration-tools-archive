@@ -1,0 +1,32 @@
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\bin\Debug\RDP.exe
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\bin\Debug\RDP.pdb
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\bin\Debug\RDP.xml
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\obj\Debug\RDP.Form1.resources
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\obj\Debug\RDP.Resources.resources
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\obj\Debug\RDP.vbproj.GenerateResource.Cache
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\obj\Debug\RDP.exe
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\obj\Debug\RDP.xml
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\obj\Debug\RDP.pdb
+C:\Users\njq8\Desktop\njRDP\RDP\RDP\obj\Debug\RDP.Cap.resources
+D:\VB.Net\RDP\RDP\obj\Debug\ResolveAssemblyReference.cache
+D:\VB.Net\RDP\RDP\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\VB.Net\RDP\RDP\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\VB.Net\RDP\RDP\bin\Debug\IrisSkin4.dll
+D:\VB.Net\RDP\RDP\bin\Debug\Jordan RAT.exe
+D:\VB.Net\RDP\RDP\bin\Debug\Jordan RAT.pdb
+D:\VB.Net\RDP\RDP\bin\Debug\Jordan RAT.xml
+D:\VB.Net\RDP\RDP\obj\Debug\JordanRAT.Cap.resources
+D:\VB.Net\RDP\RDP\obj\Debug\JordanRAT.Form1.resources
+D:\VB.Net\RDP\RDP\obj\Debug\JordanRAT.Form2.resources
+D:\VB.Net\RDP\RDP\obj\Debug\JordanRAT.Form3.resources
+D:\VB.Net\RDP\RDP\obj\Debug\JordanRAT.Form4.resources
+D:\VB.Net\RDP\RDP\obj\Debug\JordanRAT.Resources.resources
+D:\VB.Net\RDP\RDP\obj\Debug\Jordan RAT.exe
+D:\VB.Net\RDP\RDP\obj\Debug\Jordan RAT.xml
+D:\VB.Net\RDP\RDP\obj\Debug\Jordan RAT.pdb
+D:\VB.Net\RDP\RDP\obj\Debug\JordanRAT.Form5.resources
+D:\VB.Net\RDP\RDP\obj\Debug\JordanRAT.Form6.resources
+D:\VB.Net\RDP\RDP\bin\Debug\skincrafter.net-vs2005.dll
+D:\VB.Net\RDP\RDP\obj\Debug\JordanRAT.Form8.resources
+D:\VB.Net\RDP\RDP\obj\Debug\GenerateResource-ResGen.read.4.tlog

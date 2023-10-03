@@ -1,0 +1,10 @@
+C:\Users\Justin\Desktop\D-RAT\D-RAT\obj\x86\Debug\D-RAT.vbprojResolveAssemblyReference.cache
+C:\Users\Justin\Desktop\D-RAT\D-RAT\obj\x86\Debug\D_RAT.Form1.resources
+C:\Users\Justin\Desktop\D-RAT\D-RAT\obj\x86\Debug\D_RAT.Resources.resources
+C:\Users\Justin\Desktop\D-RAT\D-RAT\obj\x86\Debug\D-RAT.vbproj.GenerateResource.Cache
+C:\Users\Justin\Desktop\D-RAT\D-RAT\obj\x86\Debug\D-RAT.exe
+C:\Users\Justin\Desktop\D-RAT\D-RAT\obj\x86\Debug\D-RAT.xml
+C:\Users\Justin\Desktop\D-RAT\D-RAT\obj\x86\Debug\D-RAT.pdb
+C:\Users\Justin\Desktop\D-RAT\D-RAT.exe
+C:\Users\Justin\Desktop\D-RAT\D-RAT.pdb
+C:\Users\Justin\Desktop\D-RAT\D-RAT.xml

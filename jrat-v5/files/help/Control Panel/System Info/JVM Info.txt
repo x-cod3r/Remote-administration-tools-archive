@@ -1,0 +1,2 @@
+The JVM Info tab will display all the details of the host's java installation - 
+including but not only the version and the location of where Java is installed.

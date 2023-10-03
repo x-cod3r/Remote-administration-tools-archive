@@ -1,0 +1,4 @@
+Will display all saved filezilla passwords
+on the servers computer.
+
+Windows only.

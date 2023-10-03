@@ -1,0 +1,64 @@
+; Pulled from Windows SDK headers (and separated from '_ThreadContext.au3')
+#cs
+; --------------------------------------------------------------------------------------------------------------------
+;  Context Flags:
+; --------------------------------------------------------------------------------------------------------------------
+;	----- x86	-----
+; --------------------------------------------------------------------------------------------------------------------
+#define CONTEXT_i386    0x00010000    // this assumes that i386 and
+
+#define CONTEXT_CONTROL         (CONTEXT_i386 | 0x0001) // SS:SP, CS:IP, FLAGS, BP
+#define CONTEXT_INTEGER         (CONTEXT_i386 | 0x0002) // AX, BX, CX, DX, SI, DI
+#define CONTEXT_SEGMENTS        (CONTEXT_i386 | 0x0004) // DS, ES, FS, GS
+#define CONTEXT_FLOATING_POINT  (CONTEXT_i386 | 0x0008) // 387 state
+#define CONTEXT_DEBUG_REGISTERS (CONTEXT_i386 | 0x0010) // DB 0-3,6,7
+#define CONTEXT_EXTENDED_REGISTERS  (CONTEXT_i386 | 0x0020) // cpu specific extensions
+
+#define CONTEXT_FULL (CONTEXT_CONTROL | CONTEXT_INTEGER |\
+                      CONTEXT_SEGMENTS)
+
+#define CONTEXT_ALL             (CONTEXT_CONTROL | CONTEXT_INTEGER | CONTEXT_SEGMENTS | \
+                                 CONTEXT_FLOATING_POINT | CONTEXT_DEBUG_REGISTERS | \
+                                 CONTEXT_EXTENDED_REGISTERS)
+; --------------------------------------------------------------------------------------------------------------------
+;	----- AMD64	or x64 -----
+; --------------------------------------------------------------------------------------------------------------------
+#define CONTEXT_AMD64   0x100000
+
+#define CONTEXT_CONTROL (CONTEXT_AMD64 | 0x01)
+#define CONTEXT_INTEGER (CONTEXT_AMD64 | 0x02)
+#define CONTEXT_SEGMENTS (CONTEXT_AMD64 | 0x04)
+#define CONTEXT_FLOATING_POINT  (CONTEXT_AMD64 | 0x08)
+#define CONTEXT_DEBUG_REGISTERS (CONTEXT_AMD64 | 0x10)
+
+#define CONTEXT_FULL (CONTEXT_CONTROL | CONTEXT_INTEGER | CONTEXT_FLOATING_POINT)
+
+#define CONTEXT_ALL (CONTEXT_CONTROL | CONTEXT_INTEGER | CONTEXT_SEGMENTS | CONTEXT_FLOATING_POINT | CONTEXT_DEBUG_REGISTERS)
+
+#define CONTEXT_EXCEPTION_ACTIVE 0x8000000
+#define CONTEXT_SERVICE_ACTIVE 0x10000000
+#define CONTEXT_EXCEPTION_REQUEST 0x40000000
+#define CONTEXT_EXCEPTION_REPORTING 0x80000000
+; --------------------------------------------------------------------------------------------------------------------
+;	----- IA64	-----
+; --------------------------------------------------------------------------------------------------------------------
+#define CONTEXT_IA64                    0x00080000
+
+#define CONTEXT_CONTROL                 (CONTEXT_IA64 | 0x0001)
+#define CONTEXT_LOWER_FLOATING_POINT    (CONTEXT_IA64 | 0x0002)
+#define CONTEXT_HIGHER_FLOATING_POINT   (CONTEXT_IA64 | 0x0004)
+#define CONTEXT_INTEGER                 (CONTEXT_IA64 | 0x0008)
+#define CONTEXT_DEBUG                   (CONTEXT_IA64 | 0x0010)
+#define CONTEXT_IA32_CONTROL            (CONTEXT_IA64 | 0x0020)  // Includes StIPSR
+
+
+#define CONTEXT_FLOATING_POINT          (CONTEXT_LOWER_FLOATING_POINT | CONTEXT_HIGHER_FLOATING_POINT)
+#define CONTEXT_FULL                    (CONTEXT_CONTROL | CONTEXT_FLOATING_POINT | CONTEXT_INTEGER | CONTEXT_IA32_CONTROL)
+#define CONTEXT_ALL                     (CONTEXT_CONTROL | CONTEXT_FLOATING_POINT | CONTEXT_INTEGER | CONTEXT_DEBUG | CONTEXT_IA32_CONTROL)
+
+#define CONTEXT_EXCEPTION_ACTIVE        0x8000000
+#define CONTEXT_SERVICE_ACTIVE          0x10000000
+#define CONTEXT_EXCEPTION_REQUEST       0x40000000
+#define CONTEXT_EXCEPTION_REPORTING     0x80000000
+; --------------------------------------------------------------------------------------------------------------------
+#ce

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Exceptionless.Wpf</name>
+    </assembly>
+    <members>
+        <member name="T:Exceptionless.Dialogs.CrashReportDialog">
+            <summary>
+            Interaction logic for CrashReportDialog.xaml
+            </summary>
+            <summary>
+            CrashReportDialog
+            </summary>
+        </member>
+        <member name="M:Exceptionless.Dialogs.CrashReportDialog.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Exceptionless.ExceptionlessWpfExtensions.Register(Exceptionless.ExceptionlessClient,System.Boolean)">
+            <summary>
+            Reads configuration settings, configures various plugins and wires up to platform specific exception handlers. 
+            </summary>
+            <param name="client">The ExceptionlessClient.</param>
+            <param name="showDialog">Controls whether a dialog is shown when an unhandled exception occurs.</param>
+        </member>
+        <member name="M:Exceptionless.ExceptionlessWpfExtensions.Unregister(Exceptionless.ExceptionlessClient)">
+            <summary>
+            Unregisters platform specific exception handlers.
+            </summary>
+            <param name="client">The ExceptionlessClient.</param>
+        </member>
+    </members>
+</doc>

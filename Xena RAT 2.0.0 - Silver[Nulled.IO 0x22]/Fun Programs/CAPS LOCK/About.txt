@@ -1,0 +1,3 @@
+What it does
+
+It basically turns the CAPS Lock on and off every 10 seconds which affects their typing

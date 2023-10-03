@@ -1,0 +1,3863 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sparrow.Chart.Wpf.40</name>
+    </assembly>
+    <members>
+        <member name="T:Sparrow.Chart.AxisBase">
+            <summary>
+            Base for Axis
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.IAxis">
+            <summary>
+            IAxis
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.InvalidateVisuals">
+            <summary>
+            Invalidates the visuals.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.AxisBase"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.GetStyles">
+            <summary>
+            Gets the styles.
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.ZoomOffsetProperty">
+            <summary>
+            The zoom offset property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.OnZoomOffsetChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [zoom offset changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.ZoomCoefficientProperty">
+            <summary>
+            The zoom coefficient property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.OnZoomCoefficientChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [zoom coefficient changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.MinValueProperty">
+            <summary>
+            The min value property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.OnMinValueChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [min value changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.MinValueChnaged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Mins the value chnaged.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.OnMaxValueChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [max value changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.MaxValueChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Maxes the value changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.OnIntervalChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [interval changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.IntervalChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Intervals the changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.AddMinMax(System.Double,System.Double)">
+            <summary>
+            Adds the min max.
+            </summary>
+            <param name="min">The min.</param>
+            <param name="max">The max.</param>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.AddInterval(System.Double)">
+            <summary>
+            Add Interval to Axis
+            </summary>
+            <param name="interval">Interval to be added for Axis</param>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.GenerateLabels">
+            <summary>
+            Generates the labels.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.IsRectIntersect(System.Windows.Rect,System.Windows.Rect)">
+            <summary>
+            Determines whether [is rect intersect] [the specified source].
+            </summary>
+            <param name="source">The source.</param>
+            <param name="relativeTo">The relative to.</param>
+            <returns>
+              <c>true</c> if [is rect intersect] [the specified source]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.DataToPoint(System.Double)">
+            <summary>
+            Datas to point.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.CalculateIntervalFromSeriesPoints">
+            <summary>
+            Calculates the interval from series points.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.GetOriginalLabel(System.Double)">
+            <summary>
+            Gets the original label.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.CalculateAutoInterval">
+            <summary>
+            Calculates the auto interval.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.CheckType">
+            <summary>
+            Checks the type.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.RefreshSeries">
+            <summary>
+            Refreshes the series.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisBase.GetRotatedRect(System.Windows.Rect,System.Windows.Media.RotateTransform)">
+            <summary>
+            Gets the rotated rect.
+            </summary>
+            <param name="rect">The rect.</param>
+            <param name="rotate">The rotate.</param>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.StringFormatProperty">
+            <summary>
+            The string format property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.MinorLineSizeProperty">
+            <summary>
+            The minor line size property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.MinorLineStyleProperty">
+            <summary>
+            The minor line style property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.MajorLineStyleProperty">
+            <summary>
+            The major line style property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.MajorLineSizeProperty">
+            <summary>
+            The major line size property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.MajorTicksPositionProperty">
+            <summary>
+            The major ticks position property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.MinorTicksPositionProperty">
+            <summary>
+            The minor ticks position property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.ShowMajorTicksProperty">
+            <summary>
+            The show major ticks property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.MinorTicksCountProperty">
+            <summary>
+            The minor ticks count property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.HeaderProperty">
+            <summary>
+            The header property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.HeaderTemplateProperty">
+            <summary>
+            The header template property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.ChartProperty">
+            <summary>
+            The chart property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.LabelTemplateProperty">
+            <summary>
+            The label template property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.LabelAngleProperty">
+            <summary>
+            The label angle property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.ShowCrossLinesProperty">
+            <summary>
+            The show cross lines property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.ShowMinorCrossLinesProperty">
+            <summary>
+            The show minor cross lines property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.CrossLineStyleProperty">
+            <summary>
+            The cross line style property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisBase.SeriesProperty">
+            <summary>
+            The series property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.ZoomOffset">
+            <summary>
+            Gets or sets the zoom offset.
+            </summary>
+            <value>
+            The zoom offset.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.ZoomCoefficient">
+            <summary>
+            Gets or sets the zoom coefficient.
+            </summary>
+            <value>
+            The zoom coefficient.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MinValue">
+            <summary>
+            Gets or sets the min value.
+            </summary>
+            <value>
+            The min value.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MaxValue">
+            <summary>
+            Gets or sets the max value.
+            </summary>
+            <value>
+            The max value.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.Interval">
+            <summary>
+            Gets or sets the interval.
+            </summary>
+            <value>
+            The interval.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.AxisLineStyle">
+            <summary>
+            Gets or sets the axis line style.
+            </summary>
+            <value>
+            The axis line style.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.StringFormat">
+            <summary>
+            Gets or sets the string format.
+            </summary>
+            <value>
+            The string format.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MinorLineSize">
+            <summary>
+            Gets or sets the size of the minor line.
+            </summary>
+            <value>
+            The size of the minor line.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MinorLineStyle">
+            <summary>
+            Gets or sets the minor line style.
+            </summary>
+            <value>
+            The minor line style.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MajorLineStyle">
+            <summary>
+            Gets or sets the major line style.
+            </summary>
+            <value>
+            The major line style.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MajorLineSize">
+            <summary>
+            Gets or sets the size of the major line.
+            </summary>
+            <value>
+            The size of the major line.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MajorTicksPosition">
+            <summary>
+            Gets or sets the major ticks position.
+            </summary>
+            <value>
+            The major ticks position.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MinorTicksPosition">
+            <summary>
+            Gets or sets the minor ticks position.
+            </summary>
+            <value>
+            The minor ticks position.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.ShowMajorTicks">
+            <summary>
+            Gets or sets a value indicating whether [show major ticks].
+            </summary>
+            <value>
+              <c>true</c> if [show major ticks]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MinorTicksCount">
+            <summary>
+            Gets or sets the minor ticks count.
+            </summary>
+            <value>
+            The minor ticks count.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.Header">
+            <summary>
+            Gets or sets the header.
+            </summary>
+            <value>
+            The header.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.HeaderTemplate">
+            <summary>
+            Gets or sets the header template.
+            </summary>
+            <value>
+            The header template.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.Chart">
+            <summary>
+            Gets or sets the chart.
+            </summary>
+            <value>
+            The chart.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.LabelTemplate">
+            <summary>
+            Gets or sets the label template.
+            </summary>
+            <value>
+            The label template.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.LabelAngle">
+            <summary>
+            Gets or sets the label angle.
+            </summary>
+            <value>
+            The label angle.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.ShowCrossLines">
+            <summary>
+            Gets or sets a value indicating whether [show cross lines].
+            </summary>
+            <value>
+              <c>true</c> if [show cross lines]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.ShowMinorCrossLines">
+            <summary>
+            Gets or sets a value indicating whether [show minor cross lines].
+            </summary>
+            <value>
+            <c>true</c> if [show minor cross lines]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.MinorCrossLineStyle">
+            <summary>
+            Gets or sets the minor cross line style.
+            </summary>
+            <value>
+            The minor cross line style.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.CrossLineStyle">
+            <summary>
+            Gets or sets the cross line style.
+            </summary>
+            <value>
+            The cross line style.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisBase.Series">
+            <summary>
+            Gets or sets the series.
+            </summary>
+            <value>
+            The series.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.CategoryXAxis">
+            <summary>
+            Category XAxis
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.XAxis">
+            <summary>
+            XAxis
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.CheckType">
+            <summary>
+            Checks the Axis type.
+            </summary>
+            <returns>Axis Value Type</returns>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.Update">
+            <summary>
+            Updates this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.Initialize">
+            <summary>
+            Initializes this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.GetStyles">
+            <summary>
+            Gets the styles.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.InvalidateVisuals">
+            <summary>
+            Invalidates the visuals.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.DataToPoint(System.Double)">
+            <summary>
+            Datas to point.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.CalculateIntervalFromSeriesPoints">
+            <summary>
+            Calculates the interval from series points.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.GetOriginalLabel(System.Double)">
+            <summary>
+            Gets the original label.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.XAxis.TypeProperty">
+            <summary>
+            The type property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.OnTypeChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [type changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.XAxis.TypeChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Types the changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="P:Sparrow.Chart.XAxis.Type">
+            <summary>
+            Gets or sets the type.
+            </summary>
+            <value>
+            The type.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.CategoryXAxis.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.CategoryXAxis"/> class.
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.DateTimeXAxis">
+            <summary>
+            DateTime XAxis
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.DateTimeXAxis.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.DateTimeXAxis"/> class.
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.DateTimeYAxis">
+            <summary>
+            DateTime YAxis
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.YAxis">
+            <summary>
+            YAxis for Sparrow Chart
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.YAxis.GetStyles">
+            <summary>
+            Gets the styles.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.YAxis.CheckType">
+            <summary>
+            Checks the type.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.YAxis.InvalidateVisuals">
+            <summary>
+            Invalidates the visuals.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.YAxis.Update">
+            <summary>
+            Updates this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.YAxis.DataToPoint(System.Double)">
+            <summary>
+            Datas to point.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.YAxis.CalculateIntervalFromSeriesPoints">
+            <summary>
+            Calculates the interval from series points.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.YAxis.GetOriginalLabel(System.Double)">
+            <summary>
+            Gets the original label.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.YAxis.TypeProperty">
+            <summary>
+            The type property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.YAxis.OnTypeChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [type changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.YAxis.TypeChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Types the changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="P:Sparrow.Chart.YAxis.Type">
+            <summary>
+            Gets or sets the type.
+            </summary>
+            <value>
+            The type.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.DateTimeYAxis.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.DateTimeYAxis"/> class.
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.LinearXAxis">
+            <summary>
+            Linear XAxis
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LinearXAxis.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.LinearXAxis"/> class.
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.LinearYAxis">
+            <summary>
+            Linear YAxis
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LinearYAxis.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.LinearYAxis"/> class.
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.PartsCollection">
+            <summary>
+            Series Parts Collection
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.PointsCollection">
+            <summary>
+            ChartPoint Collection
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.SeriesCollection">
+            <summary>
+            Series Collection
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.Containers">
+            <summary>
+            Container Collection
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.Axes">
+            <summary>
+            Axis Collection
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.SeriesContainer">
+            <summary>
+            SeriesBase Container
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesContainer.SeriesProperty">
+            <summary>
+            The series property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesContainer.RenderingModeProperty">
+            <summary>
+            The rendering mode property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesContainer.ContainerProperty">
+            <summary>
+            The container property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesContainer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.SeriesContainer"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesContainer.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesContainer.Invalidate">
+            <summary>
+            Invalidates this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesContainer.Draw">
+            <summary>
+            Draws this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesContainer.OnRender">
+            <summary>
+            Called when [render].
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesContainer.Series">
+            <summary>
+            Gets or sets the series.
+            </summary>
+            <value>
+            The series.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesContainer.RenderingMode">
+            <summary>
+            Gets or sets the rendering mode.
+            </summary>
+            <value>
+            The rendering mode.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesContainer.Container">
+            <summary>
+            Gets or sets the container.
+            </summary>
+            <value>
+            The container.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesContainer.IsBitmapInitialized">
+            <summary>
+            Gets or sets a value indicating whether this instance is bitmap initialized.
+            </summary>
+            <value>
+            <c>true</c> if this instance is bitmap initialized; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.ScatterContainer">
+            <summary>
+            Scatter Series Container
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.HalfValueConverter">
+            <summary>
+            Double half value Converter
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.HalfValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.HalfValueConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay" /> bindings.
+            </summary>
+            <param name="value">The target data being passed to the source.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the source object.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+        </member>
+        <member name="T:Sparrow.Chart.NegativeConverter">
+            <summary>
+            Double negative value Converter
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.NegativeConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.NegativeConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay" /> bindings.
+            </summary>
+            <param name="value">The target data being passed to the source.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the source object.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+        </member>
+        <member name="T:Sparrow.Chart.NegativeHalfConverter">
+            <summary>
+            Double negative value Converter
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.NegativeHalfConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.NegativeHalfConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay" /> bindings.
+            </summary>
+            <param name="value">The target data being passed to the source.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the source object.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+        </member>
+        <member name="T:Sparrow.Chart.AxesPanel">
+            <summary>
+            Axes Panel
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxesPanel.AxesProperty">
+            <summary>
+            The axes property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.AxesPanel.Axes">
+            <summary>
+            Gets or sets the axes.
+            </summary>
+            <value>
+            The axes.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.ContainerCollection">
+            <summary>
+            Container Panel
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ContainerCollection.SeriesProperty">
+            <summary>
+            The series property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ContainerCollection.ContainersProperty">
+            <summary>
+            The containers property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.ContainerCollection"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.ContainerCollection_SizeChanged(System.Object,System.Windows.SizeChangedEventArgs)">
+            <summary>
+            Handles the SizeChanged event of the ContainerCollection control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.SizeChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.Clear">
+            <summary>
+            Clears this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.Draw">
+            <summary>
+            Draws this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.Initialize">
+            <summary>
+            Initializes this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.InvalidateBitmap">
+            <summary>
+            Invalidates the bitmap.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Measures the override.
+            </summary>
+            <param name="constraint">The constraint.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Arranges the override.
+            </summary>
+            <param name="arrangeSize">Size of the arrange.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.UpdateContainers">
+            <summary>
+            Updates the containers.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ContainerCollection.GenerateConatiners">
+            <summary>
+            Generates the conatiners.
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ContainerCollection.RenderingModeProperty">
+            <summary>
+            The rendering mode property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ContainerCollection.ChartProperty">
+            <summary>
+            The chart property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ContainerCollection.XAxisProperty">
+            <summary>
+            The X axis property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ContainerCollection.YAxisProperty">
+            <summary>
+            The Y axis property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.ContainerCollection.Series">
+            <summary>
+            Gets or sets the series.
+            </summary>
+            <value>
+            The series.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.ContainerCollection.Containers">
+            <summary>
+            Gets or sets the containers.
+            </summary>
+            <value>
+            The containers.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.ContainerCollection.IsBitmapInitialized">
+            <summary>
+            Gets or sets a value indicating whether this instance is bitmap initialized.
+            </summary>
+            <value>
+            <c>true</c> if this instance is bitmap initialized; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.ContainerCollection.Index">
+            <summary>
+            Gets or sets the index.
+            </summary>
+            <value>
+            The index.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.ContainerCollection.RenderingMode">
+            <summary>
+            Gets or sets the rendering mode.
+            </summary>
+            <value>
+            The rendering mode.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.ContainerCollection.Chart">
+            <summary>
+            Gets or sets the chart.
+            </summary>
+            <value>
+            The chart.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.ContainerCollection.XAxis">
+            <summary>
+            Gets or sets the X axis.
+            </summary>
+            <value>
+            The X axis.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.ContainerCollection.YAxis">
+            <summary>
+            Gets or sets the Y axis.
+            </summary>
+            <value>
+            The Y axis.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.AreaContainer">
+            <summary>
+            Area Container for AreaSeries
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.AxisCrossLinesContainer">
+            <summary>
+            Axis Cross Line Container
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisCrossLinesContainer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.AxisCrossLinesContainer"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisCrossLinesContainer.AxisCrossLinesContainer_SizeChanged(System.Object,System.Windows.SizeChangedEventArgs)">
+            <summary>
+            Handles the SizeChanged event of the AxisCrossLinesContainer control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.SizeChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.AxisCrossLinesContainer.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisCrossLinesContainer.Update">
+            <summary>
+            Updates this instance.
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisCrossLinesContainer.XAxisProperty">
+            <summary>
+            The X axis property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisCrossLinesContainer.YAxisProperty">
+            <summary>
+            The Y axis property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisCrossLinesContainer.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the Arrange pass of Silverlight layout. Classes can override this method to define their own Arrange pass behavior.
+            </summary>
+            <param name="finalSize">The final area within the parent that this object should use to arrange itself and its children.</param>
+            <returns>
+            The actual size that is used after the element is arranged in layout.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.AxisCrossLinesContainer.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the Measure pass of Silverlight layout. Classes can override this method to define their own Measure pass behavior.
+            </summary>
+            <param name="availableSize">The available size that this object can give to child objects. Infinity (<see cref="F:System.Double.PositiveInfinity" />) can be specified as a value to indicate that the object will size to whatever content is available.</param>
+            <returns>
+            The size that this object determines it needs during layout, based on its calculations of the allocated sizes for child objects; or based on other considerations, such as a fixed container size.
+            </returns>
+        </member>
+        <member name="P:Sparrow.Chart.AxisCrossLinesContainer.XAxis">
+            <summary>
+            Gets or sets the X axis.
+            </summary>
+            <value>
+            The X axis.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.AxisCrossLinesContainer.YAxis">
+            <summary>
+            Gets or sets the Y axis.
+            </summary>
+            <value>
+            The Y axis.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.SplineContainer">
+            <summary>
+            SplineSeries Container
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.StepLineContainer">
+            <summary>
+            StepLineSeries Container
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.BooleanToVisibilityConverter">
+            <summary>
+            Boolean to Visibility Converter
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.BooleanToVisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.BooleanToVisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay" /> bindings.
+            </summary>
+            <param name="value">The target data being passed to the source.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the source object.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+        </member>
+        <member name="T:Sparrow.Chart.BorderThicknessToLeftAndRightConverter">
+            <summary>
+            BorderThickness to XAxis Left and Right Converter
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.BorderThicknessToLeftAndRightConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.BorderThicknessToLeftAndRightConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay" /> bindings.
+            </summary>
+            <param name="value">The target data being passed to the source.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the source object.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+        </member>
+        <member name="T:Sparrow.Chart.BorderThicknessToTopBottomConverter">
+            <summary>
+            BorderThickness to YAXis Top and Bottom Converter
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.BorderThicknessToTopBottomConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.BorderThicknessToTopBottomConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay" /> bindings.
+            </summary>
+            <param name="value">The target data being passed to the source.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the source object.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+        </member>
+        <member name="T:Sparrow.Chart.MajorSizeThicknessConverter">
+            <summary>
+            MajorTickLineSize to Thickness Converter
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.MajorSizeThicknessConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.MajorSizeThicknessConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay" /> bindings.
+            </summary>
+            <param name="value">The target data being passed to the source.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the source object.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+        </member>
+        <member name="T:Sparrow.Chart.StringToChartPointConverter">
+            <summary>
+            String To ChartPoint Converter
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.StringToChartPointConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <summary>
+            Returns whether the type converter can convert an object from the specified type to the type of this converter.
+            </summary>
+            <param name="context">An object that provides a format context.</param>
+            <param name="sourceType">The type you want to convert from.</param>
+            <returns>
+            true if this converter can perform the conversion; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.StringToChartPointConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+            <summary>
+            Converts from the specified value to the intended conversion type of the converter.
+            </summary>
+            <param name="context">An object that provides a format context.</param>
+            <param name="culture">The <see cref="T:System.Globalization.CultureInfo" /> to use as the current culture.</param>
+            <param name="value">The value to convert to the type of this converter.</param>
+            <returns>
+            The converted value.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.StringToChartPointConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <summary>
+            Returns whether the type converter can convert an object to the specified type.
+            </summary>
+            <param name="context">An object that provides a format context.</param>
+            <param name="destinationType">The type you want to convert to.</param>
+            <returns>
+            true if this converter can perform the conversion; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.StringToChartPointConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
+            <summary>
+            Converts the specified value object to the specified type.
+            </summary>
+            <param name="context">An object that provides a format context.</param>
+            <param name="culture">The <see cref="T:System.Globalization.CultureInfo" /> to use as the current culture.</param>
+            <param name="value">The object to convert.</param>
+            <param name="destinationType">The type to convert the object to.</param>
+            <returns>
+            The converted object.
+            </returns>
+        </member>
+        <member name="T:Sparrow.Chart.WindowsMediaExtensions">
+            <summary>
+            WindowsMedia Extensions for Conversion
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.LineContainer">
+            <summary>
+            LineSeries Container
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.Legend">
+            <summary>
+            Chart Legend
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.Legend.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.Legend"/> class.
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Legend.ChartProperty">
+            <summary>
+            The chart property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Legend.LegendPositionProperty">
+            <summary>
+            The legend position property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Legend.DockProperty">
+            <summary>
+            The dock property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Legend.HeaderProperty">
+            <summary>
+            The header property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Legend.HeaderTemplateProperty">
+            <summary>
+            The header template property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Legend.CornerRadiusProperty">
+            <summary>
+            The corner radius property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Legend.ShowIconProperty">
+            <summary>
+            The show icon property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.Legend.Chart">
+            <summary>
+            Gets or sets the chart.
+            </summary>
+            <value>
+            The chart.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.Legend.Dock">
+            <summary>
+            Gets or sets the dock.
+            </summary>
+            <value>
+            The dock.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.Legend.LegendPosition">
+            <summary>
+            Gets or sets the legend position.
+            </summary>
+            <value>
+            The legend position.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.Legend.Header">
+            <summary>
+            Gets or sets the header.
+            </summary>
+            <value>
+            The header.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.Legend.HeaderTemplate">
+            <summary>
+            Gets or sets the header template.
+            </summary>
+            <value>
+            The header template.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.Legend.CornerRadius">
+            <summary>
+            Gets or sets the corner radius.
+            </summary>
+            <value>
+            The corner radius.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.Legend.ShowIcon">
+            <summary>
+            Gets or sets a value indicating whether [show icon].
+            </summary>
+            <value>
+              <c>true</c> if [show icon]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.LegendItem">
+            <summary>
+            Legend Item
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.LegendItem.SeriesProperty">
+            <summary>
+            The series property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LegendItem.OnSeriesChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [series changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.LegendItem.SeriesChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Serieses the changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.LegendItem.IconColorProperty">
+            <summary>
+            The icon color property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.LegendItem.LabelProperty">
+            <summary>
+            The label property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.LegendItem.ShowIconProperty">
+            <summary>
+            The show icon property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.LegendItem.Shape">
+            <summary>
+            Gets or sets the shape.
+            </summary>
+            <value>
+            The shape.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.LegendItem.Series">
+            <summary>
+            Gets or sets the series.
+            </summary>
+            <value>
+            The series.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.LegendItem.IconColor">
+            <summary>
+            Gets or sets the color of the icon.
+            </summary>
+            <value>
+            The color of the icon.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.LegendItem.Label">
+            <summary>
+            Gets or sets the label.
+            </summary>
+            <value>
+            The label.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.LegendItem.ShowIcon">
+            <summary>
+            Gets or sets a value indicating whether [show icon].
+            </summary>
+            <value>
+              <c>true</c> if [show icon]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="F:Sparrow.Chart.LegendPanel.DockPositionProperty">
+            <summary>
+            The dock position property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LegendPanel.OnDockChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [dock changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.LegendPanel.DockChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Docks the changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="P:Sparrow.Chart.LegendPanel.DockPosition">
+            <summary>
+            Gets or sets the dock position.
+            </summary>
+            <value>
+            The dock position.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.RootPanel">
+            <summary>
+            Chart Root DockPanel
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.RootPanel.LegendDockProperty">
+            <summary>
+            The legend dock property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.RootPanel.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Measures the child elements of a
+            <see cref="T:System.Windows.Controls.DockPanel" /> in preparation
+            for arranging them during the
+            <see cref="M:System.Windows.Controls.DockPanel.ArrangeOverride(System.Windows.Size)" />
+            pass.
+            </summary>
+            <param name="constraint">The area available to the
+            <see cref="T:System.Windows.Controls.DockPanel" />.</param>
+            <returns>
+            The desired size of the
+            <see cref="T:System.Windows.Controls.DockPanel" />.
+            </returns>
+        </member>
+        <member name="P:Sparrow.Chart.RootPanel.LegendDock">
+            <summary>
+            Gets or sets the legend dock.
+            </summary>
+            <value>
+            The legend dock.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.CategoryPoint">
+            <summary>
+            Category Point for Series.Points
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.ChartPoint">
+            <summary>
+            ChartPoint
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ChartPoint.OnPropertyChanged(System.String)">
+            <summary>
+            Called when [property changed].
+            </summary>
+            <param name="name">The name.</param>
+        </member>
+        <member name="P:Sparrow.Chart.ChartPoint.XValue">
+            <summary>
+            Gets or sets the X value.
+            </summary>
+            <value>
+            The X value.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.ChartPoint.YValue">
+            <summary>
+            Gets or sets the Y value.
+            </summary>
+            <value>
+            The Y value.
+            </value>
+        </member>
+        <member name="E:Sparrow.Chart.ChartPoint.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.CategoryPoint.Category">
+            <summary>
+            Gets or sets the category.
+            </summary>
+            <value>
+            The category.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.CategoryPoint.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.TimeSpanPoint">
+            <summary>
+            TimeSpan Point for Series.Points
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.TimeSpanPoint.TimeSpan">
+            <summary>
+            Gets or sets the time span.
+            </summary>
+            <value>
+            The time span.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.TimeSpanPoint.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesPartBase.StrokeProperty">
+            <summary>
+            The stroke property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesPartBase.StrokeThicknessProperty">
+            <summary>
+            The stroke thickness property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesPartBase.SetBindingForStrokeandStrokeThickness(System.Windows.Shapes.Shape)">
+            <summary>
+            Sets the binding for strokeand stroke thickness.
+            </summary>
+            <param name="shape">The shape.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesPartBase.CreatePart">
+            <summary>
+            Creates the part.
+            </summary>
+            <returns>UIElement</returns>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesPartBase.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesPartBase.Stroke">
+            <summary>
+            Gets or sets the stroke.
+            </summary>
+            <value>
+            The stroke.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesPartBase.StrokeThickness">
+            <summary>
+            Gets or sets the stroke thickness.
+            </summary>
+            <value>
+            The stroke thickness.
+            </value>
+        </member>
+        <member name="F:Sparrow.Chart.FillPartBase.FillProperty">
+            <summary>
+            The fill property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.FillPartBase.SetBindingForStrokeandStrokeThickness(System.Windows.Shapes.Shape)">
+            <summary>
+            </summary>
+            <param name="shape"></param>
+        </member>
+        <member name="P:Sparrow.Chart.FillPartBase.Fill">
+            <summary>
+            Gets or sets the fill.
+            </summary>
+            <value>
+            The fill.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.AreaPart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.AreaPart"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AreaPart.#ctor(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.AreaPart"/> class.
+            </summary>
+            <param name="startPoint">The start point.</param>
+            <param name="areaStartPoint">The area start point.</param>
+            <param name="areaEndPoint">The area end point.</param>
+            <param name="endPoint">The end point.</param>
+        </member>
+        <member name="M:Sparrow.Chart.AreaPart.CreatePart">
+            <summary>
+            Create a visual for single Series Part
+            </summary>
+            <returns>
+            UIElement
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.AreaPart.Refresh">
+            <summary>
+            Refresh the Series Part
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ColumnPart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.ColumnPart"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ColumnPart.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.ColumnPart"/> class.
+            </summary>
+            <param name="x">The x.</param>
+            <param name="y">The y.</param>
+            <param name="x2">The x2.</param>
+            <param name="y2">The y2.</param>
+        </member>
+        <member name="M:Sparrow.Chart.ColumnPart.CreatePart">
+            <summary>
+            Create a visual for single Series Part
+            </summary>
+            <returns>
+            UIElement
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.ColumnPart.Refresh">
+            <summary>
+            Refresh the Series Part
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenClosePart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.HiLoOpenClosePart"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenClosePart.#ctor(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.HiLoOpenClosePart"/> class.
+            </summary>
+            <param name="point1">The point1.</param>
+            <param name="point2">The point2.</param>
+            <param name="point3">The point3.</param>
+            <param name="point4">The point4.</param>
+            <param name="point5">The point5.</param>
+            <param name="point6">The point6.</param>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenClosePart.CreatePart">
+            <summary>
+            Create a visual for single Series Part
+            </summary>
+            <returns>
+            UIElement
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenClosePart.Refresh">
+            <summary>
+            Refresh the Series Part
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenClosePart.X3">
+            <summary>
+            Gets or sets the x3.
+            </summary>
+            <value>
+            The x3.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenClosePart.X4">
+            <summary>
+            Gets or sets the x4.
+            </summary>
+            <value>
+            The x4.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenClosePart.X5">
+            <summary>
+            Gets or sets the x5.
+            </summary>
+            <value>
+            The x5.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenClosePart.X6">
+            <summary>
+            Gets or sets the x6.
+            </summary>
+            <value>
+            The x6.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenClosePart.Y3">
+            <summary>
+            Gets or sets the y3.
+            </summary>
+            <value>
+            The y3.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenClosePart.Y4">
+            <summary>
+            Gets or sets the y4.
+            </summary>
+            <value>
+            The y4.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenClosePart.Y5">
+            <summary>
+            Gets or sets the y5.
+            </summary>
+            <value>
+            The y5.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenClosePart.Y6">
+            <summary>
+            Gets or sets the y6.
+            </summary>
+            <value>
+            The y6.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.LinePart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.LinePart"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LinePart.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.LinePart"/> class.
+            </summary>
+            <param name="x1">The x1.</param>
+            <param name="x2">The x2.</param>
+            <param name="y1">The y1.</param>
+            <param name="y2">The y2.</param>
+        </member>
+        <member name="M:Sparrow.Chart.LinePart.#ctor(System.Windows.Point,System.Windows.Point)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.LinePart"/> class.
+            </summary>
+            <param name="startPoint">The start point.</param>
+            <param name="endPoint">The end point.</param>
+        </member>
+        <member name="M:Sparrow.Chart.LinePart.CreatePart">
+            <summary>
+            Create a visual for single Series Part
+            </summary>
+            <returns>
+            UIElement
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.LinePart.Refresh">
+            <summary>
+            Refresh the Series Part
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.LineSinglePartBase.LinePoints">
+            <summary>
+            Gets or sets the line points.
+            </summary>
+            <value>
+            The line points.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.LineSinglePart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.LineSinglePart"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LineSinglePart.#ctor(System.Windows.Media.PointCollection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.LineSinglePart"/> class.
+            </summary>
+            <param name="points">The points.</param>
+        </member>
+        <member name="M:Sparrow.Chart.LineSinglePart.CreatePart">
+            <summary>
+            Create a visual for single Series Part
+            </summary>
+            <returns>
+            UIElement
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.LineSinglePart.Refresh">
+            <summary>
+            Refresh the Series Part
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.PiePart.CreatePart">
+            <summary>
+            Create a visual for single Series Part
+            </summary>
+            <returns>
+            UIElement
+            </returns>
+        </member>
+        <member name="F:Sparrow.Chart.ScatterPart.SizeProperty">
+            <summary>
+            The size property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ScatterPart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.ScatterPart"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ScatterPart.#ctor(System.Windows.Point)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.ScatterPart"/> class.
+            </summary>
+            <param name="centerPoint">The center point.</param>
+        </member>
+        <member name="M:Sparrow.Chart.ScatterPart.CreatePart">
+            <summary>
+            Create a visual for single Series Part
+            </summary>
+            <returns>
+            UIElement
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.ScatterPart.Refresh">
+            <summary>
+            Refresh the Series Part
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.ScatterPart.Size">
+            <summary>
+            Gets or sets the size.
+            </summary>
+            <value>
+            The size.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.SplinePart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.SplinePart"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SplinePart.#ctor(System.Windows.Point,System.Windows.Point,System.Windows.Point,System.Windows.Point)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.SplinePart"/> class.
+            </summary>
+            <param name="startPoint">The start point.</param>
+            <param name="firstControlPoint">The first control point.</param>
+            <param name="endControlPoint">The end control point.</param>
+            <param name="endPoint">The end point.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SplinePart.CreatePart">
+            <summary>
+            Creates the part.
+            </summary>
+            <returns>
+            UIElement
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.SplinePart.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.StepLinePart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.StepLinePart"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.StepLinePart.#ctor(System.Windows.Point,System.Windows.Point,System.Windows.Point)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.StepLinePart"/> class.
+            </summary>
+            <param name="startPoint">The start point.</param>
+            <param name="stepPoint">The step point.</param>
+            <param name="endPoint">The end point.</param>
+        </member>
+        <member name="M:Sparrow.Chart.StepLinePart.CreatePart">
+            <summary>
+            Creates the part.
+            </summary>
+            <returns>
+            UIElement
+            </returns>
+        </member>
+        <member name="M:Sparrow.Chart.StepLinePart.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.AreaSeries">
+            <summary>
+            AreaSeries for SparrowChart
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.FillSeriesBase">
+            <summary>
+            Fill Based Series Such as Area,Scatter and Column Series
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.LineSeriesBase">
+            <summary>
+            LineSeries Based Series
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.SeriesBase">
+            <summary>
+            Base for All Series
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.SeriesBase"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.CheckMinMaxandInterval(System.Double,Sparrow.Chart.AxisBase)">
+            <summary>
+            Checks the min maxand interval.
+            </summary>
+            <param name="value">The value.</param>
+            <param name="axis">The axis.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.CalculateMinAndMax">
+            <summary>
+            Calculates the min and max.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.NormalizePoint(System.Windows.Point)">
+            <summary>
+            Normalizes the point.
+            </summary>
+            <param name="pt">The pt.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.CheckValue(System.Double)">
+            <summary>
+            Checks the value.
+            </summary>
+            <param name="value">The value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.CreateContainer">
+            <summary>
+            Creates the container.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.RefreshWithoutAxis(Sparrow.Chart.AxisBase)">
+            <summary>
+            Refreshes the without axis.
+            </summary>
+            <param name="axis">The axis.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.GetPointsFromValues(System.Collections.Generic.List{System.Double},System.Collections.Generic.List{System.Double})">
+            <summary>
+            Gets the points from values.
+            </summary>
+            <param name="xValues">The x values.</param>
+            <param name="yValues">The y values.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.IntializePoints">
+            <summary>
+            Intializes the points.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.CheckValuePoint(Sparrow.Chart.ChartPoint,Sparrow.Chart.ChartPoint)">
+            <summary>
+            Checks the value point.
+            </summary>
+            <param name="oldPoint">The old point.</param>
+            <param name="point">The point.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.GetReflectionValueFromItem(System.String,System.Object)">
+            <summary>
+            Gets the reflection value from item.
+            </summary>
+            <param name="path">The path.</param>
+            <param name="item">The item.</param>
+            <returns></returns>
+            <exception cref="T:System.NotSupportedException"></exception>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.GetReflectionValue(System.String,System.Collections.IEnumerable,System.Int32)">
+            <summary>
+            Gets the reflection value.
+            </summary>
+            <param name="path">The path.</param>
+            <param name="source">The source.</param>
+            <param name="position">The position.</param>
+            <returns></returns>
+            <exception cref="T:System.NotSupportedException"></exception>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.GetReflectionValues(System.String,System.Collections.IEnumerable,System.Collections.Generic.List{System.Double},System.Boolean)">
+            <summary>
+            Gets the reflection values.
+            </summary>
+            <param name="path">The path.</param>
+            <param name="source">The source.</param>
+            <param name="oldValues">The old values.</param>
+            <param name="isUpdate">if set to <c>true</c> [is update].</param>
+            <returns></returns>
+            <exception cref="T:System.NotSupportedException"></exception>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.Collection_PropertyChanged(System.Object,System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Handles the PropertyChanged event of the Collection control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.XAxisProperty">
+            <summary>
+            The X axis property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.IsRefreshProperty">
+            <summary>
+            The is refresh property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.YAxisProperty">
+            <summary>
+            The Y axis property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.PartsProperty">
+            <summary>
+            The parts property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.UseSinglePartProperty">
+            <summary>
+            The use single part property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.ChartProperty">
+            <summary>
+            The chart property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.StrokeProperty">
+            <summary>
+            The stroke property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.PointsChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Pointses the changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.Points_CollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Handles the CollectionChanged event of the Points control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.LabelProperty">
+            <summary>
+            The label property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.XPathProperty">
+            <summary>
+            The X path property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.RenderingModeProperty">
+            <summary>
+            The rendering mode property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SeriesBase.StrokeThicknessProperty">
+            <summary>
+            The stroke thickness property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SeriesBase.SetBindingForStrokeandStrokeThickness(Sparrow.Chart.SeriesPartBase)">
+            <summary>
+            Sets the binding for strokeand stroke thickness.
+            </summary>
+            <param name="part">The part.</param>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.XAxis">
+            <summary>
+            Gets or sets the X axis.
+            </summary>
+            <value>
+            The X axis.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.IsRefresh">
+            <summary>
+            Gets or sets a value indicating whether this instance is refresh.
+            </summary>
+            <value>
+            <c>true</c> if this instance is refresh; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.YAxis">
+            <summary>
+            Gets or sets the Y axis.
+            </summary>
+            <value>
+            The Y axis.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.Parts">
+            <summary>
+            Gets or sets the parts.
+            </summary>
+            <value>
+            The parts.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.UseSinglePart">
+            <summary>
+            Gets or sets a value indicating whether [use single part].
+            </summary>
+            <value>
+              <c>true</c> if [use single part]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.Chart">
+            <summary>
+            Gets or sets the chart.
+            </summary>
+            <value>
+            The chart.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.Stroke">
+            <summary>
+            Gets or sets the stroke.
+            </summary>
+            <value>
+            The stroke.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.Points">
+            <summary>
+            Gets or sets the points.
+            </summary>
+            <value>
+            The points.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.XPath">
+            <summary>
+            Gets or sets the X path.
+            </summary>
+            <value>
+            The X path.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.Label">
+            <summary>
+            Gets or sets the label.
+            </summary>
+            <value>
+            The label.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.RenderingMode">
+            <summary>
+            Gets or sets the rendering mode.
+            </summary>
+            <value>
+            The rendering mode.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.StrokeThickness">
+            <summary>
+            Gets or sets the stroke thickness.
+            </summary>
+            <value>
+            The stroke thickness.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SeriesBase.Index">
+            <summary>
+            Gets or sets the index.
+            </summary>
+            <value>
+            The index.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.LineSeriesBase.GeneratePointsFromSource">
+            <summary>
+            Generates the points from source.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LineSeriesBase.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.LineSeriesBase.PointsSourceProperty">
+            <summary>
+            The points source property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LineSeriesBase.OnPointsSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [points source changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.LineSeriesBase.PointsSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Pointses the source changed.
+            </summary>
+            <param name="obj">The obj.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.LineSeriesBase.PointsSource_CollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Handles the CollectionChanged event of the PointsSource control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.LineSeriesBase.YPathProperty">
+            <summary>
+            The Y path property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.LineSeriesBase.PointsSource">
+            <summary>
+            Gets or sets the points source.
+            </summary>
+            <value>
+            The points source.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.LineSeriesBase.YPath">
+            <summary>
+            Gets or sets the Y path.
+            </summary>
+            <value>
+            The Y path.
+            </value>
+        </member>
+        <member name="F:Sparrow.Chart.FillSeriesBase.FillProperty">
+            <summary>
+            The fill property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.FillSeriesBase.SetBindingForStrokeandStrokeThickness(Sparrow.Chart.SeriesPartBase)">
+            <summary>
+            Sets the binding for strokeand stroke thickness.
+            </summary>
+            <param name="part">The part.</param>
+        </member>
+        <member name="P:Sparrow.Chart.FillSeriesBase.Fill">
+            <summary>
+            Gets or sets the fill.
+            </summary>
+            <value>
+            The fill.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.AreaSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.AreaSeries"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AreaSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AreaSeries.CreateContainer">
+            <summary>
+            Creates the container.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.AreaSeries.AreaPointsProperty">
+            <summary>
+            The area points property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.AreaSeries.AreaPoints">
+            <summary>
+            Gets or sets the area points.
+            </summary>
+            <value>
+            The area points.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.BubbleSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.BubbleSeries"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.BubbleSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.BubbleSeries.CreateContainer">
+            <summary>
+            Creates the container.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.BubbleSeries.BubblePointsPointsProperty">
+            <summary>
+            The bubble points points property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.BubbleSeries.SizePathProperty">
+            <summary>
+            The size path property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.BubbleSeries.BubblePoints">
+            <summary>
+            Gets or sets the bubble points.
+            </summary>
+            <value>
+            The bubble points.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.BubbleSeries.SizePath">
+            <summary>
+            Gets or sets the size path.
+            </summary>
+            <value>
+            The size path.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.ColumnSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ColumnSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.ColumnSeries"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ColumnSeries.CreateContainer">
+            <summary>
+            Creates the container.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.ColumnSeries.CalculateColumnSeriesInfo">
+            <summary>
+            Calculates the column series info.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.ColumnSeries.ColumnPointsProperty">
+            <summary>
+            The column points property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.ColumnSeries.ColumnPoints">
+            <summary>
+            Gets or sets the column points.
+            </summary>
+            <value>
+            The column points.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.StockChartBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.StockChartBase.GeneratePointsFromSource">
+            <summary>
+            Generates the points from source.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.StockChartBase.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.StockChartBase.PointsSourceProperty">
+            <summary>
+            The points source property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.StockChartBase.OnPointsSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [points source changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.StockChartBase.PointsSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Pointses the source changed.
+            </summary>
+            <param name="obj">The obj.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.StockChartBase.PointsSource_CollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Handles the CollectionChanged event of the PointsSource control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.StockChartBase.HighPathProperty">
+            <summary>
+            The high path property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.StockChartBase.LowPathProperty">
+            <summary>
+            The low path property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.StockChartBase.BearFillProperty">
+            <summary>
+            The bear fill property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.StockChartBase.BullFillProperty">
+            <summary>
+            The bull fill property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.StockChartBase.HighPointsProperty">
+            <summary>
+            The high points property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.StockChartBase.LowPointsProperty">
+            <summary>
+            The low points property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.StockChartBase.PointsSource">
+            <summary>
+            Gets or sets the points source.
+            </summary>
+            <value>
+            The points source.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.StockChartBase.HighPath">
+            <summary>
+            Gets or sets the high path.
+            </summary>
+            <value>
+            The high path.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.StockChartBase.LowPath">
+            <summary>
+            Gets or sets the low path.
+            </summary>
+            <value>
+            The low path.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.StockChartBase.BearFill">
+            <summary>
+            Gets or sets the bear fill.
+            </summary>
+            <value>
+            The bear fill.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.StockChartBase.BullFill">
+            <summary>
+            Gets or sets the bull fill.
+            </summary>
+            <value>
+            The bull fill.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.StockChartBase.HighPoints">
+            <summary>
+            Gets or sets the high points.
+            </summary>
+            <value>
+            The high points.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.StockChartBase.LowPoints">
+            <summary>
+            Gets or sets the low points.
+            </summary>
+            <value>
+            The low points.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenCloseSeries.GeneratePointsFromSource">
+            <summary>
+            Generates the points from source.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenCloseSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenCloseSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.HiLoOpenCloseSeries"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenCloseSeries.CreateContainer">
+            <summary>
+            Creates the container.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenCloseSeries.SetBindingForStrokeandStrokeThickness(Sparrow.Chart.SeriesPartBase)">
+            <summary>
+            Sets the binding for strokeand stroke thickness.
+            </summary>
+            <param name="part">The part.</param>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoOpenCloseSeries.CalculateSeriesInfo">
+            <summary>
+            Calculates the series info.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.HiLoOpenCloseSeries.OpenPointsProperty">
+            <summary>
+            The open points property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.HiLoOpenCloseSeries.OpenPathProperty">
+            <summary>
+            The open path property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.HiLoOpenCloseSeries.ClosePathProperty">
+            <summary>
+            The close path property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenCloseSeries.OpenPoints">
+            <summary>
+            Gets or sets the open points.
+            </summary>
+            <value>
+            The open points.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenCloseSeries.ClosePoints">
+            <summary>
+            Gets or sets the close points.
+            </summary>
+            <value>
+            The close points.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenCloseSeries.OpenPath">
+            <summary>
+            Gets or sets the open path.
+            </summary>
+            <value>
+            The open path.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.HiLoOpenCloseSeries.ClosePath">
+            <summary>
+            Gets or sets the close path.
+            </summary>
+            <value>
+            The close path.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.HiLoSeries"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.HiLoSeries.CreateContainer">
+            <summary>
+            Creates the container.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Sparrow.Chart.LineSeries">
+            <summary>
+            Line Series for Sparrow Chart
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LineSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.LineSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.LineSeries"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.PieSeriesBase.GeneratePointsFromSource">
+            <summary>
+            Generates the points from source.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.PieSeriesBase.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.PieSeriesBase.PointsSourceProperty">
+            <summary>
+            The points source property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.PieSeriesBase.OnPointsSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [points source changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.PieSeriesBase.PointsSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Pointses the source changed.
+            </summary>
+            <param name="obj">The obj.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.PieSeriesBase.PointsSource_CollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Handles the CollectionChanged event of the PointsSource control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.PieSeriesBase.YPathProperty">
+            <summary>
+            The Y path property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.PieSeriesBase.PointsSource">
+            <summary>
+            Gets or sets the points source.
+            </summary>
+            <value>
+            The points source.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.PieSeriesBase.YPath">
+            <summary>
+            Gets or sets the Y path.
+            </summary>
+            <value>
+            The Y path.
+            </value>
+        </member>
+        <member name="M:Sparrow.Chart.PieSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.PieSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.LineSeries"/> class.
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.ScatterSeries">
+            <summary>
+            ScatterSeries for SparrowChart
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ScatterSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.ScatterSeries"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ScatterSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.ScatterSeries.CreateContainer">
+            <summary>
+            Creates the container.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.ScatterSeries.ScatterPointsProperty">
+            <summary>
+            The scatter points property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ScatterSeries.ScatterSizeProperty">
+            <summary>
+            The scatter size property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.ScatterSeries.ScatterPoints">
+            <summary>
+            Gets or sets the scatter points.
+            </summary>
+            <value>
+            The scatter points.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.ScatterSeries.ScatterSize">
+            <summary>
+            Gets or sets the size of the scatter.
+            </summary>
+            <value>
+            The size of the scatter.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.SplineSeries">
+            <summary>
+            Spline Series for Sparrow Charts
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SplineSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.SplineSeries"/> class.
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SplineSeries.FirstControlPoints">
+            <summary>
+            The first control points
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SplineSeries.SecondControlPoints">
+            <summary>
+            The second control points
+            The second control points
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SplineSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SplineSeries.CreateContainer">
+            <summary>
+            Creates the container.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.SplineSeries.SplinePointsProperty">
+            <summary>
+            The spline points property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SplineSeries.ControlPointsProperty">
+            <summary>
+            The control points property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.SplineSeries.SplinePoints">
+            <summary>
+            Gets or sets the spline points.
+            </summary>
+            <value>
+            The spline points.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SplineSeries.ControlPoints">
+            <summary>
+            Gets or sets the control points.
+            </summary>
+            <value>
+            The control points.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.StepLineSeries">
+            <summary>
+            StepLine Series for Sparrow Chart
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.StepLineSeries.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.StepLineSeries"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.StepLineSeries.GenerateDatas">
+            <summary>
+            Generates the datas.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.StepLineSeries.CreateContainer">
+            <summary>
+            Creates the container.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Sparrow.Chart.StepLineSeries.LinePointsProperty">
+            <summary>
+            The line points property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.StepLineSeries.LinePoints">
+            <summary>
+            Gets or sets the line points.
+            </summary>
+            <value>
+            The line points.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.AxisUtil">
+            <summary>
+            Axis Utility for Sparrow Chart
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.AxisUtil.CalculateInetrval(System.Double,System.Double,System.Double)">
+            <summary>
+            Calculate Nice Interval From
+            http://stackoverflow.com/questions/361681/algorithm-for-nice-grid-line-intervals-on-a-graph
+            </summary>
+            <param name="min">MinValue</param>
+            <param name="max">MaxValue</param>
+            <param name="intervalCount">IntervalCount</param>
+            <returns>Interval</returns>
+        </member>
+        <member name="T:Sparrow.Chart.FastProperty">
+            <summary>
+            http://geekswithblogs.net/Madman/archive/2008/06/27/faster-reflection-using-expression-trees.aspx
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.FastProperty.GetDelegate">
+            <summary>
+            The get delegate
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.FastProperty.SetDelegate">
+            <summary>
+            The set delegate
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.FastProperty.#ctor(System.Reflection.PropertyInfo)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.FastProperty"/> class.
+            </summary>
+            <param name="property">The property.</param>
+        </member>
+        <member name="M:Sparrow.Chart.FastProperty.InitializeSet">
+            <summary>
+            Initializes the set.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.FastProperty.InitializeGet">
+            <summary>
+            Initializes the get.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.FastProperty.Get(System.Object)">
+            <summary>
+            Gets the specified instance.
+            </summary>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.FastProperty.Set(System.Object,System.Object)">
+            <summary>
+            Sets the specified instance.
+            </summary>
+            <param name="instance">The instance.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="P:Sparrow.Chart.FastProperty.Property">
+            <summary>
+            Gets or sets the property.
+            </summary>
+            <value>
+            The property.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.ElementRecycler`1">
+            <summary>
+            http://chriscavanagh.wordpress.com/2009/02/27/elementrecycler-for-silverlight-and-wpf/
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Sparrow.Chart.ElementRecycler`1.#ctor(System.Windows.Controls.Panel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.ElementRecycler`1"/> class.
+            </summary>
+            <param name="panel">The panel.</param>
+        </member>
+        <member name="M:Sparrow.Chart.ElementRecycler`1.RecycleChildren(System.Int32)">
+            <summary>
+            Recycles the children.
+            </summary>
+            <param name="count">The count.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.ElementRecycler`1.RecycleChildren(System.Windows.Controls.Panel,System.Int32,System.Collections.Generic.Stack{`0})">
+            <summary>
+            Recycles the children.
+            </summary>
+            <param name="panel">The panel.</param>
+            <param name="count">The count.</param>
+            <param name="unused">The unused.</param>
+            <returns>IEnumerable</returns>
+        </member>
+        <member name="T:Sparrow.Chart.BezierSpline">
+            <summary>
+            BezierSpline
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.BezierSpline.GetCurveControlPoints(System.Windows.Point[],System.Windows.Point[]@,System.Windows.Point[]@)">
+            <summary>
+            Get open-ended Bezier Spline Control Points.
+            </summary>
+            <param name="knots">Input Knot Bezier spline points.</param>
+            <param name="firstControlPoints">Output First Control points array of knots.Length - 1 length.</param>
+            <param name="secondControlPoints">Output Second Control points array of knots.Length - 1 length.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="knots"/> parameter must be not null.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="knots"/> array must containg at least two points.</exception>
+        </member>
+        <member name="M:Sparrow.Chart.BezierSpline.GetFirstControlPoints(System.Double[])">
+            <summary>
+            Solves a tridiagonal system for one of coordinates (x or y) of first Bezier control points.
+            </summary>
+            <param name="rhs">Right hand side vector.</param>
+            <returns>Solution vector.</returns>
+        </member>
+        <member name="T:Sparrow.Chart.Themes">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.MetroBrushes">
+            <summary>
+            Metroes the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.ArcticBrushes">
+            <summary>
+            Arctics the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.AutmnBrushes">
+            <summary>
+            Autmns the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.ColdBrushes">
+            <summary>
+            Colds the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.FlowerBrushes">
+            <summary>
+            Flowers the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.ForestBrushes">
+            <summary>
+            Forests the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.GrayscaleBrushes">
+            <summary>
+            Grayscales the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.GroundBrushes">
+            <summary>
+            Grounds the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.LialacBrushes">
+            <summary>
+            Lialacs the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.NaturalBrushes">
+            <summary>
+            Naturals the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.PastelBrushes">
+            <summary>
+            Pastels the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.RainbowBrushes">
+            <summary>
+            Rainbows the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.SpringBrushes">
+            <summary>
+            Springs the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.SummerBrushes">
+            <summary>
+            Summers the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.Themes.WarmBrushes">
+            <summary>
+            Warms the brushes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Sparrow.Chart.OverlayMode">
+            <summary>
+            Set the Overlay mode for Axis and Series
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.OverlayMode.AxisFirst">
+            <summary>
+            The axis first
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.OverlayMode.SeriesFirst">
+            <summary>
+            The series first
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.Theme">
+            <summary>
+            Set Theme for SparrowChart
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Arctic">
+            <summary>
+            The arctic
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Autmn">
+            <summary>
+            The autmn
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Cold">
+            <summary>
+            The cold
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Flower">
+            <summary>
+            The flower
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Forest">
+            <summary>
+            The forest
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Grayscale">
+            <summary>
+            The grayscale
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Ground">
+            <summary>
+            The ground
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Lialac">
+            <summary>
+            The lialac
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Natural">
+            <summary>
+            The natural
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Pastel">
+            <summary>
+            The pastel
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Rainbow">
+            <summary>
+            The rainbow
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Spring">
+            <summary>
+            The spring
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Summer">
+            <summary>
+            The summer
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Warm">
+            <summary>
+            The warm
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Metro">
+            <summary>
+            The metro
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.Theme.Custom">
+            <summary>
+            The custom
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.TickPosition">
+            <summary>
+            Set the axis tick position
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.TickPosition.Inside">
+            <summary>
+            The inside
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.TickPosition.Cross">
+            <summary>
+            The cross
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.TickPosition.Outside">
+            <summary>
+            The outside
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.XAxisPosition">
+            <summary>
+            Set the XAxis Position for Sparrow Chart
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.XAxisPosition.Bottom">
+            <summary>
+            The bottom
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.XAxisPosition.Top">
+            <summary>
+            The top
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.YAxisPosition">
+            <summary>
+            Set the YAxis Position for Sparrow Chart
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.YAxisPosition.Left">
+            <summary>
+            The left
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.YAxisPosition.Right">
+            <summary>
+            The right
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.AxisPosition">
+            <summary>
+            Set the Axis Position for Sparrow Chart
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisPosition.Left">
+            <summary>
+            The left
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisPosition.Top">
+            <summary>
+            The top
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisPosition.Right">
+            <summary>
+            The right
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.AxisPosition.Bottom">
+            <summary>
+            The bottom
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.LegendPosition">
+            <summary>
+            Set the Legend position for Sparrow Chart
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.LegendPosition.Inside">
+            <summary>
+            The inside
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.LegendPosition.Outside">
+            <summary>
+            The outside
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.XType">
+            <summary>
+            Set ValueType of XAxis
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.XType.Double">
+            <summary>
+            The double
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.XType.DateTime">
+            <summary>
+            The date time
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.XType.Category">
+            <summary>
+            The category
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ActualType.Double">
+            <summary>
+            The double
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ActualType.DateTime">
+            <summary>
+            The date time
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.ActualType.Category">
+            <summary>
+            The category
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.YType">
+            <summary>
+            Set ValueType of YAxis
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.YType.Double">
+            <summary>
+            The double
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.YType.DateTime">
+            <summary>
+            The date time
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.SmoothingMode">
+            <summary>
+            Set SmoothingMode of GDI and BitmapGraphics
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SmoothingMode.AntiAlias">
+            <summary>
+            The anti alias
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SmoothingMode.Default">
+            <summary>
+            The default
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SmoothingMode.HighQuality">
+            <summary>
+            The high quality
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SmoothingMode.HighSpeed">
+            <summary>
+            The high speed
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SmoothingMode.Invalid">
+            <summary>
+            The invalid
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SmoothingMode.None">
+            <summary>
+            The none
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.CompositingQuality">
+            <summary>
+            Set CompositingQuality of GDI and BitmapGraphics
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.CompositingQuality.AssumeLinear">
+            <summary>
+            The assume linear
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.CompositingQuality.Default">
+            <summary>
+            The default
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.CompositingQuality.GammaCorrected">
+            <summary>
+            The gamma corrected
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.CompositingQuality.HighQuality">
+            <summary>
+            The high quality
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.CompositingQuality.HighSpeed">
+            <summary>
+            The high speed
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.CompositingQuality.Invalid">
+            <summary>
+            The invalid
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.RenderingMode">
+            <summary>
+            Set RenderingMode of SparrowChart(GDIRendering-Good Performance,DefaultRendering-Medium Performance,Default-Good Quality of Rendering)
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.RenderingMode.Default">
+            <summary>
+            The default
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.CompositingMode">
+            <summary>
+            Set CompositingMode of GDI and BitmapGraphics
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.CompositingMode.SourceCopy">
+            <summary>
+            The source copy
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.CompositingMode.SourceOver">
+            <summary>
+            The source over
+            </summary>
+        </member>
+        <member name="T:Sparrow.Chart.DoublePoint">
+            <summary>
+            DoublePoint for Series.Points
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.DoublePoint.Data">
+            <summary>
+            Gets or sets the data.
+            </summary>
+            <value>
+            The data.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.DoublePoint.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.SparrowChart">
+            <summary>
+            SparrowChart Control
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.OnApplyTemplate">
+            <summary>
+            When overridden in a derived class, is invoked whenever application code or internal processes (such as a rebuilding layout pass) call <see cref="M:System.Windows.Controls.Control.ApplyTemplate" />. In simplest terms, this means the method is called just before a UI element displays in an application. For more information, see Remarks.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.RefreshLegend">
+            <summary>
+            Refreshes the legend.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sparrow.Chart.SparrowChart"/> class.
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.OnAxesCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Called when [axes collection changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.OnSeriesCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Called when [series collection changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.Collections.Specialized.NotifyCollectionChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.ExportAsImage(System.String)">
+            <summary>
+            Export the Sparrow Chart as Image
+            </summary>
+            <param name="fileName">Output File Name to Export the Chart as Image</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Sparrow.Chart.SparrowChart.ExportAsImage(System.String,System.Windows.Media.Imaging.BitmapEncoder)" -->
+        <member name="M:Sparrow.Chart.SparrowChart.BrushTheme">
+            <summary>
+            Brushes the theme.
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.XAxisProperty">
+            <summary>
+            The X axis property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.OnXAxisChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [X axis changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.XAxisChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Xs the axis changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.XAxesProperty">
+            <summary>
+            The X axes property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.YAxisProperty">
+            <summary>
+            The Y axis property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.OnYAxisChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [Y axis changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.YAxisChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Ys the axis changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.AxisHeightProperty">
+            <summary>
+            The axis height property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.AxisWidthProperty">
+            <summary>
+            The axis width property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.IsRefreshProperty">
+            <summary>
+            The is refresh property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.OnIsRefreshChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [is refresh changed].
+            </summary>
+            <param name="obj">The obj.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.IsRefreshChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Determines whether [is refresh changed] [the specified args].
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.SeriesProperty">
+            <summary>
+            The series property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.LegendProperty">
+            <summary>
+            The legend property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.OnLegendChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [legend changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.LegendChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Legends the changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.LegendDockProperty">
+            <summary>
+            The legend dock property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.ThemeProperty">
+            <summary>
+            The theme property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.OnThemeChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when [theme changed].
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.ThemeChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Themes the changed.
+            </summary>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.OverlayModeProperty">
+            <summary>
+            The overlay mode property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.BrushesProperty">
+            <summary>
+            The brushes property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.ContainerBorderStyleProperty">
+            <summary>
+            The container border style property
+            </summary>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.GetSeriesMarginPercentage(System.Windows.DependencyObject)">
+            <summary>
+            Gets the series margin percentage.
+            </summary>
+            <param name="obj">The obj.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sparrow.Chart.SparrowChart.SetSeriesMarginPercentage(System.Windows.DependencyObject,System.Double)">
+            <summary>
+            Sets the series margin percentage.
+            </summary>
+            <param name="obj">The obj.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.SeriesMarginPercentageProperty">
+            <summary>
+            The series margin percentage property
+            </summary>
+        </member>
+        <member name="F:Sparrow.Chart.SparrowChart.RenderingModeProperty">
+            <summary>
+            The rendering mode property
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.ActualCategoryValues">
+            <summary>
+            Gets or sets the actual category values.
+            </summary>
+            <value>
+            The actual category values.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.XAxis">
+            <summary>
+            Gets or sets the X axis.
+            </summary>
+            <value>
+            The X axis.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.XAxes">
+            <summary>
+            Gets or sets the X axes.
+            </summary>
+            <value>
+            The X axes.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.YAxes">
+            <summary>
+            Gets or sets the Y axes.
+            </summary>
+            <value>
+            The Y axes.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.YAxis">
+            <summary>
+            Gets or sets the Y axis.
+            </summary>
+            <value>
+            The Y axis.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.AxisHeight">
+            <summary>
+            Gets or sets the height of the axis.
+            </summary>
+            <value>
+            The height of the axis.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.AxisWidth">
+            <summary>
+            Gets or sets the width of the axis.
+            </summary>
+            <value>
+            The width of the axis.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.IsRefresh">
+            <summary>
+            Gets or sets a value indicating whether this instance is refresh.
+            </summary>
+            <value>
+            <c>true</c> if this instance is refresh; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.Series">
+            <summary>
+            Gets or sets the series.
+            </summary>
+            <value>
+            The series.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.Legend">
+            <summary>
+            Gets or sets the legend.
+            </summary>
+            <value>
+            The legend.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.LegendDock">
+            <summary>
+            Gets or sets the legend dock.
+            </summary>
+            <value>
+            The legend dock.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.Theme">
+            <summary>
+            Gets or sets the theme.
+            </summary>
+            <value>
+            The theme.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.OverlayMode">
+            <summary>
+            Gets or sets the overlay mode.
+            </summary>
+            <value>
+            The overlay mode.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.Brushes">
+            <summary>
+            Gets or sets the brushes.
+            </summary>
+            <value>
+            The brushes.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.ContainerBorderStyle">
+            <summary>
+            Gets or sets the container border style.
+            </summary>
+            <value>
+            The container border style.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.SparrowChart.RenderingMode">
+            <summary>
+            Gets or sets the rendering mode.
+            </summary>
+            <value>
+            The rendering mode.
+            </value>
+        </member>
+        <member name="T:Sparrow.Chart.TimePoint">
+            <summary>
+            TimePoint for Series.Points
+            </summary>
+        </member>
+        <member name="P:Sparrow.Chart.TimePoint.Time">
+            <summary>
+            Gets or sets the time.
+            </summary>
+            <value>
+            The time.
+            </value>
+        </member>
+        <member name="P:Sparrow.Chart.TimePoint.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

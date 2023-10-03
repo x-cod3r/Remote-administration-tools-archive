@@ -1,0 +1,19 @@
+%echo Das ist ein Test-Script!
+%echo Es zeigt wie ULR funktioniert!
+%echo Start Script
+rem Freizeile
+%echo
+
+rem short info
+%echo %ulrVer
+%echo %ulrAbout
+rem long info
+%ulrVer
+%ulrAbout
+
+Desktop off
+SetVolume 10%,23%
+Desktop on
+Run [%WINDIR]\system32\notepad.exe
+
+%echo Script end!

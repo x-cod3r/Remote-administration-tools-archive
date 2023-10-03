@@ -1,0 +1,61 @@
+++++++ 1.4.3 ++++++
+[Fixed] Networkclients now in a own thread
+[Fixed] Access to clients who don't register themselves
+
+++++++ 1.4.1 ++++++
+[Fixed] Some bugs
+
+++++++ 1.4 ++++++
+[Removed] IRC Proxy (bugs)
+[Removed] Sound (Errors on older computers)
+[Fixed] ActiveX Startup
+[Fixed] Download/Upload safer & more speed
+[Fixed] Multiple clients bug
+[Fixed] Remote shell closed on false command
+[Changed] Chat window can now be fullscreen or not (on remote)
+[Changed] Sorted features in categories
+[Changed] Client icon
+[Added] Colors in Plugin Console
+[Added] Plugin Console more comfortable (minimal typing)
+[Added] Explorer Icons in Filemanager
+[Added] Server Icon is now changeable via external tools
+
+++++++ 1.3.6 ++++++
+[Changed] Keylogger system (Now works with API-Hook)
+[Added] Network buffer overflow bug
+
+++++++ 1.3.5 ++++++
+[Changed] Completely rewritten Upload/Download system (Progress bar, abort downloads..)
+[Changed] Optimised network handlung (up to 2x less traffic!)
+[Added] Execute hidden option (Filemanager)
+[Added] Log window
+
+
+Notice: Servers < 1.3.5 don't work with this version.
+
+++++++ 1.3 ++++++
+[Added] Plugin Console
+[Changed] Realtime keylogger
+[Removed] Disable monitor (Caused problems)
+[Removed] Packing Screenshots (But they are still compressed)
+[Fixed] Keylogger - Clean keylog works again..
+
+++++++ 1.2 ++++++
+
+[Added] IRC Proxy
+
+++++++ 1.1 ++++++
+
+[Fixed] Quickrestart bug
+[Fixed] Clientinfo: system32\\server.exe -> shown as -> system32\server.exe
+[Changed] Browse trough Registry via doubleclick on regkeys
+[Fixed] ActiveX Startup bug
+[Fixed] Improved keylogger
+
+++++++ 1.0 ++++++
+- First release -
+
+
+
+
+

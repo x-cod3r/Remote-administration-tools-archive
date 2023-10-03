@@ -1,0 +1,4 @@
+By going to the colors frame, you can 
+select color for many things in jRAT, such
+as outdated servers color, system monitor
+color, for example

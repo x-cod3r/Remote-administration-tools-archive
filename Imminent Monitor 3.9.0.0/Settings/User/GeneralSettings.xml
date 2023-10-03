@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GeneralSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ColorScheme>1</ColorScheme>
+  <Ports>
+    <unsignedShort>9003</unsignedShort>
+  </Ports>
+  <AutoListen>true</AutoListen>
+  <SortByCountry>true</SortByCountry>
+  <SortById>false</SortById>
+  <SortByOperatingSystem>false</SortByOperatingSystem>
+  <MinTray>false</MinTray>
+  <CloseTray>false</CloseTray>
+  <Notification>true</Notification>
+  <SoundNotification>true</SoundNotification>
+  <WindowProperties>false</WindowProperties>
+  <AutoPing>true</AutoPing>
+  <AutoPingSeconds>40</AutoPingSeconds>
+  <AutoInfo>true</AutoInfo>
+  <AutoInfoSeconds>50</AutoInfoSeconds>
+  <NetworkStats>true</NetworkStats>
+</GeneralSettings>

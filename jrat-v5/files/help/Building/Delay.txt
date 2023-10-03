@@ -1,0 +1,5 @@
+Dropper Delay:
+
+Enable Delay: Check this option if you wish the server to wait a number of seconds before executing.
+
+Seconds: Enter the desired time you wish the server to wait before running. You can press the arrows button to the right to generate a random number of seconds.

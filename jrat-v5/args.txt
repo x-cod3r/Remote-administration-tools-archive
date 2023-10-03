@@ -1,0 +1,6 @@
+-noad - Disable ad frame
+-debug - Not implemented fully
+-genkey - Generates system unique key
+-dir - Change home dir
+
+~~ more to come ~~

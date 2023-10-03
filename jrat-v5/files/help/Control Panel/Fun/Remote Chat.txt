@@ -1,0 +1,5 @@
+The remote chat opens a Java window on the host's machine, in which you can send them messages, 
+and they will be able to respond and send you messages too. In the lower text box you can enter 
+the message which you want to send, and once you have finished typing you click the 'Send' button. 
+If you find that you are not getting a response you can click the 'Nudge' button, 
+which will cause the Chat window on the host's machine to vibrate suddenly.

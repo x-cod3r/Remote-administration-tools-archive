@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/donations__google_android_market" />
+    <TextView android:textAppearance="@*android:style/TextAppearance.Small" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/donations__google_android_market_description" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Spinner android:id="@id/donations__google_android_market_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/donations__google_android_market_text" android:layout_weight="1.0" />
+        <Button android:id="@id/donations__google_android_market_donate_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/donations__google_android_market_donate_button" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

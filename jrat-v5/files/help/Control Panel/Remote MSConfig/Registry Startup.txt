@@ -1,0 +1,4 @@
+This feature allows you to view the programs 
+which Windows will load on starting up, and will 
+give you the option to clear any of the programs if you desire, 
+by pressing the 'Clear' button towards the bottom.

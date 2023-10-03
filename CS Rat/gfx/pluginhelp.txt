@@ -1,0 +1,26 @@
+Xploit supports console-based plugins.
+
+Commands:
+/load <pluginname> -> trys to load a dll (plugin) with the specified name (if another dll is active, it 			will be unloaded before).
+/unload -> unloads the current dll manually
+/exe -> executes a function of the current dll
+/upload <pluginname> -> uploads a .dll from the plugin/ folder of the Xploit directory to the servers
+			directory
+/showplugins -> shows all .dll files in the plugin/ directory
+/help -> show this text
+
+
+
+Coding own plugins:
+you need:
+- a compiler that compiles .dll files
+
+Rules:
+- Every function must return a string (this string will be sended to the client after execution)
+- Every plugin must have a start() function that is called when the dll is loaded, it has no parameters.
+- All funtions, except the start() function must have 1 parameter with type string (even if its not used),    this parameter can be handed over by the client.
+
+Finished? Put the .dll into the plugin/ folder and upload it to your server!
+
+
+Warning: Never try to load and use other dll's (user32.dll, kernel.dll) this could cause runtime errors.

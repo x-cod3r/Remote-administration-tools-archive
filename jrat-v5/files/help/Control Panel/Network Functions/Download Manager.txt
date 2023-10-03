@@ -1,0 +1,9 @@
+Download Manager:
+This feature allows you to download any file from the internet into the
+host's PC, and gives you the option of executing it on download. The
+execution option can be enabled by checking the 'Execute' tickbox next
+to the text field labelled URL. In the URL text field, you enter the URL
+in which you want the file to be downloaded from. The Drop Dir: dropdown
+menu allows you to choose the location for the file to be downloaded, and
+once all the options have been specified you can go ahead and download the
+file with the 'Download' button on the bottom right.

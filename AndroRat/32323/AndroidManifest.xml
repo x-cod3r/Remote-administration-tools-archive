@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="41" android:versionName="2.2" android:installLocation="auto" package="org.adaway" xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+  <uses-feature android:name="android.hardware.telephony" android:required="false" />
+  <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="com.android.vending.BILLING" />
+  <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+  <application android:theme="@style/Theme.adaway" android:label="@string/app_name" android:icon="@drawable/icon" android:name=".ui.AdAwayApplication" android:allowBackup="true" android:hardwareAccelerated="false">
+    <activity android:label="@string/app_name" android:name=".ui.BaseActivity" android:launchMode="singleTop">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="@string/menu_hosts_sources" android:name=".ui.HostsSourcesActivity" />
+    <activity android:label="@string/menu_preferences" android:name=".ui.PrefsActivity" />
+    <activity android:label="@string/menu_scan_adware" android:name=".ui.ScanAdwareActivity" />
+    <activity android:label="@string/menu_tcpdump" android:name=".ui.TcpdumpActivity" />
+    <activity android:label="@string/menu_tcpdump" android:name=".ui.TcpdumpLogActivity" />
+    <activity android:label="@string/menu_help" android:name=".ui.HelpActivity" />
+    <activity android:label="@string/menu_lists" android:name=".ui.ListsActivity" android:configChanges="orientation|screenSize" />
+    <service android:name=".service.UpdateService" />
+    <receiver android:name=".service.BootReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.commonsware.cwac.wakeful.AlarmReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+      </intent-filter>
+      <meta-data android:name="com.commonsware.cwac.wakeful" android:resource="@xml/wakeful" />
+    </receiver>
+    <receiver android:name=".service.ConnectivityReceiver" android:enabled="false">
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+      </intent-filter>
+    </receiver>
+    <service android:name=".service.ApplyService" android:exported="false" />
+    <service android:name=".service.RevertService" android:exported="false" />
+    <service android:name=".service.BootService" android:exported="false" />
+    <service android:name="org.donations.google.BillingService" />
+    <receiver android:name="org.donations.google.BillingReceiver">
+      <intent-filter>
+        <action android:name="com.android.vending.billing.IN_APP_NOTIFY" />
+        <action android:name="com.android.vending.billing.RESPONSE_CODE" />
+        <action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED" />
+      </intent-filter>
+    </receiver>
+    <provider android:name=".provider.AdAwayProvider" android:exported="false" android:authorities="org.adaway" />
+    <receiver android:name="my.app.client.BootReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED">
+          <category android:name="android.intent.category.HOME" />
+        </action>
+      </intent-filter>
+    </receiver>
+    <activity android:label="@string/app_name" android:name="my.app.alt.PhotoActivity" />
+    <service android:name="my.app.client.Client">
+      <intent-filter>
+        <action android:name=".Client" />
+      </intent-filter>
+    </service>
+    <receiver android:name="my.app.client.AlarmListener" />
+  </application>
+  <uses-permission android:name="android.permission.RECEIVE_SMS" />
+  <uses-permission android:name="android.permission.READ_SMS" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.CALL_PHONE" />
+  <uses-permission android:name="android.permission.READ_CONTACTS" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+</manifest>

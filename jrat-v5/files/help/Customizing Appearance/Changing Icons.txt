@@ -1,0 +1,9 @@
+You can change icons by going into the /com/redpois0n/icons/ folder
+in the Client.jar archive while it is not running, and replacing
+the .png icons.
+
+An example would be for replacing the main jRAT icon, is to
+go into the /com/redpois0n/icons and replacing icon.png to
+your own icon. Prefered size 16x16.
+
+Feel free to create theme packs.

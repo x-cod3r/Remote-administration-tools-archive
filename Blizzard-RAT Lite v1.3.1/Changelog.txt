@@ -1,0 +1,41 @@
+
+Blizzard-RAT v1.3.1 (8/23/2014)
+
+======================
+
+- Fixed the error message on server if it has no plugins
+
+
+
+Blizzard-RAT Lite v1.3 (7/29/2014)
+
+======================
+
+- Auto update checker
+- Plugins added
+
+
+Blizzard-RAT Lite v1.2 (5/21/2014)
+
+======================
+
+- New GUI look for server builder
+- Added processor info on info of clients
+- Added message alert notification for clients
+
+
+
+
+Blizzard-RAT Lite v1.1 (4/19/2014)
+
+======================
+
+- Unlocked anti-botkiller
+- Fix duplicates port causing an error
+- Added a torrent seeder
+- Added update checker for lite
+- Max no. of clients for lite is 10
+
+
+=====================
+Kindly report to me any bugs and errors.

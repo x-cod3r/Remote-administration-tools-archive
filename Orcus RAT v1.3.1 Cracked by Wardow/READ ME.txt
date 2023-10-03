@@ -1,0 +1,7 @@
+How to Activate:
+
+1. Run Orcus.Administration.exe
+
+3. Leave license key blank, and click on register button.
+
+4. Enjoy! :)

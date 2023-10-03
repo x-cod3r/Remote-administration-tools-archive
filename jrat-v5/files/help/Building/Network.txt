@@ -1,0 +1,10 @@
+Network:
+
+This is where you will configure the network settings for your jRAT Server.
+
+IP: Specify your current IP Address. Note that unless you are using a Static Address (one that does not change), your IP will eventually change. It is suggested that you setup a DDNS account and enter the host name in this field. (i.e. DDNSHost.no-ip.biz or similar). Click the '192' button to the right of this field to automatically input your local IP address. This will only be needed if you wish to use the server on your local network. Press the '255' button and select 'yes' when prompted, this will input your current external IP. Use this if you have a static IP Address. 
+
+
+Port: Here you will input the port you wish to use for connecting. (1336 by default). This can be any port you wish, as long as it is not used by another application or device. 
+
+Reconnect Rate: Specify the number of seconds between each reconnect attempt. (10 is default & recommended rate).

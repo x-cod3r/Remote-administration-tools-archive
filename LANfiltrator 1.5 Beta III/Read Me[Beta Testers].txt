@@ -1,0 +1,10 @@
+LANfiltrator 1.5 Beta II
+
+[FIX] -Ok, now I have fixed most problems- [FIX]
+Desktop Cap, Web-Cam Cap (Slow in initialising).
+Improved on the IP Rang Scanner.
+
+[Plan on Adding] – I plan on adding this in the next beta - [Plan on Adding]
+
+The ability to brows the Network of the Servers Home LAN.
+Improve the file manager (To Buggy at the moment).

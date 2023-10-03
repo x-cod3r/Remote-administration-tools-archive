@@ -1,0 +1,1 @@
+Will grab the text in the clipboard and display it.

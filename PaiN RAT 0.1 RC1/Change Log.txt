@@ -1,0 +1,25 @@
+
+ [+] - Feature Added
+ [-] - Feature Removed
+ [*] - Bug fixed on Existing Feature
+
+Version 0.1 Beta 10
+ [*] Automatic Screen/Webcam Capture Bug Fixed
+ [*] File Binder Bug Fixed (Outputs the Server To The Last Binded File Directory)
+ [*] File Binder Bug Fixed (Executes File Binder on Every Startup)
+ [+] Added Memory Execute To File Binder
+ [+] Added Miranda/Trillian/Pidgin/Gaim/Rapidshare Passwords Decrypting
+ [+] Startup Now Working On Vista (Thanks to Spider)
+ [*] Edit Server ID Bug Fixed
+ [*] Flikiring of Progressbar In Screen/Webcam Capture and KeyLogger is Fixed
+ [*] Fixed "Goto Cusome Path" in File Manager
+ [+] Added Installation Messagebox to Server Builder
+ [*] Better Screen/Webcam Capture Compression (For Faster Capturing)
+ [+] Forms are Now Resizeable
+ [+] Added Macros Support to KeyLogger (so %WinDir% can be used)
+ [+] Added "Copy Item" to all Password Lists
+ [-] Damagin Options Removed
+ [+] Added Secure Delete to File Manager
+ [-] WebServer Removed
+ [*] FireFox 3 Passwords Bug Fixed
+ [+] Added Internet Explorer 7 and 8 Passwords Decrypting

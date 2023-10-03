@@ -1,0 +1,246 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ClientPlugin
+</name>
+</assembly>
+<members>
+<member name="P:NanoCore.ClientPluginHost.IClientDataHost.Variables">
+	<summary>
+ Gets shared variables.
+ </summary>
+	<value>
+ Shared variables.
+ </value>
+</member><member name="P:NanoCore.ClientPluginHost.IClientDataHost.ClientSettings">
+	<summary>
+ Gets client settings.
+ </summary>
+	<value>
+ Client settings.
+ </value>
+</member><member name="P:NanoCore.ClientPluginHost.IClientDataHost.BuilderSettings">
+	<summary>
+ Gets builder settings.
+ </summary>
+	<value>
+ Builder settings.
+ </value>
+</member><member name="T:NanoCore.ClientPluginHost.IClientDataHost">
+	<summary>
+ Provides access to settings and shared variables.
+ </summary>
+</member><member name="P:NanoCore.ClientPluginHost.IClientNetworkHost.Connected">
+	<summary>
+ Gets a value indicating whether the client is connected.
+ </summary>
+	<value>
+		<c>True</c> if connected; otherwise, <c>false</c>.
+ </value>
+</member><member name="M:NanoCore.ClientPluginHost.IClientNetworkHost.ClosePipe(System.String)">
+	<summary>
+ Closes a pipe connection.
+ </summary>
+	<param name="pipeName">Name of the pipe.</param>
+</member><member name="M:NanoCore.ClientPluginHost.IClientNetworkHost.PipeExists(System.String)">
+	<summary>
+ Checks if a connection pipe exists.
+ </summary>
+	<param name="pipeName">Name of the pipe.</param>
+</member><member name="M:NanoCore.ClientPluginHost.IClientNetworkHost.RebuildHostCache">
+	<summary>
+ Forces the client to rebuild its remote host cache.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientNetworkHost.AddHostEntry(System.String)">
+	<summary>
+ Adds a host entry to the client's remote host cache.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientNetworkHost.Disconnect">
+	<summary>
+ Disconnects the client.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientNetworkHost.SendToServer(System.String,System.Boolean,System.Object[])">
+	<summary>
+ Sends primitive values to the server.
+ </summary>
+	<param name="pipeName">Name of a pipe connection. This parameter can be null if no pipe is being used.</param>
+	<param name="compress">Compresses packet data if <c>true</c>. Set to <c>true</c> unless <paramref name="params"/> contains data that has already been compressed.</param>
+	<param name="params">Primitive values to send to the server.</param>
+</member><member name="T:NanoCore.ClientPluginHost.IClientNetworkHost">
+	<summary>
+ Provides access to client networking.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientUIHost.Invoke(NanoCore.ClientInvokeDelegate,System.Object)">
+	<summary>
+ Invokes the specified method on the UI thread.
+ </summary>
+	<param name="method">A <see cref="T:NanoCore.ClientInvokeDelegate"/> to be invoked.</param>
+	<param name="state">A state object to be passed to the specified method.</param>
+</member><member name="T:NanoCore.ClientPluginHost.IClientUIHost">
+	<summary>
+ Provides access to client UI.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientLoggingHost.LogClientMessage(System.String)">
+	<summary>
+ Logs a client message.
+ </summary>
+	<param name="message">The message to be logged.</param>
+</member><member name="M:NanoCore.ClientPluginHost.IClientLoggingHost.LogClientException(System.Exception,System.String)">
+	<summary>
+ Logs a client exception.
+ </summary>
+	<param name="ex">The exception to be logged.</param>
+	<param name="site">The site or method name in which the exception occurred.</param>
+</member><member name="T:NanoCore.ClientPluginHost.IClientLoggingHost">
+	<summary>
+ Provides access to client logging.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientAppHost.Restart">
+	<summary>
+ Gracefully restarts the client.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientAppHost.Shutdown">
+	<summary>
+ Gracefully shuts down the client.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientAppHost.DisableProtection">
+	<summary>
+ Disables protection mechanisms such as cleared access control entries, BreakOnTermination flag, etc.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientAppHost.RestoreProtection">
+	<summary>
+ Restores any protection mechanisms previously disabled by a call to <see cref="M:NanoCore.ClientPluginHost.IClientAppHost.DisableProtection"/>.
+ </summary>
+</member><member name="M:NanoCore.ClientPluginHost.IClientAppHost.Uninstall">
+	<summary>
+ Uninstalls the client from the current machine.
+ </summary>
+</member><member name="T:NanoCore.ClientPluginHost.IClientAppHost">
+	<summary>
+ Provides access to the client application.
+ </summary>
+</member><member name="M:NanoCore.IClientNameObjectCollection.EntryExists(System.String)">
+	<summary>
+ Determines if an entry with the provided name currently exists.
+ </summary>
+	<param name="name">Name of the entry.</param>
+	<returns></returns>
+</member><member name="M:NanoCore.IClientNameObjectCollection.GetEntries">
+	<summary>
+ Gets all of the current entries.
+ </summary>
+	<returns></returns>
+</member><member name="M:NanoCore.IClientNameObjectCollection.GetValue(System.String,System.Object)">
+	<summary>
+ Gets the value of an entry.
+ </summary>
+	<param name="name">Name of the entry.</param>
+	<param name="defaultValue">Fall back value in case the specified item does not exist.</param>
+	<returns></returns>
+</member><member name="M:NanoCore.IClientNameObjectCollection.SetValue(System.String,System.Object)">
+	<summary>
+ Sets the value of an entry.
+ </summary>
+	<param name="name">Name of the entry.</param>
+	<param name="value">Value to set for the entry.</param>
+</member><member name="M:NanoCore.IClientNameObjectCollection.RemoveValue(System.String)">
+	<summary>
+ Removes an entry.
+ </summary>
+	<param name="name">Name of the entry.</param>
+</member><member name="T:NanoCore.IClientNameObjectCollection">
+	<summary>
+ Represents a collection of keys and values.
+ </summary>
+</member><member name="M:NanoCore.IClientReadOnlyNameObjectCollection.EntryExists(System.String)">
+	<summary>
+ Determines if an entry with the provided name currently exists.
+ </summary>
+	<param name="name">Name of the entry.</param>
+	<returns></returns>
+</member><member name="M:NanoCore.IClientReadOnlyNameObjectCollection.GetEntries">
+	<summary>
+ Gets all of the current entries.
+ </summary>
+	<returns></returns>
+</member><member name="M:NanoCore.IClientReadOnlyNameObjectCollection.GetValue(System.String,System.Object)">
+	<summary>
+ Gets the value of an entry.
+ </summary>
+	<param name="name">Name of the entry.</param>
+	<param name="defaultValue">Fall back value in case the specified item does not exist.</param>
+	<returns></returns>
+</member><member name="T:NanoCore.IClientReadOnlyNameObjectCollection">
+	<summary>
+ Represents a ReadOnly collection of keys and values.
+ </summary>
+</member><member name="T:NanoCore.ClientInvokeDelegate">
+	<summary>
+ Represents the method that is called in the client's thread context.
+ </summary>
+	<param name="state">State object passed to this method when invoked.</param>
+</member><member name="M:NanoCore.ClientPlugin.IClientNetwork.ReadPacket(System.String,System.Object[])">
+	<summary>
+ Called when a packet has been received from the server.
+ </summary>
+	<param name="pipeName">Name of the connection pipe or null if no pipe is being used.</param>
+	<param name="params">Parameters received from the server.</param>
+</member><member name="M:NanoCore.ClientPlugin.IClientNetwork.PipeCreated(System.String)">
+	<summary>
+ Called when a connection pipe has been successfully created.
+ </summary>
+	<param name="pipeName">Name of the pipe.</param>
+</member><member name="M:NanoCore.ClientPlugin.IClientNetwork.PipeClosed(System.String)">
+	<summary>
+ Called when a connection pipe has been closed.
+ </summary>
+	<param name="pipeName">Name of the pipe.</param>
+</member><member name="M:NanoCore.ClientPlugin.IClientNetwork.ConnectionStateChanged(System.Boolean)">
+	<summary>
+ Called when the client connection state has changed.
+ </summary>
+	<param name="connected"><c>True</c> if connected; otherwise, <c>false</c>.</param>
+</member><member name="M:NanoCore.ClientPlugin.IClientNetwork.ConnectionFailed(System.String,System.UInt16)">
+	<summary>
+ Called when the client connection to the server has failed.
+ </summary>
+	<param name="host">Remote server host name.</param>
+	<param name="port">Remote server port number.</param>
+</member><member name="M:NanoCore.ClientPlugin.IClientNetwork.BuildingHostCache">
+	<summary>
+ Called when the client is building its remote host cache.
+ </summary>
+</member><member name="T:NanoCore.ClientPlugin.IClientNetwork">
+	<summary>
+ Provides event callbacks for connection states and network transfer.
+ </summary>
+</member><member name="M:NanoCore.ClientPlugin.IClientData.VariableChanged(System.String)">
+	<summary>
+ Called when a shared variable has been changed.
+ </summary>
+	<param name="name">Name of the variable.</param>
+</member><member name="M:NanoCore.ClientPlugin.IClientData.ClientSettingChanged(System.String)">
+	<summary>
+ Called when a client setting has been changed.
+ </summary>
+	<param name="name">Name of the setting.</param>
+</member><member name="T:NanoCore.ClientPlugin.IClientData">
+	<summary>
+ Provides event callbacks for settings and shared variables.
+ </summary>
+</member><member name="M:NanoCore.ClientPlugin.IClientApp.PluginUninstalling">
+	<summary>
+ Called when a plugin is being uninstalled. Plugin should stop all work and perform clean up operations.
+ </summary>
+</member><member name="M:NanoCore.ClientPlugin.IClientApp.ClientUninstalling">
+	<summary>
+ Called when the client is about to uninstall from the system.
+ </summary>
+</member><member name="T:NanoCore.ClientPlugin.IClientApp">
+	<summary>
+ Provides event callbacks from the client application.
+ </summary>
+</member>
+</members>
+</doc>

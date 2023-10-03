@@ -1,0 +1,78 @@
+
+Wednesday, 28 March 2018
+
+10:29: Compiling 'C:\Users\lucci\Desktop\Rats\NanoCore 1.2.2.0\server.exe'..
+10:30: Embedded Plugin - Name: 'SurveillanceEx Plugin', Size: 98.00 KB
+10:30: Host Interface - Size: 19.50 KB
+10:30: BuildTime = 03/28/2018 02:29:49
+10:30: Version = 1.2.2.0
+10:30: Mutex = 43be4dcf-c0ae-42e6-a7f6-a8972b681ec1
+10:30: DefaultGroup = Default
+10:30: PrimaryConnectionHost =
+10:30: BackupConnectionHost = 127.0.0.1
+10:30: ConnectionPort = 54984
+10:30: RunOnStartup = False
+10:30: RequestElevation = False
+10:30: BypassUserAccountControl = False
+10:30: ClearZoneIdentifier = True
+10:30: ClearAccessControl = False
+10:30: SetCriticalProcess = False
+10:30: PreventSystemSleep = True
+10:30: ActivateAwayMode = False
+10:30: EnableDebugMode = False
+10:30: RunDelay = 0
+10:30: ConnectDelay = 4000
+10:30: RestartDelay = 5000
+10:30: TimeoutInterval = 5000
+10:30: KeepAliveTimeout = 30000
+10:30: MutexTimeout = 5000
+10:30: LanTimeout = 2500
+10:30: WanTimeout = 8000
+10:30: BufferSize = 65535
+10:30: MaxPacketSize = 10485760
+10:30: GCThreshold = 10485760
+10:30: UseCustomDnsServer = True
+10:30: PrimaryDnsServer = 8.8.8.8
+10:30: BackupDnsServer = 8.8.4.4
+10:30: Converting output architecture from AnyCPU to x86..
+10:30: Stub will only connect to the current 'Alcatraz3222' license.
+10:30: Compiling has succeeded. Size: 202.50 KB
+
+Sunday, 06 May 2018
+
+20:55: Compiling 'C:\Users\lucci\Desktop\Rats\NanoCore 1.2.2.0\client.exe'..
+20:56: Embedded Plugin - Name: 'SurveillanceEx Plugin', Size: 98.00 KB
+20:56: Host Interface - Size: 19.50 KB
+20:56: BuildTime = 05/06/2018 12:55:58
+20:56: Version = 1.2.2.0
+20:56: Mutex = 0a58aef9-430a-40b3-bc54-321556a3f865
+20:56: DefaultGroup = Default
+20:56: PrimaryConnectionHost =
+20:56: BackupConnectionHost = 127.0.0.1
+20:56: ConnectionPort = 54984
+20:56: RunOnStartup = False
+20:56: RequestElevation = False
+20:56: BypassUserAccountControl = False
+20:56: ClearZoneIdentifier = True
+20:56: ClearAccessControl = False
+20:56: SetCriticalProcess = False
+20:56: PreventSystemSleep = True
+20:56: ActivateAwayMode = False
+20:56: EnableDebugMode = False
+20:56: RunDelay = 0
+20:56: ConnectDelay = 4000
+20:56: RestartDelay = 5000
+20:56: TimeoutInterval = 5000
+20:56: KeepAliveTimeout = 30000
+20:56: MutexTimeout = 5000
+20:56: LanTimeout = 2500
+20:56: WanTimeout = 8000
+20:56: BufferSize = 65535
+20:56: MaxPacketSize = 10485760
+20:56: GCThreshold = 10485760
+20:56: UseCustomDnsServer = True
+20:56: PrimaryDnsServer = 8.8.8.8
+20:56: BackupDnsServer = 8.8.4.4
+20:56: Converting output architecture from AnyCPU to x86..
+20:56: Stub will only connect to the current 'Alcatraz3222' license.
+20:56: Compiling has succeeded. Size: 202.50 KB

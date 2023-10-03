@@ -1,0 +1,30 @@
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\obj\Debug\StubX.Form1.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\obj\Debug\StubX.Form3.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\obj\Debug\StubX.Resources.resources
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\obj\Debug\StubX.vbproj.GenerateResource.Cache
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\bin\Debug\StubX.exe
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\bin\Debug\StubX.pdb
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\bin\Debug\StubX.xml
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\obj\Debug\StubX.exe
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\obj\Debug\StubX.xml
+c:\users\umbrella\documents\visual studio 2012\Projects\StubX\StubX\obj\Debug\StubX.pdb
+C:\Users\Umbrella\Desktop\StubX\StubX\obj\Debug\StubX.exe
+C:\Users\Umbrella\Desktop\StubX\StubX\obj\Debug\StubX.xml
+C:\Users\Umbrella\Desktop\StubX\StubX\obj\Debug\StubX.pdb
+C:\Users\Umbrella\Desktop\StubX\StubX\bin\Debug\StubX.exe
+C:\Users\Umbrella\Desktop\StubX\StubX\bin\Debug\StubX.pdb
+C:\Users\Umbrella\Desktop\StubX\StubX\bin\Debug\StubX.xml
+C:\Users\Umbrella\Desktop\StubX\StubX\obj\Debug\StubX.Form1.resources
+C:\Users\Umbrella\Desktop\StubX\StubX\obj\Debug\StubX.Form3.resources
+C:\Users\Umbrella\Desktop\StubX\StubX\obj\Debug\StubX.Resources.resources
+C:\Users\Umbrella\Desktop\StubX\StubX\obj\Debug\StubX.vbproj.GenerateResource.Cache
+C:\Users\Justin\Desktop\StubX\StubX\obj\Debug\StubX.xml
+C:\Users\Justin\Desktop\StubX\StubX\obj\Debug\StubX.pdb
+C:\Users\Justin\Desktop\StubX\StubX\bin\Debug\StubX.exe
+C:\Users\Justin\Desktop\StubX\StubX\bin\Debug\StubX.pdb
+C:\Users\Justin\Desktop\StubX\StubX\bin\Debug\StubX.xml
+C:\Users\Justin\Desktop\StubX\StubX\obj\Debug\StubX.Form1.resources
+C:\Users\Justin\Desktop\StubX\StubX\obj\Debug\StubX.Form3.resources
+C:\Users\Justin\Desktop\StubX\StubX\obj\Debug\StubX.Resources.resources
+C:\Users\Justin\Desktop\StubX\StubX\obj\Debug\StubX.vbproj.GenerateResource.Cache
+C:\Users\Justin\Desktop\StubX\StubX\obj\Debug\StubX.exe

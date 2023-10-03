@@ -1,0 +1,9 @@
+C:\Users\Justin\Desktop\D-RAT\D-STUB\obj\x86\Debug\D_STUB.Form1.resources
+C:\Users\Justin\Desktop\D-RAT\D-STUB\obj\x86\Debug\D_STUB.Resources.resources
+C:\Users\Justin\Desktop\D-RAT\D-STUB\obj\x86\Debug\D-STUB.vbproj.GenerateResource.Cache
+C:\Users\Justin\Desktop\D-RAT\D-STUB\obj\x86\Debug\D-STUB.exe
+C:\Users\Justin\Desktop\D-RAT\D-STUB\obj\x86\Debug\D-STUB.xml
+C:\Users\Justin\Desktop\D-RAT\D-STUB\obj\x86\Debug\D-STUB.pdb
+C:\Users\Justin\Desktop\D-RAT\D-STUB.exe
+C:\Users\Justin\Desktop\D-RAT\D-STUB.pdb
+C:\Users\Justin\Desktop\D-RAT\D-STUB.xml

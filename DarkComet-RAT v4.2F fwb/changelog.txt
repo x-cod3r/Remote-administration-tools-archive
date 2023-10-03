@@ -1,0 +1,19 @@
+[DarkComet-RAT v4.2]
+ ( By DarkCoderSc )
+ 	---
+ 		
+- Now server module doesn't melt each times
+- SOCKS5 Server added - Multithread.
+- Camera streaming is now more stable
+- Camera capture interval added
+- Camera disable streatch enabled/disabled added
+- File Manager doesn't crash on transfer anymore
+- Sound capture more stable and a bit faster
+- New process manager GUI and more user friendly
+- Process Dump added to the new process manager
+- Screen capture totally recoded, faster in Vista and Seven than before
+- Screen capture control more stable
+- Webcam and screen capture are now fast and stable
+- Password plugin added
+
+- Stability was increased, many bugs was fixed

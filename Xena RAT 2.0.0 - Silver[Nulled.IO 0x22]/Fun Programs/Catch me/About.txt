@@ -1,0 +1,4 @@
+What it does
+
+
+It blanks the screen and they have to catch the ever moving button.

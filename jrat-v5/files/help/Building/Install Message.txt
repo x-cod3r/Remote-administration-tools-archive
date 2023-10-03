@@ -1,0 +1,9 @@
+Install Message/Messagebox:
+
+Enable install message (Dropper Required): Place a check in this box if you wish to have a popup message displayed after the server has ran. Select one of the four icons below, or None if you do not wish the message to have an icon.
+
+Title & Msg: Here you can input the popup title and message. One is provided by default but can be customized to say whatever you would like.
+
+Test: Click this button if you wish to display a sample of the message you have created. 
+
+*Note: If you wish to have a message displayed, it is a good idea to mimic a known error message. For example, you could create the message to look like internet explorer has crashed and needs to be restarted. This will help keep the victim less suspicious of your activities.  

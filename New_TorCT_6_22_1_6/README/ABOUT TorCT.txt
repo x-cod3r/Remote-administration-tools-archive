@@ -1,0 +1,6 @@
+TorCT is a Remote Administration Tool Created by Shawn O'rion
+We are still in beta and looking for feedbacks, if you would like to help us please contact shawn on http://www.torct.eu
+Also do we love donations, There are options for this in the program. (we need to pay or host and Webname to keep this project going)
+
+Remember! TorCT is only for legal purposes! Only send the server to people that give you permission! Don't use this program to hack people!
+

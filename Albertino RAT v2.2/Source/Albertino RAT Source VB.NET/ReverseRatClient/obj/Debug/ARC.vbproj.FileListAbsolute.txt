@@ -1,0 +1,13 @@
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\bin\Debug\ARC.exe
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\bin\Debug\ARC.pdb
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Debug\About.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Debug\Frm.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Debug\imagepreview.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Debug\INFO.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Debug\Resources.resources
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Debug\ARC.vbproj.GenerateResource.Cache
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Debug\ARC.exe
+C:\Users\Mirko\Desktop\Albertino RAT\ReverseRatClient\obj\Debug\ARC.pdb
+C:\Users\HaXoR\Desktop\Albertino RAT Source\Albertino RAT\ReverseRatClient\obj\Debug\ARC.exe
+C:\Users\HaXoR\Desktop\Albertino RAT Source\Albertino RAT\ReverseRatClient\obj\Debug\ARC.pdb

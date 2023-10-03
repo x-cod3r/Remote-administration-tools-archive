@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="donations__button_close">닫기</string>
+    <string name="donations__flattr">Flattr</string>
+    <string name="donations__description">"Do you find this application useful?
+Support it's development by flattring it or sending donations using Google Android Market!"</string>
+    <string name="donations__flattr_description">• Flattr takes 10 % as a monthly fee!</string>
+    <string name="donations__google_android_market">Google Android Market</string>
+    <string name="donations__google_android_market_not_supported_title">In-App Donations are not supported</string>
+    <string name="donations__google_android_market_not_supported">In-App Donations are not supported. Is Google Android Market installed correctly?</string>
+    <string name="donations__google_android_market_description">"• Google takes 30 % off every donation!
+• There is no premium version for donators."</string>
+    <string name="donations__google_android_market_donate_button">기부!</string>
+    <string name="donations__google_android_market_text">얼마?</string>
+    <string name="donations__paypal">PayPal</string>
+    <string name="donations__paypal_description">• You can choose how much you want to donate after clicking the button!</string>
+    <string name="donations__thanks_dialog_title">Thanks!</string>
+    <string name="donations__thanks_dialog">"Thanks for donating!
+I really appreciate this!"</string>
+    <string name="button_exit">종료</string>
+    <string name="button_apply">파일 다운로드 및 적용</string>
+    <string name="button_close">닫기</string>
+    <string name="button_yes">예</string>
+    <string name="button_no">아니오</string>
+    <string name="button_revert">광고차단 사용안함</string>
+    <string name="button_add">추가</string>
+    <string name="button_cancel">취소</string>
+    <string name="button_apply_text">All hosts files from the defined sources are downloaded, merged with your own lists and installed as one hosts file on your system.</string>
+    <string name="button_revert_text">Restores the default hosts file on your system.</string>
+    <string name="button_save">저장</string>
+    <string name="button_webserver_toggle_checked">웹서버 실행중</string>
+    <string name="button_webserver_toggle_unchecked">웹서버 미싱행중</string>
+    <string name="button_webserver_toggle_text">Start or stop webserver on localhost to answer requests to blocked hostnames.</string>
+    <string name="button_help">도움말</string>
+    <string name="checkbox_list_add_dialog_title">추가</string>
+    <string name="checkbox_list_empty">빈 목록</string>
+    <string name="checkbox_list_empty_text">메뉴에 항목을 추가할수 없습니다.</string>
+    <string name="checkbox_list_context_delete">삭제</string>
+    <string name="checkbox_list_footer">AdAway 를 재시작해야 새롭게 추가한 항목이 적용됩니다!</string>
+    <string name="checkbox_list_edit_dialog_title">수정</string>
+    <string name="checkbox_list_context_title">항목수정</string>
+    <string name="checkbox_list_context_edit">수정</string>
+    <string name="lists_tab_whitelist">허용리스트</string>
+    <string name="lists_tab_blacklist">차단리스트</string>
+    <string name="lists_tab_blacklist_short">차단</string>
+    <string name="lists_tab_whitelist_short">허용</string>
+    <string name="lists_tab_redirection_list_short">리디렉션</string>
+    <string name="list_dialog_url">URL:</string>
+    <string name="list_dialog_hostname">호스트명:</string>
+    <string name="list_dialog_whitelist_hostname">"호스트명:
+(Wildcard characters * and ? are allowed!)"</string>
+    <string name="list_dialog_ip">IP (IPv4 or IPv6):</string>
+    <string name="import_dialog">가져오는중...</string>
+    <string name="export_dialog">내보내는중...</string>
+    <string name="export_success">"Exported all entries to a file called 'adaway-export' on your sdcard."</string>
+    <string name="status_checking">업데이트 확인중...</string>
+    <string name="status_reverting">되돌리는중...</string>
+    <string name="status_reverting_subtitle">표준 호스트파일 생성</string>
+    <string name="status_checking_subtitle">업데이트 가능한지 확인중</string>
+    <string name="status_update_available">업데이트 가능</string>
+    <string name="status_update_available_subtitle">최신 호스트파일 사용가능</string>
+    <string name="status_no_connection">인터넷 연결 안됨</string>
+    <string name="status_no_connection_subtitle">인터넷이 사용가능하지 않습니다</string>
+    <string name="status_download_fail">사용할수없는 소스</string>
+    <string name="status_enabled">광고차단 적용됨</string>
+    <string name="status_enabled_subtitle">최신 호스트파일 적용됨</string>
+    <string name="status_disabled">광고차단 미적용됨</string>
+    <string name="status_disabled_subtitle">광고차단 미적용됨</string>
+    <string name="apply_symlink_missing">"Symlink from your target to /system/etc/hosts is not existing or incorrect! AdAway will not work if it is not pointing to the right file.
+
+Do you want to try creating a symlink?"</string>
+    <string name="apply_symlink_missing_title">심링크 없음</string>
+    <string name="apply_not_enough_space">"Not enough space on the partition!
+Try changing the target hosts file in preferences to /data/data/hosts."</string>
+    <string name="apply_not_enough_space_title">남은공간 없음</string>
+    <string name="apply_private_file_fail">다운로드한 파일을 읽을 수 없습니다.</string>
+    <string name="apply_private_file_fail_title">개인파일 적용실패</string>
+    <string name="apply_remount_fail">Remounting the partition as read/write failed!</string>
+    <string name="apply_remount_fail_title">재장착 실패</string>
+    <string name="apply_copy_fail">호스트파일 복사가 실패 하였습니다!</string>
+    <string name="apply_copy_fail_title">복사 실패</string>
+    <string name="apply_success_title">적용 성공</string>
+    <string name="apply_symlink_successful">"Symlink was created successful.
+It may be necessary to reboot Android for the changes to take effect.
+
+Do you want to reboot?
+(To prevent data loss make sure no app uses the sdcard at the moment!)"</string>
+    <string name="apply_symlink_successful_title">심링크 생성 성공</string>
+    <string name="apply_symlink_fail">"Symlink could not be created by Android.
+This fails mostly due to a 'feature' called S-ON on HTC phones!
+
+A solution is to boot your phone into recovery mode and create the symlink there with 'ln -s /data/data/hosts /system/etc/hosts'.
+
+If this does not work search the Internet for S-OFF and your phone."</string>
+    <string name="apply_symlink_fail_title">심링크 생성실패</string>
+    <string name="apply_help">Please read Help for more information.</string>
+    <string name="no_connection">인터넷에 연결되지않아 작동하지않습니다</string>
+    <string name="no_connection_title">연결되지않음</string>
+    <string name="download_dialog">다운로드중...</string>
+    <string name="apply_dialog">적용중...</string>
+    <string name="apply_dialog_lists">허용리스트 와 차단리스트 적용중</string>
+    <string name="apply_dialog_hostnames">호스트파일 구문분석 및 병합</string>
+    <string name="apply_dialog_hosts">호스트파일 생성중</string>
+    <string name="apply_dialog_apply">호스트파일 적용중</string>
+    <string name="apply_fail">호스트 파일을 시스템에 적용하는데 실패하였습니다!/n 설정에서 호스트파일의 경로를 /data/data/hosts 로 변경하세요.</string>
+    <string name="apply_fail_title">적용 실패</string>
+    <string name="revert_successful">"You reverted to the default hosts file.
+It may be necessary to reboot Android for the changes to take effect.
+
+Do you want to reboot?
+(To prevent data loss make sure no app uses the sdcard at the moment!)"</string>
+    <string name="revert_successful_title">되돌리기 성공</string>
+    <string name="revert_problem">알수없는 이유로 되돌리기 실패하였습니다</string>
+    <string name="revert_problem_title">되돌리기 실패</string>
+    <string name="download_fail_title">다운로드 실패</string>
+    <string name="no_private_file">개인파일을 만들수 없습니다.</string>
+    <string name="no_private_file_title">개인파일 생성실패</string>
+    <string name="no_root_description">"Either the su binary could not be found or you did not allow root permission for AdAway.
+
+This can happen when your device is not rooted.
+You can find information about how to root your device on www.cyanogenmod.com or other Android websites."</string>
+    <string name="no_root_title">루팅필수</string>
+    <string name="no_url">이것은 올바른 URL이 아닙니다!</string>
+    <string name="no_url_title">잘못된 URL</string>
+    <string name="hosts_add_dialog">호스트파일에 URL 입력:</string>
+    <string name="no_hostname">잘못된 호스트명 입니다!</string>
+    <string name="no_hostname_title">잘못된 호스트명</string>
+    <string name="no_ip">이것은 올바른 IP가 아닙니다!</string>
+    <string name="no_ip_title">잘못된 IP</string>
+    <string name="reboot_never_reboot">"Never reboot and don't show this question next time!"</string>
+    <string name="menu_refresh">새로고침</string>
+    <string name="menu_add">추가</string>
+    <string name="menu_hosts_sources">호스트 소스</string>
+    <string name="menu_tcpdump">Log DNS Requests</string>
+    <string name="menu_help">도움말</string>
+    <string name="menu_lists">사용자 리스트</string>
+    <string name="menu_show_hosts_file">호스트파일 열기</string>
+    <string name="menu_import">전체리스트 가져오기</string>
+    <string name="menu_export">전체리스트 내보내기</string>
+    <string name="menu_preferences">환경설정</string>
+    <string name="help_tab_faq">FAQ</string>
+    <string name="help_tab_problems">문제</string>
+    <string name="hosts_last_modified_local">로컬:</string>
+    <string name="hosts_last_modified_online">온라인:</string>
+    <string name="app_subtitle">광고차단</string>
+    <string name="no_text_editor_title">No text editor installed</string>
+    <string name="no_text_editor">"No text editor could be found to open the hosts file. You can install Jota or other text editors to handle this.
+
+Do you want to install Jota?"</string>
+    <string name="no_file_manager_title">No file manager installed</string>
+    <string name="no_file_manager">"No file manager could be found to open files. You can install OI File Manager or other file managers to handle this.
+
+Do you want to install OI File Manager?"</string>
+</resources>

@@ -1,0 +1,641 @@
+[ Changelog CoolvibesRAT ]
+
+Formato del archivo:
+Fecha: dd/mm/aa
+Versión: x.x Update x
+Modificación de: Nick
+
+[+] Añadidos, mejoras
+[-] Cosas quitadas
+[*] Bug solucionados, arreglos
+
+Fecha 29/05/2011
+Versión: 1 Update 12
+Modificación de: Anonimo
+[*] Arreglados algunos bugs
+[*] Ahora se puede elegir si guardar o no los plugins a el disco duro del remoto
+[*] Cambiado el aspecto de algunos menús
+[+] Añadida la opción de editar valores del registro
+[+] Añadida posibilidad de cortar carpetas y archivos
+[+] Agregado treeview opcional al visor de archivos
+[*] Ahora también se pueden copiar carpetas
+[*] Mejorado el visor de thumbnails
+[*] Nuevo sistema de prioridad en la cola de descargas
+
+|----------------------------|
+
+Fecha 21/05/2011
+Versión: 1 Update 11
+Modificación de: Anonimo
+[*] Corregidos algunos bugs
+
+|----------------------------|
+
+Fecha 20/05/2011
+Versión: 1 Update 10
+Modificación de: Anonimo
+[*] Corregidos algunos bugs
+[*] El keylogger ya no se come teclas 
+[+] Agregado mutex
+
+|----------------------------|
+
+Fecha 20/05/2011
+Versión: 1 Update 9
+Modificación de: Anonimo
+[+] Añadido sistema de plugins
+[*] Ahora al mandar datos en dirección servidor->cliente en vez de añadir un #10 al final se añade un #10#15#80#66#77#1#72#87, así se consigue que se puedan enviar datos binarios con #10 sin que se corten
+[*] Corregidos algunos bugs
+
+|----------------------------|
+
+Fecha 16/05/2011
+Versión: 1 Update 8
+Modificación de: Anonimo
+[+] Agregados iconos al comboboxunidades
+[+] Añadido cifrado para el log del keylogger
+[*] Ahora el keylogger reconoce cualquier tecla en cualquier configuración de idiomas y no tiene el problema de la doble tilde
+ 
+|----------------------------|
+
+Fecha 15/05/2011
+Versión: 1 Update 7
+Modificación de: Tk68
+[*] Arreglado bug que hacia desconectar el servidor al hacer ping si la confuguración regional de nuestro sistema es personalizada
+[*] Arreglado bug que provocaba la conexión/desconexión cada 40 seg. del servidor bajo ciertas condiciones en XP
+[*] Arreglado bug popup menu "Guardar captura de pantalla" (guardaba captura de la de webcam)
+[*] Arreglados pequeños bugs en el cliente
+[+] Se mejora el uso del ratón en el escritorio remoto
+[-] Se ha eliminado referencias a unidades que no están en uso en todo el proyecto (conectador, jeringa, coolserver y cliente)
+
+|----------------------------|
+
+Fecha 13/05/2011
+Versión: 1 Update 6
+Modificación de: Anonimo
+[*] Arreglado y cambiado el keylogger
+[+] Agregado "Abrir directorio de usuario" al popup menu del listviewconexiones
+
+|----------------------------|
+
+Fecha 11/05/2011
+Versión: 1 Update 5
+Modificación de: Anonimo
+[*] Ahora es posible grabar audio mientras, por ejemplo, se recibe una captura de pantalla 
+[*] Arreglados algunos bugs
+
+|----------------------------|
+
+Fecha 06/05/2011
+Versión: 1 Update 4
+Modificación de: Anonimo
+[+] Añadido cacheado de iconos para tener más velocidad y evitar errores
+[*] Mejorada la busqueda de archivos, además ahora busca también en directorios ocultos
+[+] Añadida columna Nombre de usuario / Nombre de PC a listviewconexiones
+[+] Añadida posibilidad de elegir si cerrar o no el centro de control cuando un usuario se desconecte
+[*] Cambiada la interfaz de formopciones por falta de espacio y de organización, además se agregan algunas nuevas opciones
+[*] Ahora tambien identifica el sistema operativo "Windows 7", antes los marcaba como vista
+[*] Utiliza solamente un socket para los comandos y las capturas de pantalla, capturas de webcam, Visor de thumbnails y capturador sonidos y keylogger; las descargas y subidas se mantienen igual
+[-] Por incompatibilidad ahora ya no se lista el tipo de los archivos
+[+] Añadido visor de puertos activos
+[+] Añadido sistema de avisos
+
+|----------------------------|
+
+Fecha 26/04/2011
+Versión: 1 Update 3
+Modificación de: Anonimo
+[*] Arreglado pequeño bug que hacia que el cliente se cerrara al pulsar en "Ir al proceso..."
+[*] Arreglados bugs en la busqueda de archivos, ahora permite buscar hasta 50.000 archivos :D
+[*] Por el lado del servidor las acciones relacionadas con "servicios" se ejecuta en un thread independiente para dar estabilidad
+[+] Pequeños cambios en diseño
+[+] Agregado nuevo botón "Para de listar" para parar el listado, muy util con directorios grandes como system32
+
+|----------------------------|
+
+Fecha 25/04/2011
+Versión: 1 Update 2
+Modificación de: Anonimo
+[-] Eliminado el columnas manager
+[+] Agregado popupcolumnas con la misma función que el antigüo columnasmanager
+[+] Agregadas banderas y una nueva columna a listviewconexiones "idiomas"
+[+] Agregado multiselect a el listviewconexiones
+[+] Agregada la posibilidad de escuchar en varios puertos y la columna "puerto en el listviewconexiones"
+[*] Arreglados algunos problemas de traducción
+[+] Agregadas opciones de cerrar, actualizar y desinstalar servidor al Popup menu de listviewconexiones, Recordad que desinstalar no funciona todavia :p
+[+] Se vuelve a incluir la broma "Abrir/Cerrar cd"
+[+] Añadida captura de audio
+[*] Reducido el límite de tamaño de FormMain, además ahora se oculta el logo si el tamaño es menor a 500px
+[+] Añadida FormEstadisticasConexiones que muestra las conexiones que se han abierto
+[*] Corregidos algunos pequeños bugs
+
+|----------------------------|
+
+Fecha 22/04/2011
+Versión: 1 Update 1
+Modificación de: Anonimo & Tk68
+[*] Cambiada la interfaz de FormControl
+[*] Arreglados algunos bugs sin importancia
+[+] Ahora también se pueden traducir los mensajes del servidor
+[*] Arreglados algunos bugs de la captura de pantalla
+[*] Se reorganiza un poco el código fuente (pendiente optimización)
+
+|----------------------------|
+
+Fecha 22/04/2011
+Versión: 1 Update 0
+Modificación de: DSR!
+[+] Añadida opción para ver portapapeles (gracias The Swash)
+[*] Agregadas mejoras que Anonimo posteo despues de la publicacion del release
+[*] Cambiadas nomenclatura de Versión y ventana de about
+
+|----------------------------|
+
+Fecha 21/04/2011
+Versión: 0.5 Update 7
+Modificación de: Anonimo
+[+] Agregado thumbnail viewer en el listviewarchivos, utilizando units (AxThumbsDB.pas y Storages.pas) programadas por Alex Konshin
+[+] Añadida opción para buscar en carpetas
+[*] Arreglados pequeños bugs en diseño que no merece la pena listar
+[+] Añadido visor y modificador de atributos para archivos y carpetas
+[+] Añadido botón de rutas rápidas en el tabarchivos con los siguientes directorios: Windows, Sistema, Mis documentos, Archivos Recientes, Escritorio y Directorio de instalación de coolvibes
+[+] Ahora la captura de pantalla, la de webcam, el envio de offline keylogger y la generación de miniaturas funcionan en otro thread diferente al de los comandos
+[+] Se muestra cual es la ventana activa resaltandola en verde en FormControl
+[+] Se le agrega un identificador único a cada servidor
+[+] Ahora se guarda el tamaño de formcontrol
+[+] Añadidas teclas de acceso rápido a FormControl: F5=Refrescar, ESCAPE=Salir
+[*] Mejorado manejador de errores en las transferencias
+[*] Arreglado bug que hacía que no se desactivaran las webcams y el online keylogger al desconectar
+[*] Cambiada la imagen de FormNotifica y eliminados parpadeos
+[*] Arreglado bug que permitia a un atacante remoto descargar cualquier archivo del sistema del cliente
+[*] Se unifican los tabs (Servidor e Informacion), (Ficheros y transferencias) y (Mensajes y Bromas)
+[*] Se hacen pequeños cambios de diseño en la gui
+[*] Mejorado el visor avanzado de thumbnails, ahora no deforma las imágenes
+[*] Solucionado bug en la shell que hacía que no funcionara si estaba la captura de pantalla activa
+[*] Solucionado bug que hacia que no listara directorios que empezasen con "."
+[*] Modificado el modo en el que comparte la configuración conectador.exe con coolserver.dll
+[*] Cambiada la rutina de inyección, ya no existe monitor.dll
+
+|----------------------------|
+
+Fecha 18/04/2011
+Versión: 0.5 Update 6
+Modificación de: Tk68
+[*] Corregido bug que hacia a las webcams salir duplicadas
+[*] Eliminado parpadeo en la captura de webcam
+[+] La captura de webcam se hará siempre a tamaño real
+[*] Corregido problemas de repintado en la captura de pantalla al cambiar la opción a 'Completa' o cambiar tamaño del formulario
+[*] La opción 'Completa' pasa a llamarse 'Tamaño Real' y el CheckBox se alinea correctamente para evitar que se vea en medio de la captura
+[+] La opción 'Auto-Refrescar Listados' pasa a llamarse 'Auto-Refrescar'
+[+] Si tenemos 'Auto-Refrescar' activado al entrar en Pantalla se realizará la captura de pantalla automáticamente
+[+] La captura de pantalla pasa a guardarse con extensión JPG en vez de JPEG
+[*] Mejorada estética del keylogger añadiendo un marco
+
+|----------------------------|
+
+Fecha 08/04/2011
+Versión: 0.5 Update 5
+Modificación de: Anonimo
+[+] Agregado offline y online keylogger, creditos para stm por la base para el keylogger
+[+] Agregado numero de conexiones
+[+] Agregado en el servidor la opción de tamaño relativo en el visor de thumbnails
+[*] Corregido bug que hacía a las unidades salir duplicadas
+[*] Corregido bug que hacía que se perdiera la conexión al no poder listar un directorio
+[*] Corregido bug en el visor de miniaturas que se congelaba al intentar obtener una miniatura de un archivo no jpeg o bmp
+[*] Cambiada la estetica de el FormControl para ahorrar espacio
+[*] Ahora la captura de pantalla captura teniendo en cuenta la altura de el centro de control
+[*] Eliminado parpadeo en la captura de pantalla
+[*] Intervalo de los timers de captura de pantalla y webcam ahora en segundos
+[+] Agregada opción auto-refrescar
+[*] Ahora los iconos del ListviewArchivos se consiguen desde el sistema del cliente
+[*] Mejorada estética del registro añadiendo un splitter
+[+] Se añade la opción de ver los thumbnails en el TListView de los archivos y se renombra el Ver imagen JPEG a Visor de imágenes avanzado, aun el visionado de thubnails de los archivos aun está en desarrollo.
+[+] Agregada opción de copiar y pegar archivos en el filemanager, falta por implementar esta opción para copiar y pegar carpetas
+
+|----------------------------|
+
+Fecha 24/03/2011
+Versión: 0.5 Update 4
+Modificación de: Anonimo
+[*] Inyector, Conectador.dll y Coolserver.dll comparten la configuración en memoria mediante "File Mapping" en vez de por el registro
+[*] Cambiado el diseño del creador de servidor por falta de espacio
+[*] Ahora en el servidor las capturas de webcam (~~tmp.tmp) en vez de en %windir% se guardan en %AppDir%
+[*] Agregada la opción para mandar clicks remotos sin tener que establecer el tamaño de la captura a 100%
+[*] Ahora se pueden mandar clicks sin que el tamaño de la captura esté al 100%
+[*] Ahora solo se notifica la conexión de alguien con la ventana tipo msn si esta no se esta mostrando, ya que antes alentaba mucho el cliente si se conectaban varios usuarios al mismo tiempo
+[*] Corregido pequeño bug que hacía que no se pudiera cambiar de puerto de escucha
+[+] Agregado nuevo patron para el directorio de instalacion %AppDir%
+[+] Agregada la posibilidad de inicio por Active Setup
+[+] Añadida la posibilidad para conectar con más de un DNS
+[+] Ahora se pueden crear servidores inyectables desde el Cliente
+[+] Agregada la posibilidad de guardar automáticamente las capturas de webcam y de escritorio
+[+] Añadidos iconos al menu del administrador de archivos
+[+] Añadido globo emergente cuando conectador.dll o .exe pide la transferencia de coolserver.dll
+[+] Por parte del cliente se crea la carpeta Recursos para guardar las imagenes y los recursos de los servidores
+[+] Añadidas nuevas columas al ListViewConexiones
+[+] La anchura y el caption de las columnas de ListViewConexiones se guardan en un archivo INI
+[+] Añadida la opción de escuchar al abrir coolvibes
+[+] Añadida la opción de mandar ping cada 30 segundos para refrescar la ventana activa, el uptime y el TSU (Tiempo sin usar)
+[+] Se crea una nueva form (ColumnasManager) para elegir las columnas visibles y el orden en el ListViewConexiones
+[+] Ahora se utiliza un cifrado un poco más dinámico para cifrar el Plugin
+[+] Modificada la pestaña "Servidor" para que muestre las nuevas opciones
+[-] Deja de funcionar correctamente la rutina de instalación
+
+|----------------------------|
+
+Fecha 18/03/2011
+Versión: 0.5 Update 3
+Modificación de: Anonimo
+[+] Añadida funcionalidad de actualización al servidor
+[+] Agregada nueva columna "Estado" en ventanas para informarnos de si están maximizadas...
+[+] Agregado checkbox "mostrar ocultas" que muestra también las ventanas ocultas
+[+] Agregado multiselect en la mayoria de los listviews
+[+] Agregada la posibilidad de bajar directorios enteros
+[+] Añadida ventana para ver los thumbnails mas comodamente y para poder selecionar la calidad y otras opciones de los thumnails
+[+] Ahora también se pueden recibir thumbnails de archivos .BMP
+[-] Quitada la opción para elegir cada cuantos segundos se conectará el servidores
+[-] Eliminada la progressbar en la transferencia de archivos
+[*] Ahora las Progressbars no se quedan al 100%, vuelven a bajar a 0%
+[*] Arreglada la opción para cambiar el nombre al servidor
+[*] Editado el método de inicio de el servidor, ahora utiliza el clásico run
+[*] Arreglada la opcion de melt
+[*] Editado el directorio en el que se guardan los archivos del cliente, antes: Descargas/{NombrePC}/ ahora Usuarios/{NombrePC}/{Descargas|Thumbnails|Capturas|Webcam}/  Para crearlos hay que llamar a la funcion CrearDirectoriosUsuario del FormControl
+[*] Arreglado pequeño problema del registro que no listaba las claves ni los valores correctamente
+[*] Arreglado pequeño fallo en las bromas que hacía que no funcionaran
+
+|----------------------------|
+
+Fecha 15/03/2011
+Versión: 0.5 Update 2
+Modificación de: Anonimo
+[*] Mejorada la velocidad de transferencia de la webcam al utilizar siempre el mismo socket
+[*] Reparada la shell
+[-] Eliminado el plugin .JPEG
+[+] Mejorado el Capturador de pantalla: Ya no se escriben al disco, mejorada la velocidad, mejorado el código de captura y ahora se puede establecer el intervalo del timer a menos de 1000 ms. Además se reemplazan los botones Zoom in y Zoom out por el botón "tamaño relativo" que nos permite seleccionar el porcentaje de la pantalla remota.
+[+] Añadidas rutinas en la desconexión del Servidor: Desactivar la shell remota y desactivar la webcam
+[+] Ahora todo el Servidor actua como plugin, para cargarlo se ha añadido conectador.dll que se encarga de pedir el servidor al cliente y cargarlo en memoria
+
+|----------------------------|
+
+Fecha 29/01/2011
+Versión: 0.5 Update 1
+Modificación de: DSR!
+[+] Se uso el logo de la votacion
+[*] Se agrego que envie un mensaje cuando la captura de pantalla falla (solo falla si no esta instalada la dll, la idea es que el cliente la instale sola a futuro]
+[*] Se modifico la rutina del Monitor.dpr para que se pueda desinstalar facilmente el server y para que el uso de cpu sea moderado
+
+|----------------------------|
+
+Fecha 30/08/2008
+Versión: 0.5
+Modificación de: Unknown
+[+] El server es un dll llamado coolserver.dll
+[+] Se crea Monitor.dll que se encarga de crear una instancia de Internet explorer y solicitar la inyección de coolserver.dll en el mismo. Si la instancia de IE es terminada por algún motivo, el crea otra y solicita nuevamente la inyección
+[+] Se crea Jeringa.exe que contiene tanto coolserver.dll como Monitor.dll. Este Inyecta Monitor.dll en el proceso explorer.exe. Las inyecciones son directo desde memoria, los dll nunca son escritos a disco
+[+] Se eliminó por completo el uso de ScktComp y se sustituyó por SocketUnit de Aphex
+[+] Se eliminó la conversión a jpg desde coolserver y para ello se creo jpg_plugin. Es indispensable que este se encuentre en %SYSDIR% para que funcione tanto la captura de pantalla como de webcam. Este debe ser subido manualmente una vez qe se haya instalado el coolvibes en la máquina de la víctima
+[+] Se agregó la funcionalidad de solicitar una previsualización de un jpg (tambien conocido como thumbnail) para así ver cuales fotos nos interesan y solo bajar esas
+[+] Se modificó la forma en que el server detecta si se ha perdido la conexión con el cliente coolvibes para así intentar iniciarla de nuevo
+[+] Se agregó el método de inicio Active Setup
+[+] En el directorio DllInjection se encuentra el código para inyectar. Para crear el archivo destino sólo se debe primero compilar coolserver.dll y luego entrar a DllInjection y ejecutar BuildRat. El archivo a enviar a la víctima es: Jeringa.exe
+[-] Se eliminó la posibilidad de abrir y cerrar el cdrom para reducit el tamaño del coolvibes. Si se quiere agregar, solo basta con "descomentar" algunas líneas
+
+|----------------------------|
+
+Fecha: 17/01/07 //El primero update del 2007! ;-]
+Versión: 0.4 Update 3
+Modificación de: Wack-a-Mole
+[+] Nueva opción en el servidor: Copiar con fecha anterior. Lo que hace es que al copiarse el servidor, este agarra la fecha de un archivo ya existente de la carpeta donde se copió. Así es más difícil de encontrar cuando se organizan los archivos por "Modificado".
+[+] El cliente ahora se puede minimizar a la system tray.
+[+] Agregada la opción de "Ir a proceso" en la sección "Ventanas". Lo que hace es que localiza el proceso padre de la ventana seleccionada
+[*] Corregido un bug al listar archivos en el explorador de archivos. A veces salía un letrero: "List index out of bounds (2)" y no se organizaban correctamente.
+[*] Corregido un bug al usar la captura de pantalla con timer automático: no funcionaba.
+[*] Uno que otro bugcito por ahí, que no vale la pena mencionar.
+
+|----------------------------|
+
+Fecha: 29/12/06
+Versión: 0.4 Update 2
+Modificación de: Thor
+[+] Se ordenan las filas al pinchar sobre las columnas.
+[+] GUI mejorada, mas iconos en los listviews y popupmenus.
+[+] Añadido algo mas de información del sistema, espacio total en discos, resolución y nombre de usuario.
+[+] Borrar clave del registro ahora es recursivo, borra las subclaves que halla en esa clave.
+[+] Añadida fecha de modificación para las carpetas y mas exactitud para la de los archivos.
+
+|----------------------------|
+
+Fecha: 27/12/06
+Versión: 0.4 Update 1
+Modificación de: Unknown
+[+] Se desabilitan el boton de Capturar escritorio mientras se está obteniendo una captura de escritorio
+[+] Se desabilitan el boton de Capturar Webcam mientras se está obteniendo una captura de Webcam
+[*] Se corrigió el bug que hacía que algunas capturas se paralizaran antes de ser completadas, para ello se modificó la rutina de transferencia de archivos
+
+|----------------------------|
+
+Fecha 25/12/2006
+Versión: 0.4
+Modificación de: Unknown
+[+] Posibilidad de descargar múltiples archivos de forma simultánea
+[+] Posibilidad de Detener una descarga en curso
+[+] Posibilidad de Reanudar una descarga que ha sido detenida
+[+] Posibilidad de colcar archivos en cola de descarga
+[+] Al finalizar una descarga se inicializará automáticamente la primera descarga en cola
+[+] Se pueden enviar comandos mientras se descarga una captura de escritorio o de web cam
+[+] Posibilidad de detener la subida de un archivo
+[+] Se agregó Tiempo de Inactividad a la información extendida del sistema
+[*] En vez de usar Winsocks se usa el componente Indy, disponible automáticamente con la instalación de Delphi 6 en adelante
+[*] Del lado del server se usa ClientSockets de Aphex para el envío y recepción de archivos, para el resto de los comandos se usa WinSock
+
+|----------------------------|
+
+Fecha: 12/12/06
+Versión: 0.3 Update 3
+Modificación de: robokop
+[+] Service manager
+
+|----------------------------|
+
+Fecha: 28/11/06
+Versión: 0.3 Update 2
+Modificación de: Wack-a-Mole
+[+] Agregada Shell Remota (Gracias stm por la ayuda en el foro de ChaseNET!).
+[*] Cambido método de borrarse a sí mismo en el servidor al desinstalar (Créditos: FoRSaKeN^). Ahora usa inyección y no un BAT.
+
+|----------------------------|
+
+Fecha: 14/11/06
+Versión: 0.3 Update 1
+Modificación de: Sr_Sombrero
+[+] Corregido bug del server que estando desconectado no llama al cliente porque cree que sigue conectado al no haberse activado el evento OnDisconnect por una desconexión brusca (ej. si se cuelga PC del cliente).
+
+|----------------------------|
+
+Fecha: 14/11/06
+Versión: 0.3
+Modificación de: Thor
+[+]Añadida pestaña de transferencias:
+     Se puede bajar y subir ficheros simultaneamente y mientras enviar/recibir otros comandos.
+     Los archivos se descargan en la carpeta \Descargas\NombreServer\.
+     Informa sobre el progreso total, tamaño, recibido/enviado, velocidad.
+     Los archivos encolados se pueden cambiar de posición.
+[+] En el explorador de archivos ahora se muestra el tamaño de un archivo con la unidad que mas se le ajuste, B, KB, MB o GB.
+[+] Al listar las unidades dá mas información sobre estas, nombre, espacio libre/total y formato de ficheros.
+
+|----------------------------|
+
+Fecha: 05/11/06
+Versión: 0.2 Update 13
+Modificación de: Wack-a-Mole
+[+] Agregada la opción de instalar el servidor en cualquier carpeta, con las siguientes variables:
+      %WinDir%
+      %SysDir%
+      %TempDir%
+      %RootDir%
+[*] Arreglado un bug con la desinstalación, el servidor no se borraba a sí mismo.
+
+|----------------------------|
+
+Fecha: 03/11/06
+Versión: 0.2 Update 12
+Modificación de: robokop
+[+] Agregada la posibilidad de hacer zoom en la captura de pantalla
+[+] Agregado el Relay automatico de capturas de pantalla.
+
+|----------------------------|
+
+Fecha: 02/11/06
+Versión: 0.2 Update 11
+Modificación de: Thor
+[*] Mejorada la notificación, nuevo fondo y activada la propiedad stayontop.
+[*] Para enviar clicks no se necesita quitar el stretch de la imagen, tambien se pueden enviar clicks en la imagen maximizada.
+
+|----------------------------|
+
+Fecha: 01/11/06
+Versión: 0.2 Update 10
+Modificación de: Wack-a-Mole
+[+] Agregada la pestaña Servidor en el cliente que contiene:
+      Información variada sobre el servidor
+      Gestión de servidor
+      Cerrar
+      Desinstalar
+[+] El servidor se copia a la carpeta de Windows o a la de sistema (configurable).
+[+] El servidor ahora se copia al registro para autoiniciarse con Windows, usando el método Policies (configurable).
+[*] Corregidos muchos bugs de la visualización de las forms, ahora la mayoría pueden maximizarse sin ningún problema.
+[*] Corregida la opción de cambiar icono al servidor. Ahora sí funciona.
+[*] Corregido un bug citado por Thor que consistía en que el cliente no mostraba la notificación al estilo MSN a menos que se abriera la Form Opciones.
+
+|----------------------------|
+
+Fecha: 29/10/06
+Versión: 0.2 Update 9
+Modificación de: robokop
+[+] Agregada la opcion de mouse Remoto con posibilidad de enviar clicks izquierdos y derechos.
+
+|----------------------------|
+
+Fecha: 29/10/06
+Versión: 0.2 Update 8
+Modificación de: Thor
+[+] Agregada gestión de webcam
+[+] Añadida notificación estilo msn
+
+|----------------------------|
+
+Fecha: 26/10/06
+Versión: 0.2 Update 7
+Modificación de: Wack-a-Mole
+[+] Agregada la opción de escribir la configuración del servidor como un recurso. (Créditos: tt).
+[+] Agregado un editor de configuración para el servidor.
+[*] Corregidos algunos bugs visuales, por ejemplo, ya se puede maximizar la ventana principal.
+
+|----------------------------|
+
+Fecha: 21/10/06
+Versión: 0.2 Update 6
+Modificación de: Robokop
+[+] Se puede Observar la ruta de los ejecutables de cada uno de los procesos.
+[+] Obtiene el nombre de usuario en la informacion del sistema.
+[+] Obtiene la ruta del server en la informacion,
+[+] Ahora indica tambien el service pack el la informacion del sistema operativo
+
+|----------------------------|
+
+Fecha: 18/10/06
+Versión: 0.2 Update 5
+Modificación de: Robokop
+[*] Solucionado Bug del Registro ahora ya lista todas las claves basado en el codigo de	Wackamole.
+
+|----------------------------|
+
+Fecha: 18/10/06
+Versión: 0.2 Update 4
+Modificación de: Wack-a-Mole
+[+] Agregada la sección Beta-Testers a la ventana de About. V-Robot es el primer Beta-Tester! Gracias ;)
+[+] Cuando se abre una conexión con algún servidor, en el título de la ventana sale el nombre y el IP.
+[*] Corregido bug al listar carpetas con muchos archivos. Ahora se listan todos los archivos.
+
+|----------------------------|
+
+Fecha: 12/10/06
+Versión: 0.2 Update 3
+Modificación de: Robokop
+[+] Ahora se puede cambiar el nombre del server en tiempo de ejecución.
+
+|----------------------------|
+
+Fecha: 12/10/06
+Versión: 0.2 Update 2
+Modificación de: Wack-a-Mole
+[+] Añadida la opción de Enviar teclas a una ventana, con soporte de teclas especiales como Enter, Escape, Control, etc.
+
+|----------------------------|
+
+Fecha: 11/10/06
+Versión: 0.2 Update 1
+Modificación de: Wack-a-Mole
+[+] Añadido soporte para usar archivos .ini de configuración
+[+] Añadida la opción de Preguntar al salir en el cliente
+[*] Modificada la Form About, ahora tiene un banner de Indetectables xD
+
+|----------------------------|
+
+Fecha: 10/10/06
+Versión: 0.2
+Modificación de: Thor
+[+] Ahora la conexión se hace desde el servidor hacía el cliente, conexión inversa
+[+] Se puede hacer ping a los servidores
+[+] Interfaz mejorada con la inserción de iconos en popmenus y botones (hermosos iconos sacados de www.famfamfam.com)
+[+] Código mejorado en mensajes, pantalla (ahora no se guarda un archivo .bmp antes del .jpg), las capturas se guardan en la misma carpeta del cliente (jpgcool.jpg) y del server (jpgcool.dat).
+[+] Añadida ventana de about
+
+|----------------------------|
+
+Fecha: 8/10/06
+Versión: 0.1 Update 10
+Modificación de: Robokop
+[+] Agregado soporte para ver que Antivirus y Firewall corre el computador del server
+[*] Solucionado bug con la barra de progreso de la Captura de Pantalla
+
+|----------------------------|
+
+Fecha: 7/10/06
+Versión: 0.1 Update 9
+Modificación de: Robokop
+[+] Captura de Escritorio Remoto
+      Se añadio la uses jpeg y graphics al cliente asi como al server, el aumento del server fue de 100 kb por las uses.
+      Se cambio la forma de recibir los datos en el cliente, ahora utiliza un buffer todo funciona igual pero es para poder recibir el stream sin perder calidad.
+      Tiene una barra de progreso
+      Comprimir imagenes de calidad del 1-100
+      Las imagenes recibidas se guardan en el directorio C:\ , falta de cambiar eso y borrar las imagenes en el server automaticamente eso lo veo prudente hacerlo hasta al ultimo para verificar tamaños y funcionamientos correctos
+
+|----------------------------|
+
+Fecha: 4/10/06
+Versión: 0.1 Update 8
+Modificación de: Wack-a-Mole
+[+] Añadida la opción de desactivar el botón Cerrar [X] de una ventana.
+[+] Ahora se puede ver lo que responde el usuario a los mensajes agregados en el Update 7.
+[*] Corregido un bug que no mostraba los botones correctos en el server cuando se enviaba un mensaje sin icono.
+
+|----------------------------|
+
+Fecha: 2/10/06
+Versión: 0.1 Update 7
+Modificación de: Robokop
+[+] Envio de Mensajes Remotos con posibilidad de elegir título, texto del mensaje, icono y botones.
+
+|----------------------------|
+
+Fecha: 30/09/06
+Versión: 0.1 Update 6
+Modificación de: Thor
+[+] Añadido gestión de registro
+      Añadir claves y valores (REG_SZ, REG_BINARY, REG_DWORD, REG_MULTI_SZ)
+      Eliminar claves y valores
+      Renombrar claves y valores
+[+] Posibilidad de establecer un password en el servidor
+[+] Mejorada la interfaz del cliente, tabs con iconos, speedbuttons, ect...
+[+] Mejorado popup de filemanager
+
+|----------------------------|
+
+Fecha: 21/09/06
+Versión: 0.1 Update 5
+Modificación de: Wack-a-Mole
+[+] Agregado un Explorador de Archivos básico con las siguientes funciones:
+      Ejecutar archivos en modo normal y modo oculto
+      Eliminar archivos
+      Eliminar carpetas
+      Renombrar archivos y carpetas
+      Crear nuevas carpetas
+[+] Añadida un ImageList que contiene todos los pequeños iconos que se muestran en el Explorador de archivos.
+[+] Agregada la unit UnitFileManager que contiene las funciones del Explorador de archivos
+[*] Corregidos pequeños fallos que no vale la pena especificar.
+
+|----------------------------|
+
+Fecha: 21/09/06
+Versión: 0.1 Update 4
+Modificación de: Thor
+[+] Agregadas funciones sobre ventanas
+      Cerrar ventana
+      Minimizar
+      Maximizar
+      Mostrar
+      Ocultar
+      Minimizar todas
+[+] Añadidos popups menus a los listview de procesos y ventanas
+[*] Las respuestas a los comandos se visualizan en la parte derecha del status bar
+[*] Reducido el tamaño del servidor a un tercio del anterior y reorganizado el código de este en diversas units
+
+|----------------------------|
+
+Fecha: 09/09/06
+Versión: 0.1 Update 3 Fixed
+Modificación de: Wack-a-Mole
+[*] Solucionado bug con el ListView de bromas
+
+|----------------------------|
+
+Fecha: 31/08/06
+Versión: 0.1 Update 3
+Modificación de: Thor
+[*] Reorganización del código
+
+|----------------------------|
+
+Fecha: 30/08/06
+Versión: 0.1 Update 2
+Modificación de: Wack-a-Mole
+[+] Añadidas funciones de bromas
+      Mouse tembloroso
+      Congelar mouse
+      Abrir/Cerrar CD
+      Activar/Desactivar boton de inicio
+[*] Mejorada organización del código
+
+|----------------------------|
+
+Fecha: 28/08/06
+Versión: 0.1 Update 1
+Modificación de: Wack-a-Mole
+[+] Añadida la función de cerrar procesos
+[*] Mejorada organización del código
+
+|----------------------------|
+
+Fecha: 26/08/06
+Versión: 0.1
+Modificación de: Thor
+[+] Troyano de conexión directa
+[+] Información del sistema
+      Sistema operativo
+      CPU
+      Tiempo encendido
+[+] Ver procesos
+[+] Ver ventanas
+
+|----------------------------|

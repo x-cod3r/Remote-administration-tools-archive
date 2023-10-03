@@ -1,0 +1,6 @@
+This is the key hub for the options of using the server 
+to play around with the host's PC. From this page you can 
+open any website a number of times, play sound from a certain 
+location for any amount of time, turn on the crazy mouse button
+which will cause the mouse to spin out of control, and move about irrationally, 
+as well as the Beep option which is fairly self explanatory.

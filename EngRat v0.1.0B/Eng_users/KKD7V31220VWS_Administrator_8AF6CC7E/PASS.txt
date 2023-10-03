@@ -1,0 +1,24 @@
+USR: paiiwatcharin
+PWD: davincicode
+URL: http://www.filecondo.com/member_register.php
+
+USR: vanida25hours@gmail.com
+PWD: davincicode
+URL: https://www.facebook.com/login.php
+
+USR: ipaiiwatcharinn@hotmail.com
+PWD: paiiwatcharinland
+URL: https://www.facebook.com/watcharin.indy.maslova
+
+USR: apinyasocute
+PWD: davincicode
+URL: https://accounts.google.com/SignUp
+
+USR: apisarawangkao
+PWD: davincicode
+URL: https://accounts.google.com/SignUp
+
+USR: 0909191813
+PWD: 579559
+URL: https://portal.trueinternet.co.th/wifiauthen/web/wifi-login.php
+

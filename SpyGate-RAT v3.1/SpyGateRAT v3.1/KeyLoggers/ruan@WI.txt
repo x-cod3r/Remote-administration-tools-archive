@@ -1,0 +1,281 @@
+
+
+#| [] [ 7/2/2018 - 20:51:46 ] |#
+apiapi
+
+#| [] [ 7/2/2018 - 21:7:13 ] |#
+api
+
+#| [Monitoring - API Monitor v2 64-bit] [ 7/2/2018 - 21:8:23 ] |#
+[ENTER]
+
+
+#| [SpyGate-RAT_3.2.apmx64 - API Monitor v2 64-bit] [ 8/2/2018 - 9:28:50 ] |#
+[LControlKey]
+
+#| [SpyGate-RAT_3.2.apmx64 - API Monitor v2 64-bit] [ 8/2/2018 - 9:28:50 ] |#
+bitblt
+
+#| [SpyGate-RAT_3.2.apmx64 - API Monitor v2 64-bit] [ 8/2/2018 - 9:28:53 ] |#
+[ENTER]
+
+
+#| [SpyGate-RAT_3.2.apmx64 - API Monitor v2 64-bit] [ 8/2/2018 - 9:29:0 ] |#
+control
+
+#| [SpyGate-RAT_3.2.apmx64 - API Monitor v2 64-bit] [ 8/2/2018 - 9:29:1 ] |#
+[ENTER]
+
+
+#| [SpyGate-RAT_3.2.apmx64 - API Monitor v2 64-bit] [ 8/2/2018 - 9:29:31 ] |#
+itbkt[Back][Back]
+
+#| [SpyGate-RAT_3.2.apmx64 - API Monitor v2 64-bit] [ 8/2/2018 - 9:29:42 ] |#
+[ENTER]
+
+
+#| [] [ 21/2/2018 - 14:40:49 ] |#
+p[ENTER]
+
+
+#| [] [ 23/2/2018 - 20:59:13 ] |#
+[ShiftKey]
+
+#| [C:\Windows\system32\cmd.exe] [ 23/2/2018 - 20:59:18 ] |#
+ndsr/[ShiftKey][LShiftKey]*.[ShiftKey][LShiftKey]
+
+#| [] [ 25/2/2018 - 19:52:4 ] |#
+[ControlKey][Delete]
+
+#| [DarkComet Remote Administration Tool] [ 25/2/2018 - 19:53:39 ] |#
+se[ENTER]
+
+
+#| [] [ 5/3/2018 - 10:51:3 ] |#
+uli[Space]gongju[Space][ENTER]
+n[Space][ENTER]
+
+
+#| [] [ 7/3/2018 - 13:37:35 ] |#
+[ControlKey][ControlKey][LControlKey][ControlKey][LControlKey]
+
+#| [] [ 9/3/2018 - 15:12:15 ] |#
+sver[ENTER]
+
+
+#| [Nuclear RAT 2.1.0] [ 9/3/2018 - 15:12:19 ] |#
+[ENTER]
+
+
+#| [] [ 15/3/2018 - 10:0:43 ] |#
+clstmsdia80
+
+#| [] [ 15/3/2018 - 10:50:45 ] |#
+m
+
+#| [] [ 15/3/2018 - 10:51:51 ] |#
+[Back][Back][Back][Back][Back]iezai2[ENTER]
+
+
+#| [] [ 15/3/2018 - 11:55:9 ] |#
+d[Space]iezai[Space]
+
+#| [] [ 15/3/2018 - 12:8:45 ] |#
+[ENTER]
+
+
+#| [] [ 15/3/2018 - 12:11:39 ] |#
+zhuce[Space]bao[Space][ENTER]
+regedit[ENTER]
+[Back][Back][Back][Back][Back][Back][Back][ControlKey][LControlKey][Space]regedit[ENTER]
+
+
+#| [] [ 15/3/2018 - 13:46:57 ] |#
+[ControlKey]
+
+#| [Windows 激活] [ 15/3/2018 - 13:49:25 ] |#
+H
+
+#| [] [ 15/3/2018 - 13:50:57 ] |#
+[ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey]
+
+#| [正在从 WIN7Activation.zip 中提取] [ 15/3/2018 - 13:51:14 ] |#
+123
+
+#| [] [ 15/3/2018 - 13:54:57 ] |#
+[Delete]
+
+#| [] [ 15/3/2018 - 13:55:29 ] |#
+ida[Back][Back][Back][Back][Back]si[Back]diamsdiamsdiada[Back]msda
+
+#| [C:\Windows\system32\cmd.exe] [ 16/3/2018 - 14:12:0 ] |#
+TW[ShiftKey][LShiftKey][ShiftKey][LShiftKey]_WRI[TAP]
+[Back][Back][Back][Back][ShiftKey][LShiftKey]_64[TAP]
+[Space]208
+
+#| [ETW_write_logfile_64.exe  3208] [ 16/3/2018 - 14:12:13 ] |#
+[ENTER]
+
+
+#| [] [ 16/3/2018 - 14:25:53 ] |#
+[ControlKey][LShiftKey][Delete][ShiftKey][LShiftKey][Delete][Delete]
+
+#| [] [ 16/3/2018 - 14:26:41 ] |#
+[ENTER]
+
+
+#| [] [ 16/3/2018 - 14:26:42 ] |#
+[ControlKey][LControlKey]
+
+#| [] [ 16/3/2018 - 14:27:4 ] |#
+e
+
+#| [] [ 16/3/2018 - 14:27:10 ] |#
+[ControlKey][LControlKey][LControlKey][ControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][LControlKey][ControlKey][LControlKey][LControlKey][ControlKey][LControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][LControlKey][ControlKey][LControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][LControlKey][ControlKey][LControlKey][LControlKey][LControlKey][ControlKey][LControlKey][LControlKey][ControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][LControlKey]
+
+#| [] [ 16/3/2018 - 14:27:35 ] |#
+[LControlKey]
+
+#| [] [ 16/3/2018 - 14:27:38 ] |#
+[ENTER]
+
+
+#| [C:\Windows\system32\cmd.exe] [ 16/3/2018 - 14:27:44 ] |#
+EW[LShiftKey]_r[ENTER]
+
+
+#| [C:\Windows\system32\cmd.exe - ETW_write_logfile.exe  3660] [ 16/3/2018 - 14:28:20 ] |#
+[ENTER]
+
+
+#| [] [ 16/3/2018 - 14:28:46 ] |#
+[ENTER]
+
+
+#| [] [ 16/3/2018 - 14:29:1 ] |#
+[ControlKey]
+
+#| [C:\Windows\system32\cmd.exe - ETW_write_logfile.exe  3660] [ 16/3/2018 - 14:29:27 ] |#
+[ENTER]
+
+
+#| [] [ 16/3/2018 - 14:29:55 ] |#
+[ControlKey][LControlKey]
+
+#| [] [ 16/3/2018 - 14:29:57 ] |#
+[ControlKey][LControlKey]
+
+#| [DarkComet Remote Administration Tool] [ 16/3/2018 - 14:30:30 ] |#
+c[ENTER]
+
+
+#| [] [ 16/3/2018 - 14:31:35 ] |#
+[Delete]
+
+#| [] [ 16/3/2018 - 14:32:54 ] |#
+[ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][LControlKey][LControlKey][ControlKey][LControlKey][ShiftKey][LShiftKey][ControlKey][LControlKey][ControlKey][LControlKey]
+
+#| [] [ 16/3/2018 - 14:34:35 ] |#
+[ControlKey][LControlKey]
+
+#| [] [ 16/3/2018 - 14:34:49 ] |#
+[ControlKey][LControlKey]
+
+#| [] [ 16/3/2018 - 14:34:56 ] |#
+[ControlKey]
+
+#| [] [ 16/3/2018 - 14:35:19 ] |#
+[ControlKey][LControlKey][ControlKey][LControlKey]
+
+#| [] [ 16/3/2018 - 14:36:21 ] |#
+
+
+#| [] [ 16/3/2018 - 14:39:27 ] |#
+m[Back]
+
+#| [] [ 2/4/2018 - 10:33:40 ] |#
+[Delete]
+
+#| [] [ 2/4/2018 - 10:33:40 ] |#
+[ENTER]
+
+
+#| [] [ 2/4/2018 - 10:34:20 ] |#
+[ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][LControlKey]
+
+#| [] [ 2/4/2018 - 10:34:30 ] |#
+[Back][Back][Back][Back][Back][Back][Back][Back]
+
+#| [] [ 2/4/2018 - 10:36:12 ] |#
+cmd[ENTER]
+
+
+#| [C:\Windows\system32\cmd.exe] [ 2/4/2018 - 10:36:14 ] |#
+py
+
+#| [] [ 2/4/2018 - 10:38:19 ] |#
+keylogger[ENTER]
+
+
+#| [*C:\Users\ruan\Desktop\callstack\parse.py - Notepad++] [ 2/4/2018 - 10:38:34 ] |#
+[ControlKey][LControlKey]
+
+#| [] [ 2/4/2018 - 10:41:14 ] |#
+[ControlKey][ControlKey][LControlKey]
+
+#| [*C:\Users\ruan\Desktop\callstack\auto_paste.py - Notepad++] [ 2/4/2018 - 10:41:36 ] |#
+[ControlKey][LControlKey][Back]
+
+#| [C:\Users\ruan\Desktop\callstack\auto_paste.py - Notepad++] [ 2/4/2018 - 10:42:22 ] |#
+
+
+#| [*C:\Users\ruan\Desktop\callstack\auto_paste.py - Notepad++] [ 2/4/2018 - 10:42:55 ] |#
+'''[TAP]
+[ControlKey][LControlKey][ENTER]
+[ControlKey][LControlKey]
+
+#| [C:\Users\ruan\Desktop\callstack\auto_paste.py - Notepad++] [ 2/4/2018 - 10:43:44 ] |#
+
+
+#| [C:\Windows\system32\cmd.exe - python] [ 2/4/2018 - 10:43:57 ] |#
+[ShiftKey][LShiftKey]()
+
+#| [C:\Windows\system32\cmd.exe] [ 2/4/2018 - 10:43:58 ] |#
+[ENTER]
+
+
+#| [C:\Windows\system32\cmd.exe - python] [ 2/4/2018 - 10:44:22 ] |#
+hu
+
+#| [Windows 任务管理器] [ 2/4/2018 - 10:45:12 ] |#
+[LControlKey][ControlKey][LControlKey][ControlKey][ControlKey][LControlKey][ControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey]
+
+#| [*C:\Users\ruan\Desktop\callstack\auto_paste.py - Notepad++] [ 3/4/2018 - 10:6:37 ] |#
+[Back]20[ControlKey][LControlKey]
+
+#| [C:\Users\ruan\Desktop\callstack\auto_paste.py - Notepad++] [ 3/4/2018 - 10:6:38 ] |#
+
+
+#| [] [ 3/4/2018 - 15:2:8 ] |#
+crhbfbuxdftcxkeuuwtyxfuwykfxberfcberfsbxuaynsedawukwcbtetfxes
+
+#| [] [ 3/4/2018 - 15:9:57 ] |#
+[ShiftKey][LShiftKey]
+
+#| [C:\Windows\system32\cmd.exe] [ 3/4/2018 - 15:10:2 ] |#
+istr[Space]s[Space][Back][Space]/[LShiftKey][ShiftKey]"getkeystaet[Back][Back][Back]at[ShiftKey][LShiftKey]"[Space][ShiftKey][LShiftKey][ShiftKey][LShiftKey][ShiftKey][LShiftKey][ShiftKey][LShiftKey][ShiftKey][LShiftKey][ShiftKey][LShiftKey]*.[ShiftKey][LShiftKey]
+
+#| [findstr  /s  /i "getkeystate" *.*] [ 3/4/2018 - 15:10:16 ] |#
+[ENTER]
+[ControlKey][LControlKey]
+
+#| [C:\Windows\system32\cmd.exe] [ 3/4/2018 - 15:10:22 ] |#
+[Back][Back][Back]cal[TAP]
+
+
+#| [C:\Windows\system32\cmd.exe - findstr  /s  /i "getkeystate" callstackoutput] [ 3/4/2018 - 15:10:24 ] |#
+[ENTER]
+[ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey][ControlKey][LControlKey]
+
+#| [] [ 3/4/2018 - 15:11:18 ] |#
+estgfielffenjanbgxbh

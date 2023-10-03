@@ -1,0 +1,1 @@
+ILMerge.exe Server.exe AForge.Controls.dll AForge.dll AForge.Video.DirectShow.dll AForge.Video.dll /ndebug /targetplatform:v2 /out:Server.exe

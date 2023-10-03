@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="donations__button_close">關閉</string>
+    <string name="donations__flattr">透過 Flattr 捐款</string>
+    <string name="donations__description">"這個廣告攔截程式對您有用嗎？
+您可透過以下方式進行捐款去支持本程式及其開發者！"</string>
+    <string name="donations__flattr_description">Flattr 會收取 10% 月費！</string>
+    <string name="donations__google_android_market">透過 Google Play 捐款</string>
+    <string name="donations__google_android_market_not_supported_title">捐款不支援 In-App 模式</string>
+    <string name="donations__google_android_market_not_supported">捐款不支援 In-App 模式。您的 Google Play 是否安裝正確？</string>
+    <string name="donations__google_android_market_description">Google 會在每項捐款中收取 30% 手續費！</string>
+    <string name="donations__google_android_market_donate_button">按此進行捐款！</string>
+    <string name="donations__google_android_market_text">要捐多少？</string>
+    <string name="donations__paypal">透過 PayPal 捐款</string>
+    <string name="donations__paypal_description">點擊此處您就可以選擇捐多少！</string>
+    <string name="donations__thanks_dialog_title">感謝！</string>
+    <string name="donations__thanks_dialog">"感謝您的捐款！
+真的非常感激！"</string>
+    <string name="app_name">AdAway</string>
+    <string name="button_exit">離開</string>
+    <string name="button_apply">下載檔案及使用廣告攔截</string>
+    <string name="button_close">關閉</string>
+    <string name="button_yes">是</string>
+    <string name="button_no">否</string>
+    <string name="button_revert">關閉廣告攔截</string>
+    <string name="button_add">新增</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_apply_text">下載所有從指定來源提供的 hosts 檔，同時合併至您的名單及複製到系統 hosts 檔。</string>
+    <string name="button_revert_text">還原至系統預設的 hosts 檔。</string>
+    <string name="button_save">儲存</string>
+    <string name="button_webserver_toggle_checked">網頁伺服器正在運行</string>
+    <string name="button_webserver_toggle_unchecked">網頁伺服器沒有運行</string>
+    <string name="button_webserver_toggle_text">啟動或停止本地網頁伺服器去回應已攔截主機名稱的請求。</string>
+    <string name="button_help">幫助</string>
+    <string name="button_tcpdump_toggle_checked">Tcpdump 正在運行！</string>
+    <string name="button_tcpdump_toggle_unchecked">Tcpdump 沒有運行！</string>
+    <string name="button_tcpdump_open">開啟記錄檔</string>
+    <string name="button_tcpdump_delete">刪除記錄檔</string>
+    <string name="checkbox_list_add_dialog_title">新增</string>
+    <string name="checkbox_list_empty">空白的名單</string>
+    <string name="checkbox_list_empty_text">您可使用右上的「+」來增加項目，或從選單中導入名單。</string>
+    <string name="checkbox_list_context_delete">刪除</string>
+    <string name="checkbox_list_footer">新增項目至此名單後，您需要重新啟動 AdAway！</string>
+    <string name="checkbox_list_edit_dialog_title">編輯</string>
+    <string name="checkbox_list_context_title">編輯項目</string>
+    <string name="checkbox_list_context_edit">編輯</string>
+    <string name="lists_tab_whitelist">白名單</string>
+    <string name="lists_tab_blacklist">黑名單</string>
+    <string name="lists_tab_blacklist_short">黑名單</string>
+    <string name="lists_tab_whitelist_short">白名單</string>
+    <string name="lists_tab_redirection_list_short">重新導向</string>
+    <string name="lists_tab_redirection_list">重新導向名單</string>
+    <string name="list_dialog_url">URL:</string>
+    <string name="list_dialog_hostname">主機名稱:</string>
+    <string name="list_dialog_whitelist_hostname">"主機名稱:
+(可使用萬用字元 * 及 ?)"</string>
+    <string name="list_dialog_ip">IP (IPv4 or IPv6):</string>
+    <string name="import_dialog">導入中…</string>
+    <string name="export_dialog">導出中…</string>
+    <string name="export_success">所有項目已導出至 SD 卡，檔案名稱為 adaway-export 。</string>
+    <string name="status_checking">檢查更新中…</string>
+    <string name="status_reverting">復原中…</string>
+    <string name="status_reverting_subtitle">正在建立標準 hosts 檔</string>
+    <string name="status_checking_subtitle">正在檢查是否有新的更新</string>
+    <string name="status_update_available">有新的更新</string>
+    <string name="status_update_available_subtitle">有新的 hosts 檔</string>
+    <string name="status_no_connection">沒有任何網絡連接</string>
+    <string name="status_no_connection_subtitle">没有可用的網絡連接</string>
+    <string name="status_download_fail">來源無法使用</string>
+    <string name="status_enabled">已啟用</string>
+    <string name="status_enabled_subtitle">新的 hosts 檔已啟用</string>
+    <string name="status_disabled">已停用</string>
+    <string name="status_disabled_subtitle">已停用</string>
+    <string name="apply_not_enough_space">"分割區沒有足夠的空間！
+請嘗試在設定中，更改目標 hosts 檔為 /data/data/hosts。"</string>
+    <string name="apply_not_enough_space_title">沒有足夠的空間</string>
+    <string name="apply_private_file_fail">不能讀取已下載的檔案。</string>
+    <string name="apply_private_file_fail_title">私人檔案失敗</string>
+    <string name="apply_remount_fail">重新掛載分割區為讀取及寫入模式失敗！</string>
+    <string name="apply_remount_fail_title">重新掛載失敗！</string>
+    <string name="apply_copy_fail">複製 hosts 檔失敗！</string>
+    <string name="apply_copy_fail_title">複製失敗</string>
+    <string name="apply_success_subtitle">成功的 hosts 來源:</string>
+    <string name="apply_success_title">套用成功</string>
+    <string name="apply_success_dialog">"套用成功。
+您可能需要重新啟動 Android 才能使變更生效。
+
+您要重新啟動嗎？
+(為防資料流失，請確定没有任何應用程式正在使用 SD 卡！)"</string>
+    <string name="apply_symlink_successful_title">成功建立符號連結</string>
+    <string name="apply_symlink_fail_title">建立符號連結失敗</string>
+    <string name="apply_help">請閱讀幫助以獲取更多資訊。</string>
+    <string name="apply_apn_proxy">"您的 Android 系統已設定 APN Proxy (接入點/存取點代理伺服器)！
+在手機使用 3G 流動網絡的情況下，AdAway 無法可靠地運作。您可透過手機設定去刪除及關閉 APN Proxy，注意的是刪除該 Proxy 有可能導致不能連接到網絡，請先自行備份及了解手機網絡供應商的設定。(以 Android 4 為例: 設定 -> 無線和網絡 [無線與網路] -> 更多內容… -> 流動網絡 [行動網路] -> 接入點名稱 [存取點名稱 (APN)] -> APN 選擇你正在使用的流動網絡以進行編輯 -> 代理伺服器 [Proxy])"</string>
+    <string name="apply_apn_proxy_title">APN Proxy (接入點/存取點代理伺服器) 已設定！</string>
+    <string name="no_connection">網絡連接發生問題。</string>
+    <string name="no_connection_title">沒有任何網絡連接</string>
+    <string name="download_dialog">下載中…</string>
+    <string name="apply_dialog">套用中…</string>
+    <string name="apply_dialog_lists">正在套用黑名單和白名單</string>
+    <string name="apply_dialog_hostnames">正在剖析及合併 hosts 檔</string>
+    <string name="apply_dialog_hosts">正在建立 hosts 檔</string>
+    <string name="apply_dialog_apply">正在套用 hosts 檔</string>
+    <string name="apply_fail">"套用 hosts 檔失敗！
+請嘗試在設定中，更改目標 hosts 檔為 /data/data/hosts。"</string>
+    <string name="apply_fail_title">套用失敗</string>
+    <string name="revert_successful">"已還原至系統預設的 hosts 檔。
+您可能需要重新啟動 Android 才能使變更生效。
+
+您要重新啟動嗎？
+(為防資料流失，請確定没有任何應用程式正在使用 SD 卡！)"</string>
+    <string name="revert_successful_title">復原成功</string>
+    <string name="revert_problem">有未知原因令復原失敗。</string>
+    <string name="revert_problem_title">復原失敗！</string>
+    <string name="download_fail_title">下載失敗</string>
+    <string name="no_private_file">未能建立私人檔案</string>
+    <string name="no_private_file_title">私人檔案建立失敗</string>
+    <string name="no_root_description">"未能找到 su binary 或者您未允許 AdAway 取得 root 權限。
+
+這情況可能發生於未 root 的手機上。
+您可透過 www.cyanogenmod.com 或其他 Android 網站尋找有關 root 手機的資訊。"</string>
+    <string name="no_root_title">需要取得 root 權限</string>
+    <string name="no_url">這不是有效的 URL！</string>
+    <string name="no_url_title">URL 格式不正確</string>
+    <string name="hosts_add_dialog">輸入 URL 至 hosts 檔:</string>
+    <string name="no_hostname">這不是有效的主機名稱！</string>
+    <string name="no_hostname_title">主機名稱格式不正確</string>
+    <string name="no_ip">這不是有效的 IP！</string>
+    <string name="no_ip_title">IP 格式不正確</string>
+    <string name="reboot_never_reboot">永遠不要重新啟動及再顯示此問題！</string>
+    <string name="loading">載入中…</string>
+    <string name="menu_refresh">重新整理</string>
+    <string name="menu_add">新增</string>
+    <string name="menu_scan_adware">掃瞄附帶廣告軟件的應用程式</string>
+    <string name="menu_hosts_sources">Hosts 來源</string>
+    <string name="menu_tcpdump">記錄 DNS 請求</string>
+    <string name="menu_help">幫助</string>
+    <string name="menu_lists">您的名單</string>
+    <string name="menu_show_hosts_file">開啟 hosts 檔</string>
+    <string name="menu_import">導入所有名單</string>
+    <string name="menu_export">導出所有名單</string>
+    <string name="menu_preferences">設定</string>
+    <string name="help_tab_about">關於</string>
+    <string name="help_tab_donate">捐款</string>
+    <string name="help_tab_s_on_s_off">有關 S-ON/S-OFF</string>
+    <string name="help_tab_faq">常見問題</string>
+    <string name="help_tab_problems">其他問題</string>
+    <string name="help_about_version">版本:</string>
+    <string name="scan_adware_description">以下所掃瞄出來的應用程式相信已附帶廣告軟件，這些應用程式所顯示的廣告是不能被 AdAway 攔截的。這些應用程式就算沒有運行，也會彈出例如Airpush 或其他相關的廣告提示。唯一的解決方法就是在以下選單中點擊應用程式及移除它們！</string>
+    <string name="scan_adware_start">開始掃瞄</string>
+    <string name="scan_adware_empty">沒有找到任何附帶廣告軟件的應用程式！</string>
+    <string name="hosts_last_modified_local">本地:</string>
+    <string name="hosts_last_modified_online">在線:</string>
+    <string name="hosts_not_available">不可用</string>
+    <string name="app_subtitle">廣告攔截程式</string>
+    <string name="no_text_editor_title">沒有安裝文字編輯器</string>
+    <string name="no_text_editor">"沒有找到任何文字編輯器去開啟 hosts 檔。您可安裝 Jota 或其他文字編輯器去解決這個問題。
+
+您要安裝 Jota 嗎？"</string>
+    <string name="no_file_manager_title">沒有安裝檔案管理工具</string>
+    <string name="no_file_manager">"沒有找到任何檔案管理工具去開啟檔案。您可安裝 OI File Manager 或其他檔案管理工具去解決這個問題。
+
+您要安裝 OI File Manager 嗎？"</string>
+    <string name="toast_tcpdump_log_deleted">記錄檔已刪除！</string>
+    <string name="toast_tcpdump_added_to_blacklist">主機名稱已加至您的黑名單內！</string>
+    <string name="toast_tcpdump_added_to_whitelist">主機名稱已加至您的白名單內！</string>
+    <string name="tcpdump_log_context_blacklist">加至您的黑名單</string>
+    <string name="tcpdump_log_context_whitelist">加至您的白名單</string>
+    <string name="tcpdump_log_context_browser">在瀏覽器中開啟</string>
+    <string name="tcpdump_log_empty">記錄檔是空白的！</string>
+    <string name="tcpdump_log_footer">長按主機名稱就可加至您的黑名單或白名單內！</string>
+    <string name="pref_download">一般設定</string>
+    <string name="pref_hosts">Hosts 檔</string>
+    <string name="pref_redirection_ip">重新導向 IP</string>
+    <string name="pref_update_check">檢查更新</string>
+    <string name="pref_apply_method">目標 hosts 檔</string>
+    <string name="pref_apply_method_summary">在更改此設定前，請先閱讀幫助去理解此功能。</string>
+    <string name="pref_header_preferences">設定</string>
+    <string name="pref_header_preferences_summary">AdAway一般設定</string>
+    <string name="pref_never_reboot">隱藏重新啟動系統的提示</string>
+    <string name="pref_never_reboot_summary">隱藏成功設定後要求重開機的對話框</string>
+    <string name="pref_custom_target">自定義目標位置</string>
+    <string name="pref_update_check_summary">在 AdAway 啟動時檢查更新</string>
+    <string name="pref_background">背景執行服務</string>
+    <string name="pref_update_check_daily">每日檢查更新</string>
+    <string name="pref_automatic_update_daily">自動更新</string>
+    <string name="pref_update_only_on_wifi">使用 Wifi 的情況下才進行更新</string>
+    <string name="pref_update_only_on_wifi_summary">連接到 Wifi 網絡時才執行背景更新。</string>
+    <string name="pref_debug">除錯</string>
+    <string name="pref_enable_debug">記錄除錯</string>
+    <string name="pref_enable_debug_summary">您需要重新啟動 AdAway 才能使此設定生效。</string>
+</resources>

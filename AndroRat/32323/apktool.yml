@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: 32323.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: org.adaway
+  orig_package: org.adaway
+compressionType: false

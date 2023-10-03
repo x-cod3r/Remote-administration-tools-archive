@@ -1,0 +1,42 @@
+C:\Users\Alaa\Desktop\Server\Server\bin\Debug\Server.exe
+C:\Users\Alaa\Desktop\Server\Server\bin\Debug\Server.pdb
+C:\Users\Alaa\Desktop\Server\Server\bin\Debug\Server.xml
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.Form1.resources
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.Resources.resources
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.exe
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.xml
+C:\Users\Alaa\Desktop\Server\Server\obj\x86\Debug\Server.pdb
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\obj\x86\Debug\Server.exe
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\obj\x86\Debug\Server.xml
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\obj\x86\Debug\Server.pdb
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\bin\Debug\Server.exe
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\bin\Debug\Server.pdb
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\bin\Debug\Server.xml
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\obj\x86\Debug\Server.Form1.resources
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\obj\x86\Debug\Server.Resources.resources
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\obj\x86\Debug\Server.vbproj.GenerateResource.Cache
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\obj\x86\Debug\Server.vbprojResolveAssemblyReference.cache
+C:\Users\XaY_Tn\Desktop\فهرس برمجة برنآمج آخترآق [ rat ] بالفيجوال بيسك [ دوت نت ]\[ 1 ] برمجة عميلُ وخآدمُ ووصولُ آلتبليغُ وجلبُ معلومآتُ عنٌ آلضحية\-\الدرس الاول\Server\Server\bin\Debug\cam.dll
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\obj\x86\Debug\Server.exe
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\obj\x86\Debug\Server.xml
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\obj\x86\Debug\Server.pdb
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\bin\Debug\Server.exe
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\bin\Debug\Server.pdb
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\bin\Debug\Server.xml
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\obj\x86\Debug\Server.vbprojResolveAssemblyReference.cache
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\obj\x86\Debug\Server.Form1.resources
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\obj\x86\Debug\Server.Resources.resources
+C:\Users\XaY_Tn\Desktop\Dev-Point\Server\Server\obj\x86\Debug\Server.vbproj.GenerateResource.Cache
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\obj\x86\Debug\Server.exe
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\obj\x86\Debug\Server.xml
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\obj\x86\Debug\Server.pdb
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\bin\Debug\Server.exe
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\bin\Debug\Server.pdb
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\bin\Debug\Server.xml
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\obj\x86\Debug\Server.vbprojResolveAssemblyReference.cache
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\obj\x86\Debug\Server.Form1.resources
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\obj\x86\Debug\Server.Resources.resources
+C:\Users\H\Desktop\B0K-RAT\B0K-RAT SRC\Server\Server\obj\x86\Debug\Server.vbproj.GenerateResource.Cache

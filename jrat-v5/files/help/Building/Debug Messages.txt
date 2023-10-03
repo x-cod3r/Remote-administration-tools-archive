@@ -1,0 +1,3 @@
+Debug Messages:
+
+Keep debug messages: Does just as stated. Keeps debug messages left by the developer. 

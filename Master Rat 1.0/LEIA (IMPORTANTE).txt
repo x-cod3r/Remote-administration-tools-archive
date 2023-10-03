@@ -1,0 +1,22 @@
+----------- Master Rat 1.0 -------------
+DESCRIÇÃO:
+
+Master Rat é uma ferramenta de administração remota ( RAT). Com o Master Rat 1.0 você poderá executar diversas ações em um computador alvo, além de monitorá-lo. Seu uso é totalmente gratuíto, e é expressamente proíbida sua venda. Tudo o que for feito é de sua responsabilidade, portanto use com sabedoria, e procure saber as consequências  da má utilização deste RAT. 
+
+FUNÇÕES:
+
+Informações
+Gerenciador de Processos
+Gerenciador de Janelas
+Mensagem
+Remote Shell
+Keylogger
+Executar Batch Script
+Downloader
+... e mais!
+
+AUTOR: Rahackzin
+TAMANHO: 1,33 MB
+ANO: 2010
+LICENÇA: Freeware
+CATEGORIA: RAT

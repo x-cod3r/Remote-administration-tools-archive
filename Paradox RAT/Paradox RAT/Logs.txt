@@ -1,0 +1,65 @@
+
+
+ [RightMouseClick]
+[------Paradox Remote Administration Tool 4.0.1------]
+[ctrl]v[BackSpace]
+
+[------Download Execute------]
+[ctrl]c[ctrl]v
+
+[------Paradox Remote Administration Tool 4.0.1------]
+ [RightMouseClick][ctrl]c [Enter]
+[ctrl]v
+[------*D:\TraceBackup\Download&ExecuteWithStack\list.txt - Notepad++ [Administrator]------]
+
+
+
+[------Paradox RAT------]
+ [RightMouseClick]
+
+[------Paradox Remote Administration Tool 4.0.1------]
+
+[------Windows 任务管理器------]
+
+[Del]
+[------call stack with all events------]
+[ctrl]a[Del]
+[BackSpace][BackSpace][BackSpace]7
+[------管理员: C:\Windows\system32\cmd.exe------]
+1 [RightMouseClick]
+[------Paradox Remote Administration Tool 4.0.1------]
+
+[ctrl]v
+[------管理员: C:\Windows\system32\cmd.exe------]
+ [Enter]
+
+
+[------管理员: C:\Windows\system32\cmd.exe - ETW_write_logfile.exe  2712------]
+ [Enter]
+[ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl][ctrl]
+[------call stack with all events------]
+[ctrl]c
+ [RightMouseClick]
+[------Download&ExecuteWithStack------]
+Paradox RA [Enter]
+ [Enter]
+
+ [RightMouseClick]
+[------Paradox RAT------]
+1[ctrl]v
+[------1------]
+
+
+[------管理员: C:\Windows\system32\cmd.exe------]
+[Up Arrow][BackSpace][BackSpace][BackSpace][BackSpace]71
+
+[------Windows 任务管理器------]
+ [Enter]
+ [Enter]
+ [Enter]
+[ctrl]c[ctrl]v
+[------1------]
+
+[Up Arrow][BackSpace][BackSpace][BackSpace]712[Left Arrow][Left Arrow][Left Arrow][Left Arrow][Left Arrow][Left Arrow][Left Arrow][Left Arrow]
+[------管理员: C:\Windows\system32\cmd.exe------]
+[BackSpace][BackSpace]\[Left Arrow][Left Arrow][Left Arrow][Left Arrow][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace][BackSpace]

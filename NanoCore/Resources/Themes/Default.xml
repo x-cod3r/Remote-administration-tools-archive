@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Theme>
+  <Color name="BackColor">25,25,25</Color>
+  <Color name="AccentColor">75,160,240</Color>
+  <Color name="OverlayColor">8,8,8</Color>
+  
+  <Color name="Widget.Text.Color">255,255,255</Color>
+  <Color name="Widget.AccentText.Color">128,128,128</Color>
+
+  <Color name="Navigator.Item.Color">95,95,95</Color>
+  <Color name="Navigator.Item.HoverColor">115,115,115</Color>
+  <Color name="Navigator.Item.SelectedColor">75,75,75</Color>
+  <Color name="Navigator.Text.Color">255,255,255</Color>
+  <Color name="Navigator.Text.HoverColor">255,255,255</Color>
+  <Color name="Navigator.Text.SelectedColor">255,255,255</Color>
+  <Color name="Navigator.Arrow.Color">70,70,70</Color>
+  <Color name="Navigator.Arrow.HoverColor">80,80,80</Color>
+  <Color name="Navigator.Arrow.SelectedColor">55,55,55</Color>
+  <Color name="Navigator.Separator.Color">70,70,70</Color>
+  <Color name="Navigator.DropDown.Item.Color">95,95,95</Color>
+  <Color name="Navigator.DropDown.Item.HoverColor">115,115,115</Color>
+  <Color name="Navigator.DropDown.Text.Color">255,255,255</Color>
+  <Color name="Navigator.DropDown.BorderColor">50,50,50</Color>
+  
+  <Color name="Paginator.Tab.Color">75,75,75</Color>
+  <Color name="Paginator.Tab.SelectedColor">115,115,115</Color>
+</Theme>

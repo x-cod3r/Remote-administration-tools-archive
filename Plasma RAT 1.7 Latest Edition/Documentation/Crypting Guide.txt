@@ -1,0 +1,50 @@
+Plasma RAT Encryption Guide / Updated on 12/8/2015
+
+So lets get started: 
+Encrypting Plasma RAT is easier than you think, if you know how it's done! 
+
+[==============================================]
+
+First, lets get a couple things out of the way: 
+
+Q. Will a native crypter work with Plasma RAT? 
+A. No. Even with .NET support Plasma doesn't work with native encryption software. 
+
+Q. Will any .NET crypter work with Plasma RAT? 
+A. Almost, any .NET crypter with self injection will work (Ex: Kazy Crypter) 
+
+[==============================================]
+
+[+] = Add setting. 
+[-] = Remove setting. 
+[~] = Optional / Add it or don't.
+
+Settings on Plasma: 
+
+[+] Enable Installation and Persistence Module
+[-] SetKernelObjectSecurity Process Protection
+[~] Request Administrator (requestedExecutionLevel) 
+[-] System Wide Injection Persistence (SWIP)
+[~] Antivirus Killer (Standard and Proactive)
+[+] Bot Startup and File Persistence
+[~] Run Proactive Bot Killer Automatically
+[~] Set Process Critical (NtSetInformationProcess)
+[-] Set 32bit Rootkit (NtQuerySystemInformation) WARNING: This can cause damage if added.
+
+[==============================================]
+
+[+] = Add setting. 
+[-] = Remove setting. 
+[~] = Optional / Add it or don't.
+
+Settings on crypter: 
+
+[+] Injection: Self injection
+[-] Start-up
+[-] Persistence
+[-] ALL OTHER OPTIONS
+
+[==============================================]
+
+Remember, these settings are just from minor testing, I hope that everyone will 
+check themselves so they can find exactly what works for them :) 

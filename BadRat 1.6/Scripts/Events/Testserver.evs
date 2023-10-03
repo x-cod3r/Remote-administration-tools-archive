@@ -1,0 +1,10 @@
+;Event Setting [Bad R.A.T.]
+;Name: Testserver
+;by Mr Hawk
+;
+;Ist zum Test des Servers und zur Fehlersuche!
+;
+OnConnect: FakeMsg Neuer Client hat eine Verbindung hergestellt ( [%OIP] )
+OnInstallation: FakeMsg [BAD R.A.T.]-Testserver wird installiert!
+OnLoad: FakeMsg [BAD R.A.T.]-Testserver wurde geladen!
+OnTerminate: FakeMsg [BAD R.A.T.]-Testserver wird terminiert!

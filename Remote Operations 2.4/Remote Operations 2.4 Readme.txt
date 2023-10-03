@@ -1,0 +1,387 @@
+**********************************
+**REMOTE OPERATIONS [=REDEEMER=]**
+**********************************
+
+
+Contents
+--------
+=Quick Reference=
+=What is Remote Operations=
+=History of Remote Operations=
+=Priming=
+=Connecting=
+=SSCMD=
+=Tools=
+=Current SSCMD Syntax List=
+=CSM (Cross Server Manipulation)=
+=ROCI=
+=FAQ=
+=Legal Stuff=
+
+
+Quick Reference
+---------------
+Client Version: 2.4
+Client Codename: REDEEMER
+Server Version: 1.9
+Server Codename: Sentinel
+SSCMD Generation: 3
+Server Direct Relation: 2.4
+CSM: client version <2.4
+
+
+
+What is Remote Operations
+-------------------------
+This is version 2.4 of remote operations, and it just got better.
+Remote Operations allows you to access terminals over a network or the internet if they are running the server (See "Connecting" to find out how).
+Once connected you will be able to administer the computer within the confines of the client, which is quite large.
+
+In all, it is a remote access/administration tool.
+
+History of Remote Operations
+----------------------------
+Remote Operations started life, officially, as Military Operations. It was not very powerful back then with a weak command interpreter. MilOp got to V1.9 before it was trashed for the its offspring, Remote Operations.
+Remote Operations started out at 2.0 in honour of MilOp. However 2.0-2.1 was never on general release, it was only really used by me and a few other people. Finally I thought it time to release Remote Operations to the general public. V2.2 was its first released version but soon after that I had finished 2.3 which was a little more powerful then 2.2 with a few more functions. It was left at 2.3 for a while until recently when I started work on V2.4.
+V2.4 was given a codename, because in the history of remote operations, this is the most powerful it has ever been. It has 3rd generation SSCMD (its command interpreter) and many more functions then before. Again, it was a step forward for the server, which was also given the codename Sentinel.
+This is what you see today.
+
+Priming
+-------
+Priming is the coined phrase for setting up a server on a terminal. The Primer.exe (the name can be changed) automatically sets up the server on the system and gets it running. You just need to execute it. You will not know that the server is running- it is running in the background. It also automatically starts up on login.
+
+Connecting
+----------
+Even if you are new to computers, Remote Operations is very easy to get to terms with. I have setup the GUI (Graphical User Interface) for that reason.
+now its time to get on with a step by step guide on basics:
+Connecting is very easy. First you need the IP address (this is a unique string of numbers assigned to every computer on a network or internet. Normally it changes every time you dial up to the net. If you are always connected through a dedicated line or you are on a network workstation, then your IP will be the same).
+Getting the IP is quite easy- you use the utility on the client, this will give you your IP Address or go onto Start->Run and in the edit box type in "Winipcfg" (you are looking at IP Number). Otherways are sending a file to the computer you want through an instant messenger program. Then use a utility like NeoMonitor (www.NYCSoftware.com) and look for out going connections. This reason for this is because your terminal is making a direct link to a remote terminal. This means your terminal is directly connecting to theirs therefore you grab the packets destination address and there you have their IP Address.
+Once you have the IP Address, through any means, you can connect.
+Go onto Uplink->Uplink Setup. In the server IP Address edit box, type in the IP Address of the terminal and then click on "Establish".
+Once connected the Caption of the window should say "Remote Operations REDEEMER :: Connected". This means you have a link.
+
+SSCMD
+-----
+As said earlier, SSCMD is the command interpreter for the server, you send commdands though the parser or through the GUI, and the server interprets them. SSCMD stands for Super String Commands. each command is broken up into different parts:
+Command>Data>
+This is a basic seperation:
+The command is, as it says, the command for the server to carry out.
+The Data has three varieties- Static, Dynamic and Relaxed
+
+Static means that one data means one thing then another
+eg keyspy>begin>  keyspy>end>
+
+Dynamic means it can change with no affect to the processing, then data is processed in that state
+eg winerror>this is dynamic>this is dynamic>ok
+
+Relaxed means no matter what you put there, the server will just ignore it
+eg hail>blah>
+
+however, the command list sorts out syntax correctly for you.
+
+Tools
+-----
+Matrix Message :: This sends a matrix style message much like that of one of the first scenes, you will find out which one
+
+Multi Error :: This sends one error message every 0.001 second. This takes up system resources
+
+Shell Execute :: This executes any program going through their default opener (text files will open in Notepad, executes will run etc.)
+
+System Time :: Change the system time remotely (very confusing)
+
+Monitor :: Turn the monitor on/off/standby remotely
+
+Go to URL :: Send them to any site
+
+Security/Misc :: This is the misc of all the tools:
+Disable HDD- Hide the Hard Drives from My Computer
+Enable HDD- Shows the Hard Drives in My Computer on next boot up
+Disable Desktop- Hides all Icons on the next boot up
+Enable Desktop- Shows all Icons on next boot up
+Home Page- Change their Homepage remotely
+Legal Notice* Caption- The captions to a Legal Notice message
+Legal Notice* Text- The text in the Legal Notice
+Internet Explorer Caption (May not work!)- Changes the IE Caption
+*Legal Notice- This is seen on logon, before the logon screen is shown it shows a message box (totally open to abuse:) )
+
+VTPS :: This tool now fully works with the sentinel [1.9] server and client Redeemer [ROP24] apart from the remote registry system.
+Basically if you have 2 computers primed you can use one of them as a proxy by making it forward commands to another computer. Setup the IP to forward to and connect it. 
+
+Reject User :: This can shutdown/logoff/restart/poweroff the user and their computer. Soft means it sends out a terminate query but if it does not have soft it means it is forced meaning it just terminates all processes (more dangerous- no saving work)
+
+Remote Spooler :: Turn the computer into a printer. Send a load of strings (sentences if you will), they are put in a file and then you can print it out on their computer
+
+CD Tray :: Send a command to Open or Close the CD Tray (CD ROM Drive)
+
+Retrieval :: This can grab from the registry which organisation and person the computer is registered to, its version, its root directory (c:\Windows for example), its old root directory and best of all, the current user!
+
+Clean Up :: Very useful. Basically means you can flush the auto start values for the server and tag the registry for auto removal. Tag is my coined phrase to quickly say it adds a string value to the registry. A removal tag is therefore a string in RunOnce with a value of 'delete "$path\program$"'
+
+Boot Ups :: Boot up Probe (see probe) shutdown probe and shutdown server remotely
+
+hail> :: Type this into the SSCMD Parser and this will return info on the servers version and status (Remote Operations Client V2.2 is directly related to V1.7 of the server) see cross server manipulation if not V1.7
+
+Player :: This is Remote Ops MP3 Player (although it plays other things). I did not spend much time on this so the GUI is *NOT* friendly. Just type in the directory of the song file and click add (remove to get rid of it) and pres play once for play, another time for stop. Press pause once for pause on, again for pause off and the big R button to rewind (RealNetworks can sleep safe in their beds for now:)
+
+Status :: Not really useful, only for me when debugging and even then its bugged to hell so that it does not work
+
+Log :: Save you l33t log, Load you l33t log and clear the current log (at the bottom which gets updated with every action and says 'L33T LOG')
+
+System Resource :: Grab the current system Resources
+
+System OS :: Grab the system OS (better then the retrieval method)
+
+Processes :: Lists all the processes on the remote terminal also has the ability to automatically insert the PID into the Process Killer
+
+Kill Process :: Kills the process specified by the PID (Process ID)
+
+Inform User :: This can bring up a panel informing the user that the terminal is in a remote adminstration session and you can turn off the panel
+
+Regedit :: Allows you to navigate and edit the remote systems registry.
+
+Ctrl Alt Del :: Allows you to disable the 3 fingered salute
+
+Block Input :: Allows you to block all mouse and keyboard input on the remote system and unblock it. [Windows disables this if you press ctrl+alt+del, however I have found a work around- if you actually disable ctrl alt del using the above tool you can actually stop that)
+
+Start Button :: Hides/Shows start button
+
+Windows Error :: this has been totally overhauled so now you can use all the different button combinations, all the different types of error message (error, warning, information and question) and it also returns what the user pressed
+
+Remote SEd :: This is the remote server editor (SEd). Once you connect to the machine, you can remote edit the server. THe current options are to Password Protect the server, Change its port and to change its boot method. Boot methods are:
+On Login- When a user logs into windows with their account the server automatically starts up
+On Start Up- When the windows login screen comes up it is running (it is running as a service)
+No Event- If you don't want the server to boot up again then you click this and it will not boot on next computer boot up
+
+Reboot :: You can now reboot the server, by default in 3 seconds or you can specify a reboot time (in milliseconds)
+
+ComAlias :: ComAlias is the feature that allows a Com(puter) Alias. Basically if there is a server you connect to alot then use ComAlias. It works the same as a DNS in some respects, you create a new ComAlias (enter the Alias and the IP of the system) and then you just use the name and you can connect to it. It avoids remember a host of IP Addresses
+
+RO-Ping :: A ping utility. You can ping remote terminals
+
+RO-Mail :: An SMTP Client
+
+RO-Scan :: Not amazing but it works- its a simple 1 host port scanner
+
+Key Spy:: This is a remote keylogger running on its own server that you can boot up and shut down when ever. It records the key thats logged (in ASCII Character Code), whether it had CTRL, ALT or SHIFT held down when typed and which window it was typed into. This can be used by admins to monitor when keys and pressed and into what window.
+
+Ascii Converter :: As Key Spy records strokes in ASCII Code, i wrote a utility to convert from "Raw" log to readable letters. The conversion table is fully customizable with commenting implemented. To comment you type // then a space then the comment, this is due to how the converter reads the file and cannot be helped.
+
+
+Current SSCMD Syntax List
+-------------------------
+
+matrix>[message]>
+
+multi error>>
+
+shell>[directory]>
+
+winerror>[Error Caption]>[Error message]>[Button Combo]
+
+winquestion>[Error Caption]>[Error message]>[Button Combo]
+
+winwarning>[Error Caption]>[Error message]>[Button Combo]
+
+wininfo>[Error Caption]>[Error message]>[Button Combo]
+
+systime>hour>minutes  (Note it is 24 hour clock)
+
+monitor> - on>
+        |
+         - off>
+        |
+         - standby>
+
+url>[URL]>
+
+hide> -allhdd>
+     |
+      -!allhdd>
+     |
+      -desktop>
+     |
+      -!desktop>
+
+legalcap>[caption]>[Message]>
+
+iecap>[caption]>
+
+iehomepage>[url]>
+
+rejectuser> -shutdown>
+           |
+            -logoff>
+           |
+           -poweroff>
+           |
+            -restart>
+           |
+            -softshutdown>
+           |
+            -softrestart>
+           |
+            -softpoweroff>
+           |
+            -softrestart>
+
+spool> -[string to print]>
+      |
+       -clear>
+      |
+       -print>
+
+cdtray> -open>
+       |
+        -close>
+
+ret> -sysroot>
+    |
+     -oldwin>
+    |
+     -version>
+    |
+     -admin>
+    |
+     -company>
+    |
+     -User> (**the U is uppercase**)
+
+clean> -flush>
+      |
+       -tag>
+
+probe> -boot>
+      |
+       -shut>
+
+server>!>
+
+system>resource>
+       |
+       -os>
+       |
+       -process>
+       |
+       -kill>[PID]
+
+
+inform> -[dynamic]>
+       |
+        -! >
+
+string>[Root Key]>[Dir]>[Data Name]>[Data Value]
+
+delvalue>[Root Key]>[Dir]>[Data Name]>
+
+key>[Root Key]>[Dir]>[Key Name]>
+
+delkey>[Root Key]>[Dir]>[Data Name]>
+
+int>[Root Key]>[Dir]>[Data Name]>[Data Value]
+
+getkeys>[Root Key]>[Dir]>[Data Name]>
+
+getvalues>[Root Key]>[Dir]>[Data Name]>
+
+blockinput>TRUE>
+           |
+           -FALSE>
+
+sb>TRUE>
+     |
+     -FALSE>
+
+cad>TRUE>
+       |
+       -FALSE>
+
+spassword>[Password]>
+
+reboot>>
+      |
+       -[Milliseconds]
+
+Ppassword>[Password]>
+
+Kpassword>>
+
+Port>[Port Number]>
+
+bu>[start up method]
+
+keyspy>begin>
+      |
+      -kill>
+
+
+Don't worry if you don't understand that, its mainly used for CSM or ROCI
+
+CSM (Cross Server Manipulation)
+-------------------------------
+Due to the fact that it works on command interpretation, you can use different servers- that is the point for the SSCMD parser box at the bottom. If, when you hail the server, there is no response, the person is running a very old version of the server and will use first generation super string commands as opposed to the second generation SSCMD. Any response below V1.9 or Sentinel is running on an older version of SSCMD therefore you will always have to use the parser. If you are running an old version of the client then you are also safe because all you need is the list of commands and just parse them through the SSCMD parser. for instance- if the response is 1.9 and you are running 2.2 then you just use the unimplimented commands by typing them into the SSCMD parser.
+
+ROCI
+----
+ROCI stands for Remote Operations Console Interface. It is basically for those that know the SSCMD list off by heart and don't want to eat up resources by using a GUI. the IP and Port are command line arguments in that order.
+eg C:\Remote Operations\ROCI.exe 127.0.0.1 6066
+
+
+FAQ
+---
+
+1) How do I connect through a Proxy Server?
+A: Try and get them to send you their IP Address by trickery or something. If you have the IP already it should work through the Proxy. If you are working outside an internal network (LAN), the router may have banned all connection apart from NetBIOS, HTTP and FTP, if this is the case there is no way in.
+
+2) What does VTPS stand for?
+A: Virtual Terminal Proxy Server.
+
+3) I get the error: Asynchronous Socket Error 10061. What does this mean?
+A: The server is not running on the remote machine. The other thing is that some firewalls jam the port so you cannot connect and sometimes in a really odd way firewalls occasionally jam any outbound connections to the remote system. Try it without a firewall.
+
+4) I get an error 'Cannot create file: data\lastserver.rol'. This has stopped me from connecting and everything, what do I do?!?
+A: Lastserver.rol keeps the history of the IPs you connected to so you don't have to keep retyping them. Go to the directory of Remote Op and go into data\ there should be 2 files there, one of which is lastserver.rol. Right click on this and check properties. See if it is Read Only, if it is then uncheck that and click Apply. Try it again. If it is not actually there then just create it through notepad. If this still does not work try the following. I added this feature when I found out I could not run RemOp off my accounts (not enough priviliges)> However I found out I could actually run it off a CD but it would not work because everything on the CD was Read Only. On the uplink panel, right click and there is a menu item saying 'add server IP'. Uncheck this and it by passes adding the servers IP to the lastserver.rol file. It should run then.
+
+5) I get the error: Windows Socket Error: (10049) on API 'connect'. What do I do?
+A: The IP address you entered is not valid. This is a valid IP address:
+213.72.222.163
+This is invalid:
+213.72.2222.163 \ 213.72.222163 etc.
+
+6) I suddenly get the message in the log: Error (161): Connection Error and the error message: Asynchronous Socket Error 10054. What does this mean?
+This means the server has disconnected. Try reconnecting.
+
+7)I keep getting the same message as above when I use the ComAlias feature. What do I do?
+A: I found I was getting this. I am trying to debug it at the moment however in the mean time you can do this and it then works fine:
+-Enter 127.0.0.1 and establish an uplink
+-Abort the uplink and then click on "use ComAlias" and then enter the alias and it should work
+I know its a pain but thats the only way I know at the moment. I will fix it ASAP. However you only need to do the first part once everytime you load up RemOp
+
+8) I keep getting the error message: "Cannot find Host" with for example "127.0.0.|" in the caption of the error message in RO-Ping/RO-Scan, what is going on?
+A: I have not pinned down why it is doing this but for some reason it does not always get the last number in the IP address. Try closing Remote Operations and restarting it. This sometimes works. Apart from 127.0.0.1 where it is conviced it is 127.0.0.|
+
+
+9) Will I be in trouble if I get caught using it?
+A: Depends how you are using it. Remember this is an educational tool. If you are using it for an above the board legitimate purpose then none, otherwise it is as serious as the person you have infected takes it.
+
+
+Legal Stuff
+-----------
+All the software here is created specifically for educational use or legal administrative use and I hereby take not responsibility for damage caused by the software in any way, shape or form. The use of this software, if illegal in any way, shape or form, is at the users discretion and responsibility, I do not take responsibility. However I must advise the user not to use this software illegitimately as this is an infringment on international laws.
+Consider yourself warned!!
+
+-You can freely distribute Remote Operations (all I ask is you give me at least some credit)
+-Do not decompile/reverse engineer it
+
+Have fun
+
+|)/\3|)/\|_(_)5
+I am an inventor. Twisted mind of insanity.
+I am a programmer. Computers are slaves.
+I am a ghost. Merged binary before you.
+
+[daedalus_1337@hotmail.com]
+[remote-operations.0catch.com] 
+
+
+Any bugs or problems you have come across that I have not address (And this probably means that the unstable VTPS is not working :) 
+please report to the address as stated above

@@ -1,0 +1,2 @@
+Spygate RAT is just in a beta phase. Its has major bugs including .com loading errors, and
+assembly errors. It's highly recommended that the source is touched up before proper use.

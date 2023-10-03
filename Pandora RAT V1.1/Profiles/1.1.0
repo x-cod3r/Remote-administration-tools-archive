@@ -1,0 +1,18 @@
+[Builder]
+IP=127.0.0.1****
+Port=6622
+Password=
+Filename=
+Startupname=
+Mutex=EDSGDD- PnDr
+ID=name
+Install?=0
+Startup?=0
+ActiveX?=0
+HKCU?=0
+Unhook?=1
+HideFile?=0
+Keylogger?=1
+Melt?=0
+Persistance?=0
+Manifest?=1

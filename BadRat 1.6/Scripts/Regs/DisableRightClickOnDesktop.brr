@@ -1,0 +1,7 @@
+;Reg Keys for [Bad R.A.T.]
+;Disable RightClick On Desktop
+;WinXP
+RegAdd HKEY_CURRENT_USER,Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoViewContextMenu,1
+
+;Win 95/8/ME
+RegAdd HKEY_LOCAL_MACHINE,Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoViewContextMenu,1

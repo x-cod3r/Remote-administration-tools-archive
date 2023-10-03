@@ -1,0 +1,1074 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>starksoft.aspen</name>
+    </assembly>
+    <members>
+        <member name="T:Starksoft.Aspen.ArrayBuilder">
+            <summary>
+            Builds a one-dimensional byte array of a fixed size and allows the consumer to easily
+            append data to that byte array.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayBuilder.#ctor(System.Int64)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="size">The fixed size of the one-dimensional byte array to build.</param>
+        </member>
+        <member name="P:Starksoft.Aspen.ArrayBuilder.Length">
+            <summary>
+            Gets the length of the ArrayBuilder buffer in bytes.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayBuilder.Append(System.Byte[])">
+            <summary>
+            Appends bytes to the byte array.
+            </summary>
+            <param name="data">Bytes to append.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayBuilder.Append(System.Byte[],System.Int64)">
+            <summary>
+            Appends bytes to the byte array at a specific starting index.
+            </summary>
+            <param name="data">Bytes to append.</param>
+            <param name="startIndex">Starting point to append bytes.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayBuilder.GetBytes">
+            <summary>
+            Returns the byte array.
+            </summary>
+            <returns>Array of bytes.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayBuilder.Clear">
+            <summary>
+            Clears the bytes array.  Any appended data will be lost.  The original byte array size is preserved.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayBuilder.Redim(System.Int64)">
+            <summary>
+            Creates a new byte array of the size specificed.  Any appended data will be lost.
+            </summary>
+            <param name="size">Size to rediminsion the array.</param>
+        </member>
+        <member name="T:Starksoft.Aspen.ParityOptions">
+            <summary>
+            Parity options.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.ParityOptions.Odd">
+            <summary>
+            Odd parity.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.ParityOptions.Even">
+            <summary>
+            Even parity.
+            </summary>
+        </member>
+        <member name="T:Starksoft.Aspen.ArrayUtils">
+            <summary>
+            Array utility class for working with byte arrays.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Compare(System.Byte[],System.Byte[])">
+            <summary>
+            Compares two byte arrays to make sure they contain the exact same data and are the same length.
+            </summary>
+            <param name="array1">First array to compare.</param>
+            <param name="array2">Second array to compare.</param>
+            <returns>A value of true if the arrays are the same; otherwise false.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.HexEncode(System.Byte[])">
+            <summary>
+            Encodes a byte array to a string in 2 character hex format.
+            </summary>
+            <param name="data">Array of bytes to convert.</param>
+            <returns>String containing encoded bytes.</returns>
+            <remarks>e.g. 0x55 ==> "55", also left pads with 0 so that 0x01 is "01" and not "1"</remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.HexEncode(System.Byte)">
+            <summary>
+            Encodes a byte to a string in 2 character hex format.
+            </summary>
+            <param name="data">Byte to convert.</param>
+            <returns>String containing encoded byte.</returns>
+            <remarks>e.g. 0x55 ==> "55", also left pads with 0 so that 0x01 is "01" and not "1"</remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.HexEncode(System.Byte[],System.Boolean)">
+            <summary>
+            Encodes a byte array to a string in 2 character hex format.
+            </summary>
+            <param name="data">Array of bytes to convert.</param>
+            <param name="insertColonDelimiter">Insert colon as the delimiter between bytes.</param>
+            <returns>String containing encoded bytes.</returns>
+            <remarks>e.g. 0x55 ==> "55", also left pads with 0 so that 0x01 is "01" and not "1"</remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.HexEncode(System.Byte[],System.Boolean,System.Int32)">
+            <summary>
+            Encodes a byte array to a string in 2 character hex format.
+            </summary>
+            <param name="data">Array of bytes to encode.</param>
+            <param name="insertColonDelimiter">Insert colon as the delimiter between bytes.</param>
+            <param name="length">Number of bytes to encode.</param>
+            <returns>String containing encoded bytes.</returns>
+            <remarks>e.g. 0x55 ==> "55", also left pads with 0 so that 0x01 is "01" and not "1"</remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.HexDecode(System.String)">
+            <summary>
+            Decodes a 2 character hex format string to a byte array.
+            </summary>
+            <param name="s">String containing hex values to decode..</param>
+            <returns>Array of decoded bytes.</returns>
+            <remarks>Input string may contain a ':' delimiter between each encoded byte pair.</remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.HexDecode(System.String,System.Int32)">
+            <summary>
+            Decodes a 2 character hex format string to a byte array.
+            </summary>
+            <param name="s">String containing hex values to decode..</param>
+            <param name="paddingBytes">Number of most significant byte padding to add.</param>
+            <returns>Array of decoded bytes.</returns>
+            <remarks>Input string may contain a ':' delimiter between each encoded byte pair.</remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.GetInt24(System.Int32)">
+            <summary>
+            Converts a 32-bit integer value to a 24-bit integer value.
+            </summary>
+            <param name="value">32-bit integer.</param>
+            <returns>24-bit integer as a byte array.</returns>
+            <exception cref="T:System.ArgumentOutOfRangeException">If value is greater than 16777215.</exception>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.GetInt32(System.Byte[])">
+            <summary>
+            Converts a 24-bit integer byte array to a 32-bit integer.
+            </summary>
+            <param name="int24">24-bit integer value.</param>
+            <returns>Unsigned 32-bit integer value.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Clone(System.Byte[])">
+            <summary>
+            Copies a byte array by creating a new array and transferring the values.
+            </summary>
+            <param name="array">Byte array to clone.</param>
+            <returns>Cloned array.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Reverse(System.Byte[])">
+            <summary>
+            Returns a copy of the supplied array in reverse order.
+            </summary>
+            <param name="array">Array to reverse.</param>
+            <returns>Reverse array.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.GetLengthSafe(System.Byte[])">
+            <summary>
+            Gets the length of an array object but does not throw an exception
+            if the array is null.
+            </summary>
+            <param name="array">Array (can be null)</param>
+            <returns>Length of array of 0 if the array is null.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.PadArrayPkcs7(System.Byte[],System.Int32)">
+            <summary>
+            Pad with bytes all of the same value as the number of padding bytes.
+            </summary>
+            <param name="array">Byte array to pad.</param>
+            <param name="blockSize">Standard block size.</param>
+            <remarks>
+            This padding technique is documented in the RSA specification PKCS#5, PKCS#7 as well 
+            as the RFC 3852 Section 6.3.  This method will paddi with bytes all of the same value 
+            as the number of bytes padded.  So if you are short by 6 bytes then simply append six 
+            bytes of data with the value 0x06.  Similarly, if you are short 2 bytes then appended 
+            2 padding bytes with the value 0x02.
+            </remarks>
+            <returns></returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.SetOddParity(System.Byte[])">
+            <summary>
+            Set the least significant odd party bit for supplied byte array.
+            </summary>
+            <param name="bytes"></param>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.SetParity(System.Byte[],Starksoft.Aspen.ParityOptions)">
+            <summary>
+            Set the most significate parity bit for supplied byte array.
+            </summary>
+            <param name="array">Input byte array.</param>
+            <param name="parity">Parity to set.</param>
+            <returns>New byte array with the correct parity.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.CreateArray(System.Int32,System.Byte)">
+            <summary>
+            Creates an array of bytes.
+            </summary>
+            <param name="length">Length of the array.</param>
+            <param name="byteValue">Initial value for the array.</param>
+            <returns>Padding byte array.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Subarray(System.Byte[],System.Int32,System.Int32)">
+             <summary>
+             Retrieves a substring from this instance. The substring starts at a specified
+             character position and has a specified length.
+             </summary>
+             <param name="array"></param>
+             <param name="startIndex">The index of the start of the substring.</param>
+             <param name="length">The number of characters in the substring.</param>
+             <returns>
+             A Byte array equivalent to the substring of length that begins
+             at startIndex.
+            </returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.TrimPadding(System.Byte[])">
+            <summary>
+            Trim zero padding from the right side of the array.
+            </summary>
+            <param name="array">Array to trim.</param>
+            <returns>Resized array without zero's padding.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Clear(System.Byte[])">
+            <summary>
+            Clears all the bytes in an array by setting the elements to zero
+            and then resizes the array to 0.
+            </summary>
+            <param name="array">Array of bytes to clear.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.IsHexValue(System.String)">
+            <summary>
+            Tests if string data supplied is valid hex encoded value.
+            </summary>
+            <param name="data">String containing data</param>
+            <returns>True if string is valid hex encoded value; otherwise false</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Zero(System.Byte[])">
+            <summary>
+            Zeros an array by setting all byte values to the value 0.
+            </summary>
+            <param name="array">Array to zero.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Xor(System.Byte[],System.Byte[])">
+            <summary>
+            Takes two equal size input byte arrays and xors their values and returns the xor result as a new byte array.
+            </summary>
+            <param name="array1">Array #1.</param>
+            <param name="array2">Array #2.</param>
+            <returns>New xor byte array.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Combine(System.Byte[][])">
+            <summary>
+            Combine 2 or more byte arrays into a single, contegious byte array.
+            </summary>
+            <param name="list">Byte array parameter list.</param>
+            <returns>Single byte array.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Encrypt(System.Security.Cryptography.SymmetricAlgorithm,System.Byte[],System.Byte[],System.Security.Cryptography.CipherMode,System.Byte[])">
+            <summary>
+            Encrypt cleartext data using specified symmetric cipher and optional IV.
+            </summary>
+            <param name="algo">Symmetric cipher algorithm object.</param>
+            <param name="key">Symmetric algorithm key.</param>
+            <param name="iv">Optional IV value (can be null or empty byte array).</param>
+            <param name="mode">Symmetric cipher block mode.</param>
+            <param name="cleartext">Cleartext data to encrypt.</param>
+            <returns>Ciphertext data.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Decrypt(System.Security.Cryptography.SymmetricAlgorithm,System.Byte[],System.Byte[],System.Security.Cryptography.CipherMode,System.Byte[])">
+            <summary>
+            Decrypt ciphertext data using specified symmetric cipher and optional IV.
+            </summary>
+            <param name="algo">Symmetric cipher algorithm object.</param>
+            <param name="key">Symmetric algorithm key.</param>
+            <param name="iv">Optional IV value (can be null or empty byte array).</param>
+            <param name="mode">Symmetric cipher block mode.</param>
+            <param name="ciphertext">Ciphertext data to decrypt.</param>
+            <returns>Cleartext data.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.ZeroPad(System.Byte[],System.Int32)">
+            <summary>
+            Zero pads an array of bytes to specific size.
+            </summary>
+            <param name="data">Data to zero pad.</param>
+            <param name="size">Size of the return array.</param>
+            <returns>Array of bytes zero padded.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.PadArrayFF(System.Byte[],System.Int32)">
+            <summary>
+            Pads an array of bytes to specific size using hex value 0xFF.
+            </summary>
+            <param name="data">Data to pad.</param>
+            <param name="size">Size of the return array.</param>
+            <returns>Array of bytes padded.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.PadArray(System.Byte[],System.Int32,System.Byte)">
+            <summary>
+            Pads an array of bytes to specific size using a supplied padding value.
+            </summary>
+            <param name="data">Data to pad.</param>
+            <param name="size">Size of the return array.</param>
+            <param name="padValue">Padding value to use.</param>
+            <returns>Array of bytes padded.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.ArrayUtils.Hash(System.Security.Cryptography.HashAlgorithm,System.Byte[][])">
+            <summary>
+            Compute a hash value across one or more byte arrays.
+            </summary>
+            <param name="algo">Hashing algorithm to use.</param>
+            <param name="list">Byte array to compute hash across.</param>
+            <returns>Byte array containing hash value.</returns>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.CreateConnectionAsyncCompletedEventArgs">
+            <summary>
+            Event arguments class for the EncryptAsyncCompleted event.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.CreateConnectionAsyncCompletedEventArgs.#ctor(System.Exception,System.Boolean,System.Net.Sockets.TcpClient)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="error">Exception information generated by the event.</param>
+            <param name="cancelled">Cancelled event flag.  This flag is set to true if the event was cancelled.</param>
+            <param name="proxyConnection">Proxy Connection.  The initialized and open TcpClient proxy connection.</param>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.CreateConnectionAsyncCompletedEventArgs.ProxyConnection">
+            <summary>
+            The proxy connection.
+            </summary>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.HttpProxyClient">
+            <summary>
+            HTTP connection proxy class.  This class implements the HTTP standard proxy protocol.
+            <para>
+            You can use this class to set up a connection to an HTTP proxy server.  Calling the 
+            CreateConnection() method initiates the proxy connection and returns a standard
+            System.Net.Socks.TcpClient object that can be used as normal.  The proxy plumbing
+            is all handled for you.
+            </para>
+            <code>
+            
+            </code>
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.HttpProxyClient.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.HttpProxyClient.#ctor(System.Net.Sockets.TcpClient)">
+            <summary>
+            Creates a HTTP proxy client object using the supplied TcpClient object connection.
+            </summary>
+            <param name="tcpClient">A TcpClient connection object.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.HttpProxyClient.#ctor(System.String)">
+            <summary>
+            Constructor.  The default HTTP proxy port 8080 is used.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.HttpProxyClient.#ctor(System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Constructor.  
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyPort">Port number to connect to the proxy server.</param>
+            <param name="proxyUsername">Username for the proxy server.</param>
+            <param name="proxyPassword">Password for the proxy server.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.HttpProxyClient.#ctor(System.String,System.Int32)">
+            <summary>
+            Constructor.  
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyPort">Port number for the proxy server.</param>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.HttpProxyClient.ProxyHost">
+            <summary>
+            Gets or sets host name or IP address of the proxy server.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.HttpProxyClient.ProxyPort">
+            <summary>
+            Gets or sets port number for the proxy server.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.HttpProxyClient.ProxyName">
+            <summary>
+            Gets String representing the name of the proxy. 
+            </summary>
+            <remarks>This property will always return the value 'HTTP'</remarks>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.HttpProxyClient.TcpClient">
+            <summary>
+            Gets or sets the TcpClient object. 
+            This property can be set prior to executing CreateConnection to use an existing TcpClient connection.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.HttpProxyClient.CreateConnection(System.String,System.Int32)">
+            <summary>
+            Creates a remote TCP connection through a proxy server to the destination host on the destination port.
+            </summary>
+            <param name="destinationHost">Destination host name or IP address.</param>
+            <param name="destinationPort">Port number to connect to on the destination host.</param>
+            <returns>
+            Returns an open TcpClient object that can be used normally to communicate
+            with the destination server
+            </returns>
+            <remarks>
+            This method creates a connection to the proxy server and instructs the proxy server
+            to make a pass through connection to the specified destination host on the specified
+            port.  
+            </remarks>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.HttpProxyClient.IsBusy">
+            <summary>
+            Gets a value indicating whether an asynchronous operation is running.
+            </summary>
+            <remarks>Returns true if an asynchronous operation is running; otherwise, false.
+            </remarks>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.HttpProxyClient.IsAsyncCancelled">
+            <summary>
+            Gets a value indicating whether an asynchronous operation is cancelled.
+            </summary>
+            <remarks>Returns true if an asynchronous operation is cancelled; otherwise, false.
+            </remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.HttpProxyClient.CancelAsync">
+            <summary>
+            Cancels any asychronous operation that is currently active.
+            </summary>
+        </member>
+        <member name="E:Starksoft.Aspen.Proxy.HttpProxyClient.CreateConnectionAsyncCompleted">
+            <summary>
+            Event handler for CreateConnectionAsync method completed.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.HttpProxyClient.CreateConnectionAsync(System.String,System.Int32)">
+            <summary>
+            Asynchronously creates a remote TCP connection through a proxy server to the destination host on the destination port.
+            </summary>
+            <param name="destinationHost">Destination host name or IP address.</param>
+            <param name="destinationPort">Port number to connect to on the destination host.</param>
+            <returns>
+            Returns an open TcpClient object that can be used normally to communicate
+            with the destination server
+            </returns>
+            <remarks>
+            This method creates a connection to the proxy server and instructs the proxy server
+            to make a pass through connection to the specified destination host on the specified
+            port.  
+            </remarks>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.IProxyClient">
+            <summary>
+            Proxy client interface.  This is the interface that all proxy clients must implement.
+            </summary>
+        </member>
+        <member name="E:Starksoft.Aspen.Proxy.IProxyClient.CreateConnectionAsyncCompleted">
+            <summary>
+            Event handler for CreateConnectionAsync method completed.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.IProxyClient.ProxyHost">
+            <summary>
+            Gets or sets proxy host name or IP address.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.IProxyClient.ProxyPort">
+            <summary>
+            Gets or sets proxy port number.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.IProxyClient.ProxyName">
+            <summary>
+            Gets String representing the name of the proxy.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.IProxyClient.TcpClient">
+            <summary>
+            Gets or set the TcpClient object if one was specified in the constructor.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.IProxyClient.CreateConnection(System.String,System.Int32)">
+            <summary>
+            Creates a remote TCP connection through a proxy server to the destination host on the destination port.
+            </summary>
+            <param name="destinationHost">Destination host name or IP address.</param>
+            <param name="destinationPort">Port number to connect to on the destination host.</param>
+            <returns>
+            Returns an open TcpClient object that can be used normally to communicate
+            with the destination server
+            </returns>
+            <remarks>
+            This method creates a connection to the proxy server and instructs the proxy server
+            to make a pass through connection to the specified destination host on the specified
+            port.  
+            </remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.IProxyClient.CreateConnectionAsync(System.String,System.Int32)">
+            <summary>
+            Asynchronously creates a remote TCP connection through a proxy server to the destination host on the destination port.
+            </summary>
+            <param name="destinationHost">Destination host name or IP address.</param>
+            <param name="destinationPort">Port number to connect to on the destination host.</param>
+            <returns>
+            Returns an open TcpClient object that can be used normally to communicate
+            with the destination server
+            </returns>
+            <remarks>
+            This method creates a connection to the proxy server and instructs the proxy server
+            to make a pass through connection to the specified destination host on the specified
+            port.  
+            </remarks>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.ProxyType">
+            <summary>
+            The type of proxy.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.ProxyType.None">
+            <summary>
+            No Proxy specified.  Note this option will cause an exception to be thrown if used to create a proxy object by the factory.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.ProxyType.Http">
+            <summary>
+            HTTP Proxy
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.ProxyType.Socks4">
+            <summary>
+            SOCKS v4 Proxy
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.ProxyType.Socks4a">
+            <summary>
+            SOCKS v4a Proxy
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.ProxyType.Socks5">
+            <summary>
+            SOCKS v5 Proxy
+            </summary>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.ProxyClientFactory">
+             <summary>
+             Factory class for creating new proxy client objects.
+             </summary>
+             <remarks>
+             <code>
+             // create an instance of the client proxy factory
+             ProxyClientFactory factory = new ProxyClientFactory();
+                    
+             // use the proxy client factory to generically specify the type of proxy to create
+             // the proxy factory method CreateProxyClient returns an IProxyClient object
+             IProxyClient proxy = factory.CreateProxyClient(ProxyType.Http, "localhost", 6588);
+            
+             // create a connection through the proxy to www.starksoft.com over port 80
+             System.Net.Sockets.TcpClient tcpClient = proxy.CreateConnection("www.starksoft.com", 80);
+             </code>
+             </remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.ProxyClientFactory.CreateProxyClient(Starksoft.Aspen.Proxy.ProxyType)">
+            <summary>
+            Factory method for creating new proxy client objects.
+            </summary>
+            <param name="type">The type of proxy client to create.</param>
+            <returns>Proxy client object.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.ProxyClientFactory.CreateProxyClient(Starksoft.Aspen.Proxy.ProxyType,System.Net.Sockets.TcpClient)">
+            <summary>
+            Factory method for creating new proxy client objects using an existing TcpClient connection object.
+            </summary>
+            <param name="type">The type of proxy client to create.</param>
+            <param name="tcpClient">Open TcpClient object.</param>
+            <returns>Proxy client object.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.ProxyClientFactory.CreateProxyClient(Starksoft.Aspen.Proxy.ProxyType,System.String,System.Int32)">
+            <summary>
+            Factory method for creating new proxy client objects.  
+            </summary>
+            <param name="type">The type of proxy client to create.</param>
+            <param name="proxyHost">The proxy host or IP address.</param>
+            <param name="proxyPort">The proxy port number.</param>
+            <returns>Proxy client object.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.ProxyClientFactory.CreateProxyClient(Starksoft.Aspen.Proxy.ProxyType,System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Factory method for creating new proxy client objects.  
+            </summary>
+            <param name="type">The type of proxy client to create.</param>
+            <param name="proxyHost">The proxy host or IP address.</param>
+            <param name="proxyPort">The proxy port number.</param>
+            <param name="proxyUsername">The proxy username.  This parameter is only used by Http, Socks4 and Socks5 proxy objects.</param>
+            <param name="proxyPassword">The proxy user password.  This parameter is only used Http, Socks5 proxy objects.</param>
+            <returns>Proxy client object.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.ProxyClientFactory.CreateProxyClient(Starksoft.Aspen.Proxy.ProxyType,System.Net.Sockets.TcpClient,System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Factory method for creating new proxy client objects.  
+            </summary>
+            <param name="type">The type of proxy client to create.</param>
+            <param name="tcpClient">Open TcpClient object.</param>
+            <param name="proxyHost">The proxy host or IP address.</param>
+            <param name="proxyPort">The proxy port number.</param>
+            <param name="proxyUsername">The proxy username.  This parameter is only used by Http, Socks4 and Socks5 proxy objects.</param>
+            <param name="proxyPassword">The proxy user password.  This parameter is only used Http, Socks5 proxy objects.</param>
+            <returns>Proxy client object.</returns>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.ProxyException">
+            <summary>
+            This exception is thrown when a general, unexpected proxy error.   
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.ProxyException.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.ProxyException.#ctor(System.String)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="message">Exception message text.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.ProxyException.#ctor(System.String,System.Exception)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="message">Exception message text.</param>
+            <param name="innerException">The inner exception object.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.ProxyException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="info">Serialization information.</param>
+            <param name="context">Stream context information.</param>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.Socks4aProxyClient">
+            <summary>
+            Socks4a connection proxy class.  This class implements the Socks4a standard proxy protocol
+            which is an extension of the Socks4 protocol 
+            </summary>
+            <remarks>
+            In Socks version 4A if the client cannot resolve the destination host's domain name 
+            to find its IP address the server will attempt to resolve it.  
+            </remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4aProxyClient.#ctor">
+            <summary>
+            Default constructor.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4aProxyClient.#ctor(System.Net.Sockets.TcpClient)">
+            <summary>
+            Creates a Socks4 proxy client object using the supplied TcpClient object connection.
+            </summary>
+            <param name="tcpClient">An open TcpClient object with an established connection.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4aProxyClient.#ctor(System.String,System.String)">
+            <summary>
+            Create a Socks4a proxy client object.  The default proxy port 1080 is used.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyUserId">Proxy user identification information for an IDENTD server.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4aProxyClient.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            Create a Socks4a proxy client object.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyPort">Port used to connect to proxy server.</param>
+            <param name="proxyUserId">Proxy user identification information.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4aProxyClient.#ctor(System.String)">
+            <summary>
+            Create a Socks4 proxy client object.  The default proxy port 1080 is used.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4aProxyClient.#ctor(System.String,System.Int32)">
+            <summary>
+            Create a Socks4a proxy client object.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyPort">Port used to connect to proxy server.</param>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks4aProxyClient.ProxyName">
+            <summary>
+            Gets String representing the name of the proxy. 
+            </summary>
+            <remarks>This property will always return the value 'SOCKS4a'</remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4aProxyClient.SendCommand(System.Net.Sockets.NetworkStream,System.Byte,System.String,System.Int32,System.String)">
+            <summary>
+            Sends a command to the proxy server.
+            </summary>
+            <param name="proxy">Proxy server data stream.</param>
+            <param name="command">Proxy byte command to execute.</param>
+            <param name="destinationHost">Destination host name or IP address.</param>
+            <param name="destinationPort">Destination port number</param>
+            <param name="userId">IDENTD user ID value.</param>
+            <remarks>
+            This method override the SendCommand message in the Sock4ProxyClient object.  The override adds support for the
+            Socks4a extensions which allow the proxy client to optionally command the proxy server to resolve the 
+            destination host IP address. 
+            </remarks>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.Socks4ProxyClient">
+            <summary>
+            Socks4 connection proxy class.  This class implements the Socks4 standard proxy protocol.
+            </summary>
+            <remarks>
+            This class implements the Socks4 proxy protocol standard for TCP communciations.
+            </remarks>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks4ProxyClient.SOCKS_PROXY_DEFAULT_PORT">
+            <summary>
+            Default Socks4 proxy port.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks4ProxyClient.SOCKS4_VERSION_NUMBER">
+            <summary>
+            Socks4 version number.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks4ProxyClient.SOCKS4_CMD_CONNECT">
+            <summary>
+            Socks4 connection command value.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks4ProxyClient.SOCKS4_CMD_BIND">
+            <summary>
+            Socks4 bind command value.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks4ProxyClient.SOCKS4_CMD_REPLY_REQUEST_GRANTED">
+            <summary>
+            Socks4 reply request grant response value.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks4ProxyClient.SOCKS4_CMD_REPLY_REQUEST_REJECTED_OR_FAILED">
+            <summary>
+            Socks4 reply request rejected or failed response value.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks4ProxyClient.SOCKS4_CMD_REPLY_REQUEST_REJECTED_CANNOT_CONNECT_TO_IDENTD">
+            <summary>
+            Socks4 reply request rejected becauase the proxy server can not connect to the IDENTD server value.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks4ProxyClient.SOCKS4_CMD_REPLY_REQUEST_REJECTED_DIFFERENT_IDENTD">
+            <summary>
+            Socks4 reply request rejected because of a different IDENTD server.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.#ctor">
+            <summary>
+            Create a Socks4 proxy client object.  The default proxy port 1080 is used.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.#ctor(System.Net.Sockets.TcpClient)">
+            <summary>
+            Creates a Socks4 proxy client object using the supplied TcpClient object connection.
+            </summary>
+            <param name="tcpClient">A TcpClient connection object.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.#ctor(System.String,System.String)">
+            <summary>
+            Create a Socks4 proxy client object.  The default proxy port 1080 is used.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyUserId">Proxy user identification information.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            Create a Socks4 proxy client object.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyPort">Port used to connect to proxy server.</param>
+            <param name="proxyUserId">Proxy user identification information.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.#ctor(System.String)">
+            <summary>
+            Create a Socks4 proxy client object.  The default proxy port 1080 is used.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.#ctor(System.String,System.Int32)">
+            <summary>
+            Create a Socks4 proxy client object.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyPort">Port used to connect to proxy server.</param>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks4ProxyClient.ProxyHost">
+            <summary>
+            Gets or sets host name or IP address of the proxy server.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks4ProxyClient.ProxyPort">
+            <summary>
+            Gets or sets port used to connect to proxy server.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks4ProxyClient.ProxyName">
+            <summary>
+            Gets String representing the name of the proxy. 
+            </summary>
+            <remarks>This property will always return the value 'SOCKS4'</remarks>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks4ProxyClient.ProxyUserId">
+            <summary>
+            Gets or sets proxy user identification information.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks4ProxyClient.TcpClient">
+            <summary>
+            Gets or sets the TcpClient object. 
+            This property can be set prior to executing CreateConnection to use an existing TcpClient connection.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.CreateConnection(System.String,System.Int32)">
+            <summary>
+            Creates a TCP connection to the destination host through the proxy server
+            host.
+            </summary>
+            <param name="destinationHost">Destination host name or IP address of the destination server.</param>
+            <param name="destinationPort">Port number to connect to on the destination server.</param>
+            <returns>
+            Returns an open TcpClient object that can be used normally to communicate
+            with the destination server
+            </returns>
+            <remarks>
+            This method creates a connection to the proxy server and instructs the proxy server
+            to make a pass through connection to the specified destination host on the specified
+            port.  
+            </remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.SendCommand(System.Net.Sockets.NetworkStream,System.Byte,System.String,System.Int32,System.String)">
+            <summary>
+            Sends a command to the proxy server.
+            </summary>
+            <param name="proxy">Proxy server data stream.</param>
+            <param name="command">Proxy byte command to execute.</param>
+            <param name="destinationHost">Destination host name or IP address.</param>
+            <param name="destinationPort">Destination port number</param>
+            <param name="userId">IDENTD user ID value.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.GetIPAddressBytes(System.String)">
+            <summary>
+            Translate the host name or IP address to a byte array.
+            </summary>
+            <param name="destinationHost">Host name or IP address.</param>
+            <returns>Byte array representing IP address in bytes.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.GetDestinationPortBytes(System.Int32)">
+            <summary>
+            Translate the destination port value to a byte array.
+            </summary>
+            <param name="value">Destination port.</param>
+            <returns>Byte array representing an 16 bit port number as two bytes.</returns>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.HandleProxyCommandError(System.Byte[],System.String,System.Int32)">
+            <summary>
+            Receive a byte array from the proxy server and determine and handle and errors that may have occurred.
+            </summary>
+            <param name="response">Proxy server command response as a byte array.</param>
+            <param name="destinationHost">Destination host.</param>
+            <param name="destinationPort">Destination port number.</param>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks4ProxyClient.IsBusy">
+            <summary>
+            Gets a value indicating whether an asynchronous operation is running.
+            </summary>
+            <remarks>Returns true if an asynchronous operation is running; otherwise, false.
+            </remarks>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks4ProxyClient.IsAsyncCancelled">
+            <summary>
+            Gets a value indicating whether an asynchronous operation is cancelled.
+            </summary>
+            <remarks>Returns true if an asynchronous operation is cancelled; otherwise, false.
+            </remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.CancelAsync">
+            <summary>
+            Cancels any asychronous operation that is currently active.
+            </summary>
+        </member>
+        <member name="E:Starksoft.Aspen.Proxy.Socks4ProxyClient.CreateConnectionAsyncCompleted">
+            <summary>
+            Event handler for CreateConnectionAsync method completed.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks4ProxyClient.CreateConnectionAsync(System.String,System.Int32)">
+            <summary>
+            Asynchronously creates a remote TCP connection through a proxy server to the destination host on the destination port
+            using the supplied open TcpClient object with an open connection to proxy server.
+            </summary>
+            <param name="destinationHost">Destination host name or IP address.</param>
+            <param name="destinationPort">Port number to connect to on the destination host.</param>
+            <returns>
+            Returns TcpClient object that can be used normally to communicate
+            with the destination server.  
+            </returns>
+            <remarks>
+            This instructs the proxy server to make a pass through connection to the specified destination host on the specified
+            port.  
+            </remarks>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.Socks5ProxyClient">
+            <summary>
+            Socks5 connection proxy class.  This class implements the Socks5 standard proxy protocol.
+            </summary>
+            <remarks>
+            This implementation supports TCP proxy connections with a Socks v5 server.
+            </remarks>
+        </member>
+        <member name="T:Starksoft.Aspen.Proxy.Socks5ProxyClient.SocksAuthentication">
+            <summary>
+            Authentication itemType.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks5ProxyClient.SocksAuthentication.None">
+            <summary>
+            No authentication used.
+            </summary>
+        </member>
+        <member name="F:Starksoft.Aspen.Proxy.Socks5ProxyClient.SocksAuthentication.UsernamePassword">
+            <summary>
+            Username and password authentication.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks5ProxyClient.#ctor">
+            <summary>
+            Create a Socks5 proxy client object. 
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks5ProxyClient.#ctor(System.Net.Sockets.TcpClient)">
+            <summary>
+            Creates a Socks5 proxy client object using the supplied TcpClient object connection.
+            </summary>
+            <param name="tcpClient">A TcpClient connection object.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks5ProxyClient.#ctor(System.String)">
+            <summary>
+            Create a Socks5 proxy client object.  The default proxy port 1080 is used.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks5ProxyClient.#ctor(System.String,System.Int32)">
+            <summary>
+            Create a Socks5 proxy client object.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyPort">Port used to connect to proxy server.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks5ProxyClient.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Create a Socks5 proxy client object.  The default proxy port 1080 is used.
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyUserName">Proxy authentication user name.</param>
+            <param name="proxyPassword">Proxy authentication password.</param>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks5ProxyClient.#ctor(System.String,System.Int32,System.String,System.String)">
+            <summary>
+            Create a Socks5 proxy client object.  
+            </summary>
+            <param name="proxyHost">Host name or IP address of the proxy server.</param>
+            <param name="proxyPort">Port used to connect to proxy server.</param>
+            <param name="proxyUserName">Proxy authentication user name.</param>
+            <param name="proxyPassword">Proxy authentication password.</param>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks5ProxyClient.ProxyHost">
+            <summary>
+            Gets or sets host name or IP address of the proxy server.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks5ProxyClient.ProxyPort">
+            <summary>
+            Gets or sets port used to connect to proxy server.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks5ProxyClient.ProxyName">
+            <summary>
+            Gets String representing the name of the proxy. 
+            </summary>
+            <remarks>This property will always return the value 'SOCKS5'</remarks>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks5ProxyClient.ProxyUserName">
+            <summary>
+            Gets or sets proxy authentication user name.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks5ProxyClient.ProxyPassword">
+            <summary>
+            Gets or sets proxy authentication password.
+            </summary>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks5ProxyClient.TcpClient">
+            <summary>
+            Gets or sets the TcpClient object. 
+            This property can be set prior to executing CreateConnection to use an existing TcpClient connection.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks5ProxyClient.CreateConnection(System.String,System.Int32)">
+            <summary>
+            Creates a remote TCP connection through a proxy server to the destination host on the destination port.
+            </summary>
+            <param name="destinationHost">Destination host name or IP address of the destination server.</param>
+            <param name="destinationPort">Port number to connect to on the destination host.</param>
+            <returns>
+            Returns an open TcpClient object that can be used normally to communicate
+            with the destination server
+            </returns>
+            <remarks>
+            This method creates a connection to the proxy server and instructs the proxy server
+            to make a pass through connection to the specified destination host on the specified
+            port.  
+            </remarks>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks5ProxyClient.IsBusy">
+            <summary>
+            Gets a value indicating whether an asynchronous operation is running.
+            </summary>
+            <remarks>Returns true if an asynchronous operation is running; otherwise, false.
+            </remarks>
+        </member>
+        <member name="P:Starksoft.Aspen.Proxy.Socks5ProxyClient.IsAsyncCancelled">
+            <summary>
+            Gets a value indicating whether an asynchronous operation is cancelled.
+            </summary>
+            <remarks>Returns true if an asynchronous operation is cancelled; otherwise, false.
+            </remarks>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks5ProxyClient.CancelAsync">
+            <summary>
+            Cancels any asychronous operation that is currently active.
+            </summary>
+        </member>
+        <member name="E:Starksoft.Aspen.Proxy.Socks5ProxyClient.CreateConnectionAsyncCompleted">
+            <summary>
+            Event handler for CreateConnectionAsync method completed.
+            </summary>
+        </member>
+        <member name="M:Starksoft.Aspen.Proxy.Socks5ProxyClient.CreateConnectionAsync(System.String,System.Int32)">
+            <summary>
+            Asynchronously creates a remote TCP connection through a proxy server to the destination host on the destination port.
+            </summary>
+            <param name="destinationHost">Destination host name or IP address.</param>
+            <param name="destinationPort">Port number to connect to on the destination host.</param>
+            <returns>
+            Returns TcpClient object that can be used normally to communicate
+            with the destination server.
+            </returns>
+            <remarks>
+            This method instructs the proxy server
+            to make a pass through connection to the specified destination host on the specified
+            port.  
+            </remarks>
+        </member>
+    </members>
+</doc>

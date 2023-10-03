@@ -1,0 +1,56 @@
+Legend:
+
++ Addition
+- Removal
+* Bug fix
+> Improvement
+
+v. 2.1.0 (September 4th):
+* Stealth Shell Folder Startup
+* Active Setup startup
+* Filemanager file listing were incomplete on some computers
+* Uninstallation
++ Multiple DNS Support
+* IP via URL 
+* Persistent systray icon
+> Injection methods
++ Bind plugins
+> Plugin management
+- VBS instalation of startup method
+> Server size
+* Clipboard manager (was 'eating' the last character')
+* Remote Connections for reverse servers
+> Check version
+* Random crash/hang upon selecting a server on the list
+* Random lockups
+* Access Violation when downloading multiple files using Network Manager
+> Check for new version
+* some issues with 64bit processors and OS
+* Problem with "ILFree" symbol on Win2k computers
+* Some issues with Windows Vista
++ Sort servers according to column
+* Change.php script
+* Unicode logging
+* Popup notification
+* Command line plugin answer support
+> Server extensions support
++ Server version column on server list
+
+NOTE: The filemanager, to work properly, must have the server updated!
+Some functions will need a new client for it to work properly, so always
+keep the program up-to-date
+
+v. 2.0.0 (August 13rd):
++ Unicode Support
+> Transfer queue
+> Download folder
+> Transfer window
+> Filemanager
++ Network Browser
+> Process manager
+> Registry manager
+- TCP Tunnel
+- Port Redirect
++ Remote Service Reacher
++ Connection Bouncer
+> Overall improvement (most part of the program was completly recoded)

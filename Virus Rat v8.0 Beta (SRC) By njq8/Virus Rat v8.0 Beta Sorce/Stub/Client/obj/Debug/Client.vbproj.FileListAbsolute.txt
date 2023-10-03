@@ -1,0 +1,28 @@
+D:\VB.Net\Client\Client\obj\Debug\ResolveAssemblyReference.cache
+D:\VB.Net\Client\Client\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\VB.Net\Client\Client\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\VB.Net\Client\Client\bin\Debug\Stub.exe
+D:\VB.Net\Client\Client\bin\Debug\Stub.pdb
+D:\VB.Net\Client\Client\obj\Debug\Stub.Form1.resources
+D:\VB.Net\Client\Client\obj\Debug\Stub.Resources.resources
+D:\VB.Net\Client\Client\obj\Debug\Stub.exe
+D:\VB.Net\Client\Client\obj\Debug\Stub.pdb
+D:\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.exe
+D:\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.pdb
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.pdb
+D:\VB.Net\VB.Net\VB.Net\Client\Client\bin\Debug\Stub.exe
+D:\VB.Net\VB.Net\VB.Net\Client\Client\bin\Debug\Stub.pdb
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\ResolveAssemblyReference.cache
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.Form1.resources
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.Resources.resources
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\ResGen.read.1.tlog
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\ResGen.write.1.tlog
+D:\VB.Net\VB.Net\VB.Net\Client\Client\obj\Debug\Stub.exe
+D:\VB.Net\VB.Net\VB.Net\Stub\Client\obj\Debug\Stub.exe
+D:\VB.Net\VB.Net\VB.Net\Stub\Client\obj\Debug\Stub.pdb
+C:\Users\Mr.Mobark\Desktop\Simple Rat\Stub\Client\obj\Debug\Stub.exe
+C:\Users\Mr.Mobark\Desktop\Simple Rat\Stub\Client\obj\Debug\Stub.pdb
+C:\Users\Mr.Mobark\Desktop\Virus Rat v7.0 Sorce\Stub\Client\obj\Debug\Stub.exe
+C:\Users\Mr.Mobark\Desktop\Virus Rat v7.0 Sorce\Stub\Client\obj\Debug\Stub.pdb

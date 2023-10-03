@@ -1,0 +1,15 @@
+Allowed OS:
+
+Allowed operating systems:
+
+Select which Operating Systems you wish to allow the jRat server to install on. 
+
+You currently have the option to install on the following systems:
+
+Windows
+Mac OSX
+Linux
+FreeBSD
+OpenBSD
+Solaris
+

@@ -1,0 +1,14 @@
+Startup:
+
+This is where you will configure how your jRat server starts and updates.
+
+Start server with os boot: This will do just as it says. If desired, place a "check" in this box.
+
+Drop in: Select the desired location you wish the jRat Server to drop/be placed. 
+
+
+Dropped file and reg key name: Specify what you would like the dropped file to be named. (rundll32 by default).
+
+Melt dropper after it has been run: Select this option if you wish the dropped file to delete itself after it has ran.
+
+*Note: Reg key name has to be the same if you are updating.

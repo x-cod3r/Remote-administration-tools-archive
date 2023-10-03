@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="donations__google_android_market_promt_array">
+        <item>1 Euro</item>
+        <item>2 Euros</item>
+        <item>3 Euros</item>
+        <item>5 Euros</item>
+        <item>8 Euros</item>
+        <item>13 Euros</item>
+    </string-array>
+    <string-array name="donations__google_catalog">
+        <item>adaway.donation.1</item>
+        <item>adaway.donation.2</item>
+        <item>adaway.donation.3</item>
+        <item>adaway.donation.5</item>
+        <item>adaway.donation.8</item>
+        <item>adaway.donation.13</item>
+    </string-array>
+    <string-array name="pref_apply_method_entries">
+        <item>/system/etc/hosts</item>
+        <item>/data/data/hosts</item>
+        <item>Custom target</item>
+    </string-array>
+    <string-array name="pref_apply_method_entries_values">
+        <item>writeToSystem</item>
+        <item>writeToDataData</item>
+        <item>customTarget</item>
+    </string-array>
+</resources>

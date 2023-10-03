@@ -1,0 +1,69 @@
+	DarkComet-RAT v4.0 Change log
+	-----------------------------
+	
+	Project coded and directed by DarkCoderSc.
+	E-Mail : DarkCoderSc@Unremote.org.
+	From FRANCE (PARIS).
+	Follow me : @DarkCoderSc (twitter)
+ 	-----------------------------
+ 			 
+- DarkComet-RAT is now compiled on Delphi XE instead of Delphi 2010.
+- Synthax highlighter added in remote keylogger.
+- Multithreading is now more efficient, no more freezing, using a new powerfull and stable methode (still using pure Win32 API both side for it)
+- Get hard drive information added in file manager
+- Bot logs in main form had change, it is more efficient / fast and user friendly
+- Whole system parser is now far stable and faster
+- No-IP was moded and is now better ;)
+- All global settings were redisigned in a new form that will contain all necessary stuff for Client side
+- Flags manager has been ported to the main client settings form
+- Now you can change the default size Width and Height of the users thumbnails
+- No more menu in the top of the SIN (Main Window - Users list...) so it is more clear
+- The [+] button is one of the way to add a new port to listen else go to Socket/Net button to manage em all
+- More options added in main tray icon (right click to display them)
+- Skin system added in DarkComet in settings > Client Layount (for people that like templates - Most XP users)
+- A new system of mass data saving had been added, sqlite local database system added (comet.db store all mass data) << don't delete this file !
+- A complex and stable group manager been added in the users list (very strong) syncrhonized with the local database.
+- Now all users are stored and updated in local database
+- Webcam is now far more stable using now DirectX (DirectShow lib dumped from Microsoft by M.Braun)
+- As most crypters got the runPE function, it was removed in DarkComet then it is more easy to crypted for newbies
+- Little bug fixed in remote desktop
+- Mass downloader in control center was improved, a big bug was fixed
+- Keylogger GUI had change a little
+- New toast design
+- edit server now recognize encrypted profiles than normal ones.
+- few bugs in file listing fixed in file manager
+- New keylogger system, now all logs are divided by date [Months-Year] > [Day name] > full date file. so now it is more easy to find what you want to find.
+- All logs are synchronized with the local database, that means if the remote gui delete the logs no problems it will be there synchronized with the DB :)
+- Online keylogger is now separate from the offline one.
+- last arrival logs (latest ones) will be display with a text icon and and eye on it.
+- new rootkit function added in edit server (server shield) it hide the file from explorer even if show hidden files is on it will be also hidden from DIR command of MSDOS
+- same rootkit function for parent dir
+- Multipassword capture added, when you selected more than 1 users in the list and choose quick function password it will dump all selected users password.
+- Wallpaper changer in file manager works fine now with .bmp and .jpg files for sure (not tested GIF) but PNG seems to not work.
+- More components are double buffered now, so less blinking stuff on mouse move.
+- List ports / services icons are better now
+- UpNP exe drops now in temporary file then it wont anoy you and now it works all the time
+- Save settings are better synchronized now (ini read/write)
+- Now geoflag in users list aren't using the darkcomet-rat site database but a local GeoIP database then it is far more fast and stable. (do not delete GeoIP.dat !!)
+- New search user system, very very strong and complete u will love it :D
+- DC_UUID is now more perfmant using the computer HWID (Harware ID) + Default drive Serial (Like for my other software Vertex)
+- Auto start desktop capture added in settings
+- Auto start webcam capture added in settings
+- Auto start sound capture added in settings
+- A new super sexy about made don't forget to take a look to it ;)
+- Some notification added in file manager to know if actions was well done !
+- new info added in computer info ( now the rat determine if remote computer id a laptop or desktop computer) if laptop it gives the battery charge status with icon :)
+- Now you can preview any files in file manager by paquet of 1Ko then you don't need to download a 30Mo text file to see it :)
+- A fantastic bookmark system for the file manager, like firefox when you click on the gray star it will turn to colors and add the current path to bookmarks and of course synchronized with local database :D
+- Stub use less memory now, garbage colector is better now
+- [ADDED] Miranda MSN Messenger password stealer
+- Download thumnail (filemanager) bug fixed
+- To avoid problems when you build many time a module to test edit server functions part by part when you build a module it will re generate a random mutex
+
+[BUG FIXED IN 4.0 FIX 1]
+- Bug fixed when you click on restore window when client minimized to tray
+- Now the column with of users list are correctly saved on next client startup
+- Fix the not a valid integer error when trying to update the noip account from darkcomet
+- Now reset database works
+- Fix server restart
+- Now the server is fully cryptable :D

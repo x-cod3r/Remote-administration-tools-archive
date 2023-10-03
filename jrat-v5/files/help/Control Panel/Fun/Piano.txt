@@ -1,0 +1,6 @@
+This enables you to play a selection of notes on the PC that the server is installed on to. 
+You also have the option of hearing what you are playing, and also 
+creating an active buzz to further disrupt the sound flow of the host's PC. 
+Towards the top of the tab, the ability to play a custom sound is provided. 
+A custom sound involves you having the ability to pick the note played, 
+as well as the length of time that it is played for.

@@ -1,0 +1,17 @@
+version: 2.0.2
+apkFileName: SandroRat.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '8'
+  targetSdkVersion: '17'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'
+sharedLibrary: false
+doNotCompress:
+- resources.arsc

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="donations__google_android_market_promt_array">
+        <item>1 Euro</item>
+        <item>2 Eura</item>
+        <item>3 Eura</item>
+        <item>5 Eura</item>
+        <item>8 Eura</item>
+        <item>13 Eura</item>
+    </string-array>
+    <string-array name="pref_apply_method_entries">
+        <item>/system/etc/hosts</item>
+        <item>/data/data/hosts</item>
+        <item>Lokacija po narudžbi</item>
+    </string-array>
+</resources>

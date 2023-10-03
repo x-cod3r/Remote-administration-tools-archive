@@ -1,0 +1,4 @@
+This feature allows you to have virtual access 
+to the hosts' command prompt. Any command sent 
+through the remote CMD will execute on the host's 
+computer as if you were typing into the CMD.

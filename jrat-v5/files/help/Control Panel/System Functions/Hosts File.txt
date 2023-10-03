@@ -1,0 +1,3 @@
+Allows reading, editing and writing of the servers
+hosts file. Windows only. Make sure you have permission by 
+the system to access the file.

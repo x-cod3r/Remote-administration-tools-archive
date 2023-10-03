@@ -1,0 +1,7 @@
+This allows you to detect any sound being 
+picked up by the host's microphone. To start 
+picking up sound, select the start button, and 
+to stop the feature, click the 'stop' button which 
+is located next to the start button. The drop down list 
+on the far right allows you to adjust the quality of the recording. 
+A lower quality setting is recommended for slower internet connections.

